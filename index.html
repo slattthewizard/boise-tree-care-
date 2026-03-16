@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boise Tree Pros — Certified Arborists</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#1A531A',
+            'forest-dark': '#0F3010',
+            'forest-mid': '#2A6B2A',
+            bark: '#8B5A2B',
+            'bark-light': '#A06830',
+            sky: '#87CEEB',
+            cream: '#FAF0E6',
+            'cream-dark': '#F0E4D4',
+            charcoal: '#363636',
+          },
+          fontFamily: {
+            slab: ['Zilla Slab', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+
+    /* Noise texture overlay */
+    .noise::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      opacity: 0.06;
+    }
+
+    /* Hero fade-in */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up { animation: fadeUp 0.8s cubic-bezier(0.34, 1.2, 0.64, 1) both; }
+    .delay-1 { animation-delay: 0.15s; }
+    .delay-2 { animation-delay: 0.30s; }
+    .delay-3 { animation-delay: 0.45s; }
+
+    /* Nav link hover */
+    .nav-link {
+      position: relative;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #363636;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0; right: 0;
+      height: 2px;
+      background: #1A531A;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1);
+    }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .nav-link:focus-visible { outline: 2px solid #1A531A; outline-offset: 4px; border-radius: 2px; }
+
+    /* Buttons */
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #1A531A;
+      color: #FAF0E6;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 14px 28px;
+      border: 2px solid #1A531A;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(26,83,26,0.25), 0 1px 3px rgba(26,83,26,0.15);
+    }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .btn-primary:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(26,83,26,0.2); }
+    .btn-primary:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    .btn-outline-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent;
+      color: #FAF0E6;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 12px 28px;
+      border: 2px solid rgba(250,240,230,0.7);
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, border-color 0.2s, transform 0.15s;
+    }
+    .btn-outline-white:hover { background: rgba(250,240,230,0.15); border-color: #FAF0E6; transform: translateY(-1px); }
+    .btn-outline-white:active { transform: translateY(0); }
+    .btn-outline-white:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    .btn-bark {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #8B5A2B;
+      color: #FAF0E6;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 13px 28px;
+      border: 2px solid #8B5A2B;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(139,90,43,0.25);
+    }
+    .btn-bark:hover { background: #A06830; box-shadow: 0 6px 20px rgba(139,90,43,0.35); transform: translateY(-1px); }
+    .btn-bark:active { transform: translateY(0); }
+    .btn-bark:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    .btn-cream {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #FAF0E6;
+      color: #1A531A;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 14px 32px;
+      border: 2px solid #FAF0E6;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    .btn-cream:hover { background: #fff; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
+    .btn-cream:active { transform: translateY(0); }
+    .btn-cream:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    /* Service cards */
+    .service-card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 28px 28px 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      transition: transform 0.25s cubic-bezier(0.34,1.2,0.64,1), box-shadow 0.25s;
+      cursor: pointer;
+    }
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(26,83,26,0.10), 0 2px 8px rgba(26,83,26,0.06);
+    }
+    .service-card:focus-visible { outline: 2px solid #1A531A; outline-offset: 3px; border-radius: 8px; }
+    .service-card .svc-icon {
+      flex-shrink: 0;
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .service-card .svc-body { flex: 1; }
+    .svc-learn-more {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 6px 18px;
+      border: 1.5px solid #363636;
+      border-radius: 3px;
+      font-family: 'Zilla Slab', Georgia, serif;
+      font-size: 14px;
+      font-weight: 400;
+      font-style: italic;
+      color: #363636;
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .svc-learn-more:hover { background: #363636; color: #fff; }
+    .svc-learn-more:focus-visible { outline: 2px solid #1A531A; outline-offset: 3px; }
+
+    /* Review cards */
+    .review-card {
+      background: #FAF0E6;
+      border-radius: 8px;
+      padding: 28px 24px;
+      border: 1px solid #e8ddd0;
+      box-shadow: 0 2px 8px rgba(139,90,43,0.07), 0 1px 3px rgba(0,0,0,0.04);
+    }
+
+    /* Gallery items */
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 6px;
+    }
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      transition: transform 0.4s cubic-bezier(0.34,1.2,0.64,1);
+    }
+    .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-item .overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(26,83,26,0.55) 0%, transparent 60%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .gallery-item:hover .overlay { opacity: 1; }
+
+    /* Section heading decoration */
+    .section-tag {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #8B5A2B;
+      margin-bottom: 10px;
+    }
+    .section-heading {
+      font-family: 'Zilla Slab', Georgia, serif;
+      font-weight: 700;
+      color: #1A531A;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+    }
+    .section-divider {
+      width: 100%;
+      max-width: 680px;
+      height: 1px;
+      background: linear-gradient(to right, transparent, #ccc 20%, #ccc 80%, transparent);
+      margin: 18px auto 0;
+    }
+
+    /* Checklist */
+    .check-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 14px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #363636;
+    }
+    .check-icon {
+      flex-shrink: 0;
+      width: 20px; height: 20px;
+      background: #1A531A;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+
+    /* Form inputs */
+    .form-input {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      padding: 13px 16px;
+      border: 1.5px solid rgba(250,240,230,0.4);
+      border-radius: 4px;
+      background: rgba(255,255,255,0.12);
+      color: #FAF0E6;
+      outline: none;
+      transition: border-color 0.2s, background 0.2s;
+      width: 100%;
+    }
+    .form-input::placeholder { color: rgba(250,240,230,0.55); }
+    .form-input:focus { border-color: #87CEEB; background: rgba(255,255,255,0.18); }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #FAF0E6; }
+    ::-webkit-scrollbar-thumb { background: #1A531A; border-radius: 3px; }
+
+    /* Mobile nav */
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     1. TOP BAR
+══════════════════════════════════ -->
+<div style="background:#1A531A;" class="py-2 px-4">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <div class="flex items-center gap-6 text-cream text-xs font-medium tracking-wide">
+      <a href="tel:+12085550192" class="flex items-center gap-1.5 hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (208) 555-0192
+      </a>
+      <a href="mailto:info@boisetreepros.com" class="flex items-center gap-1.5 hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded hidden sm:flex">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+        info@boisetreepros.com
+      </a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="#" aria-label="Facebook" class="text-cream hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="#" aria-label="Instagram" class="text-cream hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <a href="#" aria-label="Twitter/X" class="text-cream hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631Zm-1.161 17.52h1.833L7.084 4.126H5.117Z"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════
+     2. STICKY HEADER
+══════════════════════════════════ -->
+<header id="header" style="position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #e8ddd0;box-shadow:0 2px 12px rgba(26,83,26,0.07),0 1px 3px rgba(0,0,0,0.04);">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
+    <!-- Logo -->
+    <a href="#" class="flex items-center gap-2 focus-visible:outline-2 focus-visible:outline-forest focus-visible:rounded">
+      <img src="brand_assets/logo.png" alt="Boise Tree Pros" style="height:48px;width:auto;object-fit:contain;">
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#reviews" class="nav-link">Reviews</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- CTA -->
+    <div class="hidden md:flex items-center gap-3">
+      <a href="#contact" class="btn-primary" style="padding:10px 22px;font-size:13px;">Free Estimate</a>
+    </div>
+
+    <!-- Mobile hamburger -->
+    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-2 text-charcoal hover:text-forest transition-colors focus-visible:outline-2 focus-visible:outline-forest focus-visible:rounded">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+
+  <!-- Mobile Nav -->
+  <div id="mobile-menu" style="border-top:1px solid #e8ddd0;background:#fff;">
+    <nav class="flex flex-col px-4 py-4 gap-4">
+      <a href="#services" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Services</a>
+      <a href="#about" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">About</a>
+      <a href="#gallery" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Gallery</a>
+      <a href="#reviews" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Reviews</a>
+      <a href="#contact" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Contact</a>
+      <a href="#contact" class="btn-primary w-fit" style="font-size:13px;padding:10px 20px;">Free Estimate</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════
+     3. HERO
+══════════════════════════════════ -->
+<section class="noise relative" style="min-height:90vh;display:flex;align-items:center;overflow:hidden;background:#0F3010;">
+  <!-- Background image -->
+  <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&h=900&fit=crop&auto=format&q=80" alt="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.35;">
+  <!-- Radial gradients -->
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 80% at 20% 50%, rgba(26,83,26,0.65) 0%, transparent 70%), radial-gradient(ellipse 60% 80% at 80% 20%, rgba(15,48,16,0.8) 0%, transparent 60%), linear-gradient(135deg, rgba(15,48,16,0.9) 0%, rgba(26,83,26,0.5) 60%, rgba(15,48,16,0.7) 100%);pointer-events:none;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-24 w-full">
+    <div class="max-w-2xl">
+      <span class="fade-up inline-block mb-4 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">ISA Certified · Boise, Idaho</span>
+      <h1 class="fade-up delay-1 section-heading text-cream" style="font-size:clamp(42px,7vw,76px);line-height:1.0;margin-bottom:20px;">
+        Certified<br>Arborists
+      </h1>
+      <p class="fade-up delay-2" style="font-size:18px;line-height:1.8;color:rgba(250,240,230,0.85);margin-bottom:36px;max-width:480px;">
+        Professional tree care for Boise &amp; surrounding areas. From trimming to emergency removal — we keep your trees healthy and your property safe.
+      </p>
+      <div class="fade-up delay-3 flex flex-wrap gap-4">
+        <a href="#contact" class="btn-cream">Get Free Estimate</a>
+        <a href="#services" class="btn-outline-white">Our Services</a>
+      </div>
+
+      <!-- Trust bar -->
+      <div class="fade-up delay-3 flex flex-wrap gap-6 mt-14" style="border-top:1px solid rgba(250,240,230,0.15);padding-top:24px;">
+        <div class="text-cream">
+          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;line-height:1;">500+</div>
+          <div style="font-size:12px;letter-spacing:0.06em;color:rgba(250,240,230,0.65);text-transform:uppercase;">Jobs Completed</div>
+        </div>
+        <div style="width:1px;background:rgba(250,240,230,0.2);"></div>
+        <div class="text-cream">
+          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;line-height:1;">15+</div>
+          <div style="font-size:12px;letter-spacing:0.06em;color:rgba(250,240,230,0.65);text-transform:uppercase;">Years Experience</div>
+        </div>
+        <div style="width:1px;background:rgba(250,240,230,0.2);"></div>
+        <div class="text-cream">
+          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;line-height:1;">100%</div>
+          <div style="font-size:12px;letter-spacing:0.06em;color:rgba(250,240,230,0.65);text-transform:uppercase;">Insured & Licensed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div style="position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;opacity:0.5;">
+    <span style="font-size:11px;color:#FAF0E6;letter-spacing:0.1em;text-transform:uppercase;">Scroll</span>
+    <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="#FAF0E6" stroke-width="1.5"><rect x="1" y="1" width="14" height="22" rx="7"/><line x1="8" y1="5" x2="8" y2="10" stroke-linecap="round"/></svg>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     4. TREE SERVICES
+══════════════════════════════════ -->
+<section id="services" style="background:#fff;padding:88px 0;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <!-- Heading -->
+    <div class="text-center mb-14">
+      <span class="section-tag">What We Do</span>
+      <h2 class="section-heading" style="font-size:clamp(32px,4vw,46px);margin-bottom:0;">Tree Services</h2>
+      <div class="section-divider"></div>
+      <p style="max-width:520px;margin:18px auto 0;font-size:16px;line-height:1.8;color:#666;">From routine maintenance to emergency response, our ISA-certified arborists provide expert care for every tree on your property.</p>
+    </div>
+
+    <!-- Grid: exactly 3 columns, 2 rows -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:auto auto;gap:20px;position:relative;" class="services-grid">
+
+      <!-- Ground Care -->
+      <div class="service-card" tabindex="0">
+        <div class="svc-icon">
+          <img src="https://api.iconify.design/lucide:tree-deciduous.svg?width=52&height=52&color=%23363636" alt="" width="52" height="52">
+        </div>
+        <div class="svc-body">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:8px;font-style:italic;">Ground Care</h3>
+          <p style="font-size:14px;line-height:1.7;color:#666;">Trust our team for pruning, removal, injections, support systems, and mulching of small to mid-sized trees.</p>
+          <a href="#contact" class="svc-learn-more">learn more</a>
+        </div>
+      </div>
+
+      <!-- Canopy Care -->
+      <div class="service-card" tabindex="0">
+        <div class="svc-icon">
+          <img src="https://api.iconify.design/lucide:trees.svg?width=52&height=52&color=%23363636" alt="" width="52" height="52">
+        </div>
+        <div class="svc-body">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#24AFE9;margin-bottom:8px;font-style:italic;">Canopy Care</h3>
+          <p style="font-size:14px;line-height:1.7;color:#666;">Our arborists maintain and restore the tree's leafy crown through pruning, cabling, and aerial inspections of large trees.</p>
+          <a href="#contact" class="svc-learn-more">learn more</a>
+        </div>
+      </div>
+
+      <!-- Diagnosis -->
+      <div class="service-card" tabindex="0">
+        <div class="svc-icon">
+          <img src="https://api.iconify.design/lucide:leaf.svg?width=52&height=52&color=%23363636" alt="" width="52" height="52">
+        </div>
+        <div class="svc-body">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#905ABB;margin-bottom:8px;font-style:italic;">Diagnosis</h3>
+          <p style="font-size:14px;line-height:1.7;color:#666;">Let our arborists diagnose your diseased, pest-infested, or otherwise stressed tree and discuss possible treatments.</p>
+          <a href="#contact" class="svc-learn-more">learn more</a>
+        </div>
+      </div>
+
+      <!-- Tree Reports -->
+      <div class="service-card" tabindex="0">
+        <div class="svc-icon">
+          <img src="https://api.iconify.design/lucide:tree-palm.svg?width=52&height=52&color=%23363636" alt="" width="52" height="52">
+        </div>
+        <div class="svc-body">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#FF911D;margin-bottom:8px;font-style:italic;">Tree Reports</h3>
+          <p style="font-size:14px;line-height:1.7;color:#666;">We provide assessments and documentation to share with your neighbor, lawyer, or other entity.</p>
+          <a href="#contact" class="svc-learn-more">learn more</a>
+        </div>
+      </div>
+
+      <!-- Expert Witness -->
+      <div class="service-card" tabindex="0">
+        <div class="svc-icon">
+          <img src="https://api.iconify.design/lucide:tree-pine.svg?width=52&height=52&color=%23363636" alt="" width="52" height="52">
+        </div>
+        <div class="svc-body">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#E74C3C;margin-bottom:8px;font-style:italic;">Expert Witness</h3>
+          <p style="font-size:14px;line-height:1.7;color:#666;">Our head arborist provides expert witness services for legal matters involving a variety of tree situations.</p>
+          <a href="#contact" class="svc-learn-more">learn more</a>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="service-card" tabindex="0">
+        <div class="svc-icon">
+          <img src="https://api.iconify.design/lucide:sprout.svg?width=52&height=52&color=%23363636" alt="" width="52" height="52">
+        </div>
+        <div class="svc-body">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#87C82F;margin-bottom:8px;font-style:italic;">Education</h3>
+          <p style="font-size:14px;line-height:1.7;color:#666;">We love teaching owners about their trees and how to keep them thriving and healthy long term.</p>
+          <a href="#contact" class="svc-learn-more">learn more</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-12">
+      <a href="#contact" class="btn-primary">Request a Free Quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     5. PROFESSIONAL ARBORIST ADVICE
+══════════════════════════════════ -->
+<section style="background:#FAF0E6;padding:88px 0;position:relative;overflow:hidden;">
+  <!-- Decorative leaf SVGs -->
+  <div style="position:absolute;left:-40px;top:40px;opacity:0.12;" aria-hidden="true">
+    <svg width="200" height="200" viewBox="0 0 200 200" fill="#1A531A"><path d="M100 10 C60 10, 10 50, 10 100 C10 150, 60 190, 100 190 C140 190, 190 150, 190 100 C190 50, 140 10, 100 10 Z M100 30 C80 30, 40 60, 40 100 C40 140, 80 170, 100 170"/></svg>
+  </div>
+  <div style="position:absolute;right:-40px;bottom:40px;opacity:0.12;transform:scaleX(-1);" aria-hidden="true">
+    <svg width="200" height="200" viewBox="0 0 200 200" fill="#1A531A"><path d="M100 10 C60 10, 10 50, 10 100 C10 150, 60 190, 100 190 C140 190, 190 150, 190 100 C190 50, 140 10, 100 10 Z M100 30 C80 30, 40 60, 40 100 C40 140, 80 170, 100 170"/></svg>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-14">
+      <span class="section-tag">Expert Knowledge</span>
+      <h2 class="section-heading" style="font-size:clamp(30px,4vw,44px);margin-bottom:0;">Professional Arborist Advice</h2>
+      <div class="section-divider"></div>
+      <p style="max-width:580px;margin:18px auto 0;font-size:16px;line-height:1.8;color:#555;">Our ISA-certified arborists bring decades of knowledge to every consultation — helping you make informed decisions about the trees on your property.</p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;" class="grid-cols-advice">
+      <div>
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:12px;">When Should You Trim Your Trees?</h3>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:12px;">Most trees benefit from regular trimming every 3–5 years. However, dead or crossing branches should be removed as soon as they're identified — waiting increases the risk of disease spread and structural failure.</p>
+        <p style="font-size:15px;line-height:1.8;color:#555;">The best time for pruning most Idaho species is late winter while trees are dormant, minimizing stress and reducing exposure to insects and disease.</p>
+        <a href="#contact" style="display:inline-flex;align-items:center;gap:6px;color:#8B5A2B;font-weight:600;font-size:14px;text-decoration:none;margin-top:16px;transition:gap 0.2s;" class="hover:gap-3">
+          Talk to an Arborist
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div>
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:12px;">Signs Your Tree May Be Hazardous</h3>
+        <ul style="list-style:none;padding:0;margin:0;">
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Leaning more than 15° from vertical</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Large dead branches in the canopy</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Fungal growth or mushrooms at the base</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Cracks or splits in major limbs</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Hollowing or decay near the trunk</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     6. QUALITY TREE CARE
+══════════════════════════════════ -->
+<section style="background:#fff;padding:88px 0;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;" class="grid-cols-quality">
+
+      <!-- Text -->
+      <div>
+        <span class="section-tag">Our Commitment</span>
+        <h2 class="section-heading" style="font-size:clamp(28px,4vw,42px);margin-bottom:0;">Quality Tree Care<br>You Can Trust</h2>
+        <div style="width:100%;max-width:320px;height:1px;background:linear-gradient(to right, #ccc 80%, transparent);margin:16px 0 20px;"></div>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:28px;">Boise Tree Pros was founded on the belief that expert tree care shouldn't be a luxury. Every job — no matter the size — receives the same high standard of professionalism and care.</p>
+
+        <ul style="list-style:none;padding:0;margin:0 0 32px 0;">
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>ISA Certified Arborists on every job</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Fully insured — $2M liability coverage</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Free, no-obligation estimates</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Complete cleanup after every project</span>
+          </li>
+          <li class="check-item">
+            <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
+            <span>Locally owned &amp; operated since 2008</span>
+          </li>
+        </ul>
+
+        <a href="#contact" class="btn-bark">Schedule Your Visit</a>
+      </div>
+
+      <!-- Images — 3-photo collage -->
+      <div style="position:relative;">
+        <div style="display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:1fr 1fr;gap:6px;">
+          <!-- Large image spanning 2 rows on left -->
+          <div style="grid-row:span 2;border-radius:8px;overflow:hidden;position:relative;">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=420&h=500&fit=crop&auto=format&q=80" alt="Healthy fruit tree" style="width:100%;height:100%;display:block;object-fit:cover;">
+            <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.25) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
+          </div>
+          <!-- Top right -->
+          <div style="border-radius:8px;overflow:hidden;position:relative;">
+            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=320&h=245&fit=crop&auto=format&q=80" alt="Tree canopy care" style="width:100%;height:100%;display:block;object-fit:cover;">
+            <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.2) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
+          </div>
+          <!-- Bottom right -->
+          <div style="border-radius:8px;overflow:hidden;position:relative;">
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=320&h=245&fit=crop&auto=format&q=80" alt="Tree bark close-up" style="width:100%;height:100%;display:block;object-fit:cover;">
+            <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.2) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
+          </div>
+        </div>
+        <!-- Floating badge -->
+        <div style="position:absolute;bottom:-20px;left:-20px;background:#8B5A2B;color:#FAF0E6;padding:18px 22px;border-radius:8px;box-shadow:0 8px 24px rgba(139,90,43,0.3);z-index:2;">
+          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:32px;font-weight:700;line-height:1;">15+</div>
+          <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;opacity:0.85;">Years in Boise</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     7. PHOTO GALLERY
+══════════════════════════════════ -->
+<section id="gallery" style="background:#FAF0E6;padding:88px 0;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-14">
+      <span class="section-tag">Our Work</span>
+      <h2 class="section-heading" style="font-size:clamp(30px,4vw,44px);">Project Gallery</h2>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;" class="grid-cols-gallery">
+      <div class="gallery-item" style="grid-row:span 2;">
+        <img src="https://images.unsplash.com/photo-1421789497144-f50500b5fcf0?w=400&h=620&fit=crop&auto=format&q=80" alt="Tree trimming project" style="height:100%;object-fit:cover;">
+        <div class="overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=400&h=300&fit=crop&auto=format&q=80" alt="Tree pruning" style="height:304px;object-fit:cover;">
+        <div class="overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?w=400&h=300&fit=crop&auto=format&q=80" alt="Tree removal" style="height:304px;object-fit:cover;">
+        <div class="overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=400&h=300&fit=crop&auto=format&q=80" alt="Stump grinding" style="height:304px;object-fit:cover;">
+        <div class="overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop&auto=format&q=80" alt="Tree planting" style="height:304px;object-fit:cover;">
+        <div class="overlay"></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1445462657202-a0893228a1e1?w=400&h=300&fit=crop&auto=format&q=80" alt="Lot clearing" style="height:304px;object-fit:cover;">
+        <div class="overlay"></div>
+      </div>
+      <div class="gallery-item" style="grid-column:span 2;">
+        <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=820&h=300&fit=crop&auto=format&q=80" alt="Canopy trimming" style="width:100%;height:304px;object-fit:cover;">
+        <div class="overlay"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     8. CTA BANNER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #1A8FC4 0%, #24AFE9 40%, #1A9BD7 70%, #1789C0 100%);padding:72px 24px;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 100% at 20% 50%, rgba(135,206,235,0.2) 0%, transparent 60%);pointer-events:none;"></div>
+  <div class="max-w-6xl mx-auto relative">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;" class="grid-cols-cta">
+      <!-- Left: text -->
+      <div>
+        <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(28px,5vw,44px);font-weight:700;color:#fff;line-height:1.1;margin-bottom:16px;letter-spacing:-0.01em;">Does Your Tree Need Help?</h2>
+        <p style="font-size:16px;color:rgba(255,255,255,0.85);margin-bottom:32px;line-height:1.7;max-width:440px;">Our certified arborists are ready to assess your trees and provide expert solutions. Get your free estimate today.</p>
+        <a href="#contact" class="btn-cream" style="font-size:15px;padding:16px 40px;">Get a Free Estimate</a>
+      </div>
+      <!-- Right: checklist -->
+      <div style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:32px;">
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:14px;">
+          <li style="display:flex;align-items:center;gap:12px;font-size:15px;color:#fff;">
+            <div style="flex-shrink:0;width:22px;height:22px;background:#1A531A;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+              <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg>
+            </div>
+            Free, No-Obligation Estimates
+          </li>
+          <li style="display:flex;align-items:center;gap:12px;font-size:15px;color:#fff;">
+            <div style="flex-shrink:0;width:22px;height:22px;background:#1A531A;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+              <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg>
+            </div>
+            ISA Certified Arborists
+          </li>
+          <li style="display:flex;align-items:center;gap:12px;font-size:15px;color:#fff;">
+            <div style="flex-shrink:0;width:22px;height:22px;background:#1A531A;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+              <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg>
+            </div>
+            Fully Insured &amp; Licensed
+          </li>
+          <li style="display:flex;align-items:center;gap:12px;font-size:15px;color:#fff;">
+            <div style="flex-shrink:0;width:22px;height:22px;background:#1A531A;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+              <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg>
+            </div>
+            24/7 Emergency Response
+          </li>
+          <li style="display:flex;align-items:center;gap:12px;font-size:15px;color:#fff;">
+            <div style="flex-shrink:0;width:22px;height:22px;background:#1A531A;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+              <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg>
+            </div>
+            Complete Cleanup Included
+          </li>
+          <li style="display:flex;align-items:center;gap:12px;font-size:15px;color:#fff;">
+            <div style="flex-shrink:0;width:22px;height:22px;background:#1A531A;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+              <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg>
+            </div>
+            Serving All of Treasure Valley
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     9. ABOUT / WHY CHOOSE US
+══════════════════════════════════ -->
+<section id="about" style="background:#FAF0E6;padding:88px 0;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;" class="grid-cols-about">
+      <!-- Left -->
+      <div>
+        <span class="section-tag">About Us</span>
+        <h2 class="section-heading" style="font-size:clamp(28px,4vw,42px);margin-bottom:20px;">Boise's Trusted Tree Care Experts</h2>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:16px;">Founded in 2008, Boise Tree Pros has grown from a one-truck operation into the region's most trusted tree care company — without ever losing the personal touch that sets us apart.</p>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:16px;">Every member of our crew holds ISA certification, and we invest in continuous training to stay current with the latest arboricultural science and safety standards.</p>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:28px;">We're proud to serve homeowners, commercial properties, and municipalities across Boise, Meridian, Nampa, Eagle, and the greater Treasure Valley.</p>
+        <div style="display:flex;gap:20px;flex-wrap:wrap;">
+          <div style="background:#fff;border-radius:8px;padding:18px 22px;border:1px solid #e8ddd0;box-shadow:0 2px 8px rgba(26,83,26,0.06);">
+            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#1A531A;">500+</div>
+            <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#888;">Happy Clients</div>
+          </div>
+          <div style="background:#fff;border-radius:8px;padding:18px 22px;border:1px solid #e8ddd0;box-shadow:0 2px 8px rgba(26,83,26,0.06);">
+            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#1A531A;">4.9★</div>
+            <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#888;">Google Rating</div>
+          </div>
+          <div style="background:#fff;border-radius:8px;padding:18px 22px;border:1px solid #e8ddd0;box-shadow:0 2px 8px rgba(26,83,26,0.06);">
+            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#1A531A;">24/7</div>
+            <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#888;">Emergency Line</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: service checklist -->
+      <div>
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:22px;color:#1A531A;margin-bottom:20px;">Why Homeowners Choose Us</h3>
+        <ul style="list-style:none;padding:0;margin:0;">
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>ISA Certified Arborists</span></li>
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Licensed &amp; Insured in Idaho</span></li>
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Free Written Estimates</span></li>
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>24/7 Emergency Response</span></li>
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Full Cleanup Included</span></li>
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Serving All of Treasure Valley</span></li>
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Satisfaction Guarantee</span></li>
+          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Eco-Friendly Practices</span></li>
+        </ul>
+
+        <!-- Cert logos -->
+        <div style="margin-top:32px;padding-top:24px;border-top:1px solid #e8ddd0;">
+          <p style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:#999;margin-bottom:12px;">Certifications &amp; Memberships</p>
+          <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=ISA" alt="ISA" style="height:36px;border-radius:4px;opacity:0.8;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=TCIA" alt="TCIA" style="height:36px;border-radius:4px;opacity:0.8;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=ANSI" alt="ANSI A300" style="height:36px;border-radius:4px;opacity:0.8;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=BBB" alt="BBB" style="height:36px;border-radius:4px;opacity:0.8;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     10. CLIENT REVIEWS
+══════════════════════════════════ -->
+<section id="reviews" style="background:#fff;padding:88px 0;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-14">
+      <span class="section-tag">Testimonials</span>
+      <h2 class="section-heading" style="font-size:clamp(30px,4vw,44px);margin-bottom:0;">Client Reviews</h2>
+      <div class="section-divider"></div>
+      <p style="max-width:480px;margin:0 auto;font-size:16px;line-height:1.8;color:#666;">Don't just take our word for it — here's what Boise homeowners say about working with us.</p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
+
+      <div class="review-card">
+        <div style="display:flex;gap:3px;margin-bottom:14px;">
+          <span style="color:#8B5A2B;font-size:18px;">★★★★★</span>
+        </div>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:18px;font-style:italic;">"Boise Tree Pros removed a massive cottonwood that was threatening our roof. The crew was professional, efficient, and left the yard spotless. Couldn't be happier with the results."</p>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:#1A531A;display:flex;align-items:center;justify-content:center;color:#FAF0E6;font-weight:600;font-size:15px;">S</div>
+          <div>
+            <div style="font-weight:600;font-size:14px;color:#363636;">Sarah M.</div>
+            <div style="font-size:12px;color:#888;">North End, Boise</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div style="display:flex;gap:3px;margin-bottom:14px;">
+          <span style="color:#8B5A2B;font-size:18px;">★★★★★</span>
+        </div>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:18px;font-style:italic;">"Called them on a Sunday after a windstorm took down a large branch onto our fence. They were there within 2 hours. Truly outstanding emergency service — saved us from serious damage."</p>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:#8B5A2B;display:flex;align-items:center;justify-content:center;color:#FAF0E6;font-weight:600;font-size:15px;">T</div>
+          <div>
+            <div style="font-weight:600;font-size:14px;color:#363636;">Tom &amp; Linda R.</div>
+            <div style="font-size:12px;color:#888;">Meridian, ID</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div style="display:flex;gap:3px;margin-bottom:14px;">
+          <span style="color:#8B5A2B;font-size:18px;">★★★★★</span>
+        </div>
+        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:18px;font-style:italic;">"Had three large trees trimmed — the arborist explained exactly what he was doing and why. You can tell these guys genuinely care about the health of the trees, not just getting the job done fast."</p>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:#87CEEB;display:flex;align-items:center;justify-content:center;color:#1A531A;font-weight:600;font-size:15px;">J</div>
+          <div>
+            <div style="font-weight:600;font-size:14px;color:#363636;">Jessica K.</div>
+            <div style="font-size:12px;color:#888;">Eagle, ID</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Google rating bar -->
+    <div style="margin-top:48px;text-align:center;">
+      <div style="display:inline-flex;align-items:center;gap:12px;background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:14px 28px;">
+        <div>
+          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;color:#1A531A;line-height:1;">4.9</div>
+          <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#888;">Google Rating</div>
+        </div>
+        <div style="width:1px;height:40px;background:#e8ddd0;"></div>
+        <div>
+          <div style="color:#8B5A2B;font-size:20px;letter-spacing:2px;">★★★★★</div>
+          <div style="font-size:12px;color:#888;">Based on 120+ reviews</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     11. SCHEDULE A CONSULTATION
+══════════════════════════════════ -->
+<section id="contact" style="padding:88px 24px;position:relative;overflow:hidden;">
+  <!-- Background image -->
+  <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1600&h=900&fit=crop&auto=format&q=80" alt="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+  <!-- Dark overlay -->
+  <div style="position:absolute;inset:0;background:linear-gradient(135deg, rgba(15,48,16,0.92) 0%, rgba(26,83,26,0.88) 50%, rgba(15,48,16,0.92) 100%);pointer-events:none;"></div>
+  <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:rgba(42,107,42,0.2);pointer-events:none;"></div>
+  <div style="position:absolute;bottom:-80px;left:-40px;width:250px;height:250px;border-radius:50%;background:rgba(15,48,16,0.25);pointer-events:none;"></div>
+
+  <div class="max-w-3xl mx-auto relative">
+    <div class="text-center mb-10">
+      <span style="display:inline-block;font-family:'Inter',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#87CEEB;margin-bottom:10px;">Free, No-Obligation</span>
+      <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(28px,5vw,44px);font-weight:700;color:#FAF0E6;line-height:1.1;margin-bottom:14px;">Schedule a Consultation</h2>
+      <p style="font-size:16px;color:rgba(250,240,230,0.75);line-height:1.7;">Tell us about your trees and we'll get back to you within 24 hours with a free estimate.</p>
+    </div>
+
+    <form action="https://formspree.io/f/mreyyrkj" method="POST" style="display:grid;gap:16px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;" class="form-grid">
+        <input class="form-input" type="text" name="name" placeholder="Your Name" required />
+        <input class="form-input" type="tel" name="phone" placeholder="Phone Number" />
+      </div>
+      <input class="form-input" type="email" name="email" placeholder="Email Address" required />
+      <input class="form-input" type="text" name="address" placeholder="Your Address (City / Zip)" />
+      <textarea class="form-input" rows="4" name="message" placeholder="Describe your tree concern..." style="resize:vertical;"></textarea>
+      <div style="text-align:center;margin-top:8px;">
+        <button type="submit" class="btn-cream" style="font-size:15px;padding:15px 48px;cursor:pointer;">Book My Free Estimate</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     12. FOOTER
+══════════════════════════════════ -->
+<footer style="background:#0F3010;color:rgba(250,240,230,0.75);padding:64px 24px 0;">
+  <div class="max-w-7xl mx-auto">
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(250,240,230,0.1);" class="footer-grid">
+
+      <!-- Col 1: Brand -->
+      <div>
+        <img src="brand_assets/logo.png" alt="Boise Tree Pros" style="height:52px;width:auto;margin-bottom:16px;filter:brightness(0) invert(1);opacity:0.9;">
+        <p style="font-size:14px;line-height:1.8;max-width:280px;margin-bottom:20px;">Professional tree care for Boise and the Treasure Valley. ISA Certified Arborists serving residential and commercial clients since 2008.</p>
+        <div style="display:flex;gap:12px;">
+          <a href="#" aria-label="Facebook" style="width:34px;height:34px;border:1px solid rgba(250,240,230,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;" class="hover:bg-forest-mid hover:text-cream focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded-full">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" style="width:34px;height:34px;border:1px solid rgba(250,240,230,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;" class="focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded-full">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Services -->
+      <div>
+        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Services</h4>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+          <li><a href="#services" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Tree Trimming</a></li>
+          <li><a href="#services" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Tree Removal</a></li>
+          <li><a href="#services" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Stump Grinding</a></li>
+          <li><a href="#services" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Tree Planting</a></li>
+          <li><a href="#services" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Emergency Service</a></li>
+          <li><a href="#services" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Lot Clearing</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Company -->
+      <div>
+        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Company</h4>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+          <li><a href="#about" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">About Us</a></li>
+          <li><a href="#gallery" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Project Gallery</a></li>
+          <li><a href="#reviews" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Reviews</a></li>
+          <li><a href="#contact" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Free Estimate</a></li>
+          <li><a href="#" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Contact -->
+      <div>
+        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Contact</h4>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+12085550192" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">(208) 555-0192</a>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+            <a href="mailto:info@boisetreepros.com" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">info@boisetreepros.com</a>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span style="font-size:14px;color:rgba(250,240,230,0.65);">Boise, ID &amp; Treasure Valley</span>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span style="font-size:14px;color:rgba(250,240,230,0.65);">Mon–Sat 7am–7pm<br>24/7 Emergency Line</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.4);">
+      <span>© 2026 Boise Tree Pros. All rights reserved. Licensed &amp; Insured in Idaho.</span>
+      <div style="display:flex;gap:20px;">
+        <a href="#" style="color:rgba(250,240,230,0.4);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Privacy Policy</a>
+        <a href="#" style="color:rgba(250,240,230,0.4);text-decoration:none;transition:color 0.2s;" class="hover:text-cream">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Responsive overrides -->
+<style>
+  @media (max-width: 900px) {
+    .services-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    .leaves-decoration { display: none !important; }
+    .grid-cols-quality, .grid-cols-about { grid-template-columns: 1fr !important; gap: 40px !important; }
+    .grid-cols-advice { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .grid-cols-cta { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
+    .grid-cols-gallery { grid-template-columns: repeat(2, 1fr) !important; }
+    .grid-cols-gallery > div[style*="grid-row:span 2"] { grid-row: span 1 !important; }
+    .grid-cols-gallery > div[style*="grid-column:span 2"] { grid-column: span 2 !important; }
+  }
+  @media (max-width: 600px) {
+    .services-grid { grid-template-columns: 1fr !important; }
+    .footer-grid { grid-template-columns: 1fr !important; }
+    .grid-cols-gallery { grid-template-columns: 1fr 1fr !important; }
+    .form-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
+
+</body>
+</html>
