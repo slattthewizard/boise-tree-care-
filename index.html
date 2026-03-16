@@ -111,6 +111,11 @@
     .nav-link:hover::after { transform: scaleX(1); }
     .nav-link:focus-visible { outline: 2px solid #1A531A; outline-offset: 4px; border-radius: 2px; }
 
+    /* Blog dropdown */
+    .dropdown-open .blog-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
+    .dropdown-open svg { transform: rotate(180deg); }
+    .blog-dropdown a:hover { background: #f5f0eb; color: #1A531A; }
+
     /* Buttons */
     .btn-primary {
       display: inline-flex; align-items: center; gap: 8px;
@@ -398,6 +403,7 @@
     "sameAs": []
   }
   </script>
+  <script>document.addEventListener('click',function(e){document.querySelectorAll('.dropdown-open').forEach(function(d){if(!d.contains(e.target))d.classList.remove('dropdown-open')})});</script>
 </head>
 <body>
 
@@ -447,6 +453,17 @@
       <a href="#gallery" class="nav-link">Gallery</a>
       <a href="#reviews" class="nav-link">Reviews</a>
       <a href="#contact" class="nav-link">Contact</a>
+      <div class="relative" style="position:relative;">
+        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font:inherit;color:inherit;display:flex;align-items:center;gap:4px;">
+          Blogs
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="blog-dropdown" style="position:absolute;top:calc(100% + 8px);right:0;min-width:240px;background:#fff;border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.06);padding:8px 0;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity 0.2s,transform 0.2s,visibility 0.2s;z-index:100;">
+          <a href="/services/tree-trimming-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Trimming Boise</a>
+          <a href="/services/tree-removal-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Removal Boise</a>
+          <a href="/services/emergency-tree-service-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Emergency Tree Service</a>
+        </div>
+      </div>
     </nav>
     <!-- Note: Service pages available at /services/tree-trimming-boise/, /services/tree-removal-boise/, /services/emergency-tree-service-boise/ -->
 
@@ -469,6 +486,17 @@
       <a href="#gallery" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Gallery</a>
       <a href="#reviews" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Reviews</a>
       <a href="#contact" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Contact</a>
+      <div>
+        <button onclick="var el=document.getElementById('mobile-blogs');el.style.display=el.style.display==='flex'?'none':'flex';" class="nav-link text-base" style="background:none;border:none;cursor:pointer;font:inherit;color:inherit;display:flex;align-items:center;gap:4px;">
+          Blogs
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div id="mobile-blogs" style="display:none;flex-direction:column;gap:2px;padding-left:16px;margin-top:4px;">
+          <a href="/services/tree-trimming-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Trimming Boise</a>
+          <a href="/services/tree-removal-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Removal Boise</a>
+          <a href="/services/emergency-tree-service-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Emergency Tree Service</a>
+        </div>
+      </div>
       <a href="#contact" class="btn-primary w-fit" style="font-size:13px;padding:10px 20px;">Free Estimate</a>
     </nav>
   </div>
