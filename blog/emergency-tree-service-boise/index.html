@@ -67,25 +67,31 @@
     .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
     .nav-link:hover { color: #1A531A; }
     .nav-link:hover::after { transform: scaleX(1); }
+    .nav-link:focus-visible { outline: 2px solid #1A531A; outline-offset: 4px; border-radius: 2px; }
+    .nav-link:active { opacity: 0.7; }
     .dropdown-open .blog-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
     .dropdown-open svg { transform: rotate(180deg); }
     .blog-dropdown a:hover { background: #f5f0eb; color: #1A531A; }
-    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
-    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
-    .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
-    .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
-    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 2px 4px rgba(26,83,26,0.1), 0 8px 16px rgba(26,83,26,0.12); }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 4px 8px rgba(26,83,26,0.15), 0 12px 24px rgba(26,83,26,0.2); transform: translateY(-2px); }
+    .btn-primary:active { transform: translateY(0); box-shadow: 0 2px 4px rgba(26,83,26,0.1); }
+    .btn-primary:focus-visible { outline: 2px solid #2A6B2A; outline-offset: 4px; }
+    .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 2px 4px rgba(139,90,43,0.1), 0 8px 16px rgba(139,90,43,0.12); }
+    .btn-bark:hover { background: #A06830; box-shadow: 0 4px 8px rgba(139,90,43,0.15), 0 12px 24px rgba(139,90,43,0.2); transform: translateY(-2px); }
+    .btn-bark:active { transform: translateY(0); box-shadow: 0 2px 4px rgba(139,90,43,0.1); }
+    .btn-bark:focus-visible { outline: 2px solid #A06830; outline-offset: 4px; }
+    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.03em; }
     #mobile-menu { display: none; }
     #mobile-menu.open { display: block; }
 
     /* Article content styles */
-    .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
-    .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
-    .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
+    .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; letter-spacing: -0.02em; }
+    .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; letter-spacing: -0.01em; }
+    .article-content p { font-size: 16px; line-height: 1.7; color: #555; margin-bottom: 16px; }
     .article-content a { color: #8B5A2B; font-weight: 600; text-decoration: none; }
     .article-content a:hover { text-decoration: underline; }
     .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 20px; }
-    .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+    .article-content li { font-size: 16px; line-height: 1.7; color: #555; margin-bottom: 8px; }
     .article-content strong { color: #363636; }
     .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
     .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
@@ -109,6 +115,18 @@
     /* Emergency alert banner */
     .emergency-banner { background: #B91C1C; color: #fff; padding: 12px 20px; border-radius: 8px; margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
     .emergency-banner svg { flex-shrink: 0; }
+
+    /* Noise texture overlay */
+    .noise { position: relative; }
+    .noise::after {
+      content: ''; position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none; opacity: 0.06; z-index: 0;
+    }
+    .sidebar-link { font-size: 14px; color: #8B5A2B; text-decoration: none; font-weight: 500; display: flex; align-items: center; gap: 6px; transition: opacity 0.2s, transform 0.2s; }
+    .sidebar-link:hover { opacity: 0.8; transform: translateX(2px); }
+    .sidebar-link:focus-visible { outline: 2px solid #8B5A2B; outline-offset: 2px; border-radius: 2px; }
+    .sidebar-link:active { transform: translateX(0); opacity: 0.6; }
   </style>
 
   <!-- Structured Data: Service Page -->
@@ -225,7 +243,7 @@
 <!-- ══════════════════════════════════
      STICKY HEADER
 ══════════════════════════════════ -->
-<header style="position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #e8ddd0;box-shadow:0 2px 12px rgba(26,83,26,0.07);">
+<header style="position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #e8ddd0;box-shadow: 0 4px 12px rgba(26,83,26,0.04), 0 1px 2px rgba(26,83,26,0.06);">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
     <a href="/" class="flex items-center gap-2">
       <img src="/brand_assets/logo.png" alt="Boise Tree Pros" style="height:48px;width:auto;object-fit:contain;">
@@ -294,11 +312,13 @@
 <!-- ══════════════════════════════════
      HERO / PAGE HEADER
 ══════════════════════════════════ -->
-<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
-  <div style="position:absolute;inset:0;opacity:0.15;">
-    <img src="/images/emergency-tree-service-boise-hero.webp" alt="Large fallen tree across a residential driveway after a storm in Boise Idaho" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
+<section style="background-color: #0F3010; padding:64px 0; position:relative; overflow:hidden;">
+  <div style="position:absolute; inset:0; background: radial-gradient(circle at 20% 30%, rgba(42,107,42,0.4) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(26,83,26,0.6) 0%, transparent 50%); z-index: 1;"></div>
+  <div style="position:absolute; inset:0; z-index: 0;">
+    <img src="/images/emergency-tree-service-boise-hero.webp" alt="Large fallen tree across a residential driveway after a storm in Boise Idaho" width="1600" height="600" style="width:100%;height:100%;object-fit:cover; mix-blend-mode: multiply; opacity: 0.5;">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
   </div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
     <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(220,38,38,0.25);color:#FCA5A5;border:1px solid rgba(220,38,38,0.4);">24/7 Emergency Response</span>
     <h1 class="section-heading text-cream" style="font-size:clamp(36px,5vw,56px);margin-bottom:16px;">Emergency Tree Service in Boise: What to Do When a Tree Comes Down</h1>
     <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">Storm damage, fallen trees, hazardous limbs. Our ISA-certified crews respond 24/7 across Boise, Meridian, Eagle, and Nampa. $2M insured on every job.</p>
@@ -636,7 +656,7 @@
       <!-- Sidebar -->
       <aside>
         <!-- Emergency CTA Box -->
-        <div style="background:#DC2626;border-radius:8px;padding:28px;margin-bottom:24px;color:#fff;">
+        <div style="background:#DC2626;border-radius:8px;padding:28px;margin-bottom:24px;color:#fff;box-shadow: 0 4px 12px rgba(220,38,38,0.15), 0 1px 3px rgba(220,38,38,0.1);">
           <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#fff;margin-bottom:12px;">Tree Emergency? Call Now.</h3>
           <p style="font-size:14px;line-height:1.7;color:rgba(255,255,255,0.9);margin-bottom:20px;">Our crews respond 24/7 for storm damage, fallen trees, and hazardous limbs across the Treasure Valley.</p>
           <a href="tel:+19862027387" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;background:#fff;color:#DC2626;border-color:#fff;font-weight:700;">Call (986) 202-7387</a>
@@ -644,7 +664,7 @@
         </div>
 
         <!-- Non-Emergency CTA -->
-        <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;">
+        <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;box-shadow: 0 4px 12px rgba(139,90,43,0.05), 0 1px 2px rgba(139,90,43,0.02);">
           <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:12px;">Prevent the Next Emergency</h3>
           <p style="font-size:14px;line-height:1.7;color:#555;margin-bottom:20px;">Schedule a free tree assessment. We'll identify the highest-risk trees on your property before storm season.</p>
           <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;">Free Assessment</a>
@@ -654,9 +674,9 @@
         <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
           <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Other Blogs</h3>
           <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
-            <li><a href="/blog/tree-trimming-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Trimming &amp; Pruning</a></li>
-            <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Removal</a></li>
-            <li><a href="/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; All Blogs</a></li>
+            <li><a href="/blog/tree-trimming-boise/" class="sidebar-link">&#8594; Tree Trimming &amp; Pruning</a></li>
+            <li><a href="/blog/tree-removal-boise/" class="sidebar-link">&#8594; Tree Removal</a></li>
+            <li><a href="/" class="sidebar-link">&#8594; All Blogs</a></li>
           </ul>
         </div>
 
@@ -681,12 +701,15 @@
 <!-- ══════════════════════════════════
      CTA BANNER
 ══════════════════════════════════ -->
-<section style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 50%, #1A531A 100%);padding:64px 24px;text-align:center;">
-  <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Storm Damage Won't Wait. Neither Will We.</h2>
-  <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">24/7 emergency tree service across Boise and the Treasure Valley. ISA-certified crews, $2M insured, complete cleanup.</p>
-  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
-    <a href="tel:+19862027387" class="btn-primary" style="background:#DC2626;color:#fff;border-color:#DC2626;font-weight:700;">Call (986) 202-7387</a>
-    <a href="/#contact" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Request Service Online</a>
+<section class="noise" style="background-color:#1A531A; padding:64px 24px; text-align:center; position:relative; overflow:hidden;">
+  <div style="position:absolute; inset:0; background: radial-gradient(ellipse 80% 80% at 50% 0%, rgba(42,107,42,0.6) 0%, transparent 70%), linear-gradient(135deg, rgba(15,48,16,0.4) 0%, transparent 100%); pointer-events:none; z-index:0;"></div>
+  <div style="position:relative; z-index:10;">
+    <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:-0.02em;">Storm Damage Won't Wait. Neither Will We.</h2>
+    <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">24/7 emergency tree service across Boise and the Treasure Valley. ISA-certified crews, $2M insured, complete cleanup.</p>
+    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+      <a href="tel:+19862027387" class="btn-primary" style="background:#DC2626;color:#fff;border-color:#DC2626;font-weight:700;">Call (986) 202-7387</a>
+      <a href="/#contact" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Request Service Online</a>
+    </div>
   </div>
 </section>
 
