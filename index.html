@@ -931,54 +931,59 @@
 <!-- ══════════════════════════════════
      9. ABOUT / WHY CHOOSE US
 ══════════════════════════════════ -->
-<section id="about" style="background:#FAF0E6;padding:88px 0;">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;" class="grid-cols-about">
-      <!-- Left -->
-      <div>
-        <span class="section-tag">About Us</span>
-        <h2 class="section-heading" style="font-size:clamp(28px,4vw,42px);margin-bottom:20px;">Boise's Trusted Tree Care Experts</h2>
-        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:16px;">Founded in 2008, Boise Tree Pros has grown from a one-truck operation into the region's most trusted tree care company — without ever losing the personal touch that sets us apart.</p>
-        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:16px;">Every member of our crew holds ISA certification, and we invest in continuous training to stay current with the latest arboricultural science and safety standards.</p>
-        <p style="font-size:15px;line-height:1.8;color:#555;margin-bottom:28px;">We're proud to serve homeowners, commercial properties, and municipalities across Boise, Meridian, Nampa, Eagle, and the greater Treasure Valley.</p>
-        <div style="display:flex;gap:20px;flex-wrap:wrap;">
-          <div style="background:#fff;border-radius:8px;padding:18px 22px;border:1px solid #e8ddd0;box-shadow:0 2px 8px rgba(26,83,26,0.06);">
-            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#1A531A;">500+</div>
-            <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#888;">Happy Clients</div>
+<section id="about" class="noise relative" style="background-color:#FAF0E6;padding:100px 0;overflow:hidden;">
+  <!-- Decorative background blur -->
+  <div style="position:absolute; right:-10vw; top:10%; width:40vw; height:40vw; background:radial-gradient(circle, rgba(26,83,26,0.06) 0%, transparent 70%); border-radius:50%; pointer-events:none;"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+    <div style="display:grid;grid-template-columns:1fr 1.1fr;gap:64px;align-items:center;" class="grid-cols-about">
+
+      <!-- Left: Image & Stats Overlap -->
+      <div style="position:relative; margin-bottom: 24px;">
+        <div style="border-radius:12px; overflow:hidden; position:relative; box-shadow:0 12px 40px rgba(26,83,26,0.08), 0 4px 12px rgba(0,0,0,0.04); background:#fff;">
+          <img src="/images/Crew-With-Truck.webp" alt="Boise Tree Pros crew with truck" style="width:100%; height:auto; object-fit:cover; display:block;">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none z-0"></div>
+        </div>
+
+        <!-- Overlapping Stats Box -->
+        <div class="about-stats" style="position:absolute; bottom:-32px; right:-32px; background:#fff; border-radius:8px; padding:24px 32px; box-shadow:0 12px 32px rgba(26,83,26,0.12), 0 4px 12px rgba(0,0,0,0.04); display:flex; gap:32px; z-index:2; border:1px solid #e8ddd0;">
+          <div>
+            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:36px;font-weight:700;color:#1A531A;line-height:1;letter-spacing:-0.02em;">500+</div>
+            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#888;margin-top:6px;">Happy Clients</div>
           </div>
-          <div style="background:#fff;border-radius:8px;padding:18px 22px;border:1px solid #e8ddd0;box-shadow:0 2px 8px rgba(26,83,26,0.06);">
-            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#1A531A;">4.9★</div>
-            <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#888;">Google Rating</div>
-          </div>
-          <div style="background:#fff;border-radius:8px;padding:18px 22px;border:1px solid #e8ddd0;box-shadow:0 2px 8px rgba(26,83,26,0.06);">
-            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#1A531A;">24/7</div>
-            <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#888;">Emergency Line</div>
+          <div style="width:1px; background:#e8ddd0;"></div>
+          <div>
+            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:36px;font-weight:700;color:#1A531A;line-height:1;letter-spacing:-0.02em;">4.9<span style="color:#8B5A2B;font-size:28px;">★</span></div>
+            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#888;margin-top:6px;">Google Rating</div>
           </div>
         </div>
       </div>
 
-      <!-- Right: service checklist -->
+      <!-- Right: Text & Checklist -->
       <div>
-        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:22px;color:#1A531A;margin-bottom:20px;">Why Homeowners Choose Us</h3>
-        <ul style="list-style:none;padding:0;margin:0;">
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>ISA Certified Arborists</span></li>
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Licensed &amp; Insured in Idaho</span></li>
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Free Written Estimates</span></li>
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>24/7 Emergency Response</span></li>
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Full Cleanup Included</span></li>
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Serving All of Treasure Valley</span></li>
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Satisfaction Guarantee</span></li>
-          <li class="check-item"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Eco-Friendly Practices</span></li>
-        </ul>
+        <span class="section-tag">About Us</span>
+        <h2 class="section-heading" style="font-size:clamp(32px,4vw,48px);margin-bottom:24px;">Boise's Trusted Tree Care Experts</h2>
+        <p style="font-size:16px;line-height:1.7;color:#555;margin-bottom:16px;">Founded in 2008, Boise Tree Pros has grown from a one-truck operation into the region's most trusted tree care company — without ever losing the personal touch that sets us apart.</p>
+        <p style="font-size:16px;line-height:1.7;color:#555;margin-bottom:32px;">Every member of our crew holds ISA certification, and we invest in continuous training to stay current with the latest arboricultural science and safety standards.</p>
+
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:22px;color:#1A531A;margin-bottom:20px;letter-spacing:-0.01em;">Why Homeowners Choose Us</h3>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin-bottom:40px;">
+          <div class="check-item" style="margin-bottom:0;"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>ISA Certified Arborists</span></div>
+          <div class="check-item" style="margin-bottom:0;"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Licensed &amp; Insured</span></div>
+          <div class="check-item" style="margin-bottom:0;"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Free Written Estimates</span></div>
+          <div class="check-item" style="margin-bottom:0;"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>24/7 Emergency Line</span></div>
+          <div class="check-item" style="margin-bottom:0;"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Complete Cleanup</span></div>
+          <div class="check-item" style="margin-bottom:0;"><div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div><span>Eco-Friendly Practice</span></div>
+        </div>
 
         <!-- Cert logos -->
-        <div style="margin-top:32px;padding-top:24px;border-top:1px solid #e8ddd0;">
-          <p style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:#999;margin-bottom:12px;">Certifications &amp; Memberships</p>
+        <div style="padding-top:28px;border-top:1px solid #e8ddd0;display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+          <span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:#888;font-weight:600;">Certified By</span>
           <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;">
-            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=ISA" alt="ISA" style="height:36px;border-radius:4px;opacity:0.8;">
-            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=TCIA" alt="TCIA" style="height:36px;border-radius:4px;opacity:0.8;">
-            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=ANSI" alt="ANSI A300" style="height:36px;border-radius:4px;opacity:0.8;">
-            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=BBB" alt="BBB" style="height:36px;border-radius:4px;opacity:0.8;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=ISA" alt="ISA" style="height:32px;border-radius:4px;opacity:0.8;mix-blend-mode:multiply;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=TCIA" alt="TCIA" style="height:32px;border-radius:4px;opacity:0.8;mix-blend-mode:multiply;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=ANSI" alt="ANSI A300" style="height:32px;border-radius:4px;opacity:0.8;mix-blend-mode:multiply;">
+            <img src="https://placehold.co/80x40/e8ddd0/8B5A2B?text=BBB" alt="BBB" style="height:32px;border-radius:4px;opacity:0.8;mix-blend-mode:multiply;">
           </div>
         </div>
       </div>
@@ -1263,6 +1268,7 @@
     .services-grid { grid-template-columns: repeat(2, 1fr) !important; }
     .leaves-decoration { display: none !important; }
     .grid-cols-quality, .grid-cols-about { grid-template-columns: 1fr !important; gap: 40px !important; }
+    .about-stats { position: relative !important; bottom: auto !important; right: auto !important; margin-top: -24px !important; margin-left: 24px !important; margin-right: 24px !important; justify-content: center; }
     .grid-cols-advice { grid-template-columns: 1fr !important; gap: 32px !important; }
     .grid-cols-cta { grid-template-columns: 1fr !important; gap: 32px !important; text-align: center; }
     .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
