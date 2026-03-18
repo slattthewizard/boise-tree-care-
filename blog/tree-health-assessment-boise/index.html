@@ -347,6 +347,20 @@
             <a href="/blog/tree-cabling-bracing-boise/" class="dropdown-link">Tree Cabling &amp; Bracing</a>
           </div>
         </div>
+        <!-- Service Areas dropdown -->
+        <div style="position:relative;" onmouseenter="document.getElementById('areas-dd').style.display='block'" onmouseleave="document.getElementById('areas-dd').style.display='none'">
+          <button style="background:none; border:none; cursor:pointer; color:#363636; font-size:14px; font-weight:500; padding:6px 12px; border-radius:6px; display:flex; align-items:center; gap:4px; transition:background-color 0.15s; font-family:inherit;" onmouseover="this.style.backgroundColor='#f0e8de'" onmouseout="this.style.backgroundColor='transparent'">
+            Service Areas
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg>
+          </button>
+          <div id="areas-dd" style="display:none; position:absolute; top:100%; left:0; background:#FAF0E6; border:1px solid #e0d5c8; border-radius:8px; min-width:220px; box-shadow:0 8px 24px rgba(26,83,26,0.12); padding:6px 0; z-index:100;">
+            <a href="/tree-service-meridian/" class="dropdown-link">Meridian</a>
+            <a href="/tree-service-eagle/" class="dropdown-link">Eagle</a>
+            <a href="/tree-service-garden-city/" class="dropdown-link">Garden City</a>
+            <a href="/tree-service-nampa/" class="dropdown-link">Nampa</a>
+            <a href="/tree-service-caldwell/" class="dropdown-link">Caldwell</a>
+          </div>
+        </div>
         <a href="/gallery/" style="color:#363636; text-decoration:none; font-size:14px; font-weight:500; padding:6px 12px; border-radius:6px; transition:background-color 0.15s;" onmouseover="this.style.backgroundColor='#f0e8de'" onmouseout="this.style.backgroundColor='transparent'">Gallery</a>
         <a href="/#contact" class="btn-primary" style="margin-left:8px; padding:10px 20px; font-size:14px;">Free Estimate</a>
       </div>
@@ -365,6 +379,11 @@
       <a href="/blog/stump-grinding-boise/" class="dropdown-link">Stump Grinding Boise</a>
       <a href="/blog/tree-health-assessment-boise/" class="dropdown-link" style="color:#1A531A; font-weight:600;">Tree Health Assessment</a>
       <a href="/blog/tree-cabling-bracing-boise/" class="dropdown-link">Tree Cabling &amp; Bracing</a>
+      <a href="/tree-service-meridian/" class="dropdown-link">Meridian</a>
+      <a href="/tree-service-eagle/" class="dropdown-link">Eagle</a>
+      <a href="/tree-service-garden-city/" class="dropdown-link">Garden City</a>
+      <a href="/tree-service-nampa/" class="dropdown-link">Nampa</a>
+      <a href="/tree-service-caldwell/" class="dropdown-link">Caldwell</a>
       <a href="/gallery/" class="dropdown-link">Gallery</a>
       <a href="/#contact" class="btn-primary" style="display:block; text-align:center; margin-top:12px;">Free Estimate</a>
     </div>
@@ -777,7 +796,7 @@
   <!-- Footer -->
   <footer style="background:#1e1e1e; color:#d4c5b0; padding:48px 20px 24px;">
     <div style="max-width:1100px; margin:0 auto;">
-      <div style="display:grid; grid-template-columns:2fr 1fr 1fr; gap:40px; margin-bottom:40px;">
+      <div style="display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; margin-bottom:40px;">
         <!-- Brand -->
         <div>
           <p style="font-family:'Zilla Slab',Georgia,serif; font-size:20px; font-weight:700; color:#FAF0E6; margin:0 0 10px; letter-spacing:-0.02em;">Boise Tree Pros</p>
@@ -801,6 +820,17 @@
             <li><a href="/blog/stump-grinding-boise/" class="footer-link">Stump Grinding</a></li>
             <li><a href="/blog/tree-health-assessment-boise/" class="footer-link">Tree Health Assessment</a></li>
             <li><a href="/blog/tree-cabling-bracing-boise/" class="footer-link">Tree Cabling &amp; Bracing</a></li>
+          </ul>
+        </div>
+        <!-- Service Areas -->
+        <div>
+          <p style="font-family:'Zilla Slab',Georgia,serif; font-weight:700; color:#FAF0E6; margin:0 0 14px; font-size:15px;">Service Areas</p>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
+            <li><a href="/tree-service-meridian/" class="footer-link">Meridian</a></li>
+            <li><a href="/tree-service-eagle/" class="footer-link">Eagle</a></li>
+            <li><a href="/tree-service-garden-city/" class="footer-link">Garden City</a></li>
+            <li><a href="/tree-service-nampa/" class="footer-link">Nampa</a></li>
+            <li><a href="/tree-service-caldwell/" class="footer-link">Caldwell</a></li>
           </ul>
         </div>
         <!-- Contact -->

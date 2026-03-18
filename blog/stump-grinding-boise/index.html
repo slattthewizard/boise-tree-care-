@@ -321,6 +321,20 @@
           <a href="/blog/tree-cabling-bracing-boise/" class="dropdown-link">Tree Cabling &amp; Bracing</a>
         </div>
       </div>
+      <!-- Service Areas dropdown -->
+      <div class="relative" id="areas-dropdown-wrap">
+        <button onclick="this.closest('#areas-dropdown-wrap').classList.toggle('dropdown-open')" class="nav-link flex items-center gap-1.5 bg-transparent border-none cursor-pointer p-0" aria-expanded="false" aria-haspopup="true">
+          Service Areas
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="blog-dropdown" style="position:absolute;top:calc(100% + 8px);right:0;min-width:240px;background:#fff;border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.06);padding:8px 0;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity 0.2s,transform 0.2s,visibility 0.2s;z-index:100;">
+          <a href="/tree-service-meridian/" class="dropdown-link">Meridian</a>
+          <a href="/tree-service-eagle/" class="dropdown-link">Eagle</a>
+          <a href="/tree-service-garden-city/" class="dropdown-link">Garden City</a>
+          <a href="/tree-service-nampa/" class="dropdown-link">Nampa</a>
+          <a href="/tree-service-caldwell/" class="dropdown-link">Caldwell</a>
+        </div>
+      </div>
       <a href="/gallery/" class="nav-link">Gallery</a>
       <a href="/#contact" class="btn-primary" style="padding:10px 20px;font-size:13px;">Free Estimate</a>
     </nav>
@@ -341,6 +355,11 @@
       <a href="/blog/emergency-tree-service-boise/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Emergency Service</a>
       <a href="/blog/stump-grinding-boise/" style="padding:10px 0;font-size:15px;font-weight:600;color:#1A531A;text-decoration:none;border-bottom:1px solid #f0e8e0;">Stump Grinding</a>
       <a href="/blog/tree-cabling-bracing-boise/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Tree Cabling &amp; Bracing</a>
+      <a href="/tree-service-meridian/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Meridian</a>
+      <a href="/tree-service-eagle/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Eagle</a>
+      <a href="/tree-service-garden-city/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Garden City</a>
+      <a href="/tree-service-nampa/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Nampa</a>
+      <a href="/tree-service-caldwell/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Caldwell</a>
       <a href="/gallery/" style="padding:10px 0;font-size:15px;font-weight:500;color:#363636;text-decoration:none;border-bottom:1px solid #f0e8e0;">Gallery</a>
       <a href="/#contact" onclick="document.getElementById('mobile-menu').classList.remove('open')" class="btn-primary" style="margin-top:12px;justify-content:center;">Free Estimate</a>
     </nav>
@@ -747,7 +766,7 @@
 ══════════════════════════════════ -->
 <footer style="background:#1A531A;color:#FAF0E6;padding:0 0 0;">
   <div class="max-w-7xl mx-auto px-4 sm:px-6">
-    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(250,240,230,0.1);padding-top:56px;" class="footer-grid">
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1.5fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(250,240,230,0.1);padding-top:56px;" class="footer-grid">
       <div>
         <img src="/brand_assets/logo.png" alt="Boise Tree Pros" style="height:52px;width:auto;margin-bottom:16px;filter:brightness(0) invert(1);opacity:0.9;">
         <p style="font-size:14px;line-height:1.8;max-width:280px;margin-bottom:20px;">Professional tree care for Boise and the Treasure Valley. ISA Certified Arborists serving residential and commercial clients since 2008.</p>
@@ -769,6 +788,16 @@
           <li><a href="/blog/stump-grinding-boise/" class="footer-link" style="color:#FAF0E6;font-weight:600;">Stump Grinding</a></li>
           <li><a href="/blog/tree-cabling-bracing-boise/" class="footer-link">Tree Cabling &amp; Bracing</a></li>
           <li><a href="/#services" class="footer-link">All Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;">Service Areas</h4>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+          <li><a href="/tree-service-meridian/" class="footer-link">Meridian</a></li>
+          <li><a href="/tree-service-eagle/" class="footer-link">Eagle</a></li>
+          <li><a href="/tree-service-garden-city/" class="footer-link">Garden City</a></li>
+          <li><a href="/tree-service-nampa/" class="footer-link">Nampa</a></li>
+          <li><a href="/tree-service-caldwell/" class="footer-link">Caldwell</a></li>
         </ul>
       </div>
       <div>
