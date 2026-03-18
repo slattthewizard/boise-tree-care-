@@ -107,6 +107,16 @@ function applyFixes(html, filePath) {
   // Clean up any empty lines left behind
   html = html.replace(/\n{3,}/g, '\n\n');
 
+  // ===== FAVICON =====
+  if (!html.includes('favicon')) {
+    const faviconTags = `  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">\n  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">\n  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">\n  <link rel="icon" href="/favicon.ico">\n`;
+    // Insert after viewport meta
+    html = html.replace(
+      /(<meta name="viewport"[^>]*>)/,
+      `$1\n${faviconTags}`
+    );
+  }
+
   // ===== RENDER BLOCKING: Replace Tailwind CDN with static CSS =====
   // Remove Tailwind CDN script tag
   html = html.replace(/\s*<script src="https:\/\/cdn\.tailwindcss\.com"><\/script>\s*/g, '\n');
