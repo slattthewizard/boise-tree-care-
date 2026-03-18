@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&h=900&fit=crop&auto=format&q=80" fetchpriority="high">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&h=900&fit=crop&auto=format&q=60&fm=webp" fetchpriority="high">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -45,10 +45,10 @@
       content: '';
       position: absolute;
       inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      background-image: url("data:image/webp;base64,UklGRhYBAABXRUJQVlA4IAoBAACQBACdASogACAADMDOJaQAUYHSDVB3GOwGUDwA0gTMY7N7OK7tUHvFHVrKJiAA5Ru+pVLnXGXwJxYPronb+TUCjsx6Ur3KhZLyh6D6qEh+ac1Tej7Qkt6pqT05lKn8v8nRkXRhKzDlWJfOGHVlRfaTsd8NM0WQBHMvJRmnYJAouHcZztgz+6d/HXK0UWmlXnZ54oLj+OybLYEz/jTne/A3qvHzxlkYgSXuo/d3HytUECFAAE6TQaH+ntqAyECuD4pcVpphEQsUGf/qcEw6Wm9zBVNuxAUAd9+V9xxUhBu7wYLsFPOVnzKeGEVj0pzuFl7hYGo+0JIs6HR6cnNg0bk/7mkRWqHvaRFQAA==");
+      background-repeat: repeat;
       pointer-events: none;
       opacity: 0.06;
-      will-change: opacity;
       z-index: 1;
     }
 
@@ -572,7 +572,7 @@
 ══════════════════════════════════ -->
 <section class="noise relative" style="min-height:90vh;display:flex;align-items:center;overflow:hidden;background:#0F3010;contain:layout;">
   <!-- Background image -->
-  <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&h=900&fit=crop&auto=format&q=80" alt="Lush green forest canopy in Boise Idaho" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;opacity:0.6;" fetchpriority="high" loading="eager" decoding="async" width="1600" height="900">
+  <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&h=900&fit=crop&auto=format&q=60&fm=webp" alt="Lush green forest canopy in Boise Idaho" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;opacity:0.6;" fetchpriority="high" loading="eager" decoding="async" width="1600" height="900">
   <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none z-0"></div>
   <!-- Radial gradients -->
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 80% at 20% 50%, rgba(26,83,26,0.65) 0%, transparent 70%), radial-gradient(ellipse 60% 80% at 80% 20%, rgba(15,48,16,0.8) 0%, transparent 60%), linear-gradient(135deg, rgba(15,48,16,0.9) 0%, rgba(26,83,26,0.5) 60%, rgba(15,48,16,0.7) 100%);pointer-events:none;"></div>
@@ -818,24 +818,24 @@
         <div style="display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:1fr 1fr;gap:6px;">
           <!-- Large image spanning 2 rows on left -->
           <div style="grid-row:span 2;border-radius:8px;overflow:hidden;position:relative;">
-            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=420&h=500&fit=crop&auto=format&q=80" alt="Healthy fruit tree" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=420&h=500&fit=crop&auto=format&q=60&fm=webp" alt="Healthy fruit tree" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
             <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.25) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
           </div>
           <!-- Top right -->
           <div style="border-radius:8px;overflow:hidden;position:relative;">
-            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=320&h=245&fit=crop&auto=format&q=80" alt="Tree canopy care" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=320&h=245&fit=crop&auto=format&q=60&fm=webp" alt="Tree canopy care" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
             <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.2) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
           </div>
           <!-- Bottom right -->
           <div style="border-radius:8px;overflow:hidden;position:relative;">
-            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=320&h=245&fit=crop&auto=format&q=80" alt="Tree bark close-up" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=320&h=245&fit=crop&auto=format&q=60&fm=webp" alt="Tree bark close-up" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
             <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.2) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
           </div>
         </div>
         <!-- Floating badge -->
         <div style="position:absolute;bottom:-20px;left:-20px;background:#8B5A2B;color:#FAF0E6;padding:18px 22px;border-radius:8px;box-shadow:0 8px 24px rgba(139,90,43,0.3);z-index:2;">
           <div style="font-family:'Zilla Slab',Georgia,serif;font-size:32px;font-weight:700;line-height:1;">15+</div>
-          <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;opacity:0.85;">Years in Boise</div>
+          <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;">Years in Boise</div>
         </div>
       </div>
 
@@ -1180,7 +1180,7 @@
 ══════════════════════════════════ -->
 <section id="contact" style="padding:88px 24px;position:relative;overflow:hidden;">
   <!-- Background image -->
-  <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1600&h=900&fit=crop&auto=format&q=80" alt="Sunlight filtering through tree branches" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" loading="lazy">
+  <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1600&h=900&fit=crop&auto=format&q=60&fm=webp" alt="Sunlight filtering through tree branches" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" loading="lazy">
   <!-- Dark overlay -->
   <div style="position:absolute;inset:0;background:linear-gradient(135deg, rgba(15,48,16,0.92) 0%, rgba(26,83,26,0.88) 50%, rgba(15,48,16,0.92) 100%);pointer-events:none;"></div>
   <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:rgba(42,107,42,0.2);pointer-events:none;"></div>
