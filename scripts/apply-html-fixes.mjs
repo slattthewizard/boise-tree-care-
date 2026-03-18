@@ -54,7 +54,7 @@ function getScaledDims(fileName, targetW) {
 }
 
 // Analytics script blocks to extract and move
-const GTM_ASYNC_TAG = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>`;
+const GTM_ASYNC_TAG = `<script defer src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>`;
 const GTM_CONFIG = `<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -85,8 +85,8 @@ function applyFixes(html, filePath) {
   // Strip ALL analytics-related script tags and comments from the entire document
   // Use a simple approach: find and remove each script block by its unique content marker
 
-  // Remove GTM async loader tag
-  html = html.replace(/<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-X3CW5HT1Z5"><\/script>\n?/g, '');
+  // Remove GTM loader tag (async or defer)
+  html = html.replace(/<script (?:async|defer) src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-X3CW5HT1Z5"><\/script>\n?/g, '');
 
   // Remove any script block containing gtag('config', 'G-X3CW5HT1Z5')
   // Use [^<]* to avoid crossing into other tags
@@ -96,7 +96,7 @@ function applyFixes(html, filePath) {
   html = html.replace(/<script[^>]*>(?:[^<]|<(?!\/script>))*clarity\.ms(?:[^<]|<(?!\/script>))*<\/script>\n?/g, '');
 
   // Remove analytics comments
-  html = html.replace(/\s*<!--\s*Google Analytics 4[^-]*-->\s*/g, '');
+  html = html.replace(/\s*<!--\s*Google Analytics 4[^>]*-->\s*/g, '');
   html = html.replace(/\s*<!--\s*Microsoft Clarity\s*-->\s*/g, '');
   html = html.replace(/\s*<!-- Analytics -->\s*/g, '');
 
@@ -106,6 +106,37 @@ function applyFixes(html, filePath) {
 
   // Clean up any empty lines left behind
   html = html.replace(/\n{3,}/g, '\n\n');
+
+  // ===== RENDER BLOCKING: Replace Tailwind CDN with static CSS =====
+  // Remove Tailwind CDN script tag
+  html = html.replace(/\s*<script src="https:\/\/cdn\.tailwindcss\.com"><\/script>\s*/g, '\n');
+
+  // Remove inline tailwind.config script block
+  html = html.replace(/<script>\s*\n\s*tailwind\.config(?:[^<]|<(?!\/script>))*<\/script>\s*/g, '');
+
+  // Add static CSS with async preload pattern (if not already present)
+  if (!html.includes('/styles.css')) {
+    // Insert after the preconnect/fonts block or after viewport meta
+    const cssTag = `  <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">\n  <noscript><link rel="stylesheet" href="/styles.css"></noscript>\n`;
+
+    if (html.includes('fonts.gstatic.com')) {
+      // Insert after the Google Fonts line
+      html = html.replace(
+        /(<link href="https:\/\/fonts\.googleapis\.com\/css2[^>]*>)\s*\n/,
+        `$1\n${cssTag}`
+      );
+    } else {
+      // Fallback: insert before </head>
+      html = html.replace('</head>', `${cssTag}</head>`);
+    }
+  }
+
+  // ===== RENDER BLOCKING: Async-load Google Fonts =====
+  // Replace blocking stylesheet with preload pattern
+  html = html.replace(
+    /<link href="(https:\/\/fonts\.googleapis\.com\/css2[^"]*)" rel="stylesheet">/,
+    '<link rel="preload" href="$1" as="style" onload="this.onload=null;this.rel=\'stylesheet\'">\n  <noscript><link rel="stylesheet" href="$1"></noscript>'
+  );
 
   // ===== FIX 2: Footer h4 -> p =====
   html = html.replace(

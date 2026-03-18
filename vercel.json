@@ -6,5 +6,37 @@
     { "source": "/services/tree-trimming-boise", "destination": "/blog/tree-trimming-boise/", "statusCode": 301 },
     { "source": "/services/tree-removal-boise", "destination": "/blog/tree-removal-boise/", "statusCode": 301 },
     { "source": "/services/emergency-tree-service-boise", "destination": "/blog/emergency-tree-service-boise/", "statusCode": 301 }
+  ],
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/styles.css",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/brand_assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*).html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, no-cache" }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, no-cache" }
+      ]
+    }
   ]
 }

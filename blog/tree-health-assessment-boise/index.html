@@ -140,31 +140,11 @@
     ]
   }
   </script>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            forest: '#1A531A',
-            bark:   '#8B5A2B',
-            cream:  '#FAF0E6',
-            sky:    '#87CEEB',
-            charcoal: '#363636'
-          },
-          fontFamily: {
-            display: ['"Zilla Slab"', 'Georgia', 'serif'],
-            body:    ['Inter', 'system-ui', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
+  <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/styles.css"></noscript>
   <style>
     body { font-family: 'Inter', system-ui, sans-serif; color: #363636; background: #FAF0E6; }
     h1,h2,h3,h4 { font-family: 'Zilla Slab', Georgia, serif; }
@@ -859,7 +839,7 @@
     }
   </style>
 <!-- Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
