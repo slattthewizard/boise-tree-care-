@@ -53,33 +53,61 @@ function getScaledDims(fileName, targetW) {
   return { width: targetW, height: Math.round(m.height * ratio) };
 }
 
+// Analytics script blocks to extract and move
+const GTM_ASYNC_TAG = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>`;
+const GTM_CONFIG = `<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-X3CW5HT1Z5');
+</script>`;
+const CLARITY_SCRIPT = `<script>
+  (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "vxfansa76s");
+</script>`;
+
 function applyFixes(html, filePath) {
   const fileName = path.basename(filePath);
   const isGallery = filePath.includes('gallery');
   const isHomepage = filePath.endsWith('website\\index.html') || filePath.endsWith('website/index.html');
 
-  // Determine if this page has a hero image (for preload)
+  // Determine if this page has a hero image
   let heroImageName = null;
   const heroMatch = html.match(/src=["'](?:\.\.\/)?(?:\.\/)?(?:\/)?images\/([\w\s-]+-hero\.webp)["']/);
   if (heroMatch) {
     heroImageName = heroMatch[1];
   }
 
-  // ===== FIX 1: Defer analytics =====
-  // Wrap GTM inline config
-  html = html.replace(
-    /(<script>)\s*\n\s*window\.dataLayer\s*=\s*window\.dataLayer\s*\|\|\s*\[\];\s*\n\s*function gtag\(\)\{dataLayer\.push\(arguments\);\}\s*\n\s*gtag\('js',\s*new Date\(\)\);\s*\n\s*gtag\('config',\s*'G-X3CW5HT1Z5'\);\s*\n\s*(<\/script>)/,
-    `$1\n    window.addEventListener('load', function() {\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n      gtag('config', 'G-X3CW5HT1Z5');\n    });\n  $2`
-  );
+  // ===== PRIORITY 3: Move analytics to bottom of <body> =====
+  // Strip ALL analytics-related script tags and comments from the entire document
+  // Use a simple approach: find and remove each script block by its unique content marker
 
-  // Wrap Clarity
-  html = html.replace(
-    /(<script type="text\/javascript">)\s*\n\s*\(function\(c,l,a,r,i,t,y\)\{\s*\n\s*c\[a\]=c\[a\]\|\|function\(\)\{\(c\[a\]\.q=c\[a\]\.q\|\|\[\]\)\.push\(arguments\)\};\s*\n\s*t=l\.createElement\(r\);t\.async=1;t\.src="https:\/\/www\.clarity\.ms\/tag\/"\+i;\s*\n\s*y=l\.getElementsByTagName\(r\)\[0\];y\.parentNode\.insertBefore\(t,y\);\s*\n\s*\}\)\(window,\s*document,\s*"clarity",\s*"script",\s*"vxfansa76s"\);\s*\n\s*(<\/script>)/,
-    `$1\n    window.addEventListener('load', function() {\n      (function(c,l,a,r,i,t,y){\n          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\n          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;\n          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\n      })(window, document, "clarity", "script", "vxfansa76s");\n    });\n  $2`
-  );
+  // Remove GTM async loader tag
+  html = html.replace(/<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-X3CW5HT1Z5"><\/script>\n?/g, '');
+
+  // Remove any script block containing gtag('config', 'G-X3CW5HT1Z5')
+  // Use [^<]* to avoid crossing into other tags
+  html = html.replace(/<script>(?:[^<]|<(?!\/script>))*gtag\('config',\s*'G-X3CW5HT1Z5'\)(?:[^<]|<(?!\/script>))*<\/script>\n?/g, '');
+
+  // Remove any script block containing clarity.ms
+  html = html.replace(/<script[^>]*>(?:[^<]|<(?!\/script>))*clarity\.ms(?:[^<]|<(?!\/script>))*<\/script>\n?/g, '');
+
+  // Remove analytics comments
+  html = html.replace(/\s*<!--\s*Google Analytics 4[^-]*-->\s*/g, '');
+  html = html.replace(/\s*<!--\s*Microsoft Clarity\s*-->\s*/g, '');
+  html = html.replace(/\s*<!-- Analytics -->\s*/g, '');
+
+  // Insert analytics once, just before </body>
+  const analyticsBlock = `\n<!-- Analytics -->\n${GTM_ASYNC_TAG}\n${GTM_CONFIG}\n${CLARITY_SCRIPT}\n`;
+  html = html.replace('</body>', `${analyticsBlock}</body>`);
+
+  // Clean up any empty lines left behind
+  html = html.replace(/\n{3,}/g, '\n\n');
 
   // ===== FIX 2: Footer h4 -> p =====
-  // Match both patterns (with and without letter-spacing)
   html = html.replace(
     /<h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;[^"]*">(Services|Service Areas|Company|Contact)<\/h4>/g,
     (match, label) => `<p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">${label}</p>`
@@ -92,43 +120,31 @@ function applyFixes(html, filePath) {
   );
 
   // ===== FIX 4: Touch targets =====
-  // Mobile menu button: p-2 -> p-3 with min dimensions
   html = html.replace(
     /class="md:hidden p-2 text-charcoal/g,
     'class="md:hidden p-3 min-w-[48px] min-h-[48px] text-charcoal'
   );
-
-  // Footer social icons: 34px -> 48px
   html = html.replace(
     /width:34px;height:34px;border:1px solid rgba\(250,240,230,0\.2\)/g,
     'width:48px;height:48px;border:1px solid rgba(250,240,230,0.35)'
   );
-
-  // Fix dropdown-link style definition to include min-height
   html = html.replace(
     /\.dropdown-link \{[^}]*display:\s*(?:block|flex)[^}]*padding:\s*10px 18px;[^}]*\}/,
     '.dropdown-link { display: flex; align-items: center; padding: 10px 18px; min-height: 48px; font-size: 14px; color: #363636; text-decoration: none; transition: background-color 0.2s, color 0.2s, opacity 0.2s; outline: none; }'
   );
-
-  // Clean up any duplicate style attributes on dropdown-link elements
   html = html.replace(
     /class="dropdown-link"(\s+style="[^"]*")+/g,
     'class="dropdown-link"'
   );
-
-  // Nav dropdown toggle buttons: add padding and min-height
   html = html.replace(
     /style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0\.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:0;"/g,
     'style="background:none;border:none;cursor:pointer;font-family:\'Inter\',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;"'
   );
-
-  // Gallery filter buttons (only in gallery page)
   if (isGallery) {
     html = html.replace(
       /\.filter-btn \{\s*\n\s*padding: 8px 20px;/,
       '.filter-btn {\n      padding: 12px 20px;\n      min-height: 48px;'
     );
-    // Remove transition-all from filter-btn
     html = html.replace(
       /(\.filter-btn \{[^}]*?)transition: all 0\.2s;/,
       '$1transition: background-color 0.2s, color 0.2s, border-color 0.2s;'
@@ -136,13 +152,10 @@ function applyFixes(html, filePath) {
   }
 
   // ===== FIX 5: Color contrast =====
-  // Footer copyright text: 0.4 -> 0.7
   html = html.replace(
     /font-size:13px;color:rgba\(250,240,230,0\.4\)/g,
     'font-size:13px;color:rgba(250,240,230,0.7)'
   );
-
-  // Footer border divider: 0.4 -> 0.5
   html = html.replace(
     /border-top:1px solid rgba\(250,240,230,0\.4\)/g,
     'border-top:1px solid rgba(250,240,230,0.5)'
@@ -152,25 +165,23 @@ function applyFixes(html, filePath) {
     'border: 1.5px solid rgba(250,240,230,0.5)'
   );
 
-  // ===== FIX 6: Responsive images (srcset, sizes, loading, width/height) =====
+  // ===== PRIORITY 1 & 2 & 4: Responsive images with LCP optimization =====
   // Process all <img> tags with local image references
   html = html.replace(
     /<img\s([^>]*?)src=["']((?:\.\.\/|\.\/|\/)?images\/([\w\s-]+)\.webp)["']([^>]*?)>/g,
     (match, before, fullSrc, baseName, after) => {
       const fileName = baseName + '.webp';
       const dims = MANIFEST[fileName];
-      if (!dims) return match; // skip unknown images
+      if (!dims) return match;
 
       const isHero = fileName.includes('-hero');
       const isAboutCrew = fileName === 'about-crew-photo.webp';
-
-      // Determine the path prefix from the original src
       const pathPrefix = fullSrc.replace(fileName, '');
 
       // Build srcset
       const srcset = `${pathPrefix}${baseName}-400.webp 400w, ${pathPrefix}${baseName}-800.webp 800w, ${pathPrefix}${baseName}-1600.webp 1600w`;
 
-      // Determine sizes based on context
+      // Determine sizes
       let sizes;
       if (isHero) {
         sizes = '100vw';
@@ -182,76 +193,90 @@ function applyFixes(html, filePath) {
         sizes = '(max-width: 768px) 100vw, 33vw';
       }
 
-      // Determine loading attribute
-      let loading = '';
-      if (!isHero) {
-        // Check if loading="lazy" already exists
-        if (!before.includes('loading=') && !after.includes('loading=')) {
-          loading = ' loading="lazy"';
-        }
-      }
-
       // For gallery, use 400w src for grid thumbnails
       let newSrc = fullSrc;
       if (isGallery && !isHero) {
         newSrc = `${pathPrefix}${baseName}-400.webp`;
       }
 
-      // Check if width/height already exist
+      // Width/height
       let widthHeight = '';
       const hasWidth = before.includes('width=') || after.includes('width=');
       const hasHeight = before.includes('height=') || after.includes('height=');
-
-      // For gallery thumbnails, use 400w dimensions
       let displayW, displayH;
       if (isGallery && !isHero) {
         const scaled = getScaledDims(fileName, 400);
         displayW = scaled ? scaled.width : dims.width;
         displayH = scaled ? scaled.height : dims.height;
       } else {
-        // Use 1600 as the reference size
         const scaled = getScaledDims(fileName, 1600);
         displayW = scaled ? scaled.width : dims.width;
         displayH = scaled ? scaled.height : dims.height;
       }
-
       if (!hasWidth) widthHeight += ` width="${displayW}"`;
       if (!hasHeight) widthHeight += ` height="${displayH}"`;
 
-      // Add data-full for gallery images (lightbox needs full size)
+      // data-full for gallery lightbox
       let dataFull = '';
       if (isGallery && !isHero) {
         dataFull = ` data-full="${pathPrefix}${baseName}-1600.webp"`;
       }
 
-      // Remove any existing srcset/sizes to avoid duplicates
-      let cleanBefore = before.replace(/\s*srcset="[^"]*"/g, '').replace(/\s*sizes="[^"]*"/g, '');
-      let cleanAfter = after.replace(/\s*srcset="[^"]*"/g, '').replace(/\s*sizes="[^"]*"/g, '');
+      // Clean existing srcset/sizes/loading/fetchpriority/decoding to rebuild fresh
+      let cleanBefore = before
+        .replace(/\s*srcset="[^"]*"/g, '')
+        .replace(/\s*sizes="[^"]*"/g, '')
+        .replace(/\s*loading="[^"]*"/g, '')
+        .replace(/\s*fetchpriority="[^"]*"/g, '')
+        .replace(/\s*decoding="[^"]*"/g, '');
+      let cleanAfter = after
+        .replace(/\s*srcset="[^"]*"/g, '')
+        .replace(/\s*sizes="[^"]*"/g, '')
+        .replace(/\s*loading="[^"]*"/g, '')
+        .replace(/\s*fetchpriority="[^"]*"/g, '')
+        .replace(/\s*decoding="[^"]*"/g, '');
 
-      return `<img ${cleanBefore}src="${newSrc}" srcset="${srcset}" sizes="${sizes}"${loading}${widthHeight}${dataFull}${cleanAfter}>`;
+      // Hero images: fetchpriority=high, loading=eager, decoding=async
+      // Non-hero images: loading=lazy
+      let loadingAttrs;
+      if (isHero) {
+        loadingAttrs = ' fetchpriority="high" loading="eager" decoding="async"';
+      } else {
+        loadingAttrs = ' loading="lazy"';
+      }
+
+      return `<img ${cleanBefore}src="${newSrc}" srcset="${srcset}" sizes="${sizes}"${loadingAttrs}${widthHeight}${dataFull}${cleanAfter}>`;
     }
   );
 
-  // ===== FIX 7: Hero image preload =====
-  // First remove any existing preload tags (for idempotency)
-  html = html.replace(/\s*<link rel="preload" as="image"[^>]*imagesrcset[^>]*>/g, '');
+  // ===== PRIORITY 2 continued: Add loading="lazy" to ALL non-local images that don't have it =====
+  // Match img tags that DON'T reference local /images/ (external URLs, brand_assets, etc.)
+  html = html.replace(
+    /<img\s([^>]*?)>/g,
+    (match, attrs) => {
+      // Skip if already has loading attribute
+      if (attrs.includes('loading=')) return match;
+      // Skip if has fetchpriority (it's a hero)
+      if (attrs.includes('fetchpriority=')) return match;
+      // Add loading="lazy"
+      return `<img ${attrs} loading="lazy">`;
+    }
+  );
+
+  // ===== PRIORITY 1a: Hero image preload with fetchpriority =====
+  // Remove any existing preload tags (for idempotency)
+  html = html.replace(/\s*<link rel="preload" as="image"[^>]*>/g, '');
 
   if (heroImageName) {
     const heroBase = heroImageName.replace('.webp', '');
-    const preloadTag = `\n  <link rel="preload" as="image" href="/images/${heroImageName}" imagesrcset="/images/${heroBase}-400.webp 400w, /images/${heroBase}-800.webp 800w, /images/${heroBase}-1600.webp 1600w" imagesizes="100vw">`;
+    // Place preload BEFORE any CSS/JS — right after <meta viewport>
+    const preloadTag = `\n  <link rel="preload" as="image" href="/images/${heroImageName}" fetchpriority="high" imagesrcset="/images/${heroBase}-400.webp 400w, /images/${heroBase}-800.webp 800w, /images/${heroBase}-1600.webp 1600w" imagesizes="100vw">`;
 
-    // Insert after <link rel="canonical"> or before <script src="tailwindcss">
-    if (html.includes('<link rel="canonical"')) {
-      html = html.replace(
-        /(<link rel="canonical"[^>]*>)/,
-        `$1${preloadTag}`
-      );
-    } else {
-      html = html.replace(
-        /(<script src="https:\/\/cdn\.tailwindcss\.com"><\/script>)/,
-        `${preloadTag}\n  $1`
-      );
-    }
+    // Insert right after the viewport meta tag (before any scripts or CSS)
+    html = html.replace(
+      /(<meta name="viewport"[^>]*>)/,
+      `$1${preloadTag}`
+    );
   }
 
   return html;
