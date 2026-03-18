@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&h=900&fit=crop&auto=format&q=60&fm=webp" fetchpriority="high">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -29,16 +28,32 @@
   <meta name="twitter:title" content="Tree Service Boise, ID | Boise Tree Pros" />
   <meta name="twitter:description" content="ISA-certified arborists serving Boise &amp; the Treasure Valley. Tree trimming, removal &amp; emergency service. Free estimates." />
   <meta name="twitter:image" content="https://boisetreepro.com/images/og-image.png" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/styles.css"></noscript>
+  <link rel="stylesheet" href="/styles.css">
   <style>
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+    @font-face {
+      font-family: 'Inter';
+      src: local('Segoe UI'), local('Arial');
+      font-style: normal;
+      font-weight: 300 700;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Zilla Slab';
+      src: local('Georgia'), local('Times New Roman');
+      font-style: normal;
+      font-weight: 400 700;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Zilla Slab';
+      src: local('Georgia'), local('Times New Roman');
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+    }
+    body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; color: #363636; background: #fff; margin: 0; }
 
     /* Noise texture overlay */
     .noise::after {
@@ -570,9 +585,16 @@
 <!-- ══════════════════════════════════
      3. HERO
 ══════════════════════════════════ -->
-<section class="noise relative" style="min-height:90vh;display:flex;align-items:center;overflow:hidden;background:#0F3010;contain:layout;">
+<section class="noise relative" style="min-height:90vh;min-height:90svh;display:flex;align-items:center;overflow:hidden;background:#0F3010;contain:layout;">
   <!-- Background image -->
-  <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&h=900&fit=crop&auto=format&q=60&fm=webp" alt="Lush green forest canopy in Boise Idaho" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;opacity:0.6;" fetchpriority="high" loading="eager" decoding="async" width="1600" height="900">
+  <picture style="position:absolute;inset:0;">
+    <source
+      type="image/avif"
+      srcset="/images/tree-trimming-boise-hero-400.avif 400w, /images/tree-trimming-boise-hero-800.avif 800w, /images/tree-trimming-boise-hero-1600.avif 1600w"
+      sizes="100vw"
+    >
+    <img src="/images/tree-trimming-boise-hero-800.webp" srcset="/images/tree-trimming-boise-hero-400.webp 400w, /images/tree-trimming-boise-hero-800.webp 800w, /images/tree-trimming-boise-hero-1600.webp 1600w" sizes="100vw" alt="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;opacity:0.6;" fetchpriority="high" loading="eager" decoding="async" width="1600" height="588">
+  </picture>
   <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none z-0"></div>
   <!-- Radial gradients -->
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 80% at 20% 50%, rgba(26,83,26,0.65) 0%, transparent 70%), radial-gradient(ellipse 60% 80% at 80% 20%, rgba(15,48,16,0.8) 0%, transparent 60%), linear-gradient(135deg, rgba(15,48,16,0.9) 0%, rgba(26,83,26,0.5) 60%, rgba(15,48,16,0.7) 100%);pointer-events:none;"></div>
@@ -818,17 +840,38 @@
         <div style="display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:1fr 1fr;gap:6px;">
           <!-- Large image spanning 2 rows on left -->
           <div style="grid-row:span 2;border-radius:8px;overflow:hidden;position:relative;">
-            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=420&h=500&fit=crop&auto=format&q=60&fm=webp" alt="Healthy fruit tree" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
+            <picture>
+              <source
+                type="image/avif"
+                srcset="/images/Tree pruing-400.avif 400w, /images/Tree pruing-800.avif 800w, /images/Tree pruing-1600.avif 1600w"
+                sizes="(max-width: 768px) 100vw, 420px"
+              >
+              <img src="/images/Tree pruing-400.webp" srcset="/images/Tree pruing-400.webp 400w, /images/Tree pruing-800.webp 800w, /images/Tree pruing-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 420px" alt="Fruit tree pruning by a Boise arborist" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy" width="2400" height="1792">
+            </picture>
             <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.25) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
           </div>
           <!-- Top right -->
           <div style="border-radius:8px;overflow:hidden;position:relative;">
-            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=320&h=245&fit=crop&auto=format&q=60&fm=webp" alt="Tree canopy care" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
+            <picture>
+              <source
+                type="image/avif"
+                srcset="/images/Canopy Trimming ready-400.avif 400w, /images/Canopy Trimming ready-800.avif 800w, /images/Canopy Trimming ready-1600.avif 1600w"
+                sizes="(max-width: 768px) 100vw, 320px"
+              >
+              <img src="/images/Canopy Trimming ready-400.webp" srcset="/images/Canopy Trimming ready-400.webp 400w, /images/Canopy Trimming ready-800.webp 800w, /images/Canopy Trimming ready-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 320px" alt="High canopy trimming over a Boise residential street" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy" width="3424" height="1248">
+            </picture>
             <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.2) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
           </div>
           <!-- Bottom right -->
           <div style="border-radius:8px;overflow:hidden;position:relative;">
-            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=320&h=245&fit=crop&auto=format&q=60&fm=webp" alt="Tree bark close-up" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy">
+            <picture>
+              <source
+                type="image/avif"
+                srcset="/images/Crew-With-Truck-400.avif 400w, /images/Crew-With-Truck-800.avif 800w, /images/Crew-With-Truck-1600.avif 1600w"
+                sizes="(max-width: 768px) 100vw, 320px"
+              >
+              <img src="/images/Crew-With-Truck-400.webp" srcset="/images/Crew-With-Truck-400.webp 400w, /images/Crew-With-Truck-800.webp 800w, /images/Crew-With-Truck-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 320px" alt="Boise Tree Pros crew with work truck" style="width:100%;height:100%;display:block;object-fit:cover;" loading="lazy" width="2400" height="1792">
+            </picture>
             <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,83,26,0.2) 0%, transparent 40%);mix-blend-mode:multiply;pointer-events:none;"></div>
           </div>
         </div>
@@ -1180,7 +1223,14 @@
 ══════════════════════════════════ -->
 <section id="contact" style="padding:88px 24px;position:relative;overflow:hidden;">
   <!-- Background image -->
-  <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1600&h=900&fit=crop&auto=format&q=60&fm=webp" alt="Sunlight filtering through tree branches" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" loading="lazy">
+  <picture style="position:absolute;inset:0;">
+    <source
+      type="image/avif"
+      srcset="/images/tree-trimming-boise-hero-400.avif 400w, /images/tree-trimming-boise-hero-800.avif 800w, /images/tree-trimming-boise-hero-1600.avif 1600w"
+      sizes="100vw"
+    >
+    <img src="/images/tree-trimming-boise-hero-400.webp" srcset="/images/tree-trimming-boise-hero-400.webp 400w, /images/tree-trimming-boise-hero-800.webp 800w, /images/tree-trimming-boise-hero-1600.webp 1600w" sizes="100vw" alt="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" loading="lazy" width="1600" height="588">
+  </picture>
   <!-- Dark overlay -->
   <div style="position:absolute;inset:0;background:linear-gradient(135deg, rgba(15,48,16,0.92) 0%, rgba(26,83,26,0.88) 50%, rgba(15,48,16,0.92) 100%);pointer-events:none;"></div>
   <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:rgba(42,107,42,0.2);pointer-events:none;"></div>
@@ -1368,19 +1418,51 @@
   document.getElementById('review-track').addEventListener('mouseleave', resetTimer);
 </script>
 <!-- Analytics -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-X3CW5HT1Z5');
-</script>
-<script>
-  (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-  })(window, document, "clarity", "script", "vxfansa76s");
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
 </script>
 </body>
 </html>

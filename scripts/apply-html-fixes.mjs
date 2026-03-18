@@ -53,20 +53,52 @@ function getScaledDims(fileName, targetW) {
   return { width: targetW, height: Math.round(m.height * ratio) };
 }
 
-// Analytics script blocks to extract and move
-const GTM_ASYNC_TAG = `<script defer src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>`;
-const GTM_CONFIG = `<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-X3CW5HT1Z5');
-</script>`;
-const CLARITY_SCRIPT = `<script>
-  (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-  })(window, document, "clarity", "script", "vxfansa76s");
+// Analytics loader injected near the end of the document.
+const ANALYTICS_LOADER = `<script>
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
 </script>`;
 
 function applyFixes(html, filePath) {
@@ -101,7 +133,7 @@ function applyFixes(html, filePath) {
   html = html.replace(/\s*<!-- Analytics -->\s*/g, '');
 
   // Insert analytics once, just before </body>
-  const analyticsBlock = `\n<!-- Analytics -->\n${GTM_ASYNC_TAG}\n${GTM_CONFIG}\n${CLARITY_SCRIPT}\n`;
+  const analyticsBlock = `\n<!-- Analytics -->\n${ANALYTICS_LOADER}\n`;
   html = html.replace('</body>', `${analyticsBlock}</body>`);
 
   // Clean up any empty lines left behind
@@ -136,10 +168,16 @@ function applyFixes(html, filePath) {
   // Remove inline tailwind.config script block
   html = html.replace(/<script>\s*\n\s*tailwind\.config(?:[^<]|<(?!\/script>))*<\/script>\s*/g, '');
 
-  // Add static CSS with async preload pattern (if not already present)
+  // Replace async stylesheet pattern with a regular stylesheet link to avoid FOUC/CLS.
+  html = html.replace(
+    /\s*<link rel="preload" href="\/styles\.css" as="style" onload="this\.onload=null;this\.rel='stylesheet'">\s*\n\s*<noscript><link rel="stylesheet" href="\/styles\.css"><\/noscript>\s*/g,
+    '\n  <link rel="stylesheet" href="/styles.css">\n'
+  );
+
+  // Add static CSS with a regular stylesheet link (if not already present)
   if (!html.includes('/styles.css')) {
     // Insert after the preconnect/fonts block or after viewport meta
-    const cssTag = `  <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">\n  <noscript><link rel="stylesheet" href="/styles.css"></noscript>\n`;
+    const cssTag = `  <link rel="stylesheet" href="/styles.css">\n`;
 
     if (html.includes('fonts.gstatic.com')) {
       // Insert after the Google Fonts line

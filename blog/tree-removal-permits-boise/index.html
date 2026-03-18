@@ -132,9 +132,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="preload" href="/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/styles.css"></noscript>
-  <style>
+  <link rel="stylesheet" href="/styles.css">
+<style>
     body { font-family: 'Inter', system-ui, sans-serif; color: #363636; background: #FAF0E6; }
     h1,h2,h3,h4 { font-family: 'Zilla Slab', Georgia, serif; }
 
@@ -732,19 +731,51 @@
     }
   </style>
 <!-- Analytics -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-X3CW5HT1Z5');
-</script>
-<script>
-  (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-  })(window, document, "clarity", "script", "vxfansa76s");
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
 </script>
 </body>
 </html>
