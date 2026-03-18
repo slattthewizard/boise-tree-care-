@@ -7,23 +7,28 @@
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X3CW5HT1Z5');
+    window.addEventListener('load', function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X3CW5HT1Z5');
+    });
   </script>
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vxfansa76s");
+    window.addEventListener('load', function() {
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "vxfansa76s");
+    });
   </script>
 
   <title>Tree Service Nampa, ID | ISA-Certified Arborists | Boise Tree Pros</title>
   <meta name="description" content="Tree service in Nampa, ID by ISA-certified arborists. Residential and agricultural tree care. Trimming, removal, stump grinding, emergency. Free estimates." />
   <link rel="canonical" href="https://boisetreepro.com/tree-service-nampa/" />
+  <link rel="preload" as="image" href="/images/tree-service-nampa-hero.webp" imagesrcset="/images/tree-service-nampa-hero-400.webp 400w, /images/tree-service-nampa-hero-800.webp 800w, /images/tree-service-nampa-hero-1600.webp 1600w" imagesizes="100vw">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -75,7 +80,7 @@
     .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
     .nav-link:hover { color: #1A531A; }
     .nav-link:hover::after { transform: scaleX(1); }
-    .dropdown-link { display: block; padding: 10px 18px; font-size: 14px; color: #363636; text-decoration: none; transition: background 0.15s; }
+    .dropdown-link { display: flex; align-items: center; padding: 10px 18px; min-height: 48px; font-size: 14px; color: #363636; text-decoration: none; transition: background-color 0.2s, color 0.2s, opacity 0.2s; outline: none; }
     .dropdown-link:hover { background: #f5f0eb; color: #1A531A; }
     .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
     .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
@@ -278,6 +283,11 @@
           <a href="/blog/stump-grinding-boise/" class="dropdown-link">Stump Grinding Boise</a>
           <a href="/blog/tree-health-assessment-boise/" class="dropdown-link">Tree Health Assessment</a>
           <a href="/blog/tree-cabling-bracing-boise/" class="dropdown-link">Tree Cabling &amp; Bracing</a>
+          <a href="/blog/arborist-cost-boise/" class="dropdown-link">Arborist Cost Boise</a>
+          <a href="/blog/best-trees-to-plant-boise/" class="dropdown-link">Best Trees to Plant</a>
+          <a href="/blog/fruit-tree-pruning-boise/" class="dropdown-link">Fruit Tree Pruning</a>
+          <a href="/blog/how-to-hire-tree-service-boise/" class="dropdown-link">How to Hire Tree Service</a>
+          <a href="/blog/tree-removal-permits-boise/" class="dropdown-link">Tree Removal Permits</a>
         </div>
       </div>
       <!-- Service Areas dropdown -->
@@ -289,7 +299,7 @@
           <a href="/tree-service-meridian/" class="dropdown-link">Meridian</a>
           <a href="/tree-service-eagle/" class="dropdown-link">Eagle</a>
           <a href="/tree-service-garden-city/" class="dropdown-link">Garden City</a>
-          <a href="/tree-service-nampa/" class="dropdown-link" style="color:#1A531A; font-weight:600;">Nampa</a>
+          <a href="/tree-service-nampa/" class="dropdown-link">Nampa</a>
           <a href="/tree-service-caldwell/" class="dropdown-link">Caldwell</a>
         </div>
       </div>
@@ -297,7 +307,7 @@
     <div class="hidden md:flex items-center gap-3">
       <a href="/#contact" class="btn-primary" style="padding:10px 22px;font-size:13px;">Free Estimate</a>
     </div>
-    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-2 text-charcoal hover:text-forest transition-colors">
+    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-3 min-w-[48px] min-h-[48px] text-charcoal hover:text-forest transition-colors">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
   </div>
@@ -310,10 +320,15 @@
     <a href="/blog/stump-grinding-boise/" class="dropdown-link">Stump Grinding Boise</a>
     <a href="/blog/tree-health-assessment-boise/" class="dropdown-link">Tree Health Assessment</a>
     <a href="/blog/tree-cabling-bracing-boise/" class="dropdown-link">Tree Cabling &amp; Bracing</a>
+    <a href="/blog/arborist-cost-boise/" class="dropdown-link">Arborist Cost Boise</a>
+    <a href="/blog/best-trees-to-plant-boise/" class="dropdown-link">Best Trees to Plant</a>
+    <a href="/blog/fruit-tree-pruning-boise/" class="dropdown-link">Fruit Tree Pruning</a>
+    <a href="/blog/how-to-hire-tree-service-boise/" class="dropdown-link">How to Hire Tree Service</a>
+    <a href="/blog/tree-removal-permits-boise/" class="dropdown-link">Tree Removal Permits</a>
     <a href="/tree-service-meridian/" class="dropdown-link">Meridian</a>
     <a href="/tree-service-eagle/" class="dropdown-link">Eagle</a>
     <a href="/tree-service-garden-city/" class="dropdown-link">Garden City</a>
-    <a href="/tree-service-nampa/" class="dropdown-link" style="color:#1A531A; font-weight:600;">Nampa</a>
+    <a href="/tree-service-nampa/" class="dropdown-link">Nampa</a>
     <a href="/tree-service-caldwell/" class="dropdown-link">Caldwell</a>
     <a href="/gallery/" class="dropdown-link">Gallery</a>
     <a href="/#contact" class="btn-primary" style="display:block; text-align:center; margin-top:12px;">Free Estimate</a>
@@ -338,7 +353,7 @@
 ══════════════════════════════════ -->
 <section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
   <div style="position:absolute;inset:0;opacity:0.15;">
-    <img src="/images/tree-service-nampa-hero.webp" alt="Professional stump grinding service in a Nampa Idaho residential neighborhood" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
+    <img src="/images/tree-service-nampa-hero.webp" srcset="/images/tree-service-nampa-hero-400.webp 400w, /images/tree-service-nampa-hero-800.webp 800w, /images/tree-service-nampa-hero-1600.webp 1600w" sizes="100vw" alt="Professional stump grinding service in a Nampa Idaho residential neighborhood" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
   </div>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
     <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">ISA Certified Arborists</span>
@@ -727,7 +742,7 @@
         </ul>
       </div>
     </div>
-    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.4);">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.7);">
       <span>&copy; 2026 Boise Tree Pros. All rights reserved. Licensed &amp; Insured in Idaho.</span>
       <div style="display:flex;gap:20px;">
         <a href="/privacy/" style="color:rgba(250,240,230,0.4);text-decoration:none;">Privacy Policy</a>

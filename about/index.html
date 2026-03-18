@@ -7,18 +7,22 @@
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X3CW5HT1Z5');
+    window.addEventListener('load', function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X3CW5HT1Z5');
+    });
   </script>
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vxfansa76s");
+    window.addEventListener('load', function() {
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "vxfansa76s");
+    });
   </script>
 
   <title>About Boise Tree Pros | ISA-Certified Arborists in Boise, Idaho</title>
@@ -124,7 +128,7 @@
       <a href="/#reviews" class="nav-link">Reviews</a>
       <a href="/#contact" class="nav-link">Contact</a>
       <div class="relative" style="position:relative;">
-        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:0;">
+        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
           Blogs
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
@@ -135,10 +139,15 @@
           <a href="/blog/stump-grinding-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Stump Grinding Boise</a>
           <a href="/blog/tree-health-assessment-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Health Assessment</a>
           <a href="/blog/tree-cabling-bracing-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Cabling &amp; Bracing</a>
+          <a href="/blog/arborist-cost-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Arborist Cost Boise</a>
+          <a href="/blog/best-trees-to-plant-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Best Trees to Plant</a>
+          <a href="/blog/fruit-tree-pruning-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Fruit Tree Pruning</a>
+          <a href="/blog/how-to-hire-tree-service-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">How to Hire Tree Service</a>
+          <a href="/blog/tree-removal-permits-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Removal Permits</a>
         </div>
       </div>
       <div class="relative" style="position:relative;">
-          <button onclick="this.parentElement.classList.toggle('areas-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:0;">
+          <button onclick="this.parentElement.classList.toggle('areas-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
             Service Areas
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
@@ -154,7 +163,7 @@
     <div class="hidden md:flex items-center gap-3">
       <a href="/#contact" class="btn-primary" style="padding:10px 22px;font-size:13px;">Free Estimate</a>
     </div>
-    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-2 text-charcoal hover:text-forest transition-colors">
+    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-3 min-w-[48px] min-h-[48px] text-charcoal hover:text-forest transition-colors">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
   </div>
@@ -175,6 +184,11 @@
           <a href="/blog/tree-removal-boise/" class="nav-link text-sm">Tree Removal Boise</a>
           <a href="/blog/emergency-tree-service-boise/" class="nav-link text-sm">Emergency Tree Service</a>
           <a href="/blog/tree-cabling-bracing-boise/" class="nav-link text-sm">Tree Cabling &amp; Bracing</a>
+          <a href="/blog/arborist-cost-boise/" class="nav-link text-sm">Arborist Cost Boise</a>
+          <a href="/blog/best-trees-to-plant-boise/" class="nav-link text-sm">Best Trees to Plant</a>
+          <a href="/blog/fruit-tree-pruning-boise/" class="nav-link text-sm">Fruit Tree Pruning</a>
+          <a href="/blog/how-to-hire-tree-service-boise/" class="nav-link text-sm">How to Hire Tree Service</a>
+          <a href="/blog/tree-removal-permits-boise/" class="nav-link text-sm">Tree Removal Permits</a>
         </div>
       </div>
       <div>
@@ -235,7 +249,7 @@
         <p style="font-size:15px;line-height:1.8;color:#555;">We've never taken shortcuts. Every cut we make is informed by arboricultural science, every estimate is honest, and every job site is left cleaner than we found it.</p>
       </div>
       <div style="background:#FAF0E6;border-radius:16px;overflow:hidden;aspect-ratio:4/3;position:relative;">
-        <img src="/images/about-crew-photo.webp" alt="Boise Tree Pros arborist crew in safety gear standing with company truck" style="width:100%;height:100%;object-fit:cover;">
+        <img src="/images/about-crew-photo.webp" srcset="/images/about-crew-photo-400.webp 400w, /images/about-crew-photo-800.webp 800w, /images/about-crew-photo-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 50vw" loading="lazy" width="1600" height="893" alt="Boise Tree Pros arborist crew in safety gear standing with company truck" style="width:100%;height:100%;object-fit:cover;">
         <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(15,48,16,0.3), transparent);mix-blend-mode:multiply;"></div>
       </div>
     </div>
@@ -418,10 +432,10 @@
         </a>
         <p style="font-size:14px;line-height:1.7;color:rgba(250,240,230,0.6);margin-bottom:20px;">ISA-certified arborists serving Boise &amp; the Treasure Valley since 2008.</p>
         <div style="display:flex;gap:10px;">
-          <a href="#" aria-label="Facebook" style="width:34px;height:34px;border:1px solid rgba(250,240,230,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
+          <a href="#" aria-label="Facebook" style="width:48px;height:48px;border:1px solid rgba(250,240,230,0.35);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
           </a>
-          <a href="#" aria-label="Instagram" style="width:34px;height:34px;border:1px solid rgba(250,240,230,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
+          <a href="#" aria-label="Instagram" style="width:48px;height:48px;border:1px solid rgba(250,240,230,0.35);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
           </a>
         </div>
@@ -429,7 +443,7 @@
 
       <!-- Col 2: Services -->
       <div>
-        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Services</h4>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Services</p>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
           <li><a href="/blog/tree-trimming-boise/" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">Tree Trimming</a></li>
           <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">Tree Removal</a></li>
@@ -452,7 +466,7 @@
 
       <!-- Col 3: Company -->
       <div>
-        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Company</h4>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Company</p>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
           <li><a href="/about/" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">About Us</a></li>
           <li><a href="/#gallery" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">Project Gallery</a></li>
@@ -463,7 +477,7 @@
 
       <!-- Col 4: Contact -->
       <div>
-        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Contact</h4>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Contact</p>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
           <li style="display:flex;align-items:flex-start;gap:10px;">
             <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -483,7 +497,7 @@
     </div>
 
     <!-- Bottom bar -->
-    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.4);">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.7);">
       <span>&copy; 2026 Boise Tree Pros. All rights reserved. Licensed &amp; Insured in Idaho.</span>
       <div style="display:flex;gap:20px;">
         <a href="/privacy/" style="color:rgba(250,240,230,0.4);text-decoration:none;transition:color 0.2s;">Privacy Policy</a>

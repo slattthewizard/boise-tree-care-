@@ -7,18 +7,22 @@
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3CW5HT1Z5"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X3CW5HT1Z5');
+    window.addEventListener('load', function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X3CW5HT1Z5');
+    });
   </script>
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "vxfansa76s");
+    window.addEventListener('load', function() {
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "vxfansa76s");
+    });
   </script>
 
   <title>Project Gallery | Boise Tree Pros — Tree Care in Boise, Idaho</title>
@@ -201,7 +205,8 @@
 
     /* Filter buttons */
     .filter-btn {
-      padding: 8px 20px;
+      padding: 12px 20px;
+      min-height: 48px;
       font-size: 13px;
       font-weight: 500;
       letter-spacing: 0.04em;
@@ -210,7 +215,7 @@
       background: #fff;
       color: #666;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s;
       font-family: 'Inter', sans-serif;
     }
     .filter-btn:hover { border-color: #1A531A; color: #1A531A; }
@@ -260,7 +265,7 @@
       <a href="/#reviews" class="nav-link">Reviews</a>
       <a href="/#contact" class="nav-link">Contact</a>
       <div class="relative" style="position:relative;">
-        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:0;">
+        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
           Blogs
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
@@ -271,10 +276,15 @@
           <a href="/blog/stump-grinding-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Stump Grinding Boise</a>
           <a href="/blog/tree-health-assessment-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Health Assessment</a>
           <a href="/blog/tree-cabling-bracing-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Cabling &amp; Bracing</a>
+          <a href="/blog/arborist-cost-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Arborist Cost Boise</a>
+          <a href="/blog/best-trees-to-plant-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Best Trees to Plant</a>
+          <a href="/blog/fruit-tree-pruning-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Fruit Tree Pruning</a>
+          <a href="/blog/how-to-hire-tree-service-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">How to Hire Tree Service</a>
+          <a href="/blog/tree-removal-permits-boise/" style="display:block;padding:10px 18px;font-size:14px;color:#363636;text-decoration:none;transition:background 0.15s;">Tree Removal Permits</a>
         </div>
       </div>
       <div class="relative" style="position:relative;">
-          <button onclick="this.parentElement.classList.toggle('areas-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:0;">
+          <button onclick="this.parentElement.classList.toggle('areas-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
             Service Areas
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
@@ -290,7 +300,7 @@
     <div class="hidden md:flex items-center gap-3">
       <a href="/#contact" class="btn-primary" style="padding:10px 22px;font-size:13px;">Free Estimate</a>
     </div>
-    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-2 text-charcoal hover:text-forest transition-colors">
+    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-3 min-w-[48px] min-h-[48px] text-charcoal hover:text-forest transition-colors">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     </button>
   </div>
@@ -311,6 +321,11 @@
           <a href="/blog/tree-removal-boise/" class="nav-link text-sm">Tree Removal Boise</a>
           <a href="/blog/emergency-tree-service-boise/" class="nav-link text-sm">Emergency Tree Service</a>
           <a href="/blog/tree-cabling-bracing-boise/" class="nav-link text-sm">Tree Cabling &amp; Bracing</a>
+          <a href="/blog/arborist-cost-boise/" class="nav-link text-sm">Arborist Cost Boise</a>
+          <a href="/blog/best-trees-to-plant-boise/" class="nav-link text-sm">Best Trees to Plant</a>
+          <a href="/blog/fruit-tree-pruning-boise/" class="nav-link text-sm">Fruit Tree Pruning</a>
+          <a href="/blog/how-to-hire-tree-service-boise/" class="nav-link text-sm">How to Hire Tree Service</a>
+          <a href="/blog/tree-removal-permits-boise/" class="nav-link text-sm">Tree Removal Permits</a>
         </div>
       </div>
       <div>
@@ -372,87 +387,87 @@
     <div class="gallery-grid" id="gallery-grid">
 
       <div class="gallery-card" data-category="trimming" onclick="openLightbox(0)">
-        <img src="/images/Tree Trimming Project.webp" alt="Professional arborist trimming a mature elm tree in a Boise Idaho neighborhood" loading="lazy">
+        <img src="/images/Tree Trimming Project-400.webp" srcset="/images/Tree Trimming Project-400.webp 400w, /images/Tree Trimming Project-800.webp 800w, /images/Tree Trimming Project-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="615" data-full="/images/Tree Trimming Project-1600.webp" alt="Professional arborist trimming a mature elm tree in a Boise Idaho neighborhood" loading="lazy">
         <div class="card-overlay"><span>Tree Trimming — Boise Neighborhood</span></div>
       </div>
 
       <div class="gallery-card" data-category="trimming" onclick="openLightbox(1)">
-        <img src="/images/Tree pruing.webp" alt="Close-up of arborist pruning a fruit tree branch with bypass shears" loading="lazy">
+        <img src="/images/Tree pruing-400.webp" srcset="/images/Tree pruing-400.webp 400w, /images/Tree pruing-800.webp 800w, /images/Tree pruing-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Tree pruing-1600.webp" alt="Close-up of arborist pruning a fruit tree branch with bypass shears" loading="lazy">
         <div class="card-overlay"><span>Precision Pruning — Fruit Tree</span></div>
       </div>
 
       <div class="gallery-card" data-category="removal" onclick="openLightbox(2)">
-        <img src="/images/Tree Removal.webp" alt="Arborist crew using a crane to remove a dead pine tree in a Boise front yard" loading="lazy">
+        <img src="/images/Tree Removal-400.webp" srcset="/images/Tree Removal-400.webp 400w, /images/Tree Removal-800.webp 800w, /images/Tree Removal-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Tree Removal-1600.webp" alt="Arborist crew using a crane to remove a dead pine tree in a Boise front yard" loading="lazy">
         <div class="card-overlay"><span>Dead Pine Removal — Boise</span></div>
       </div>
 
       <div class="gallery-card" data-category="stump" onclick="openLightbox(3)">
-        <img src="/images/Stump Grinding.webp" alt="Stump grinder machine grinding down a tree stump in a residential yard" loading="lazy">
+        <img src="/images/Stump Grinding-400.webp" srcset="/images/Stump Grinding-400.webp 400w, /images/Stump Grinding-800.webp 800w, /images/Stump Grinding-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Stump Grinding-1600.webp" alt="Stump grinder machine grinding down a tree stump in a residential yard" loading="lazy">
         <div class="card-overlay"><span>Stump Grinding — Residential Yard</span></div>
       </div>
 
       <div class="gallery-card" data-category="planting" onclick="openLightbox(4)">
-        <img src="/images/Tree Planting.webp" alt="Two arborists planting a young maple tree in a Boise Idaho front yard" loading="lazy">
+        <img src="/images/Tree Planting-400.webp" srcset="/images/Tree Planting-400.webp 400w, /images/Tree Planting-800.webp 800w, /images/Tree Planting-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Tree Planting-1600.webp" alt="Two arborists planting a young maple tree in a Boise Idaho front yard" loading="lazy">
         <div class="card-overlay"><span>Maple Planting — Boise Front Yard</span></div>
       </div>
 
       <div class="gallery-card" data-category="clearing" onclick="openLightbox(5)">
-        <img src="/images/Lot Clearing.webp" alt="Cleared residential lot after tree and brush removal in Boise Idaho" loading="lazy">
+        <img src="/images/Lot Clearing-400.webp" srcset="/images/Lot Clearing-400.webp 400w, /images/Lot Clearing-800.webp 800w, /images/Lot Clearing-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Lot Clearing-1600.webp" alt="Cleared residential lot after tree and brush removal in Boise Idaho" loading="lazy">
         <div class="card-overlay"><span>Lot Clearing — Residential</span></div>
       </div>
 
       <div class="gallery-card" data-category="trimming" onclick="openLightbox(6)">
-        <img src="/images/Canopy Trimming ready.webp" alt="Bucket truck with arborist trimming high tree canopy over a Boise residential street" loading="lazy">
+        <img src="/images/Canopy Trimming ready-400.webp" srcset="/images/Canopy Trimming ready-400.webp 400w, /images/Canopy Trimming ready-800.webp 800w, /images/Canopy Trimming ready-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="146" data-full="/images/Canopy Trimming ready-1600.webp" alt="Bucket truck with arborist trimming high tree canopy over a Boise residential street" loading="lazy">
         <div class="card-overlay"><span>Canopy Trimming — Bucket Truck</span></div>
       </div>
 
       <div class="gallery-card" data-category="trimming" onclick="openLightbox(7)">
-        <img src="/images/Backyard-Tree-Trimming.webp" alt="Arborist climbing ladder to trim a large backyard tree in Boise Idaho" loading="lazy">
+        <img src="/images/Backyard-Tree-Trimming-400.webp" srcset="/images/Backyard-Tree-Trimming-400.webp 400w, /images/Backyard-Tree-Trimming-800.webp 800w, /images/Backyard-Tree-Trimming-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Backyard-Tree-Trimming-1600.webp" alt="Arborist climbing ladder to trim a large backyard tree in Boise Idaho" loading="lazy">
         <div class="card-overlay"><span>Backyard Tree Trimming — Boise</span></div>
       </div>
 
       <div class="gallery-card" data-category="trimming" onclick="openLightbox(8)">
-        <img src="/images/Arborist-Climbing-Trim.webp" alt="Arborist high in tree canopy with climbing ropes and safety gear near Boise foothills" loading="lazy">
+        <img src="/images/Arborist-Climbing-Trim-400.webp" srcset="/images/Arborist-Climbing-Trim-400.webp 400w, /images/Arborist-Climbing-Trim-800.webp 800w, /images/Arborist-Climbing-Trim-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="536" data-full="/images/Arborist-Climbing-Trim-1600.webp" alt="Arborist high in tree canopy with climbing ropes and safety gear near Boise foothills" loading="lazy">
         <div class="card-overlay"><span>Arborist Climbing — Foothills Job</span></div>
       </div>
 
       <div class="gallery-card" data-category="trimming" onclick="openLightbox(9)">
-        <img src="/images/Shaped-Tree-Branch-Cleanup.webp" alt="Neatly shaped ornamental tree with branch pile after trimming on Boise neighborhood street" loading="lazy">
+        <img src="/images/Shaped-Tree-Branch-Cleanup-400.webp" srcset="/images/Shaped-Tree-Branch-Cleanup-400.webp 400w, /images/Shaped-Tree-Branch-Cleanup-800.webp 800w, /images/Shaped-Tree-Branch-Cleanup-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="400" data-full="/images/Shaped-Tree-Branch-Cleanup-1600.webp" alt="Neatly shaped ornamental tree with branch pile after trimming on Boise neighborhood street" loading="lazy">
         <div class="card-overlay"><span>Tree Shaping — Neighborhood Street</span></div>
       </div>
 
       <div class="gallery-card" data-category="removal" onclick="openLightbox(10)">
-        <img src="/images/Dead-Tree-Removal-Powerlines.webp" alt="Crew removing a dead tree near power lines in a Boise backyard using ropes" loading="lazy">
+        <img src="/images/Dead-Tree-Removal-Powerlines-400.webp" srcset="/images/Dead-Tree-Removal-Powerlines-400.webp 400w, /images/Dead-Tree-Removal-Powerlines-800.webp 800w, /images/Dead-Tree-Removal-Powerlines-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="536" data-full="/images/Dead-Tree-Removal-Powerlines-1600.webp" alt="Crew removing a dead tree near power lines in a Boise backyard using ropes" loading="lazy">
         <div class="card-overlay"><span>Dead Tree Removal — Near Power Lines</span></div>
       </div>
 
       <div class="gallery-card" data-category="removal" onclick="openLightbox(11)">
-        <img src="/images/Stump-And-Log-Hauling.webp" alt="Large tree stump with chainsaw and flatbed truck loaded with logs at Boise residential job" loading="lazy">
+        <img src="/images/Stump-And-Log-Hauling-400.webp" srcset="/images/Stump-And-Log-Hauling-400.webp 400w, /images/Stump-And-Log-Hauling-800.webp 800w, /images/Stump-And-Log-Hauling-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Stump-And-Log-Hauling-1600.webp" alt="Large tree stump with chainsaw and flatbed truck loaded with logs at Boise residential job" loading="lazy">
         <div class="card-overlay"><span>Stump & Log Hauling — Residential</span></div>
       </div>
 
       <div class="gallery-card" data-category="removal" onclick="openLightbox(12)">
-        <img src="/images/Aerial-Tree-Cutting.webp" alt="Arborist cutting tree from height with aerial view of Boise neighborhood below" loading="lazy">
+        <img src="/images/Aerial-Tree-Cutting-400.webp" srcset="/images/Aerial-Tree-Cutting-400.webp 400w, /images/Aerial-Tree-Cutting-800.webp 800w, /images/Aerial-Tree-Cutting-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="400" data-full="/images/Aerial-Tree-Cutting-1600.webp" alt="Arborist cutting tree from height with aerial view of Boise neighborhood below" loading="lazy">
         <div class="card-overlay"><span>Aerial Tree Cutting — Boise</span></div>
       </div>
 
       <div class="gallery-card" data-category="removal" onclick="openLightbox(13)">
-        <img src="/images/Before-After-Backyard-Cleanup.webp" alt="Before and after photo of backyard tree cleanup and yard transformation in Boise" loading="lazy">
+        <img src="/images/Before-After-Backyard-Cleanup-400.webp" srcset="/images/Before-After-Backyard-Cleanup-400.webp 400w, /images/Before-After-Backyard-Cleanup-800.webp 800w, /images/Before-After-Backyard-Cleanup-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="198" data-full="/images/Before-After-Backyard-Cleanup-1600.webp" alt="Before and after photo of backyard tree cleanup and yard transformation in Boise" loading="lazy">
         <div class="card-overlay"><span>Before & After — Backyard Cleanup</span></div>
       </div>
 
       <div class="gallery-card" data-category="removal" onclick="openLightbox(14)">
-        <img src="/images/Before-After-Dead-Tree-Removal.webp" alt="Before and after photo of dead tree removal at a Boise home with mountain backdrop" loading="lazy">
+        <img src="/images/Before-After-Dead-Tree-Removal-400.webp" srcset="/images/Before-After-Dead-Tree-Removal-400.webp 400w, /images/Before-After-Dead-Tree-Removal-800.webp 800w, /images/Before-After-Dead-Tree-Removal-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="198" data-full="/images/Before-After-Dead-Tree-Removal-1600.webp" alt="Before and after photo of dead tree removal at a Boise home with mountain backdrop" loading="lazy">
         <div class="card-overlay"><span>Before & After — Dead Tree Removal</span></div>
       </div>
 
       <div class="gallery-card" data-category="crew" onclick="openLightbox(15)">
-        <img src="/images/Crew-With-Truck.webp" alt="Boise Tree Pros crew of three standing in front of work truck and wood chipper" loading="lazy">
+        <img src="/images/Crew-With-Truck-400.webp" srcset="/images/Crew-With-Truck-400.webp 400w, /images/Crew-With-Truck-800.webp 800w, /images/Crew-With-Truck-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Crew-With-Truck-1600.webp" alt="Boise Tree Pros crew of three standing in front of work truck and wood chipper" loading="lazy">
         <div class="card-overlay"><span>Our Crew — Ready to Work</span></div>
       </div>
 
       <div class="gallery-card" data-category="crew" onclick="openLightbox(16)">
-        <img src="/images/Equipment-Closeup.webp" alt="Professional tree care equipment including Stihl chainsaws climbing ropes and safety helmet on truck bed" loading="lazy">
+        <img src="/images/Equipment-Closeup-400.webp" srcset="/images/Equipment-Closeup-400.webp 400w, /images/Equipment-Closeup-800.webp 800w, /images/Equipment-Closeup-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="400" data-full="/images/Equipment-Closeup-1600.webp" alt="Professional tree care equipment including Stihl chainsaws climbing ropes and safety helmet on truck bed" loading="lazy">
         <div class="card-overlay"><span>Our Equipment — Tools of the Trade</span></div>
       </div>
 
@@ -484,16 +499,16 @@
         </a>
         <p style="font-size:14px;line-height:1.7;color:rgba(250,240,230,0.6);margin-bottom:20px;">ISA-certified arborists serving Boise &amp; the Treasure Valley since 2008.</p>
         <div style="display:flex;gap:10px;">
-          <a href="#" aria-label="Facebook" style="width:34px;height:34px;border:1px solid rgba(250,240,230,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
+          <a href="#" aria-label="Facebook" style="width:48px;height:48px;border:1px solid rgba(250,240,230,0.35);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
           </a>
-          <a href="#" aria-label="Instagram" style="width:34px;height:34px;border:1px solid rgba(250,240,230,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
+          <a href="#" aria-label="Instagram" style="width:48px;height:48px;border:1px solid rgba(250,240,230,0.35);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background 0.2s,color 0.2s;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
           </a>
         </div>
       </div>
       <div>
-        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Services</h4>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Services</p>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
           <li><a href="/blog/tree-trimming-boise/" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">Tree Trimming</a></li>
           <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">Tree Removal</a></li>
@@ -513,7 +528,7 @@
           </ul>
         </div>
       <div>
-        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Company</h4>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Company</p>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
           <li><a href="/about/" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">About Us</a></li>
           <li><a href="/gallery/" style="font-size:14px;color:rgba(250,240,230,0.65);text-decoration:none;transition:color 0.2s;">Project Gallery</a></li>
@@ -522,7 +537,7 @@
         </ul>
       </div>
       <div>
-        <h4 style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Contact</h4>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Contact</p>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
           <li style="display:flex;align-items:flex-start;gap:10px;">
             <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -539,7 +554,7 @@
         </ul>
       </div>
     </div>
-    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.4);">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.7);">
       <span>&copy; 2026 Boise Tree Pros. All rights reserved. Licensed &amp; Insured in Idaho.</span>
       <div style="display:flex;gap:20px;">
         <a href="/privacy/" style="color:rgba(250,240,230,0.4);text-decoration:none;transition:color 0.2s;">Privacy Policy</a>
@@ -567,7 +582,7 @@
   galleryItems.forEach(card => {
     const img = card.querySelector('img');
     const caption = card.querySelector('.card-overlay span');
-    images.push({ src: img.src, alt: img.alt, caption: caption ? caption.textContent : '' });
+    images.push({ src: img.dataset.full || img.src, alt: img.alt, caption: caption ? caption.textContent : '' });
   });
 
   let currentIndex = 0;

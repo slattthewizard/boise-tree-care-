@@ -4,9 +4,12 @@
   "type": "module",
   "scripts": {
     "serve": "node serve.mjs",
-    "screenshot": "node screenshot.mjs"
+    "screenshot": "node screenshot.mjs",
+    "resize": "node scripts/resize-images.mjs",
+    "fix-html": "node scripts/apply-html-fixes.mjs"
   },
   "dependencies": {
-    "puppeteer": "^24.15.0"
+    "puppeteer": "^24.15.0",
+    "sharp": "^0.34.5"
   }
 }
