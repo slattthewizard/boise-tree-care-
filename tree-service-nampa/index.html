@@ -22,13 +22,13 @@
   </script>
 
   <title>Tree Service Nampa, ID | ISA-Certified Arborists | Boise Tree Pros</title>
-  <meta name="description" content="Professional tree service in Nampa, Idaho. Tree trimming, removal, stump grinding &amp; emergency service for residential and agricultural properties. ISA-certified. Free estimates." />
+  <meta name="description" content="Tree service in Nampa, ID by ISA-certified arborists. Residential and agricultural tree care. Trimming, removal, stump grinding, emergency. Free estimates." />
   <link rel="canonical" href="https://boisetreepro.com/tree-service-nampa/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tree Service Nampa, ID | ISA-Certified Arborists | Boise Tree Pros" />
-  <meta property="og:description" content="Professional tree service in Nampa, Idaho. Tree trimming, removal, stump grinding &amp; emergency service for residential and agricultural properties. ISA-certified. Free estimates." />
+  <meta property="og:description" content="Tree service in Nampa, ID by ISA-certified arborists. Residential and agricultural tree care. Trimming, removal, stump grinding, emergency. Free estimates." />
   <meta property="og:url" content="https://boisetreepro.com/tree-service-nampa/" />
   <meta property="og:site_name" content="Boise Tree Pros" />
   <meta property="og:locale" content="en_US" />
@@ -37,7 +37,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Tree Service Nampa, ID | ISA-Certified Arborists | Boise Tree Pros" />
-  <meta name="twitter:description" content="Professional tree service in Nampa, Idaho. Tree trimming, removal, stump grinding &amp; emergency service for residential and agricultural properties. ISA-certified. Free estimates." />
+  <meta name="twitter:description" content="Tree service in Nampa, ID by ISA-certified arborists. Residential and agricultural tree care. Trimming, removal, stump grinding, emergency. Free estimates." />
   <meta name="twitter:image" content="https://boisetreepro.com/images/og-image.png" />
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -112,6 +112,14 @@
     .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
     .toc a:hover { text-decoration: underline; }
 
+    /* FAQ styles */
+    .faq-item { border-bottom: 1px solid #e8ddd0; padding: 20px 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 18px; color: #1A531A; margin-bottom: 8px; cursor: default; }
+    .faq-answer { font-size: 16px; line-height: 1.8; color: #555; }
+    .faq-answer p { margin-bottom: 8px; }
+    .faq-answer p:last-child { margin-bottom: 0; }
+
     /* Responsive */
     @media (max-width: 768px) {
       .content-grid { grid-template-columns: 1fr !important; }
@@ -162,6 +170,64 @@
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://boisetreepro.com/" },
       { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://boisetreepro.com/" },
       { "@type": "ListItem", "position": 3, "name": "Nampa", "item": "https://boisetreepro.com/tree-service-nampa/" }
+    ]
+  }
+  </script>
+
+  <!-- FAQPage Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does tree removal cost in Nampa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tree removal in Nampa typically costs $300 to $800 for small trees, $800 to $2,500 for medium trees, and $2,500 to $5,000 or more for large trees. Final pricing depends on tree size, species, condition, location on the property, and access challenges. We provide free on-site estimates for all non-emergency work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you handle agricultural property tree work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We regularly handle tree work on agricultural and semi-agricultural properties throughout Nampa and Canyon County. This includes windbreak row maintenance and removal, orchard tree pruning, large-scale stump grinding, and multi-acre site clearing. Our crews have the equipment for agricultural-scale projects."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When should I prune my fruit trees in Nampa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best time to prune fruit trees in Nampa is late February through early March, while trees are still dormant but just before spring growth begins. This timing reduces disease risk, allows wounds to heal quickly as growth resumes, and lets you see the branch structure clearly without foliage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a travel charge for tree service in Nampa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Nampa is within our standard service area, and there is no additional travel charge or surcharge. Our crews work in Nampa on a weekly basis, and pricing is the same as our Boise rates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "My trees are near an irrigation canal. Are there restrictions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trees near irrigation canals managed by the Nampa and Meridian Irrigation District may be subject to easement regulations. The district may have authority over trees within canal easements that interfere with canal operation or maintenance access. Our arborists can help identify easement boundaries and coordinate with the irrigation district when necessary."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "I bought property with old neglected trees. Where should I start?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Start with a professional tree health assessment. An ISA-certified arborist will evaluate each tree on the property, identifying hazards, diseases, structural problems, and maintenance priorities. This gives you a clear plan for which trees need immediate attention, which can be improved with pruning and care, and which should be removed. We offer free on-site assessments in Nampa."
+        }
+      }
     ]
   }
   </script>
@@ -296,11 +362,15 @@
       <div class="article-content">
 
         <!-- Intro -->
-        <p>Nampa is the second-largest city in the Boise metropolitan area and the county seat of Canyon County, with a population of roughly 110,000 residents. Located about 20 miles west of downtown Boise, Nampa has a character that sets it apart from the rest of the Treasure Valley. It is a city where older established neighborhoods with towering mature trees sit alongside newer subdivisions carved from former agricultural land, and where working farms and rural acreages with windbreak rows still border the city limits. That mix of old and new, urban and agricultural, creates a diverse and demanding set of tree care needs that Boise Tree Pros is uniquely equipped to handle.</p>
+        <p>Nampa is the second-largest city in the Boise metropolitan area and the county seat of Canyon County. With approximately 110,000 residents and a location about 20 miles west of downtown Boise, Nampa occupies a unique position in the Treasure Valley. It is a city where decades-old residential streets shaded by towering elms and silver maples sit next to brand-new subdivisions built on land that was growing hay or corn just a few years ago. Working farms, rural acreages with windbreak rows, and canal-threaded neighborhoods all coexist within the city limits. That blend of old and new, urban and agricultural, creates tree care demands that are more varied and more complex than what most Treasure Valley tree companies are prepared to handle.</p>
 
-        <p>Our crews serve Nampa on a weekly basis. The drive from our Boise base takes approximately 20 minutes, putting us on-site quickly for both scheduled work and emergency calls. We understand Nampa's landscape because we work in it regularly: the mature elms lining the streets near downtown, the fruit orchards that homeowners inherited with their properties, the Lombardy poplars standing as windbreaks on agricultural parcels, and the cottonwoods crowding the banks of the irrigation canals that crisscross the city. Each of these situations requires different expertise, different equipment, and different approaches, and our ISA-certified arborists bring that knowledge to every job.</p>
+        <p>Our crews are in Nampa every week. We schedule Nampa jobs on a regular weekly rotation, so there is no travel surcharge, no "we'll get out there when we can" delays, and no unfamiliarity with the area. We know which neighborhoods have the biggest elms, where the irrigation canals create cottonwood problems, which subdivisions were built on former orchard land, and where the alkaline soil causes iron chlorosis in maples every summer. That kind of local knowledge comes from working in a community consistently, not from visiting it once a month.</p>
 
-        <p>Nampa is growing rapidly. Property values have been climbing, new subdivisions are expanding the city's footprint, and homeowners throughout the area are investing in their properties. Whether you are maintaining a century-old shade tree in a historic downtown neighborhood, clearing stumps on a lot being prepared for new construction, or dealing with storm damage on a rural property south of town, Boise Tree Pros provides the professional, insured, and certified tree service that Nampa residents and property owners deserve.</p>
+        <p>Whether you need routine pruning on a residential shade tree, crane-assisted removal of a dying cottonwood next to a canal, stump grinding on a lot being cleared for construction, or an emergency response after a spring windstorm drops a limb on your roof, Boise Tree Pros brings ISA-certified expertise, full insurance, and the right equipment to every Nampa job.</p>
+
+        <p><strong>Nampa residents get the same pricing, the same crew quality, and the same ISA-certified arborist oversight as every job we do in Boise. No exceptions.</strong></p>
+
+        <p><a href="/#contact" class="btn-bark" style="margin-bottom:24px;">Get Your Free Estimate</a></p>
 
         <!-- Table of Contents -->
         <div class="toc">
@@ -312,155 +382,240 @@
             <li><a href="#local-considerations">Local considerations</a></li>
             <li><a href="#pricing">Pricing reference</a></li>
             <li><a href="#why-choose">Why choose Boise Tree Pros for Nampa</a></li>
+            <li><a href="#faqs">Frequently asked questions</a></li>
           </ul>
         </div>
 
         <h2 id="services">Services We Offer in Nampa</h2>
 
-        <p>Every service we provide in Boise is available to Nampa residents at the same pricing. Our crews work in Nampa every week, and our familiarity with the area means efficient scheduling and fast turnaround. Here is a detailed look at what we offer:</p>
+        <p>Every service we provide in Boise is available to Nampa residents at the same pricing, with the same crew standards and the same ISA-certified arborist oversight. Our weekly Nampa schedule means efficient routing, fast turnaround, and no added travel cost. Here is what we offer:</p>
 
         <h3>Tree Trimming &amp; Pruning</h3>
-        <p>Proper pruning is the foundation of long-term tree health and safety. Our ISA-certified arborists perform crown thinning, deadwood removal, structural pruning for young trees, and canopy raising for clearance over sidewalks, driveways, and rooflines. In Nampa's older neighborhoods, many mature trees have gone years without professional pruning and have developed dense, heavy canopies that are vulnerable to wind damage. In newer subdivisions, young trees need structural training early to develop strong branch architecture. We follow ANSI A300 pruning standards on every job, whether it is a single ornamental in a front yard or a row of shade trees along a property line. <a href="/blog/tree-trimming-boise/">Learn more about our tree trimming services</a>.</p>
+        <p>All of our pruning work follows <a href="https://www.tcia.org/TCIA/RESOURCES/ANSI_A300_Standards/TCIA/RESOURCES/ANSI_A300_Standards_.aspx" target="_blank" rel="noopener">ANSI A300 standards</a>, the industry benchmark for professional tree care. In Nampa's older neighborhoods near downtown, mature trees have often gone years or even decades without proper pruning, developing dense canopies with heavy deadwood loads that become dangerous in windstorms. In newer subdivisions like Stampede and Canyon Springs, young trees need early structural training to develop the strong branch architecture that prevents problems later. Our ISA-certified arborists perform crown thinning, deadwood removal, canopy raising for clearance over sidewalks and rooflines, and structural pruning tailored to the species and the situation. <a href="/blog/tree-trimming-boise/">Learn more about our tree trimming services</a>.</p>
 
         <h3>Tree Removal</h3>
-        <p>Nampa's older established neighborhoods are home to some of the largest and most mature trees in the Treasure Valley. Many of these trees were planted 60 to 80 years ago, and some have reached the end of their safe lifespan. Dead trees, structurally compromised trees, trees with extensive decay, and trees that have outgrown their location all require professional removal. Our crews handle removals of all sizes, from small ornamentals to massive cottonwoods, using crane-assisted techniques when proximity to structures, power lines, or other obstacles demands precision. Every removal includes complete debris cleanup and site restoration. <a href="/blog/tree-removal-boise/">Learn more about our tree removal services</a>.</p>
+        <p>Many of Nampa's established neighborhoods contain trees that were planted 60 to 80 years ago. Some of these trees have reached the end of their safe lifespan: trunks hollowed by decay, root systems compromised by construction or canal work, major structural defects that pruning cannot fix. Our crews handle removals of all sizes, from small ornamentals crowding a foundation to massive cottonwoods towering over a house. For trees near structures, power lines, or irrigation infrastructure, we use crane-assisted removal techniques that allow us to dismantle the tree in controlled sections. Every removal includes complete debris cleanup and site restoration. <a href="/blog/tree-removal-boise/">Learn more about our tree removal services</a>.</p>
 
         <h3>Stump Grinding</h3>
-        <p>Stump grinding is in high demand across Nampa, particularly as older properties are renovated and as agricultural land is converted for new residential development. Our commercial stump grinders remove stumps 6 to 12 inches below grade, eliminating trip hazards, preventing sucker growth, and freeing up space for new landscaping, construction, or planting. We also handle multi-stump jobs for lot clearing on development sites and agricultural properties where old windbreak trees have been taken down. <a href="/blog/stump-grinding-boise/">Learn more about our stump grinding services</a>.</p>
+        <p>Stump grinding is in especially high demand in Nampa. The ongoing conversion of agricultural land to residential development creates constant need for lot clearing, and older properties undergoing renovation frequently have stumps from previous removals that were never addressed. Our commercial grinders remove stumps 6 to 12 inches below grade, eliminating trip hazards, preventing sucker growth, and freeing up space for new landscaping or construction. We handle multi-stump jobs on development sites and agricultural parcels where entire windbreak rows have come down. <a href="/blog/stump-grinding-boise/">Learn more about our stump grinding services</a>.</p>
 
         <h3>Emergency Tree Service</h3>
-        <p>Severe weather hits Nampa hard. Spring windstorms sweep across the open farmland west of town with little to slow them down, and summer thunderstorms can drop heavy rain and hail that weakens branches and saturates soil. On agricultural properties, windbreak trees that have not been maintained are especially susceptible to storm failure, and a downed tree on a rural road or across a fence line creates urgent problems. Our emergency crews are available 24 hours a day, 7 days a week, and we respond to Nampa calls promptly. Whether a tree has fallen on your home, blocked your driveway, or dropped a massive limb on a power line, we have the equipment and training to handle it safely. <a href="/blog/emergency-tree-service-boise/">Learn more about our emergency tree services</a>.</p>
+        <p>Spring windstorms hit Nampa harder than most of the Treasure Valley. The prevailing winds sweep across the open agricultural land west of the city with little to break their force, and by the time they reach the tree-lined residential neighborhoods, they are strong enough to snap limbs, split trunks, and topple shallow-rooted trees in saturated soil. Agricultural properties with unmaintained windbreak rows are particularly vulnerable. Our emergency crews are available 24 hours a day, 7 days a week, and we respond to Nampa calls with the same urgency as Boise calls. Fallen trees on structures, blocked driveways, limbs on power lines, and storm-damaged trees threatening to drop additional debris all get immediate attention. <a href="/blog/emergency-tree-service-boise/">Learn more about our emergency tree services</a>.</p>
 
         <h3>Tree Health Assessment</h3>
-        <p>If a tree on your Nampa property looks unhealthy but you are not sure what is wrong, a professional health assessment can diagnose the problem before it becomes critical. Our arborists identify diseases, pest infestations, nutrient deficiencies, root damage, and structural weaknesses. In Nampa, we frequently diagnose iron chlorosis in maples caused by the area's alkaline soils, bacterial wetwood in cottonwoods near canals, and stress-related decline in neglected trees on agricultural properties that have been converted to residential use. Early diagnosis saves trees and saves money. <a href="/blog/tree-health-assessment-boise/">Learn more about our tree health assessments</a>.</p>
+        <p>When a tree on your Nampa property starts looking wrong but you cannot pinpoint why, a professional health assessment provides answers before the problem becomes critical. Our arborists diagnose diseases, pest infestations, nutrient deficiencies, root damage, and structural weaknesses. In Nampa specifically, we frequently identify iron chlorosis caused by the area's alkaline soils, bacterial wetwood in cottonwoods growing near canals, and stress-related decline in neglected trees on parcels that transitioned from agricultural to residential use. Early diagnosis often means the difference between saving a tree with targeted treatment and losing it to a problem that went unaddressed too long. <a href="/blog/tree-health-assessment-boise/">Learn more about our tree health assessments</a>.</p>
 
         <h3>Tree Cabling &amp; Bracing</h3>
-        <p>Some trees have structural defects that make them more prone to failure but do not necessarily warrant removal. Co-dominant stems, heavy lateral limbs, V-shaped crotches with included bark, and overextended canopies can all be addressed with supplemental support systems. We install steel cables and braces that redistribute stress loads and allow structurally compromised trees to remain safely for many more years. This is a cost-effective alternative to removal for valuable mature trees, particularly the large silver maples and elms found throughout Nampa's established neighborhoods. <a href="/blog/tree-cabling-bracing-boise/">Learn more about tree cabling &amp; bracing</a>.</p>
+        <p>Not every structurally compromised tree needs to come down. Co-dominant stems with included bark, heavy lateral limbs extending over structures, and V-shaped crotches that invite splitting can all be addressed with supplemental support systems. We install steel cables and braces that redistribute stress loads and allow valuable trees to remain safely for years beyond what their unassisted structure would permit. This approach is particularly relevant in Nampa, where large silver maples and elms in older neighborhoods often have structural defects that developed over decades of growth. Cabling and bracing costs a fraction of removal and preserves the canopy, shade, and property value that a mature tree provides. <a href="/blog/tree-cabling-bracing-boise/">Learn more about tree cabling &amp; bracing</a>.</p>
 
         <h2 id="common-trees">Common Trees and Issues in Nampa</h2>
 
-        <p>Nampa's tree population tells the story of the city itself. Downtown and the older residential neighborhoods are home to large, mature species planted decades ago, while the outer edges of town feature agricultural plantings and newer landscape trees in subdivisions. Each category presents its own challenges.</p>
+        <p>Nampa's tree population reflects the city's layered history: a downtown core planted with shade trees in the early 1900s, mid-century residential neighborhoods with landscape plantings, agricultural properties with functional windbreaks and orchards, and new subdivisions with young nursery stock. Each layer brings its own species mix and its own set of challenges.</p>
 
         <h3>Mature Elms and Silver Maples</h3>
-        <p>The oldest neighborhoods in Nampa, particularly the blocks surrounding downtown and the streets radiating outward from the original town center, are lined with American elms, Siberian elms, and silver maples. These trees were planted when the city was young, and many are now 60 to 80 years old. Silver maples are notorious for developing included bark between co-dominant stems, creating a structural weak point that can lead to catastrophic splitting in windstorms. Elms require carefully timed pruning to avoid attracting the bark beetles that spread Dutch elm disease. All elm pruning in the Treasure Valley should be done between November and March. If you have a large elm or silver maple on your Nampa property, regular <a href="/blog/tree-health-assessment-boise/">health assessments</a> and <a href="/blog/tree-trimming-boise/">professional pruning</a> are essential to keep the tree safe and healthy.</p>
+        <p>The oldest neighborhoods in Nampa, particularly the blocks surrounding downtown and the streets near the original town center, are lined with American elms, Siberian elms, and silver maples planted 60 to 80 years ago. Silver maples are notorious for developing included bark between co-dominant stems, a structural defect that creates a weak point prone to catastrophic splitting during windstorms. Elms require carefully timed pruning to minimize the risk of attracting the bark beetles that vector <a href="https://www.fs.usda.gov/research/treesearch/1547" target="_blank" rel="noopener">Dutch elm disease</a>. All elm pruning in the Treasure Valley should be performed between November and March when beetle activity is dormant. If you have a large elm or silver maple on your Nampa property, regular <a href="/blog/tree-health-assessment-boise/">health assessments</a> and <a href="/blog/tree-trimming-boise/">professional pruning</a> are not optional: they are essential to keeping the tree safe.</p>
 
         <h3>Fruit Trees</h3>
-        <p>Nampa has a long agricultural heritage, and fruit trees are far more common here than in other parts of the Treasure Valley. Apple, cherry, pear, and plum trees are found in residential yards throughout the city, many of them remnants of older orchards that were subdivided for housing. Fruit trees require annual pruning to maintain productive structure, manage size, remove diseased wood, and improve air circulation within the canopy. Neglected fruit trees become dense, overgrown, and prone to fungal diseases and pest problems. Our arborists know how to prune fruit trees properly, maintaining the open center or central leader structure that each species requires for healthy fruit production.</p>
+        <p>Nampa's agricultural heritage means fruit trees are far more prevalent here than in Boise, Meridian, or Eagle. Apple, cherry, pear, and plum trees appear in residential yards throughout the city, many of them remnants of orchards that were subdivided for housing decades ago. Fruit trees require annual pruning to maintain productive structure, manage size, remove diseased wood, and improve air circulation that reduces fungal disease pressure. Neglected fruit trees become dense and overgrown, producing smaller, lower-quality fruit while becoming increasingly prone to pest and disease problems. Our arborists prune fruit trees to the open center or central leader structure that each species requires for long-term health and productivity.</p>
 
         <h3>Windbreak Trees on Agricultural Properties</h3>
-        <p>One of the features that makes Nampa tree work distinct from Boise or Meridian is the prevalence of agricultural windbreak rows. Lombardy poplars, Austrian pines, blue spruces, and Siberian elms were planted in rows along field edges and property boundaries decades ago to protect crops and livestock from the wind that blows across Canyon County. Many of these windbreaks have been neglected as farms have changed hands or parcels have been subdivided. Dead and dying trees within a windbreak row create gaps that reduce effectiveness and pose hazard risks. We handle windbreak assessment, selective removal of failed trees, and maintenance pruning to extend the life of the remaining row.</p>
+        <p>One of the features that distinguishes Nampa tree work from the rest of the Treasure Valley is the prevalence of agricultural windbreak rows. Lombardy poplars, Austrian pines, blue spruces, and Siberian elms were planted along field edges and property boundaries decades ago to protect crops and livestock from Canyon County's persistent winds. Many of these windbreaks have been neglected as farms changed hands or parcels were subdivided. Dead and dying trees within a windbreak create gaps that reduce effectiveness and pose falling hazards. We handle windbreak assessment, selective removal of failed trees, and maintenance pruning to extend the functional life of the remaining row.</p>
 
         <h3>Cottonwoods Along Canals</h3>
-        <p>Nampa is threaded with irrigation canals managed by the Nampa &amp; Meridian Irrigation District, and cottonwoods thrive along these waterways. These fast-growing trees can reach 80 to 100 feet, but their wood is soft and brittle. Cottonwoods shed large limbs with little warning, particularly during summer storms, making them one of the most common species involved in <a href="/blog/emergency-tree-service-boise/">emergency tree service calls</a>. Their root systems can also interfere with canal infrastructure, creating conflicts with irrigation district easements. If you have cottonwoods on your property near a canal, regular crown thinning and deadwood removal are critical to reduce the risk of limb failure.</p>
+        <p>The <a href="https://www.nmid.org/" target="_blank" rel="noopener">Nampa &amp; Meridian Irrigation District</a> manages an extensive canal network that threads through the city, and cottonwoods thrive along these waterways. These fast-growing trees can reach 80 to 100 feet, but their wood is soft and brittle. Cottonwoods shed large limbs with little warning, especially during summer storms, making them one of the most common species involved in <a href="/blog/emergency-tree-service-boise/">emergency tree service calls</a>. Their root systems can also interfere with canal infrastructure, creating conflicts with irrigation district easements. If you have cottonwoods near a canal on your property, regular crown thinning and deadwood removal are critical to reducing the risk of limb failure and canal obstruction.</p>
 
         <h3>Alkaline Soil and Iron Chlorosis</h3>
-        <p>Like much of Canyon County, Nampa's soils tend to be alkaline, often with a pH above 7.5. Many tree species, particularly red maples, some ornamental cultivars, and pin oaks, struggle to absorb iron in alkaline conditions. The result is iron chlorosis: leaves develop yellow coloring between the veins while the veins remain green, giving the foliage a distinctive striped look. Over time, chlorotic trees weaken and become susceptible to secondary problems including disease and pest infestation. Soil amendments, trunk injections, and planting alkaline-tolerant species can all help address this common Nampa issue.</p>
+        <p>Like much of Canyon County, Nampa's soils tend to be alkaline, often registering a pH above 7.5. Many tree species struggle to absorb iron in these conditions. Red maples, pin oaks, and certain ornamental cultivars are particularly susceptible. The result is iron chlorosis: leaves turn yellow between the veins while the veins themselves stay green, giving foliage a distinctive striped appearance. Over time, chlorotic trees weaken progressively, becoming vulnerable to secondary diseases and pest infestations that a healthy tree would resist. Treatment options include soil amendments, trunk injections of chelated iron, and in some cases, replacement with alkaline-tolerant species. Our arborists can diagnose chlorosis, recommend the most effective treatment for the specific tree and soil conditions, and help you plan replacements when treatment is not viable.</p>
 
         <h3>Neglected Trees on Converted Agricultural Parcels</h3>
-        <p>As Nampa grows, former agricultural land is being developed into residential subdivisions. The trees that remain from the agricultural era, including old windbreak rows, irrigation ditch cottonwoods, and abandoned orchard trees, are often in poor condition from years of neglect. New homeowners who purchase lots in these developments frequently inherit trees that need immediate attention: deadwood removal, hazard assessment, structural pruning, or in some cases, complete removal. A <a href="/blog/tree-health-assessment-boise/">professional tree health assessment</a> is the best first step for anyone who has acquired a property with existing mature trees of unknown condition.</p>
+        <p>As Nampa expands, former agricultural land is being developed into residential subdivisions at a steady pace. The trees that remain from the agricultural era, including old windbreak rows, canal-side cottonwoods, and abandoned orchard trees, are often in poor condition after years without any care. New homeowners who purchase lots in these developments frequently inherit trees that need immediate attention: deadwood removal, hazard assessment, structural pruning, or complete removal. A <a href="/blog/tree-health-assessment-boise/">professional tree health assessment</a> is the best first step for anyone who has acquired property with existing mature trees of unknown condition. It gives you a prioritized action plan instead of guesswork.</p>
 
         <h2 id="neighborhoods">Nampa Neighborhoods We Serve</h2>
 
-        <p>Our crews work throughout all of Nampa, from the historic streets near downtown to the newest subdivisions on the city's expanding edges. Here are some of the specific areas where we regularly provide tree service:</p>
+        <p>Our crews work throughout all of Nampa, from the historic core near downtown to the newest subdivisions on the city's expanding edges. Here are the specific areas where we regularly provide tree service:</p>
 
         <h3>Downtown and Historic Nampa</h3>
-        <p>The original core of Nampa, centered around the historic downtown district, has the most mature tree canopy in the city. Large elms, silver maples, and ash trees line the older residential streets, and many of these trees are 60 to 80 years old. This is where we do the most hazard tree assessment and removal work, as aging trees develop structural problems, decay, and root issues. The smaller lot sizes in this area also mean tree work requires careful planning to protect nearby structures, fences, and utility lines.</p>
+        <p>The original core of Nampa, centered around the historic downtown district, has the densest and most mature tree canopy in the city. Large elms, silver maples, and ash trees line the older residential streets, many planted 60 to 80 years ago. This area generates the highest volume of hazard assessment and removal work, as aging trees develop structural problems, internal decay, and compromised root systems. The smaller lot sizes typical of older neighborhoods mean tree work requires precise planning to protect nearby structures, fences, utility lines, and neighboring properties.</p>
 
         <h3>Karcher Area</h3>
-        <p>The neighborhoods along and south of Karcher Road include a mix of older residential properties and newer commercial development. Mature trees on residential lots in this area frequently need <a href="/blog/tree-trimming-boise/">crown thinning and deadwood removal</a>, while commercial properties require clearance pruning over parking areas and walkways. The Karcher corridor is also where a number of irrigation canals pass through, bringing cottonwood management issues.</p>
+        <p>The neighborhoods along and south of Karcher Road include a mix of older residential properties and newer commercial development. Mature trees on residential lots frequently need <a href="/blog/tree-trimming-boise/">crown thinning and deadwood removal</a>, while commercial properties require clearance pruning over parking areas and walkways. The Karcher corridor is also where several irrigation canals pass through, bringing the cottonwood management issues that are common wherever canals and residential properties intersect.</p>
 
         <h3>12th Avenue Corridor</h3>
-        <p>The 12th Avenue area is one of Nampa's well-established residential zones with a solid mix of mature shade trees and mid-age landscape plantings. Homeowners here regularly call us for routine pruning, health assessments, and occasional removals of trees that have outgrown their spaces or developed structural problems. The neighborhood's proximity to central Nampa means access is straightforward and scheduling is efficient.</p>
+        <p>The 12th Avenue area is one of Nampa's well-established residential zones with a solid mix of mature shade trees and mid-age landscape plantings. Homeowners here regularly schedule routine pruning, health assessments, and removals of trees that have outgrown their spaces or developed structural problems. The neighborhood's central location within Nampa makes it easy to schedule and efficient to serve.</p>
 
-        <h3>Garrity Boulevard Area</h3>
-        <p>Garrity Boulevard is a major commercial and residential corridor in Nampa. Properties along this route and in the adjacent neighborhoods often have mature trees that need professional care, including clearance pruning for visibility and signage, deadwood removal for safety, and <a href="/blog/stump-grinding-boise/">stump grinding</a> where older trees have been removed to accommodate property improvements or new construction.</p>
+        <h3>Garrity Boulevard</h3>
+        <p>Garrity Boulevard is a major commercial and residential corridor. Properties along this route and in adjacent neighborhoods often have mature trees that need clearance pruning for visibility and signage, deadwood removal for pedestrian and vehicle safety, and <a href="/blog/stump-grinding-boise/">stump grinding</a> where older trees have been removed to accommodate property improvements or new construction. We serve both the commercial properties along the boulevard and the residential streets just off it.</p>
 
         <h3>Deer Flat Area</h3>
-        <p>The Deer Flat area in southern Nampa transitions from residential neighborhoods to more rural properties approaching Deer Flat National Wildlife Refuge and Lake Lowell. Trees on properties in this area include a mix of residential landscape species and larger agricultural plantings. Windbreak rows, canal-side cottonwoods, and mature shade trees on larger lots all require specialized attention. We have the equipment to handle the larger-scale tree work that rural and semi-rural properties in this area often demand.</p>
+        <p>Southern Nampa transitions from residential neighborhoods to more rural properties as you approach the Deer Flat National Wildlife Refuge and Lake Lowell. Properties in this area feature a mix of residential landscape species and larger agricultural plantings. Windbreak rows, canal-side cottonwoods, and mature shade trees on multi-acre lots all require different approaches and often heavier equipment than typical residential jobs. We have the capability to handle the larger-scale tree work that these semi-rural properties demand.</p>
 
         <h3>Birch Lane and Canyon Springs</h3>
-        <p>These established residential neighborhoods feature well-maintained properties with mature landscape trees. Common work in Birch Lane and Canyon Springs includes annual pruning, fruit tree maintenance, canopy raising for clearance, and periodic <a href="/blog/tree-health-assessment-boise/">health assessments</a> on older trees. The neighborhoods' tidy, well-kept character means homeowners here are proactive about tree care, which is exactly the right approach for long-term tree health.</p>
+        <p>These established residential neighborhoods feature well-maintained properties with mature landscape trees. Common work in Birch Lane and Canyon Springs includes annual pruning, fruit tree maintenance, canopy raising for clearance, and periodic <a href="/blog/tree-health-assessment-boise/">health assessments</a> on older trees. Homeowners in these neighborhoods tend to be proactive about tree care, scheduling regular maintenance rather than waiting for problems, which is the most cost-effective approach to long-term tree health.</p>
 
-        <h3>Stampede Subdivision</h3>
-        <p>Stampede is one of Nampa's newer planned communities with younger landscape trees that need establishment care and structural pruning. Getting trees started right in the first five to ten years determines their shape, strength, and health for decades to come. We work with homeowners in Stampede to train young trees for strong branch architecture, address transplant stress, and manage the alkaline soil challenges that affect many newly planted trees in Canyon County.</p>
+        <h3>Stampede</h3>
+        <p>Stampede is one of Nampa's newer planned communities with younger landscape trees that need establishment care and early structural pruning. The first five to ten years of a tree's life determine its shape, strength, and health for decades to come. We work with Stampede homeowners to train young trees for strong branch architecture, address transplant stress, and manage the alkaline soil challenges that affect many newly planted trees in Canyon County developments.</p>
 
-        <h3>Lake Shore Area near Lake Lowell</h3>
-        <p>Properties near Lake Lowell and the Deer Flat National Wildlife Refuge enjoy a more rural setting with larger lots and more diverse tree populations. Cottonwoods, willows, and other water-loving species thrive near the lake, while residential plantings include a range of shade and ornamental trees. Tree work in this area often involves larger trees, longer sight lines, and the need to coordinate with wildlife refuge regulations and irrigation district requirements.</p>
+        <h3>Lake Shore and Lake Lowell Area</h3>
+        <p>Properties near Lake Lowell and the Deer Flat National Wildlife Refuge enjoy a more rural setting with larger lots and more diverse tree populations. Cottonwoods, willows, and other water-loving species thrive near the lake, while residential plantings include a range of shade and ornamental trees. Tree work in this area often involves larger specimens, longer access distances, and the need to coordinate with wildlife refuge regulations and irrigation district requirements that do not apply in the city's more urban neighborhoods.</p>
 
         <h3>NNU Campus Area</h3>
-        <p>The neighborhoods surrounding Northwest Nazarene University feature a mix of older homes with mature trees and rental properties that serve the student population. Tree maintenance on rental properties is sometimes deferred, which means we frequently encounter trees in this area that need significant catch-up work: heavy deadwood removal, crown restoration, and structural correction after years of neglect. We also serve the university campus itself and the adjacent residential streets.</p>
-
-        <p>We also serve the neighboring communities of <a href="/tree-service-meridian/">Meridian</a>, <a href="/tree-service-eagle/">Eagle</a>, <a href="/tree-service-garden-city/">Garden City</a>, and <a href="/tree-service-caldwell/">Caldwell</a> throughout the Treasure Valley.</p>
+        <p>The neighborhoods surrounding Northwest Nazarene University feature a mix of older homes with mature trees and rental properties serving the student population. Tree maintenance on rental properties is sometimes deferred by absentee owners, which means we frequently encounter trees in this area that need significant catch-up work: heavy deadwood removal, crown restoration, and structural correction after years of neglect. We serve both the residential streets around campus and commercial properties in the area.</p>
 
         <h2 id="local-considerations">Local Considerations for Tree Service in Nampa</h2>
 
-        <p>Working on trees in Nampa involves several local factors that differ from tree service in Boise, Meridian, or Eagle. Understanding these is important for ensuring your tree work is done correctly and in compliance with applicable regulations.</p>
-
         <h3>Canyon County Regulations</h3>
-        <p>Nampa is in Canyon County, not Ada County, and the regulatory environment is different. Canyon County has its own rules regarding tree removal on certain lot sizes, land use requirements for agricultural properties being converted to residential, and setback regulations that can affect tree placement and removal decisions. Our team is experienced with Canyon County permitting and can help you navigate any requirements that apply to your property.</p>
+        <p>Nampa is in Canyon County, not Ada County, and the regulatory environment is different. Canyon County has its own rules regarding tree removal on certain lot sizes, land use requirements for agricultural properties being converted to residential, and setback regulations that can affect tree placement and removal decisions. Our team is experienced with Canyon County permitting and can help you navigate the requirements that apply to your specific property and project.</p>
 
         <h3>Nampa City Tree Ordinances</h3>
-        <p>The City of Nampa has municipal ordinances governing trees in the public right-of-way, including requirements for maintaining clearance over sidewalks and streets. If your tree overhangs a public sidewalk, you are typically responsible for pruning it to the required clearance height. The city may also have requirements for tree preservation or replacement during development projects. Our arborists can advise you on compliance and handle any work needed to meet city standards.</p>
+        <p>The City of Nampa has municipal ordinances governing trees in the public right-of-way, including requirements for maintaining clearance over sidewalks and streets. If your tree overhangs a public sidewalk, you are typically responsible for pruning it to the required clearance height. The city may also have requirements related to tree preservation or replacement during development projects. Our arborists can advise you on compliance and handle any work needed to meet city standards.</p>
 
         <h3>Agricultural Property Tree Management</h3>
-        <p>Nampa has more agricultural and semi-agricultural properties than any other city in our service area. Managing trees on agricultural land involves different considerations than residential tree care: windbreak maintenance and replacement, orchard tree pruning and removal, clearance for farm equipment access, and coordination with irrigation infrastructure. Our crews have the equipment and experience to handle agricultural-scale tree work, including multi-tree removal projects, large-scale stump grinding, and windbreak row maintenance.</p>
+        <p>Nampa has more agricultural and semi-agricultural properties than any other city in our service area. Managing trees on agricultural land involves different considerations than residential tree care: windbreak maintenance and replacement planning, orchard tree pruning and removal, clearance for farm equipment access, and coordination with irrigation infrastructure. Our crews have the heavy equipment and the experience to handle agricultural-scale tree work, including multi-tree removal projects, large-scale stump grinding, and complete windbreak row overhauls.</p>
 
-        <h3>Irrigation District Rules Near Canals</h3>
-        <p>The Nampa &amp; Meridian Irrigation District manages an extensive canal network throughout the city. Trees growing within canal easements are subject to district regulations, and the district may have authority to require removal or pruning of trees that interfere with canal operation or maintenance access. If you have trees near an irrigation canal on your property, it is important to understand the easement boundaries and any restrictions that apply. Our arborists can help you identify canal-related tree issues and coordinate with the irrigation district when necessary.</p>
+        <h3>Irrigation District Rules</h3>
+        <p>The Nampa &amp; Meridian Irrigation District manages an extensive canal network throughout the city. Trees growing within canal easements are subject to district regulations, and the district may have authority to require removal or pruning of trees that interfere with canal operation or maintenance access. If you have trees near an irrigation canal on your property, it is important to understand the easement boundaries and any restrictions before scheduling work. Our arborists can help identify canal-related tree issues and coordinate with the irrigation district when necessary.</p>
 
-        <h3>Newer Subdivision HOA Requirements</h3>
+        <h3>Newer Subdivision HOAs</h3>
         <p>Many of Nampa's newer subdivisions, including Stampede, Canyon Springs, and other planned communities, have homeowner association rules governing tree maintenance, species selection for replacement plantings, and the timing and scope of tree work. Before scheduling major tree work in an HOA-governed community, review your CC&amp;Rs or contact your association. We work within HOA guidelines regularly and can provide documentation including detailed work descriptions and before-and-after photographs when your association requires it.</p>
 
-        <h3>Proximity to Lake Lowell and Deer Flat National Wildlife Refuge</h3>
-        <p>Properties near Lake Lowell and the Deer Flat National Wildlife Refuge may be subject to additional environmental regulations regarding tree removal, particularly for trees that provide habitat for nesting birds or other wildlife. The refuge is a significant ecological resource, and tree work near its boundaries should be planned with awareness of seasonal wildlife activity and any applicable federal or state protections. Our arborists can advise you on timing and approach for tree work on properties adjacent to the refuge.</p>
+        <h3>Lake Lowell and Deer Flat National Wildlife Refuge</h3>
+        <p>Properties near Lake Lowell and the <a href="https://www.fws.gov/refuge/deer-flat" target="_blank" rel="noopener">Deer Flat National Wildlife Refuge</a> may be subject to additional environmental considerations regarding tree removal, particularly for trees that provide habitat for nesting birds or other protected wildlife. The refuge is managed by the U.S. Fish and Wildlife Service, and tree work near its boundaries should be planned with awareness of seasonal wildlife activity and any applicable federal protections. Our arborists can advise on timing and approach for tree work on properties adjacent to the refuge.</p>
 
         <h2 id="pricing">Tree Service Pricing in Nampa</h2>
 
-        <p>Our pricing for Nampa is the same as our Boise pricing. There is no additional travel charge for Nampa since it is within our standard service area. Here is a general reference for common services:</p>
+        <p>Our pricing for Nampa is the same as our Boise pricing. There is no additional travel charge because Nampa is within our standard weekly service area. Here is a general reference for common services:</p>
 
         <table>
           <thead>
             <tr>
               <th>Service</th>
-              <th>Typical Price Range</th>
+              <th>Typical Range</th>
+              <th>Notes</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td><a href="/blog/tree-trimming-boise/">Tree Trimming</a></td>
               <td>$150 &ndash; $2,000+</td>
+              <td>Depends on tree size, canopy density, and access</td>
             </tr>
             <tr>
-              <td><a href="/blog/tree-removal-boise/">Tree Removal</a></td>
-              <td>$500 &ndash; $5,000+</td>
+              <td><a href="/blog/tree-removal-boise/">Tree Removal (small)</a></td>
+              <td>$300 &ndash; $800</td>
+              <td>Under 30 feet, straightforward access</td>
+            </tr>
+            <tr>
+              <td>Tree Removal (medium)</td>
+              <td>$800 &ndash; $2,500</td>
+              <td>30&ndash;60 feet, moderate complexity</td>
+            </tr>
+            <tr>
+              <td>Tree Removal (large)</td>
+              <td>$2,500 &ndash; $5,000+</td>
+              <td>60+ feet, crane-assisted, near structures</td>
             </tr>
             <tr>
               <td><a href="/blog/stump-grinding-boise/">Stump Grinding</a></td>
               <td>$75 &ndash; $400</td>
+              <td>Per stump; volume discounts for multiple</td>
             </tr>
             <tr>
               <td><a href="/blog/emergency-tree-service-boise/">Emergency Service</a></td>
               <td>$300 &ndash; $3,000+</td>
+              <td>24/7 availability, storm response</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/tree-health-assessment-boise/">Tree Health Assessment</a></td>
+              <td>$75 &ndash; $200</td>
+              <td>ISA-certified arborist evaluation</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/tree-cabling-bracing-boise/">Cabling &amp; Bracing</a></td>
+              <td>$300 &ndash; $1,200</td>
+              <td>Per system; depends on tree size and hardware</td>
+            </tr>
+            <tr>
+              <td>Fruit Tree Pruning</td>
+              <td>$100 &ndash; $400</td>
+              <td>Annual maintenance pruning per tree</td>
+            </tr>
+            <tr>
+              <td>Windbreak Row Maintenance</td>
+              <td>$500 &ndash; $3,000+</td>
+              <td>Depends on row length, species, and condition</td>
             </tr>
           </tbody>
         </table>
 
-        <p>Final pricing depends on the tree's size, species, condition, location on the property, and any access challenges such as proximity to structures, power lines, fences, or irrigation infrastructure. Agricultural properties with multiple trees or windbreak rows may qualify for volume pricing on larger projects. We provide free, detailed written estimates for all non-emergency work. No surprises, no hidden fees.</p>
+        <p>Agricultural properties with multiple trees or windbreak rows may qualify for volume pricing on larger projects. We frequently handle multi-day jobs on Nampa agricultural parcels and can provide per-tree or per-row pricing for bulk work.</p>
+
+        <p>Every non-emergency job starts with a free on-site estimate from an ISA-certified arborist. We assess the trees, explain the recommended work, and provide a detailed written quote. No surprises, no hidden fees, no pressure.</p>
 
         <h2 id="why-choose">Why Choose Boise Tree Pros for Nampa Tree Service</h2>
 
-        <p>There are several tree companies that advertise service in the Treasure Valley. Here is what makes Boise Tree Pros the right choice for Nampa homeowners, property managers, and agricultural landowners:</p>
+        <p><strong>Weekly Nampa service.</strong> Our crews are in Nampa every week on a regular rotation. This is not a service area we visit occasionally when it is convenient. We know the neighborhoods, the common tree species, the soil conditions, and the local regulations because we work with them constantly. That consistent presence translates into better recommendations, more efficient scheduling, and fewer surprises on the job.</p>
 
-        <ul>
-          <li><strong>Weekly Nampa Service:</strong> Our crews work in Nampa every week. This is not a service area we visit occasionally. We know the neighborhoods, the common tree species, the soil conditions, and the local regulations because we work with them constantly. That familiarity translates into better recommendations, more efficient work, and fewer surprises on the job.</li>
-          <li><strong>Canyon County Experience:</strong> Nampa is in Canyon County, and the regulatory and environmental landscape is different from Ada County. Our team understands Canyon County permitting requirements, irrigation district rules, and the agricultural property considerations that many Nampa jobs involve. You will not have to explain the basics to us.</li>
-          <li><strong>Agricultural Property Capability:</strong> Unlike many tree companies that focus exclusively on residential work, we have the equipment and experience to handle agricultural-scale tree projects. Windbreak row maintenance, large-scale stump grinding, orchard removal, and multi-acre site clearing are all within our capabilities.</li>
-          <li><strong>ISA-Certified Arborists:</strong> Our arborists hold certifications from the International Society of Arboriculture. They have passed rigorous examinations in tree biology, diagnosis, pruning, removal, and safety. They bring professional expertise to every job, not just chainsaws and good intentions.</li>
-          <li><strong>$2 Million Insurance Coverage:</strong> We carry $2 million in general liability insurance and full workers' compensation coverage. This protects you from liability if anything goes wrong during tree work on your property. Always verify insurance before hiring any tree company. We provide certificates of insurance on request.</li>
-          <li><strong>Free Estimates:</strong> Every non-emergency job begins with a free on-site assessment by an ISA-certified arborist. We evaluate your trees, discuss your goals, answer your questions, and provide a detailed written estimate before any work begins. There is no obligation and no pressure.</li>
-        </ul>
+        <p><strong>Canyon County experience.</strong> Nampa is in Canyon County, and the regulatory and environmental landscape is meaningfully different from Ada County. Our team understands Canyon County permitting requirements, irrigation district rules, and the agricultural property considerations that many Nampa jobs involve. You will not have to explain the basics to us or wait while we figure out how things work on the west side of the valley.</p>
 
-        <p>We also proudly serve the neighboring communities of <a href="/tree-service-meridian/">Meridian</a>, <a href="/tree-service-eagle/">Eagle</a>, <a href="/tree-service-garden-city/">Garden City</a>, and <a href="/tree-service-caldwell/">Caldwell</a>. Caldwell is just 12 miles west of Nampa, and we frequently serve both cities on the same day. No matter where you are in the western Treasure Valley, our team of ISA-certified arborists is ready to help.</p>
+        <p><strong>Agricultural property capability.</strong> Unlike many tree companies that focus exclusively on residential yards, we have the heavy equipment and the field experience to handle agricultural-scale tree projects. Windbreak row maintenance and removal, large-scale stump grinding across multi-acre parcels, orchard takedowns, and complete site clearing are all within our regular capabilities.</p>
+
+        <p><strong>ISA-certified arborists.</strong> Our arborists hold certifications from the <a href="https://www.isa-arbor.com/" target="_blank" rel="noopener">International Society of Arboriculture</a>. They have passed rigorous examinations covering tree biology, diagnosis, pruning standards, removal techniques, and safety protocols. Every Nampa job receives the same level of professional arboricultural oversight as our Boise work.</p>
+
+        <p><strong>$2 million insurance coverage.</strong> We carry $2 million in general liability insurance and full workers' compensation coverage for every crew member. This protects you from liability if anything goes wrong during tree work on your property. Always verify insurance before hiring any tree company. We provide certificates of insurance on request.</p>
+
+        <p><strong>Free estimates, no obligation.</strong> Every non-emergency job begins with a free on-site assessment by an ISA-certified arborist. We evaluate your trees, discuss your goals, answer your questions, and provide a detailed written estimate before any work begins. No obligation, no pressure, no sales tactics.</p>
+
+        <h2 id="faqs">Frequently Asked Questions About Tree Service in Nampa</h2>
+
+        <div class="faq-item">
+          <div class="faq-question">How much does tree removal cost in Nampa?</div>
+          <div class="faq-answer">
+            <p>Tree removal costs in Nampa vary based on tree size, species, condition, and location. Small trees (under 30 feet) typically cost $300 to $800. Medium trees (30 to 60 feet) run $800 to $2,500. Large trees (60 feet and above) cost $2,500 to $5,000 or more, especially when crane-assisted removal is required due to proximity to structures or power lines. We provide free on-site estimates so you know the exact cost before work begins.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Do you handle agricultural property tree work?</div>
+          <div class="faq-answer">
+            <p>Yes. We regularly perform tree work on agricultural and semi-agricultural properties throughout Nampa and Canyon County. This includes windbreak row maintenance, selective removal and replanting, orchard tree pruning, large-scale stump grinding, and complete site clearing for land being converted to other uses. Our crews have the heavy equipment needed for agricultural-scale projects.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">When should I prune my fruit trees?</div>
+          <div class="faq-answer">
+            <p>The ideal window for pruning fruit trees in Nampa is late February through early March. Trees are still dormant at this point, but spring growth is about to begin, which means pruning wounds will heal quickly as the tree breaks dormancy. Pruning during dormancy also lets you see the branch structure clearly without foliage, making it easier to identify and correct structural problems, remove crossing branches, and open up the canopy for better air circulation and light penetration.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Is there a travel charge for Nampa?</div>
+          <div class="faq-answer">
+            <p>No. Nampa is within our standard service area, and there is no additional travel charge or surcharge. Our crews work in Nampa on a weekly rotation, and all services are priced the same as our Boise rates.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">My trees are near an irrigation canal. Are there restrictions?</div>
+          <div class="faq-answer">
+            <p>Potentially, yes. The Nampa &amp; Meridian Irrigation District manages the canal network and maintains easements along canal corridors. Trees growing within these easements may be subject to district regulations, and the district can require removal or pruning of trees that interfere with canal operations or maintenance access. Before scheduling work on trees near a canal, our arborists can help you identify easement boundaries and determine whether coordination with the irrigation district is needed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">I bought property with old neglected trees. Where should I start?</div>
+          <div class="faq-answer">
+            <p>Start with a tree health assessment. An ISA-certified arborist will evaluate every tree on the property, identifying immediate hazards, diseases, structural defects, and maintenance priorities. This gives you a clear, prioritized plan: which trees need urgent attention, which can be improved with pruning and care, and which should be removed entirely. It is far more effective and cost-efficient than guessing or tackling trees at random. We offer free on-site assessments for Nampa properties.</p>
+          </div>
+        </div>
+
+        <!-- Closing CTA -->
+        <div style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 100%);border-radius:8px;padding:32px;margin-top:48px;">
+          <h2 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:24px;color:#FAF0E6;margin:0 0 12px;">Get Your Free Estimate in Nampa</h2>
+          <p style="font-size:15px;line-height:1.7;color:rgba(250,240,230,0.8);margin-bottom:20px;">An ISA-certified arborist will visit your Nampa property, assess your trees, and provide a detailed written estimate at no cost and no obligation. We also serve <a href="/tree-service-meridian/" style="color:#87CEEB;">Meridian</a>, <a href="/tree-service-eagle/" style="color:#87CEEB;">Eagle</a>, <a href="/tree-service-garden-city/" style="color:#87CEEB;">Garden City</a>, and <a href="/tree-service-caldwell/" style="color:#87CEEB;">Caldwell</a>. Caldwell is just 12 miles west of Nampa, and we frequently serve both cities on the same day.</p>
+          <a href="/#contact" class="btn-bark" style="margin-right:12px;">Request Your Free Estimate</a>
+          <a href="tel:+19862027387" class="btn-bark" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+        </div>
 
       </div>
 
