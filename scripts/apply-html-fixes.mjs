@@ -117,6 +117,18 @@ function applyFixes(html, filePath) {
     );
   }
 
+  // ===== LOGO: Replace PNG with WebP =====
+  // Header logo: brand_assets/logo.png → /images/logo-header.webp (48px display height)
+  html = html.replace(
+    /<img src="[\/]?brand_assets\/logo\.png" alt="Boise Tree Pros" style="height:48px;width:auto;object-fit:contain;"[^>]*>/g,
+    '<img src="/images/logo-header.webp" alt="Boise Tree Pros" width="176" height="96" style="height:48px;width:auto;object-fit:contain;">'
+  );
+  // Footer logo: brand_assets/logo.png or brand_assets\logo.png
+  html = html.replace(
+    /<img src="[\/]?brand_assets[\/\\]logo\.png" alt="Boise Tree Pros" style="height:52px;width:auto;[^"]*"[^>]*>/g,
+    '<img src="/images/logo-footer.webp" alt="Boise Tree Pros" width="191" height="104" style="height:52px;width:auto;margin-bottom:16px;border-radius:6px;" loading="lazy">'
+  );
+
   // ===== RENDER BLOCKING: Replace Tailwind CDN with static CSS =====
   // Remove Tailwind CDN script tag
   html = html.replace(/\s*<script src="https:\/\/cdn\.tailwindcss\.com"><\/script>\s*/g, '\n');
