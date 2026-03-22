@@ -1,0 +1,571 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout
+  title="Tree Service Caldwell, ID | ISA-Certified Arborists | Boise Tree Pros"
+  description="Tree service in Caldwell, ID by ISA-certified arborists. Experts with aging and mature trees. Removal, trimming, cabling, emergency service. Free estimates."
+  canonical="https://boisetreepro.com/tree-service-caldwell/"
+  ogTitle="Tree Service Caldwell, ID | ISA-Certified Arborists | Boise Tree Pros"
+  ogDescription="Tree service in Caldwell, ID by ISA-certified arborists. Experts with aging and mature trees. Removal, trimming, cabling, emergency service. Free estimates."
+  ogImage="https://boisetreepro.com/images/og-image.png"
+>
+  <Fragment slot="head">
+<style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+    .nav-link { position: relative; font-weight: 500; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: #363636; text-decoration: none; transition: color 0.2s; }
+    .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .dropdown-link { display: flex; align-items: center; padding: 10px 18px; min-height: 48px; font-size: 14px; color: #363636; text-decoration: none; transition: background-color 0.2s, color 0.2s, opacity 0.2s; outline: none; }
+    .dropdown-link:hover { background: #f5f0eb; color: #1A531A; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
+    .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
+    .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
+    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+    .footer-link { font-size: 14px; color: rgba(250,240,230,0.65); text-decoration: none; }
+    .footer-link:hover { color: #FAF0E6; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* Article content styles */
+    .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
+    .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
+    .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
+    .article-content a { color: #8B5A2B; font-weight: 600; text-decoration: none; }
+    .article-content a:hover { text-decoration: underline; }
+    .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 20px; }
+    .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+    .article-content strong { color: #363636; }
+    .article-content em { font-style: italic; }
+    .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
+    .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
+    .article-content td { padding: 12px 16px; border-bottom: 1px solid #e8ddd0; color: #555; }
+    .article-content tr:last-child td { border-bottom: none; }
+    .article-content tr:nth-child(even) { background: #FAF0E6; }
+
+    /* TOC styles */
+    .toc { background: #FAF0E6; border: 1px solid #e8ddd0; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc ul { list-style: none; padding: 0; margin: 0; }
+    .toc li { font-size: 15px; margin-bottom: 8px; padding-left: 16px; position: relative; }
+    .toc li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: #8B5A2B; border-radius: 50%; }
+    .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
+    .toc a:hover { text-decoration: underline; }
+
+    /* FAQ styles */
+    .faq-item { border-bottom: 1px solid #e8ddd0; padding: 20px 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 18px; color: #1A531A; margin-bottom: 8px; cursor: default; }
+    .faq-answer { font-size: 16px; line-height: 1.8; color: #555; margin: 0; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .content-grid { grid-template-columns: 1fr !important; }
+      .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    }
+  </style>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["TreeService", "LocalBusiness"],
+    "name": "Boise Tree Pros",
+    "url": "https://boisetreepro.com",
+    "telephone": "+19862027387",
+    "email": "info@boisetreepros.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise",
+      "addressRegion": "ID",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Caldwell",
+      "addressRegion": "ID"
+    },
+    "description": "Professional tree service in Caldwell, Idaho. Tree removal, trimming, stump grinding and emergency service by ISA-certified arborists.",
+    "priceRange": "$75-$5,000+",
+    "image": "https://boisetreepro.com/images/Shaped-Tree-Branch-Cleanup.webp",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "07:00",
+        "closes": "19:00"
+      }
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 3, "name": "Caldwell", "item": "https://boisetreepro.com/tree-service-caldwell/" }
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to remove a large tree in Caldwell?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Large tree removal in Caldwell typically costs $2,500 to $5,000 or more, depending on the tree's size, location, and access constraints. Many of Caldwell's large cottonwoods and elms require crane-assisted removal due to proximity to structures and power lines. We provide free on-site estimates with exact pricing before any work begins."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a travel surcharge for Caldwell?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Caldwell is within our standard service area. Our pricing for Caldwell is the same as for Boise, Meridian, Eagle, Nampa, and Garden City. There is no additional travel charge."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "My tree looks dead but I'm not sure. Should I remove it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not necessarily. Many conditions that mimic death in mature trees are actually treatable. Drought stress, nutrient deficiency, pest infestations, and certain diseases can cause severe decline that looks terminal but responds to treatment. We recommend scheduling a professional tree health assessment before deciding on removal. Our ISA-certified arborists can diagnose the underlying issue and advise whether the tree can be saved."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When should elms be pruned?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Elms should only be pruned between November and March, during their dormant season. Pruning during the growing season creates fresh wounds that attract the bark beetles responsible for spreading Dutch elm disease. This timing restriction applies to both American and Siberian elms. Our arborists schedule all elm work within this safe window."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work on agricultural properties?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We regularly work on agricultural properties in and around Caldwell. Our services include windbreak maintenance and removal, orchard tree removal, fence line clearing, irrigation ditch tree management, and large-scale stump grinding. We have the commercial equipment needed for multi-tree and large-scale agricultural projects."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are there historic district restrictions on tree removal in Caldwell?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There are no blanket prohibitions on tree removal in Caldwell's historic district. However, mature trees contribute to the historic character of the neighborhood, and our arborists are mindful of this when making recommendations. We always explore preservation options first, but if a tree is a safety hazard, removal takes priority regardless of location. We can advise on appropriate replacement species that maintain the streetscape character."
+        }
+      }
+    ]
+  }
+  </script>
+  </Fragment>
+<!-- ══════════════════════════════════
+     BREADCRUMB
+══════════════════════════════════ -->
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+  <ol style="list-style:none;padding:0;margin:0;display:flex;gap:8px;font-size:13px;color:#888;">
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Home</a></li>
+    <li>&rsaquo;</li>
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Service Areas</a></li>
+    <li>&rsaquo;</li>
+    <li style="color:#363636;">Caldwell</li>
+  </ol>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO / PAGE HEADER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;opacity:0.15;">
+    <img src="/images/tree-service-caldwell-hero.webp" srcset="/images/tree-service-caldwell-hero-400.webp 400w, /images/tree-service-caldwell-hero-800.webp 800w, /images/tree-service-caldwell-hero-1600.webp 1600w" sizes="100vw" fetchpriority="high" loading="eager" decoding="async" alt="Bucket truck removing a dead elm tree in an established Caldwell Idaho neighborhood" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+    <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">ISA Certified Arborists</span>
+    <h1 class="section-heading text-cream" style="font-size:clamp(36px,5vw,56px);margin-bottom:16px;">Tree Service in Caldwell, Idaho</h1>
+    <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">ISA-certified arborists providing professional tree removal, trimming, stump grinding &amp; emergency service throughout Caldwell. Specializing in mature and aging tree care. Fully insured. Free estimates.</p>
+    <div class="flex flex-wrap gap-4">
+      <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
+      <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     ARTICLE CONTENT
+══════════════════════════════════ -->
+<section style="padding:72px 0;background:#fff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:64px;align-items:start;" class="content-grid">
+
+      <!-- Main Content Column -->
+      <div class="article-content">
+
+        <!-- Intro -->
+        <p>Caldwell sits on the western edge of the Treasure Valley, roughly 30 miles from downtown Boise and about a 30-minute drive west on I-84. It is the county seat of Canyon County and one of the oldest cities in the region. For tree service companies, that history matters: Caldwell has some of the oldest, largest, and most challenging trees anywhere in our service area.</p>
+
+        <p>What sets Caldwell apart from newer east-valley communities like <a href="/tree-service-meridian/">Meridian</a> or <a href="/tree-service-eagle/">Eagle</a> is the sheer age and scale of its tree stock. Many of the trees shading Caldwell's streets and older properties were planted 50 to 80 years ago. American elms from the postwar building boom, massive cottonwoods along Indian Creek and the irrigation canals, silver maples with sprawling root systems, orchard remnants from when the land was all farmland. These trees define Caldwell's character, but they are now reaching a stage where they demand serious professional attention. Some need structural support. Others have reached the end of their useful lifespan and need safe removal before they become hazards.</p>
+
+        <p>Caldwell is also home to the College of Idaho, a historic downtown district, and a unique overlap between urban and agricultural land uses. These factors create tree service situations we simply do not encounter in Boise's newer suburbs: windbreak maintenance on farm property, orchard remnant management on residential lots, and mature tree preservation in historic neighborhoods where the trees are part of the streetscape's character.</p>
+
+        <p>Boise Tree Pros brings ISA-certified arborists, large-tree removal capability, and honest assessment to every Caldwell job. Our pricing is the same as Boise &mdash; no travel surcharge, no distance markup. Caldwell is within our standard service area, and our crews work in Canyon County regularly alongside jobs in neighboring <a href="/tree-service-nampa/">Nampa</a>. For emergencies, our crews can reach Caldwell within 45 minutes.</p>
+
+        <p><strong>Caldwell has some of the most impressive and demanding trees in the Treasure Valley. We have the expertise, equipment, and honesty to handle all of them.</strong></p>
+
+        <p><a href="/#contact" class="btn-bark" style="margin-top:8px;">Get a Free Estimate</a></p>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+          <strong style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;color:#1A531A;">On this page:</strong>
+          <ul style="margin-top:12px;">
+            <li><a href="#services" class="toc-link">Services we offer in Caldwell</a></li>
+            <li><a href="#common-trees" class="toc-link">Common trees and issues in Caldwell</a></li>
+            <li><a href="#neighborhoods" class="toc-link">Caldwell neighborhoods we serve</a></li>
+            <li><a href="#local-considerations" class="toc-link">Local considerations</a></li>
+            <li><a href="#pricing" class="toc-link">Pricing reference</a></li>
+            <li><a href="#why-choose" class="toc-link">Why choose Boise Tree Pros for Caldwell</a></li>
+            <li><a href="#faqs" class="toc-link">FAQs</a></li>
+          </ul>
+        </div>
+
+        <h2 id="services">Services We Offer in Caldwell</h2>
+
+        <p>Every service we provide across the Treasure Valley is available to Caldwell residents at the same pricing. Our crews work in Canyon County regularly and schedule Caldwell jobs efficiently alongside work in neighboring <a href="/tree-service-nampa/">Nampa</a>.</p>
+
+        <h3>Tree Removal</h3>
+        <p>Tree removal is our most requested service in Caldwell, and that is a direct consequence of the city's aging tree stock. When a tree is dead, structurally compromised, or poses an unacceptable risk to people or property, removal is the responsible choice. Our crews handle removals of all sizes, from small ornamental trees to massive 80-foot cottonwoods growing next to houses, garages, and power lines. We use crane-assisted removal for large trees in tight spaces, and every job includes complete debris cleanup. Many of the removals we perform in Caldwell involve trees that were planted decades ago in locations that made sense at the time but now threaten foundations, sewer lines, sidewalks, or overhead utilities. <a href="/blog/tree-removal-boise/">Learn more about our tree removal services</a>.</p>
+
+        <h3>Tree Trimming &amp; Pruning</h3>
+        <p>For mature trees that are healthy but overgrown, proper pruning can restore structural integrity, improve airflow through the canopy, reduce wind resistance, and extend the tree's safe lifespan by years or decades. Our ISA-certified arborists perform all trimming to ANSI A300 standards: crown thinning, deadwood removal, canopy raising for clearance, and structural pruning. In Caldwell, our trimming work spans the full range from massive mature trees that have gone years without professional care to young trees that need early structural training to avoid problems down the road. Deferred maintenance is common in Caldwell's older neighborhoods, and catching up on neglected pruning is one of the best investments a homeowner can make. <a href="/blog/tree-trimming-boise/">Learn more about our tree trimming services</a>.</p>
+
+        <h3>Tree Cabling &amp; Bracing</h3>
+        <p>Caldwell has some of the oldest trees in the Treasure Valley, and many have developed structural defects over decades: co-dominant stems with included bark, heavy lateral limbs extending over roofs, and V-shaped crotches in old silver maples. Rather than removing these valuable trees, we install steel cables and braces to provide supplemental support. This is one of our most important services in Caldwell, where preserving a 60-year-old shade tree can save a homeowner thousands compared to removal and replacement while maintaining the property's character and value. <a href="/blog/tree-cabling-bracing-boise/">Learn more about tree cabling &amp; bracing</a>.</p>
+
+        <h3>Tree Health Assessment</h3>
+        <p>Before removing a mature tree, it is worth knowing whether it can be saved. Many conditions that look terminal &mdash; yellowing leaves, sparse canopy, dieback in the upper branches, fungal growth at the base &mdash; are actually treatable if diagnosed correctly. Our arborists evaluate diseases, pest infestations, root damage, nutrient deficiencies, and structural decay. In Caldwell, we frequently assess older trees that homeowners suspect may be dying but want a professional opinion before committing to removal. A proper health assessment can identify a treatable condition and save a tree that might otherwise have been unnecessarily removed. <a href="/blog/tree-health-assessment-boise/">Learn more about our tree health assessments</a>.</p>
+
+        <h3>Stump Grinding</h3>
+        <p>Caldwell properties often have old stumps from trees that were removed years or even decades ago. Some homeowners have been mowing around stumps for so long they have become part of the landscape. Our commercial stump grinders remove stumps 6 to 12 inches below grade, eliminating trip hazards, preventing sucker growth, and freeing up yard space. We also handle lot clearing projects where multiple old stumps need to be removed at once. Stump grinding is included as standard after every tree removal we perform. <a href="/blog/stump-grinding-boise/">Learn more about our stump grinding services</a>.</p>
+
+        <h3>Emergency Tree Service</h3>
+        <p>Older trees are more vulnerable to storm damage than younger, more flexible ones. Caldwell's aging cottonwoods, elms, and maples are particularly susceptible to wind events, ice storms, and summer thunderstorms. When a large limb drops on your roof, a tree falls across your driveway, or a storm-damaged trunk threatens your home, we respond 24 hours a day, 7 days a week. Our emergency crews can typically reach Caldwell within 45 minutes. We carry $2 million in general liability insurance and full workers' compensation coverage, so you are protected from the moment we arrive. <a href="/blog/emergency-tree-service-boise/">Learn more about our emergency tree services</a>.</p>
+
+        <h2 id="common-trees">Common Trees and Issues in Caldwell</h2>
+
+        <p>Caldwell's tree population tells the story of the city's history. The species you see most often were popular planting choices from the 1940s through the 1970s, and many are now showing the effects of age, disease, and decades of deferred maintenance.</p>
+
+        <h3>American and Siberian Elms</h3>
+        <p>Elms were once the premier street tree across America, and Caldwell planted thousands of them. American elms line many of the city's older streets, and Siberian elms, planted as a hardier alternative, are found throughout residential neighborhoods. Both species face serious challenges. Dutch elm disease, spread by bark beetles, has killed elms across the Treasure Valley and remains an active threat. Siberian elms, while resistant to Dutch elm disease, develop increasingly brittle wood as they age and are prone to sudden, catastrophic limb failure. Many of Caldwell's elms are now 60 to 80 years old, an age where structural decline accelerates. All elm pruning must be performed between November and March to avoid attracting the bark beetles that spread Dutch elm disease. Our arborists can identify early signs of infection and recommend whether treatment or removal is the appropriate response.</p>
+
+        <h3>Cottonwoods</h3>
+        <p>Massive cottonwoods are a defining feature of Caldwell's landscape, particularly along Indian Creek, the irrigation canals, and in the older residential areas near downtown. Many of these trees were planted or naturally established 60 or more years ago and have grown into enormous specimens, some exceeding 80 feet in height with trunk diameters of three feet or more. Cottonwood wood is inherently soft and brittle. Large limbs can break with little warning, and internal decay that comes with age is often invisible from the outside. Cottonwoods are responsible for more <a href="/blog/emergency-tree-service-boise/">emergency service calls</a> than any other species in our service area. If you have a large cottonwood near your home, regular crown thinning and deadwood removal are essential safety measures.</p>
+
+        <h3>Silver Maples</h3>
+        <p>Silver maples were planted heavily across Caldwell for decades because they grow fast and provide dense shade. That fast growth comes with a structural cost: silver maples are prone to developing co-dominant stems with included bark, a defect where two main trunks grow tightly together with bark trapped between them instead of forming a solid wood union. This creates a weak point that can split catastrophically during windstorms. Many of Caldwell's silver maples are now large enough that a stem failure would cause serious damage to nearby structures. <a href="/blog/tree-cabling-bracing-boise/">Cabling and bracing</a> can provide structural support for maples that are otherwise healthy, while reduction pruning can reduce the weight on overextended limbs.</p>
+
+        <h3>Fruit Trees</h3>
+        <p>Caldwell's agricultural heritage means fruit trees are common throughout the city: apple, cherry, plum, and pear. Many residential properties have old orchard remnants &mdash; sometimes single trees, sometimes small groves &mdash; that were planted when the area was farmland. These aging fruit trees often suffer from decades of neglect: overgrown canopies, fire blight, canker diseases, and broken limbs from years of unpruned fruit weight. Proper <a href="/blog/tree-trimming-boise/">annual pruning</a> can restore productivity and structural integrity to fruit trees that still have years of life ahead of them.</p>
+
+        <h3>Black Locust</h3>
+        <p>Black locust is commonly found in Caldwell's older neighborhoods. These trees are extremely durable and drought-tolerant, which is why they have survived so long in the Treasure Valley's dry climate. However, they develop dense, thorny canopies that can become hazardous, and their aggressive root systems frequently damage sidewalks, foundations, and underground utilities. Black locust also suckers prolifically, sending up new shoots from the root system that can spread across a yard if not managed. Removal often requires grinding the stump deeply to prevent regrowth from the root system.</p>
+
+        <h3>Aging Tree Stock and Root Issues</h3>
+        <p>The most significant tree-related challenge in Caldwell is the general aging of the tree population across the city. Trees planted 50 to 80 years ago on residential lots that were designed for much smaller trees are now creating problems their planters never anticipated. Root systems have heaved sidewalks, cracked foundations, and intruded into sewer lines. Canopies have grown into power lines. Trunks have developed internal decay hidden beneath apparently healthy bark. A professional <a href="/blog/tree-health-assessment-boise/">tree health assessment</a> can reveal the true condition of a mature tree and help you make informed decisions about its future before it becomes an emergency.</p>
+
+        <h2 id="neighborhoods">Caldwell Neighborhoods We Serve</h2>
+
+        <p>Our crews work throughout all of Caldwell, from the historic downtown core to the newer developments on the city's edges. Here are the specific areas where we regularly provide tree service:</p>
+
+        <h3>Historic Downtown and Cleveland Boulevard</h3>
+        <p>The oldest part of Caldwell has the most mature tree canopy and the greatest concentration of aging trees needing professional attention. The blocks surrounding Cleveland Boulevard and the streets radiating out from downtown feature large elms, maples, and cottonwoods, many planted when these neighborhoods were first developed in the early to mid-twentieth century. Tree work in this area often requires careful planning due to smaller lot sizes, proximity to neighboring structures, overhead utility lines, and older infrastructure. Many properties in the historic district have trees that contribute to the neighborhood's character, making preservation through <a href="/blog/tree-cabling-bracing-boise/">cabling, bracing</a>, and careful pruning a priority when possible.</p>
+
+        <h3>College of Idaho Campus Area</h3>
+        <p>The College of Idaho campus and the surrounding residential streets feature one of the most significant tree canopies in Caldwell. The campus itself has mature specimens that are decades old, and the adjacent neighborhoods share in that established canopy. Homeowners near the college frequently call us for <a href="/blog/tree-trimming-boise/">pruning and maintenance</a> on large shade trees, health assessments on trees showing signs of decline, and removal of dead or hazardous trees. The area's mature landscape makes it one of our most active zones in Caldwell.</p>
+
+        <h3>Ustick Road Corridor</h3>
+        <p>The Ustick Road corridor in northern Caldwell includes a mix of established residential properties and newer commercial development. Older homes along Ustick have mature trees that need regular maintenance, while commercial properties often require clearance pruning, hazard tree removal, and ongoing landscape tree management. Our crews are familiar with the mix of tree ages and property types along this corridor.</p>
+
+        <h3>Indian Creek Area</h3>
+        <p>Indian Creek runs through Caldwell, and the properties along it have a distinctive tree population dominated by water-loving species: cottonwoods, willows, and various hardwoods that thrive near the waterway. These trees grow aggressively with abundant water access and can become very large. They also tend to develop decay and structural problems faster than trees in drier locations. Properties along Indian Creek frequently need <a href="/blog/tree-removal-boise/">removal of large, declining cottonwoods</a>, deadwood management, and clearance pruning to keep trees from overhanging structures and fences.</p>
+
+        <h3>Skyway Neighborhood</h3>
+        <p>The Skyway neighborhood is a well-established residential area with a mature tree canopy. Many properties here have trees that were planted when the neighborhood was developed and are now reaching the size and age where professional care becomes critical. We provide regular pruning, health assessments, and hazard tree evaluation throughout Skyway.</p>
+
+        <h3>Lakeshore Drive Area</h3>
+        <p>The Lakeshore Drive area features residential properties with mature landscaping, including many large shade trees and ornamental plantings. Storm damage response is a common need in this area, as the older trees are more vulnerable to wind events. We also handle routine <a href="/blog/tree-trimming-boise/">trimming and pruning</a> for homeowners who want to maintain their trees in safe, healthy condition.</p>
+
+        <h3>Middleton Road Area</h3>
+        <p>The Middleton Road corridor on Caldwell's northern edge includes properties that transition from residential to agricultural, with a corresponding mix of landscape trees and farm trees. We serve both homeowners and landowners in this area, providing services ranging from residential tree trimming to removal of large trees on agricultural parcels. Properties along irrigation canals in this area often have cottonwood and willow management needs.</p>
+
+        <h3>South Caldwell and Karcher Area</h3>
+        <p>South Caldwell and the Karcher Road corridor include a mix of established residential neighborhoods and commercial properties. Many of the residential streets in south Caldwell have mature tree canopies that need ongoing professional care. Commercial properties along Karcher Road often require hazard tree management, clearance pruning, and stump removal. This area connects Caldwell to <a href="/tree-service-nampa/">Nampa</a>, and our crews frequently serve both cities on the same day.</p>
+
+        <h2 id="local-considerations">Local Considerations for Tree Service in Caldwell</h2>
+
+        <p>Working on trees in Caldwell involves specific local factors that differ from other Treasure Valley communities. Understanding these helps ensure your tree work is done correctly, safely, and in compliance with applicable regulations.</p>
+
+        <h3>Canyon County Regulations</h3>
+        <p>Caldwell is in Canyon County, which has its own set of regulations governing tree work on certain properties. County requirements may apply to tree removal on larger parcels, properties near waterways, and land with agricultural zoning. Our team stays current on Canyon County regulations so you do not have to navigate them yourself. We handle any required coordination with county officials as part of our service.</p>
+
+        <h3>Caldwell Historic District</h3>
+        <p>Caldwell's historic downtown district has trees that contribute to the neighborhood's architectural and cultural character. While there are no blanket prohibitions on tree removal in the historic area, removing a significant mature tree can affect the visual character of a historic streetscape. When working in the historic district, our arborists take extra care to explore preservation options, such as <a href="/blog/tree-cabling-bracing-boise/">cabling and bracing</a>, before recommending removal. If removal is necessary, we can advise on appropriate replacement species that will maintain the neighborhood's established character.</p>
+
+        <h3>Older Property Tree Liabilities</h3>
+        <p>Caldwell has a higher percentage of older properties than most Treasure Valley cities, and many of these properties have trees that create liability concerns for their owners. A dead or visibly declining tree that falls and damages a neighbor's property or injures someone can result in significant legal liability, particularly if the owner was aware of the tree's condition and failed to act. We strongly recommend that owners of older Caldwell properties with mature trees schedule a professional <a href="/blog/tree-health-assessment-boise/">tree health assessment</a> to identify potential hazards before they result in damage or injury. The cost of an assessment is minimal compared to the liability exposure of a known hazard tree.</p>
+
+        <h3>Irrigation Infrastructure</h3>
+        <p>Like much of Canyon County, Caldwell has an extensive network of irrigation canals and ditches. Trees growing along these waterways, primarily cottonwoods and willows, can damage canal infrastructure with their root systems and block water flow with fallen limbs. If you have trees near an irrigation canal on your property, there may be easement restrictions on what work can be performed, and coordination with the irrigation district may be required. Our crews have extensive experience working near irrigation infrastructure and understand the protocols involved.</p>
+
+        <h3>Agricultural Land</h3>
+        <p>Caldwell's western and southern edges include agricultural land where tree management involves different considerations than residential work. Windbreak maintenance, orchard removal, fence line clearing, and management of trees along irrigation ditches are common needs on agricultural properties. We have the equipment and experience to handle large-scale agricultural tree work, including multi-tree removals, land clearing, and stump grinding on a commercial scale.</p>
+
+        <h3>City Street Trees and Power Line Clearance</h3>
+        <p>Many of Caldwell's older neighborhoods have trees that were planted in the parking strip or right-of-way decades ago, before modern guidelines for power line clearance and sight-line maintenance were established. These trees have grown into power lines, overhang sidewalks, and obstruct street signs. Homeowners are generally responsible for maintaining trees in the right-of-way adjacent to their property. Idaho Power handles line clearance on their infrastructure, but homeowners are responsible for trees that threaten secondary service drops, fences, and private structures. Our arborists can assess your street-side trees and recommend appropriate pruning or removal to address safety concerns and city requirements.</p>
+
+        <h2 id="pricing">Tree Service Pricing in Caldwell</h2>
+
+        <p>Our pricing for Caldwell is the same as our standard Treasure Valley rates. There is no additional travel charge for Caldwell &mdash; it is within our regular service area. Here is a general reference for common services:</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Typical Range</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="/blog/tree-trimming-boise/">Tree Trimming</a></td>
+              <td>$150 &ndash; $2,000+</td>
+              <td>Varies by tree size and canopy density</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/tree-removal-boise/">Tree Removal (small)</a></td>
+              <td>$500 &ndash; $1,500</td>
+              <td>Under 30 ft, straightforward access</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/tree-removal-boise/">Tree Removal (large)</a></td>
+              <td>$1,500 &ndash; $5,000+</td>
+              <td>30+ ft, crane-assisted when needed</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/stump-grinding-boise/">Stump Grinding</a></td>
+              <td>$75 &ndash; $400</td>
+              <td>Per stump; discounts for multiple</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/tree-cabling-bracing-boise/">Cabling &amp; Bracing</a></td>
+              <td>$300 &ndash; $1,200</td>
+              <td>Per system installed</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/tree-health-assessment-boise/">Health Assessment</a></td>
+              <td>$75 &ndash; $250</td>
+              <td>Often waived if work is scheduled</td>
+            </tr>
+            <tr>
+              <td><a href="/blog/emergency-tree-service-boise/">Emergency Service</a></td>
+              <td>$300 &ndash; $3,000+</td>
+              <td>24/7 response, 45-min to Caldwell</td>
+            </tr>
+            <tr>
+              <td>Crown Thinning</td>
+              <td>$250 &ndash; $1,500</td>
+              <td>Mature tree canopy management</td>
+            </tr>
+            <tr>
+              <td>Deadwood Removal</td>
+              <td>$150 &ndash; $800</td>
+              <td>Hazard limb cleanup</td>
+            </tr>
+            <tr>
+              <td>Lot Clearing</td>
+              <td>$1,500 &ndash; $8,000+</td>
+              <td>Multiple trees, stumps, debris</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Final pricing depends on the tree's size, species, condition, location on the property, and access constraints. Caldwell's older properties often have challenges that newer developments do not: narrow driveways, low overhead wires, tight spaces between structures, and proximity to irrigation infrastructure. We provide free, detailed written estimates for all non-emergency work. No surprises, no hidden fees.</p>
+
+        <p><a href="/#contact" class="btn-bark">Get a Free Estimate</a></p>
+
+        <h2 id="why-choose">Why Choose Boise Tree Pros for Caldwell Tree Service</h2>
+
+        <p><strong>Mature and aging tree expertise.</strong> Much of our work in Caldwell involves trees that are 50 to 80 years old or more. We understand the unique challenges these trees present: hidden internal decay, compromised root systems, structural defects that have developed over decades. Our arborists know what to look for and how to manage it safely.</p>
+
+        <p><strong>Large tree removal capability.</strong> Caldwell has some of the largest trees in the Treasure Valley. Removing an 80-foot cottonwood next to a house, a garage, and a power line requires specialized equipment, rigorous safety protocols, and experienced crews. We have all three. Our crane-assisted removal capability allows us to safely dismantle trees that other companies cannot handle.</p>
+
+        <p><strong>Honest save vs. remove assessment.</strong> We do not push unnecessary removals to inflate our revenue. If a tree can be saved through pruning, cabling, or treatment, we will tell you. If it needs to come down, we will explain exactly why. Our ISA-certified arborists provide recommendations based on arboricultural science, not on what generates the biggest invoice.</p>
+
+        <p><strong>Canyon County knowledge.</strong> We work in Canyon County regularly and understand the local regulations, irrigation district requirements, and property considerations specific to Caldwell and the surrounding area. That local experience translates to smoother, faster jobs with fewer surprises.</p>
+
+        <p><strong>$2 million insurance coverage.</strong> We carry $2 million in general liability insurance and full workers' compensation coverage. This protects you from liability if anything goes wrong on your property. Always verify insurance before hiring any tree company. We provide certificates of insurance on request.</p>
+
+        <p><strong>Free estimates, no pressure.</strong> Every non-emergency job starts with a free on-site visit by an ISA-certified arborist. We assess your trees, answer your questions, and provide a detailed written estimate. No pressure, no obligations, no sales tactics.</p>
+
+        <h2 id="faqs">Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <p class="faq-question">How much does it cost to remove a large tree in Caldwell?</p>
+          <p class="faq-answer">Large tree removal in Caldwell typically costs $2,500 to $5,000 or more, depending on the tree's size, location, and access constraints. Many of Caldwell's large cottonwoods and elms require crane-assisted removal due to proximity to structures and power lines. We provide free on-site estimates with exact pricing before any work begins.</p>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-question">Is there a travel surcharge for Caldwell?</p>
+          <p class="faq-answer">No. Caldwell is within our standard service area. Our pricing for Caldwell is the same as for Boise, Meridian, Eagle, Nampa, and Garden City. There is no additional travel charge.</p>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-question">My tree looks dead but I'm not sure. Should I remove it?</p>
+          <p class="faq-answer">Not necessarily. Many conditions that look terminal in mature trees are actually treatable: drought stress, nutrient deficiency, pest infestations, and certain diseases can cause severe decline that responds to treatment. We recommend scheduling a professional <a href="/blog/tree-health-assessment-boise/">tree health assessment</a> before deciding on removal. Our ISA-certified arborists can diagnose the underlying issue and advise whether the tree can be saved.</p>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-question">When should elms be pruned?</p>
+          <p class="faq-answer">Elms should only be pruned between November and March, during their dormant season. Pruning during the growing season creates fresh wounds that attract the bark beetles responsible for spreading Dutch elm disease. This timing restriction applies to both American and Siberian elms. Our arborists schedule all elm work within this safe window.</p>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-question">Do you work on agricultural properties?</p>
+          <p class="faq-answer">Yes. We regularly work on agricultural properties in and around Caldwell. Our services include windbreak maintenance and removal, orchard tree removal, fence line clearing, irrigation ditch tree management, and large-scale stump grinding. We have the commercial equipment needed for multi-tree and large-scale agricultural projects.</p>
+        </div>
+
+        <div class="faq-item">
+          <p class="faq-question">Are there historic district restrictions on tree removal?</p>
+          <p class="faq-answer">There are no blanket prohibitions on tree removal in Caldwell's historic district. However, mature trees contribute to the historic character of the neighborhood, and our arborists are mindful of this when making recommendations. We always explore preservation options first, but if a tree is a safety hazard, removal takes priority regardless of location. We can advise on appropriate replacement species that maintain the streetscape character.</p>
+        </div>
+
+        <!-- Closing CTA -->
+        <div style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 100%);border-radius:12px;padding:36px;margin-top:48px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:24px;color:#FAF0E6;margin-bottom:12px;">Get Your Free Estimate in Caldwell</h3>
+          <p style="font-size:16px;line-height:1.7;color:rgba(250,240,230,0.85);margin-bottom:20px;">ISA-certified arborists serving Caldwell and all of Canyon County. Same pricing as Boise, no travel surcharge, free on-site estimates for all routine work.</p>
+          <p style="font-size:15px;line-height:1.7;color:rgba(250,240,230,0.7);margin-bottom:24px;">We also serve <a href="/tree-service-meridian/" style="color:#87CEEB;">Meridian</a>, <a href="/tree-service-eagle/" style="color:#87CEEB;">Eagle</a>, <a href="/tree-service-garden-city/" style="color:#87CEEB;">Garden City</a>, and <a href="/tree-service-nampa/" style="color:#87CEEB;">Nampa</a> (just 12 miles east &mdash; same-day service available).</p>
+          <a href="/#contact" class="btn-bark">Get a Free Estimate</a>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <aside style="position:sticky; top:84px; display:flex; flex-direction:column; gap:24px;">
+        <!-- CTA Box -->
+        <div style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 100%);border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#FAF0E6;margin-bottom:12px;">Get a Free Estimate in Caldwell</h3>
+          <p style="font-size:14px;line-height:1.7;color:rgba(250,240,230,0.8);margin-bottom:20px;">An ISA-certified arborist will visit your Caldwell property, assess your trees, and provide a detailed written estimate at no cost.</p>
+          <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Request Estimate</a>
+          <a href="tel:+19862027387" class="btn-bark" style="width:100%;justify-content:center;">Call (986) 202-7387</a>
+        </div>
+
+        <!-- Quick Pricing Reference -->
+        <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Quick Pricing Reference</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Tree Trimming</span><strong style="color:#363636;">$150&ndash;$2,000+</strong></li>
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Tree Removal</span><strong style="color:#363636;">$500&ndash;$5,000+</strong></li>
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Stump Grinding</span><strong style="color:#363636;">$75&ndash;$400</strong></li>
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Emergency</span><strong style="color:#363636;">$300&ndash;$3,000+</strong></li>
+          </ul>
+          <a href="/#contact" style="display:block;text-align:center;margin-top:16px;font-size:13px;color:#8B5A2B;font-weight:600;text-decoration:none;">Get an exact quote &rarr;</a>
+        </div>
+
+        <!-- Other Service Areas -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Other Service Areas</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/tree-service-nampa/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Nampa</a></li>
+            <li><a href="/tree-service-meridian/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Meridian</a></li>
+            <li><a href="/tree-service-eagle/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Eagle</a></li>
+            <li><a href="/tree-service-garden-city/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Garden City</a></li>
+          </ul>
+        </div>
+
+        <!-- Related Services -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Related Services</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/blog/tree-trimming-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Trimming</a></li>
+            <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Removal</a></li>
+            <li><a href="/blog/stump-grinding-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Stump Grinding</a></li>
+            <li><a href="/blog/emergency-tree-service-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Emergency Tree Service</a></li>
+            <li><a href="/blog/tree-health-assessment-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Health Assessment</a></li>
+            <li><a href="/blog/tree-cabling-bracing-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Cabling &amp; Bracing</a></li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     CTA BANNER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 50%, #1A531A 100%);padding:64px 24px;text-align:center;">
+  <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Get Your Free Estimate in Caldwell</h2>
+  <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">ISA-certified arborists. $2M insured. Free on-site estimates for all tree services in Caldwell, Idaho.</p>
+  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
+    <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<script>
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
+</script>
+</Layout>

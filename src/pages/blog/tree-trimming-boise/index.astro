@@ -1,0 +1,518 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+---
+
+<Layout
+  title="Tree Trimming Boise: When, Why &amp; What It Costs (2026)"
+  description="Tree trimming in Boise costs $150-$2,000+. ISA-certified arborists explain the best pruning times by species, costs, and red flags. Free estimates."
+  canonical="https://boisetreepro.com/blog/tree-trimming-boise/"
+  ogTitle="Tree Trimming Boise: When, Why &amp; What It Costs (2026)"
+  ogDescription="Tree trimming in Boise costs $150-$2,000+. ISA-certified arborists explain the best pruning times by species, costs, and red flags."
+  ogImage="https://boisetreepro.com/images/og-image.png"
+>
+  <Fragment slot="head">
+<style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+    .nav-link { position: relative; font-weight: 500; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: #363636; text-decoration: none; transition: color 0.2s; }
+    .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .dropdown-open .blog-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
+    .dropdown-open svg { transform: rotate(180deg); }
+    .blog-dropdown a:hover { background: #f5f0eb; color: #1A531A; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
+    .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
+    .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
+    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* Article content styles */
+    .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
+    .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
+    .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
+    .article-content a { color: #8B5A2B; font-weight: 600; text-decoration: none; }
+    .article-content a:hover { text-decoration: underline; }
+    .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 20px; }
+    .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+    .article-content strong { color: #363636; }
+    .article-content em { font-style: italic; }
+    .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
+    .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
+    .article-content td { padding: 12px 16px; border-bottom: 1px solid #e8ddd0; color: #555; }
+    .article-content tr:last-child td { border-bottom: none; }
+    .article-content tr:nth-child(even) { background: #FAF0E6; }
+
+    /* TOC styles */
+    .toc { background: #FAF0E6; border: 1px solid #e8ddd0; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc ul { list-style: none; padding: 0; margin: 0; }
+    .toc li { font-size: 15px; margin-bottom: 8px; padding-left: 16px; position: relative; }
+    .toc li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: #8B5A2B; border-radius: 50%; }
+    .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
+    .toc a:hover { text-decoration: underline; }
+
+    /* FAQ styles */
+    .faq-item { margin-bottom: 24px; }
+    .faq-item h3 { font-size: 18px; color: #363636; margin-bottom: 8px; }
+    .faq-item p { margin-bottom: 0; }
+  </style>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Tree Trimming & Pruning",
+    "description": "Professional tree trimming and pruning services in Boise, Idaho. Crown thinning, deadwood removal, structural pruning, and canopy shaping by ISA-certified arborists.",
+    "provider": {
+      "@type": ["TreeService", "LocalBusiness"],
+      "name": "Boise Tree Pros",
+      "url": "https://boisetreepro.com",
+      "telephone": "(986) 202-7387",
+      "areaServed": [
+        { "@type": "City", "name": "Boise", "addressRegion": "ID" },
+        { "@type": "City", "name": "Meridian", "addressRegion": "ID" },
+        { "@type": "City", "name": "Eagle", "addressRegion": "ID" },
+        { "@type": "City", "name": "Nampa", "addressRegion": "ID" }
+      ]
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Boise",
+      "addressRegion": "ID"
+    }
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://boisetreepro.com/blog/" },
+      { "@type": "ListItem", "position": 3, "name": "Tree Trimming & Pruning", "item": "https://boisetreepro.com/blog/tree-trimming-boise/" }
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to trim a tree in Boise?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most tree trimming in Boise costs between $150 and $2,000, depending on the tree's size, location, and condition. A small ornamental under 25 feet might run $150-$400, while a large cottonwood near a structure could be $800-$2,000+."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When should you trim trees in Idaho?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Late winter (late January through early March) is the best time for most deciduous trees in Idaho. Trees are dormant, insects are inactive, and arborists can see the full branch structure. Exceptions include maples (late summer), elms (November through March only), and dead branches (any time of year)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How often should trees be pruned?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most mature trees in Boise benefit from professional pruning every 3-5 years. Young trees should be structurally pruned every 2-3 years to establish strong branching. Trees near structures, walkways, or power lines may need annual deadwood inspections."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it better to trim trees in fall or spring?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Neither is ideal for most species. Late winter (while dormant) is better than both. Fall pruning can stimulate new growth that won't harden before winter, and spring pruning interrupts active growth. The exception is spring-flowering trees like crabapples, which should be pruned right after they bloom."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a permit to trim trees in Boise?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Generally no, for trees on your private property. However, the City of Boise has a tree ordinance (Chapter 7-2) that applies to trees in the public right-of-way and certain protected species. If the tree is near a sidewalk or street, check with the City of Boise Urban Forestry division before trimming."
+        }
+      }
+    ]
+  }
+  </script>
+  </Fragment>
+<!-- ══════════════════════════════════
+     BREADCRUMB
+══════════════════════════════════ -->
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+  <ol style="list-style:none;padding:0;margin:0;display:flex;gap:8px;font-size:13px;color:#888;">
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Home</a></li>
+    <li>/</li>
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Blogs</a></li>
+    <li>/</li>
+    <li style="color:#363636;">Tree Trimming &amp; Pruning</li>
+  </ol>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO / PAGE HEADER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;opacity:0.15;">
+    <img src="/images/tree-trimming-boise-hero.webp" srcset="/images/tree-trimming-boise-hero-400.webp 400w, /images/tree-trimming-boise-hero-800.webp 800w, /images/tree-trimming-boise-hero-1600.webp 1600w" sizes="100vw" fetchpriority="high" loading="eager" decoding="async" alt="Professional arborist pruning branches of a mature tree in a Boise Idaho neighborhood" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+    <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">ISA Certified Arborists</span>
+    <h1 class="section-heading text-cream" style="font-size:clamp(36px,5vw,56px);margin-bottom:16px;">Tree Trimming in Boise: When to Prune, What It Costs, and How to Tell If Your Trees Need It</h1>
+    <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">The complete guide from Boise's ISA-certified arborists. Species-by-species timing, real cost data, and how to avoid the biggest pruning mistake homeowners make.</p>
+    <div class="flex flex-wrap gap-4">
+      <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
+      <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     ARTICLE CONTENT
+══════════════════════════════════ -->
+<section style="padding:72px 0;background:#fff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:64px;align-items:start;" class="content-grid">
+
+      <!-- Main Content Column -->
+      <div class="article-content">
+
+        <p>Last spring, a homeowner in Boise's North End called us about a mature elm that "looked a little messy." When our arborist walked the property, he found three dead limbs the size of a person's leg hanging directly over the kids' swing set. One decent windstorm and that tree becomes a trip to the ER.</p>
+
+        <p>That's the reality of tree trimming in Boise. Most homeowners know their trees need attention. They just don't know when, how much it'll cost, or whether the crew they hire will do it right. And the difference between good pruning and bad pruning isn't obvious until months or years later, when a topped tree starts throwing out weak, spindly regrowth that's worse than what you started with.</p>
+
+        <p>This guide covers everything you need to know about tree trimming and tree pruning in Boise: the best timing for Idaho's climate, what different types of pruning actually do, how to spot the warning signs that your trees need work, and what separates a qualified arborist from a guy with a truck and a chainsaw. Whether you're in Eagle, Meridian, Nampa, or anywhere in the Treasure Valley, the same principles apply.</p>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+          <strong style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;color:#1A531A;">In this article:</strong>
+          <ul style="margin-top:12px;">
+            <li><a href="#when-to-trim">When to trim trees in Boise (species-by-species timing)</a></li>
+            <li><a href="#types-of-trimming">The 5 types of pruning and when each one matters</a></li>
+            <li><a href="#cost">How much tree trimming costs in Boise (honest breakdown)</a></li>
+            <li><a href="#red-flags">Red flags that your trees need trimming now</a></li>
+            <li><a href="#hiring">How to hire the best tree trimming company</a></li>
+            <li><a href="#topping">The biggest pruning mistake Boise homeowners make</a></li>
+            <li><a href="#faqs">FAQs about tree trimming in Boise</a></li>
+          </ul>
+        </div>
+
+        <h2 id="when-to-trim">When to Trim Trees in Boise, Idaho</h2>
+
+        <p>Timing matters more than most people think. If you're looking for a <a href="/blog/tree-trimming-boise/">tree trimming service in Boise</a>, the first question to get right is <em>when</em>. Prune at the wrong time and you invite disease, attract pests, or stress the tree during its most vulnerable period. Understanding <a href="/blog/tree-health-assessment-boise/">common tree diseases in Boise</a> helps you time your pruning to minimize risk.</p>
+
+        <p><strong>The general rule for Boise:</strong> Late winter, roughly late January through early March, is the best window for most deciduous trees. Trees are dormant. Sap isn't flowing. Insects that spread disease are inactive. And without leaves, your arborist can see the full branch structure clearly.</p>
+
+        <p>But "late winter" doesn't apply to everything in the Treasure Valley. Here's a species-by-species breakdown based on what we see most in Boise neighborhoods:</p>
+
+        <h3>Maples and Birches</h3>
+        <p>Prune in <strong>late summer</strong> (August through September). Maples bleed sap heavily if you prune them during late winter or spring. It won't kill the tree, but it's messy and stressful. Late summer pruning after the leaves have fully hardened gives you clean cuts with minimal sap loss.</p>
+
+        <h3>Elms</h3>
+        <p><strong>Never prune between April and October.</strong> Dutch elm disease is spread by elm bark beetles that are active during warmer months. Fresh pruning cuts during this window are basically an invitation. Stick to November through March for all elm work in the Boise area.</p>
+
+        <h3>Fruit Trees (Apple, Cherry, Pear)</h3>
+        <p>Late winter, ideally <strong>February</strong>, before bud break. This promotes strong spring fruit production and lets you shape the canopy before the growing season. If you miss the window, light pruning after harvest in late summer is a secondary option. See our <a href="/blog/fruit-tree-pruning-boise/">fruit tree pruning guide</a> for detailed techniques.</p>
+
+        <h3>Cottonwoods</h3>
+        <p>Boise has a lot of cottonwoods, and they're one of our most common <a href="/blog/emergency-tree-service-boise/">emergency tree service</a> calls. Their wood is brittle and prone to splitting in windstorms. Prune cottonwoods in <strong>late winter</strong> to reduce canopy weight before spring storms hit the Treasure Valley.</p>
+
+        <h3>Evergreens (Pines, Spruces, Firs)</h3>
+        <p><strong>Late spring</strong> (May through June) when new growth ("candles") is visible but hasn't fully hardened. Light pruning and shaping is fine for most Idaho evergreens. Avoid heavy pruning, since conifers don't regenerate from old wood the way deciduous trees do. If you're planning new plantings, check out the <a href="/blog/best-trees-to-plant-boise/">trees that handle pruning well in Boise</a>.</p>
+
+        <h3>Dead or Hazardous Branches</h3>
+        <p><strong>Any time of year.</strong> Don't wait for the "right season" if you've got dead limbs hanging over your roof, driveway, or walkway. Dead wood is dead wood. Remove it before it falls on something.</p>
+
+        <p><strong>Not sure what species you have, or when to schedule?</strong> <a href="/blog/tree-trimming-boise/">Our arborists can assess your trees on-site and recommend the right timing</a>, free of charge.</p>
+
+        <h2 id="types-of-trimming">5 Types of Tree Trimming (and When Each One Matters)</h2>
+
+        <p>"Trimming" is a broad word. What actually happens during a professional tree trimming job depends on the tree's age, health, species, and location. Here are the five most common types of pruning we perform across the Treasure Valley.</p>
+
+        <h3>1. Crown Thinning</h3>
+        <p>The most common pruning for mature trees in Boise. We selectively remove interior branches to let more light and air through the canopy. This reduces wind resistance (critical during Boise's spring windstorms), lowers the chance of branch failure, and helps the interior canopy stay healthy.</p>
+        <p>Crown thinning done right removes no more than 15-20% of the live canopy. More than that and you're stressing the tree. For trees with heavy limbs that can't be safely thinned enough, cabling and bracing systems provide additional support.</p>
+
+        <h3>2. Deadwood Removal</h3>
+        <p>Exactly what it sounds like. We remove dead, dying, and diseased branches from the canopy. This is the single highest-ROI trimming service. Dead branches fall. It's not a question of if. Removing them prevents property damage, injury, and the spread of disease to healthy wood.</p>
+        <p>We recommend annual deadwood inspections for any Boise property with trees taller than 25 feet, especially near structures.</p>
+
+        <h3>3. Structural Pruning</h3>
+        <p>This one's for younger trees. Structural pruning corrects problems before they become expensive, like competing leaders (two main trunks fighting for dominance), weak V-shaped branch unions, and crossing limbs that rub and create wounds.</p>
+        <p>A Boise homeowner named Dave planted five maples in his Meridian yard in 2018. Never had them pruned. By 2024, two of them had developed tight co-dominant stems that were splitting apart. One split during a February ice storm and dropped half the canopy onto his fence. The other three? We structurally pruned them for a fraction of the cost of that fence repair. Early investment, big payoff.</p>
+
+        <h3>4. Canopy Raising (Clearance Pruning)</h3>
+        <p>Low branches blocking your sidewalk? Scraping the roof of your truck? Canopy raising removes lower limbs to provide clearance.</p>
+        <p>City of Boise requires 8 feet of clearance over sidewalks and 14 feet over streets. If your trees overhang public sidewalks or roads and you haven't maintained clearance, you could be liable if someone gets hurt.</p>
+
+        <h3>5. Vista Pruning</h3>
+        <p>Popular in the Boise foothills and East End neighborhoods. Vista pruning selectively opens "windows" through the canopy so you can see past your trees to the foothills, downtown skyline, or surrounding views, without removing the tree entirely. It's a precision job that requires an arborist who understands both tree health and aesthetics.</p>
+
+        <h2 id="cost">How Much Does Tree Trimming Cost in Boise?</h2>
+
+        <p>Tree trimming in Boise varies widely by tree size, condition, and access. We get this question on every estimate. The honest answer: it depends. But here's a realistic framework so you're not walking in blind.</p>
+
+        <p><strong>What drives tree trimming cost:</strong></p>
+        <ul>
+          <li><strong>Tree size:</strong> A 20-foot ornamental is a different job than a 60-foot cottonwood</li>
+          <li><strong>Number of trees:</strong> Multiple trees on one visit is more cost-effective per tree</li>
+          <li><strong>Access:</strong> Tight yards, fences, slopes, and overhead lines all add complexity</li>
+          <li><strong>Condition:</strong> Heavy deadwood, storm damage, or neglected trees take longer</li>
+          <li><strong>Type of pruning:</strong> A basic raise is faster than a full crown thin on a mature oak</li>
+        </ul>
+
+        <p><strong>General Boise-area ranges (2026):</strong></p>
+        <table>
+          <thead>
+            <tr><th>Tree Size</th><th>Height</th><th>Typical Cost</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Small</td><td>Under 25 feet</td><td>$150-$400</td></tr>
+            <tr><td>Medium</td><td>25-50 feet</td><td>$350-$900</td></tr>
+            <tr><td>Large</td><td>50-80+ feet</td><td>$800-$2,000+</td></tr>
+            <tr><td>Specialty (crane, power lines)</td><td>Any</td><td>$1,500+</td></tr>
+          </tbody>
+        </table>
+
+        <p>These are ballpark ranges, not quotes. Every tree is different, and a responsible company won't price your job without seeing it first.</p>
+
+        <p><strong>The real cost question nobody asks:</strong> How much does it cost to NOT trim your trees? A dead limb that drops on your roof can easily cause $5,000-$15,000 in damage. Emergency storm removal costs 2-3x what preventative trimming would have. And insurance doesn't always cover "maintenance neglect."</p>
+
+        <p><strong>Want an actual number for your trees?</strong> <a href="/#contact">Request a free estimate</a>. One of our ISA-certified arborists will visit your property, assess every tree, and give you a written quote with no pressure.</p>
+
+        <h2 id="red-flags">Red Flags: Signs Your Trees Need Trimming Now</h2>
+
+        <p>Most trees don't send you a calendar reminder. But they do give warning signs. Walk your property and check for these:</p>
+
+        <p><strong>Structural red flags:</strong></p>
+        <ul>
+          <li>Dead branches visible in the canopy (no leaves, brittle bark)</li>
+          <li>Branches rubbing or crossing each other</li>
+          <li>Heavy limbs extending far from the trunk without taper</li>
+          <li>V-shaped forks where two major branches meet (weak union)</li>
+          <li>Branches touching or scraping your roof, siding, or power lines</li>
+        </ul>
+
+        <p><strong>Health red flags:</strong></p>
+        <ul>
+          <li>Sparse or yellowing leaves on one side of the canopy</li>
+          <li>Mushrooms or fungal growth at the base or on branches</li>
+          <li>Bark peeling or falling off in unusual patterns</li>
+          <li>Excessive sucker growth at the base (stress response)</li>
+        </ul>
+
+        <p><strong>Timing red flags:</strong></p>
+        <ul>
+          <li>You can't remember the last time the tree was trimmed</li>
+          <li>The canopy is so dense you can't see through it</li>
+          <li>Neighbors are commenting on overgrowth</li>
+        </ul>
+
+        <p>If you check three or more of those boxes, don't wait for "the right season." <a href="/blog/tree-trimming-boise/">Call an arborist</a> and get an assessment. Dead and hazardous branches can come out any time of year.</p>
+
+        <h2 id="hiring">How to Hire the Best Tree Trimming Company in Boise</h2>
+
+        <p>Choosing a tree trimming service in Boise is where most homeowners make their most expensive mistake: hiring on price alone. Our guide on <a href="/blog/how-to-hire-tree-service-boise/">how to choose a tree service</a> covers this in detail.</p>
+
+        <p>A crew that's $200 cheaper might also be uninsured, uncertified, and happy to top your trees (more on that below). Two years later you're paying twice as much to fix the damage.</p>
+
+        <p><strong>Here's what to look for:</strong></p>
+
+        <p><strong>1. ISA certification.</strong> The International Society of Arboriculture certifies arborists who pass rigorous exams on tree biology, pruning science, and safety. If the company can't tell you their ISA credentials, keep looking. <a href="https://www.treesaregood.org/" target="_blank" rel="noopener">Learn more about ISA certification at treesaregood.org</a>.</p>
+
+        <p><strong>2. Proof of insurance.</strong> Ask for a certificate of insurance showing both liability coverage and workers' comp. If a worker falls on your property and they're not insured, you could be liable. At Boise Tree Pros, we carry <a href="/#about">$2M in liability coverage</a> on every job.</p>
+
+        <p><strong>3. Written estimates.</strong> A professional company visits your property, looks at the trees, and gives you a written scope of work. Anyone who quotes over the phone or from a truck in the street is guessing.</p>
+
+        <p><strong>4. No topping.</strong> If a company suggests topping as a solution, walk away. (See the next section for why.) And if you need a tree removed entirely rather than trimmed, make sure to hire a company that handles <a href="/blog/tree-removal-boise/">professional tree removal in Boise</a> safely.</p>
+
+        <p><strong>5. Cleanup included.</strong> Ask if debris removal is part of the price. Some companies will "chip and drop" and leave you with a pile of mulch. Others haul everything. Know what you're getting.</p>
+
+        <p><strong>6. ANSI A300 compliance.</strong> This is the national standard for tree pruning. Companies that follow <a href="https://www.tcia.org/TCIA/BUSINESS/ANSI_A300_702Standards/TCIA/BUSINESS/A300Standards.aspx" target="_blank" rel="noopener">ANSI A300</a> are using proper techniques that keep your trees healthy. Ask about it.</p>
+
+        <h2 id="topping">The Biggest Tree Trimming Mistake in Boise (Topping)</h2>
+
+        <p>We need to talk about topping, because it's still happening all over the Treasure Valley and it's one of the most damaging things you can do to a tree.</p>
+
+        <p><strong>What topping looks like:</strong> Cutting all the main branches back to stubs. The tree looks like a hat rack when they're done. Sometimes companies call it "heading," "rounding over," or "hat-racking." It's all the same thing.</p>
+
+        <p><strong>Why it's a disaster:</strong></p>
+        <ul>
+          <li>The tree responds by throwing out dozens of thin, weakly attached sprouts from each stub</li>
+          <li>These sprouts grow fast but have poor attachment, making them MORE likely to fail in storms</li>
+          <li>The large pruning wounds expose heartwood to decay and disease</li>
+          <li>The tree loses most of its food-producing leaves, stressing it severely</li>
+          <li>Within 2-3 years, the canopy is denser, more hazardous, and more expensive to manage than before you started</li>
+        </ul>
+
+        <p>A homeowner on the Boise Bench, Karen, hired a "tree service" from Craigslist in 2022. They topped three 40-foot silver maples for $600. Seemed like a deal. Two years later, each tree had exploded with dense, whip-like regrowth. One branch cluster failed during a windstorm and punched through her carport roof. The insurance claim was $8,200. The corrective pruning to fix the remaining trees cost $2,400. That $600 "bargain" turned into an $11,200 lesson.</p>
+
+        <p><strong>The alternative:</strong> Proper crown thinning and weight reduction. An ISA-certified arborist can reduce a tree's wind resistance and limb weight by 15-20% without topping. The tree stays healthy, the structure improves, and you don't end up in a cycle of hack-and-regrow.</p>
+
+        <h2>What Happens During a Professional Tree Trimming Visit</h2>
+
+        <p>Here's what to expect when you book tree trimming with a reputable company in Boise:</p>
+
+        <p><strong>1. On-site assessment.</strong> An arborist walks your property, inspects each tree, identifies species, health issues, and structural concerns. They discuss your goals (clearance? storm safety? aesthetics?) and recommend the right approach.</p>
+        <p><strong>2. Written estimate.</strong> You get a clear scope of work in writing. Not a vague "we'll clean it up" but specific pruning types per tree.</p>
+        <p><strong>3. Scheduled work.</strong> The crew arrives with the right equipment for the job. For canopy work on larger trees, that means climbing gear or an aerial lift.</p>
+        <p><strong>4. Professional pruning.</strong> Cuts follow ANSI A300 standards. No topping. No lion-tailing. Proper cut placement that allows the tree to compartmentalize and heal.</p>
+        <p><strong>5. Complete cleanup.</strong> Branches chipped. Logs removed. Your yard looks better than before they arrived.</p>
+        <p><strong>6. Follow-up recommendations.</strong> A good arborist tells you what to watch for and when the next service should happen. Most trees in Boise benefit from professional pruning every 3-5 years.</p>
+
+        <h2 id="faqs">FAQs About Tree Trimming in Boise</h2>
+
+        <div class="faq-item">
+          <h3>How much does it cost to trim a tree in Boise?</h3>
+          <p>Most tree trimming in Boise costs between $150 and $2,000, depending on the tree's size, location, and condition. A small ornamental under 25 feet might run $150-$400, while a large cottonwood near a structure could be $800-$2,000+. Get a written estimate from an ISA-certified arborist before committing.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>When should you trim trees in Idaho?</h3>
+          <p>Late winter (late January through early March) is the best time for most deciduous trees in Idaho. Trees are dormant, insects are inactive, and arborists can see the full branch structure. Exceptions include maples (late summer), elms (November through March only), and dead branches (any time of year).</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How often should trees be pruned?</h3>
+          <p>Most mature trees in Boise benefit from professional pruning every 3-5 years. Young trees should be structurally pruned every 2-3 years to establish strong branching. Trees near structures, walkways, or power lines may need annual deadwood inspections.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Is it better to trim trees in fall or spring?</h3>
+          <p>Neither is ideal for most species. Late winter (while dormant) is better than both. Fall pruning can stimulate new growth that won't harden before winter, and spring pruning interrupts active growth. The exception is spring-flowering trees like crabapples, which should be pruned right after they bloom.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do I need a permit to trim trees in Boise?</h3>
+          <p>Generally no, for trees on your private property. However, the City of Boise has a tree ordinance (Chapter 7-2) that applies to trees in the public right-of-way and certain protected species. If the tree is near a sidewalk or street, check with the City of Boise Urban Forestry division before trimming.</p>
+        </div>
+
+        <h2>Keep Your Boise Trees Healthy and Your Property Safe</h2>
+
+        <p>Here's the short version:</p>
+        <ul>
+          <li><strong>Timing:</strong> Late winter for most trees. Check species-specific timing.</li>
+          <li><strong>Frequency:</strong> Every 3-5 years for mature trees. Annually for deadwood inspections near structures.</li>
+          <li><strong>Cost:</strong> $150-$2,000+ depending on size, access, and complexity.</li>
+          <li><strong>Red flags:</strong> Dead limbs, dense canopy, rubbing branches, roof contact.</li>
+          <li><strong>Hiring:</strong> ISA-certified, insured, written estimates, no topping.</li>
+          <li><strong>Biggest mistake:</strong> Topping. It creates more hazards than it solves.</li>
+        </ul>
+
+        <p>Your trees are some of the most valuable assets on your property. A mature, healthy tree adds $1,000-$10,000 to property value according to the <a href="https://www.fs.usda.gov/" target="_blank" rel="noopener">USDA Forest Service</a>. Taking care of them isn't just about aesthetics. It's about safety, property value, and keeping your landscape healthy for years to come.</p>
+
+        <p><strong>Ready for a professional assessment?</strong> <a href="/#contact">Get a free estimate from Boise Tree Pros</a>. Our ISA-certified arborists will walk your property, assess every tree, and give you straight answers about what needs attention. No sales pitch. Just honest recommendations from arborists who've been caring for Boise's trees since 2008.</p>
+
+        <p>Call <strong>(986) 202-7387</strong> or <a href="/#contact">book your free estimate online</a>.</p>
+
+      </div>
+
+      <!-- Sidebar -->
+      <aside>
+        <!-- CTA Box -->
+        <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:12px;">Get a Free Trimming Estimate</h3>
+          <p style="font-size:14px;line-height:1.7;color:#555;margin-bottom:20px;">An ISA-certified arborist will visit your property, assess your trees, and provide a detailed written estimate at no cost.</p>
+          <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;">Request Estimate</a>
+          <a href="tel:+19862027387" class="btn-bark" style="width:100%;justify-content:center;">Call (986) 202-7387</a>
+        </div>
+
+        <!-- Other Blogs -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Other Blogs</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Removal</a></li>
+            <li><a href="/blog/emergency-tree-service-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Emergency Tree Service</a></li>
+            <li><a href="/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; All Blogs</a></li>
+          </ul>
+        </div>
+
+        <!-- Service Areas -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-top:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:12px;">Service Areas</h3>
+          <p style="font-size:14px;line-height:1.7;color:#555;">We provide tree trimming and pruning throughout the Treasure Valley:</p>
+          <ul style="padding-left:18px;margin-top:8px;">
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Boise, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Meridian, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Eagle, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Nampa, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Caldwell, ID</li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     CTA BANNER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 50%, #1A531A 100%);padding:64px 24px;text-align:center;">
+  <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Ready to Schedule Your Tree Trimming?</h2>
+  <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">Get a free, no-obligation estimate from an ISA-certified arborist. Most estimates scheduled within 48 hours.</p>
+  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
+    <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<script>
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
+</script>
+</Layout>

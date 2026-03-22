@@ -1,0 +1,115 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const posts = [
+  { slug: 'tree-trimming-boise', title: 'Tree Trimming in Boise', desc: 'Everything you need to know about professional tree trimming in the Boise area.' },
+  { slug: 'tree-removal-boise', title: 'Tree Removal in Boise', desc: 'Safe, efficient tree removal services and what to expect from the process.' },
+  { slug: 'emergency-tree-service-boise', title: 'Emergency Tree Service Boise', desc: 'What to do when a tree falls or poses an immediate danger to your property.' },
+  { slug: 'stump-grinding-boise', title: 'Stump Grinding in Boise', desc: 'Why stump grinding is the best way to reclaim your yard after a tree removal.' },
+  { slug: 'tree-health-assessment-boise', title: 'Tree Health Assessment Boise', desc: 'How certified arborists evaluate tree health and what signs to watch for.' },
+  { slug: 'tree-cabling-bracing-boise', title: 'Tree Cabling & Bracing Boise', desc: 'Structural support solutions to preserve mature or damaged trees.' },
+  { slug: 'arborist-cost-boise', title: 'Arborist Cost in Boise', desc: 'A breakdown of what tree services cost in the Treasure Valley.' },
+  { slug: 'best-trees-to-plant-boise', title: 'Best Trees to Plant in Boise', desc: 'Top tree species that thrive in Idaho\'s climate and soil conditions.' },
+  { slug: 'fruit-tree-pruning-boise', title: 'Fruit Tree Pruning in Boise', desc: 'When and how to prune fruit trees for maximum health and yield.' },
+  { slug: 'how-to-hire-tree-service-boise', title: 'How to Hire a Tree Service in Boise', desc: 'What to look for when choosing a reputable tree care company.' },
+  { slug: 'tree-removal-permits-boise', title: 'Tree Removal Permits in Boise', desc: 'Do you need a permit to remove a tree in Boise? Here\'s what the rules say.' },
+];
+---
+
+<Layout
+  title="Tree Care Blog | Boise Tree Pros"
+  description="Tips, guides, and expert advice on tree trimming, removal, health, and care for Boise-area homeowners."
+  canonical="https://boisetreepro.com/blog/"
+  ogTitle="Tree Care Blog | Boise Tree Pros"
+  ogDescription="Tips, guides, and expert advice on tree trimming, removal, health, and care for Boise-area homeowners."
+>
+<style>
+  .blog-hero {
+    background: linear-gradient(135deg, #0d2e0d 0%, #1A531A 60%, #2A6B2A 100%);
+    padding: 72px 24px 56px;
+    text-align: center;
+    color: #FAF0E6;
+  }
+  .blog-hero h1 {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    margin: 0 0 12px;
+    letter-spacing: -0.02em;
+    color: #FAF0E6;
+  }
+  .blog-hero p {
+    font-size: 1.05rem;
+    opacity: 0.85;
+    margin: 0;
+    max-width: 520px;
+    margin-inline: auto;
+    line-height: 1.6;
+  }
+  .blog-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 28px;
+  }
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e8e0d8;
+    padding: 28px 24px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 8px rgba(26,83,26,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .blog-card:hover {
+    box-shadow: 0 8px 28px rgba(26,83,26,0.14), 0 2px 6px rgba(0,0,0,0.06);
+    transform: translateY(-3px);
+  }
+  .blog-card:focus-visible {
+    outline: 2px solid #1A531A;
+    outline-offset: 3px;
+  }
+  .blog-card h2 {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1A531A;
+    margin: 0 0 10px;
+    line-height: 1.35;
+  }
+  .blog-card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.65;
+    margin: 0 0 20px;
+    flex: 1;
+  }
+  .blog-card .read-more {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1A531A;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+</style>
+
+<section class="blog-hero">
+  <h1>Tree Care Blog</h1>
+  <p>Expert advice on tree trimming, removal, health, and care for Boise-area homeowners.</p>
+</section>
+
+<div class="blog-grid">
+  {posts.map(post => (
+    <a href={`/blog/${post.slug}/`} class="blog-card">
+      <h2>{post.title}</h2>
+      <p>{post.desc}</p>
+      <span class="read-more">Read Article →</span>
+    </a>
+  ))}
+</div>
+</Layout>

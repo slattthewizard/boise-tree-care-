@@ -1,0 +1,6 @@
+# Boise Tree Pros — robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://boisetreepro.com/sitemap.xml

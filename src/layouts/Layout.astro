@@ -1,0 +1,423 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
+  twitterImage?: string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogTitle,
+  ogDescription,
+  ogImage = 'https://boisetreepro.com/images/og-image.png',
+  twitterTitle,
+  twitterDescription,
+  twitterImage,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico">
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={ogTitle ?? title} />
+  <meta property="og:description" content={ogDescription ?? description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:site_name" content="Boise Tree Pros" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={twitterTitle ?? ogTitle ?? title} />
+  <meta name="twitter:description" content={twitterDescription ?? ogDescription ?? description} />
+  <meta name="twitter:image" content={twitterImage ?? ogImage} />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"></noscript>
+
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Shared base styles -->
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; color: #363636; background: #fff; margin: 0; }
+
+    /* Noise texture overlay */
+    .noise::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/webp;base64,UklGRhYBAABXRUJQVlA4IAoBAACQBACdASogACAADMDOJaQAUYHSDVB3GOwGUDwA0gTMY7N7OK7tUHvFHVrKJiAA5Ru+pVLnXGXwJxYPronb+TUCjsx6Ur3KhZLyh6D6qEh+ac1Tej7Qkt6pqT05lKn8v8nRkXRhKzDlWJfOGHVlRfaTsd8NM0WQBHMvJRmnYJAouHcZztgz+6d/HXK0UWmlXnZ54oLj+OybLYEz/jTne/A3qvHzxlkYgSXuo/d3HytUECFAAE6TQaH+ntqAyECuD4pcVpphEQsUGf/qcEw6Wm9zBVNuxAUAd9+V9xxUhBu7wYLsFPOVnzKeGEVj0pzuFl7hYGo+0JIs6HR6cnNg0bk/7mkRWqHvaRFQAA==");
+      background-repeat: repeat;
+      pointer-events: none;
+      opacity: 0.06;
+      z-index: 1;
+    }
+
+    /* Animations */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up { animation: fadeUp 0.8s cubic-bezier(0.34, 1.2, 0.64, 1) both; }
+    .delay-1 { animation-delay: 0.15s; }
+    .delay-2 { animation-delay: 0.30s; }
+    .delay-3 { animation-delay: 0.45s; }
+
+    /* Nav */
+    .nav-link {
+      position: relative; font-weight: 500; font-size: 14px; letter-spacing: 0.04em;
+      text-transform: uppercase; color: #363636; text-decoration: none; transition: color 0.2s;
+    }
+    .nav-link::after {
+      content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px;
+      background: #1A531A; transform: scaleX(0); transform-origin: left;
+      transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1);
+    }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .nav-link:focus-visible { outline: 2px solid #1A531A; outline-offset: 4px; border-radius: 2px; }
+
+    /* Dropdowns */
+    .dropdown-open .blog-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
+    .dropdown-open svg { transform: rotate(180deg); }
+    .areas-open .areas-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
+    .areas-open svg { transform: rotate(180deg); }
+    .dropdown-link { display: flex; align-items: center; padding: 10px 18px; min-height: 48px; font-size: 14px; color: #363636; text-decoration: none; transition: background-color 0.2s, color 0.2s, opacity 0.2s; outline: none; }
+    .dropdown-link:hover { background-color: #f5f0eb; color: #1A531A; }
+    .dropdown-link:focus-visible { background-color: #f5f0eb; color: #1A531A; box-shadow: inset 2px 0 0 0 #1A531A; }
+    .dropdown-link:active { opacity: 0.7; }
+
+    /* Buttons */
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em;
+      text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px;
+      cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(26,83,26,0.25), 0 1px 3px rgba(26,83,26,0.15);
+    }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .btn-primary:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(26,83,26,0.2); }
+    .btn-primary:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    .btn-outline-white {
+      display: inline-flex; align-items: center; gap: 8px; background: transparent; color: #FAF0E6;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em;
+      text-transform: uppercase; padding: 12px 28px; border: 2px solid rgba(250,240,230,0.7);
+      border-radius: 4px; cursor: pointer; text-decoration: none;
+      transition: background 0.2s, border-color 0.2s, transform 0.15s;
+    }
+    .btn-outline-white:hover { background: rgba(250,240,230,0.15); border-color: #FAF0E6; transform: translateY(-1px); }
+    .btn-outline-white:active { transform: translateY(0); }
+    .btn-outline-white:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    .btn-bark {
+      display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em;
+      text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px;
+      cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(139,90,43,0.25);
+    }
+    .btn-bark:hover { background: #A06830; box-shadow: 0 6px 20px rgba(139,90,43,0.35); transform: translateY(-1px); }
+    .btn-bark:active { transform: translateY(0); }
+    .btn-bark:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    .btn-cream {
+      display: inline-flex; align-items: center; gap: 8px; background: #FAF0E6; color: #1A531A;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.06em;
+      text-transform: uppercase; padding: 14px 32px; border: 2px solid #FAF0E6; border-radius: 4px;
+      cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    .btn-cream:hover { background: #fff; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
+    .btn-cream:active { transform: translateY(0); }
+    .btn-cream:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    /* Footer links */
+    .footer-link {
+      font-size: 14px; color: rgba(250,240,230,0.65); text-decoration: none;
+      transition: color 0.2s, opacity 0.2s; outline: none; display: inline-block;
+    }
+    .footer-link:hover { color: #FAF0E6; }
+    .footer-link:focus-visible { outline: 2px solid #87CEEB; outline-offset: 2px; border-radius: 2px; color: #FAF0E6; }
+    .footer-link:active { opacity: 0.7; }
+
+    /* Section typography */
+    .section-tag {
+      display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600;
+      letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px;
+    }
+    .section-heading {
+      font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A;
+      line-height: 1.1; letter-spacing: -0.03em;
+    }
+
+    /* Mobile nav */
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #FAF0E6; }
+    ::-webkit-scrollbar-thumb { background: #1A531A; border-radius: 3px; }
+  </style>
+
+  <!-- Page-specific head content (schema, extra styles) -->
+  <slot name="head" />
+
+  <script>document.addEventListener('click',function(e){document.querySelectorAll('.dropdown-open').forEach(function(d){if(!d.contains(e.target))d.classList.remove('dropdown-open')});document.querySelectorAll('.areas-open').forEach(function(d){if(!d.contains(e.target))d.classList.remove('areas-open')})});</script>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div style="background:#1A531A;" class="py-2 px-4">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <div class="flex items-center gap-6 text-cream text-xs font-medium tracking-wide">
+      <a href="tel:+19862027387" class="flex items-center gap-1.5 hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded active:opacity-70">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (986) 202-7387
+      </a>
+      <a href="mailto:info@boisetreepros.com" class="flex items-center gap-1.5 hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded active:opacity-70 hidden sm:flex">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+        info@boisetreepros.com
+      </a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="#" aria-label="Facebook" class="text-cream hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded active:opacity-70">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="#" aria-label="Instagram" class="text-cream hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded active:opacity-70">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <a href="#" aria-label="Twitter/X" class="text-cream hover:text-sky transition-colors focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded active:opacity-70">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631Zm-1.161 17.52h1.833L7.084 4.126H5.117Z"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- STICKY HEADER -->
+<header id="header" style="position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #e8ddd0;box-shadow:0 2px 12px rgba(26,83,26,0.07),0 1px 3px rgba(0,0,0,0.04);">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2 focus-visible:outline-2 focus-visible:outline-forest focus-visible:rounded">
+      <img src="/images/logo-header.webp" alt="Boise Tree Pros" width="176" height="96" style="height:48px;width:auto;object-fit:contain;" loading="lazy">
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="/#services" class="nav-link">Services</a>
+      <a href="/about/" class="nav-link">About</a>
+      <a href="/gallery/" class="nav-link">Gallery</a>
+      <a href="/#reviews" class="nav-link">Reviews</a>
+      <a href="/cost-calculator/" class="nav-link">Cost Calculator</a>
+      <a href="/#contact" class="nav-link">Contact</a>
+      <div class="relative" style="position:relative;">
+        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
+          Blogs
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="blog-dropdown" style="position:absolute;top:calc(100% + 8px);right:0;min-width:240px;background:#fff;border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.06);padding:8px 0;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity 0.2s,transform 0.2s,visibility 0.2s;z-index:100;">
+          <a href="/blog/tree-trimming-boise/" class="dropdown-link">Tree Trimming Boise</a>
+          <a href="/blog/tree-removal-boise/" class="dropdown-link">Tree Removal Boise</a>
+          <a href="/blog/emergency-tree-service-boise/" class="dropdown-link">Emergency Tree Service</a>
+          <a href="/blog/stump-grinding-boise/" class="dropdown-link">Stump Grinding Boise</a>
+          <a href="/blog/tree-health-assessment-boise/" class="dropdown-link">Tree Health Assessment</a>
+          <div style="height:1px;background:#e8e0d8;margin:6px 0;"></div>
+          <a href="/blog/" class="dropdown-link" style="color:#1A531A;font-weight:600;font-size:13px;">View All Posts →</a>
+        </div>
+      </div>
+      <div class="relative" style="position:relative;">
+        <button onclick="this.parentElement.classList.toggle('areas-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
+          Service Areas
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="areas-dropdown" style="position:absolute;top:calc(100% + 8px);right:0;min-width:220px;background:#fff;border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.06);padding:8px 0;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity 0.2s,transform 0.2s,visibility 0.2s;z-index:100;">
+          <a href="/tree-service-meridian/" class="dropdown-link">Meridian</a>
+          <a href="/tree-service-eagle/" class="dropdown-link">Eagle</a>
+          <a href="/tree-service-garden-city/" class="dropdown-link">Garden City</a>
+          <a href="/tree-service-nampa/" class="dropdown-link">Nampa</a>
+          <a href="/tree-service-caldwell/" class="dropdown-link">Caldwell</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CTA -->
+    <div class="hidden md:flex items-center gap-3">
+      <a href="/#contact" class="btn-primary" style="padding:10px 22px;font-size:13px;">Free Estimate</a>
+    </div>
+
+    <!-- Mobile hamburger -->
+    <button id="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu" class="md:hidden p-3 min-w-[48px] min-h-[48px] text-charcoal hover:text-forest transition-colors focus-visible:outline-2 focus-visible:outline-forest focus-visible:rounded">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+
+  <!-- Mobile Nav -->
+  <div id="mobile-menu" style="border-top:1px solid #e8ddd0;background:#fff;">
+    <nav class="flex flex-col px-4 py-4 gap-4">
+      <a href="/#services" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Services</a>
+      <a href="/about/" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">About</a>
+      <a href="/gallery/" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Gallery</a>
+      <a href="/#reviews" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Reviews</a>
+      <a href="/cost-calculator/" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Cost Calculator</a>
+      <a href="/#contact" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Contact</a>
+      <div>
+        <button onclick="var el=document.getElementById('mobile-blogs');el.style.display=el.style.display==='flex'?'none':'flex';" class="nav-link text-base" style="background:none;border:none;cursor:pointer;font:inherit;color:inherit;display:flex;align-items:center;gap:4px;">
+          Blogs
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div id="mobile-blogs" style="display:none;flex-direction:column;gap:2px;padding-left:16px;margin-top:4px;">
+          <a href="/blog/tree-trimming-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Trimming Boise</a>
+          <a href="/blog/tree-removal-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Removal Boise</a>
+          <a href="/blog/emergency-tree-service-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Emergency Tree Service</a>
+          <a href="/blog/stump-grinding-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Stump Grinding Boise</a>
+          <a href="/blog/tree-health-assessment-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Health Assessment</a>
+          <a href="/blog/" class="nav-link text-sm" style="color:#1A531A;font-weight:600;" onclick="document.getElementById('mobile-menu').classList.remove('open')">View All Posts →</a>
+        </div>
+      </div>
+      <div>
+        <button onclick="var el=document.getElementById('mobile-areas');el.style.display=el.style.display==='flex'?'none':'flex';" class="nav-link text-base" style="background:none;border:none;cursor:pointer;font:inherit;color:inherit;display:flex;align-items:center;gap:4px;">
+          Service Areas
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div id="mobile-areas" style="display:none;flex-direction:column;gap:2px;padding-left:16px;margin-top:4px;">
+          <a href="/tree-service-meridian/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Meridian</a>
+          <a href="/tree-service-eagle/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Eagle</a>
+          <a href="/tree-service-garden-city/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Garden City</a>
+          <a href="/tree-service-nampa/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Nampa</a>
+          <a href="/tree-service-caldwell/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Caldwell</a>
+        </div>
+      </div>
+      <a href="/#contact" class="btn-primary w-fit" style="font-size:13px;padding:10px 20px;" onclick="document.getElementById('mobile-menu').classList.remove('open')">Free Estimate</a>
+    </nav>
+  </div>
+</header>
+
+<!-- PAGE CONTENT -->
+<slot />
+
+<!-- FOOTER -->
+<footer style="background:#0F3010;color:rgba(250,240,230,0.75);padding:64px 24px 0;">
+  <div class="max-w-7xl mx-auto">
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1.5fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(250,240,230,0.1);" class="footer-grid">
+      <!-- Brand -->
+      <div>
+        <img src="/images/logo-footer.webp" alt="Boise Tree Pros" width="191" height="104" style="height:52px;width:auto;margin-bottom:16px;border-radius:6px;" loading="lazy">
+        <p style="font-size:14px;line-height:1.8;max-width:280px;margin-bottom:20px;">Professional tree care for Boise and the Treasure Valley. ISA Certified Arborists serving residential and commercial clients since 2008.</p>
+        <div style="display:flex;gap:12px;">
+          <a href="#" aria-label="Facebook" style="width:48px;height:48px;border:1px solid rgba(250,240,230,0.35);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background-color 0.2s,color 0.2s;" class="hover:bg-forest-mid hover:text-cream focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded-full active:opacity-70">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" style="width:48px;height:48px;border:1px solid rgba(250,240,230,0.35);border-radius:50%;display:flex;align-items:center;justify-content:center;color:rgba(250,240,230,0.7);transition:background-color 0.2s,color 0.2s;" class="hover:bg-forest-mid hover:text-cream focus-visible:outline-sky focus-visible:outline-2 focus-visible:rounded-full active:opacity-70">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+      <!-- Services -->
+      <div>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Services</p>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+          <li><a href="/blog/tree-trimming-boise/" class="footer-link">Tree Trimming</a></li>
+          <li><a href="/blog/tree-removal-boise/" class="footer-link">Tree Removal</a></li>
+          <li><a href="/blog/stump-grinding-boise/" class="footer-link">Stump Grinding</a></li>
+          <li><a href="/blog/tree-trimming-boise/" class="footer-link">Tree Planting</a></li>
+          <li><a href="/blog/emergency-tree-service-boise/" class="footer-link">Emergency Service</a></li>
+          <li><a href="/blog/tree-cabling-bracing-boise/" class="footer-link">Tree Cabling &amp; Bracing</a></li>
+          <li><a href="/blog/tree-removal-boise/" class="footer-link">Lot Clearing</a></li>
+        </ul>
+      </div>
+      <!-- Service Areas -->
+      <div>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Service Areas</p>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+          <li><a href="/tree-service-meridian/" class="footer-link">Meridian</a></li>
+          <li><a href="/tree-service-eagle/" class="footer-link">Eagle</a></li>
+          <li><a href="/tree-service-garden-city/" class="footer-link">Garden City</a></li>
+          <li><a href="/tree-service-nampa/" class="footer-link">Nampa</a></li>
+          <li><a href="/tree-service-caldwell/" class="footer-link">Caldwell</a></li>
+        </ul>
+      </div>
+      <!-- Company -->
+      <div>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Company</p>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+          <li><a href="/about/" class="footer-link">About Us</a></li>
+          <li><a href="/gallery/" class="footer-link">Project Gallery</a></li>
+          <li><a href="/#reviews" class="footer-link">Reviews</a></li>
+          <li><a href="/#contact" class="footer-link">Free Estimate</a></li>
+          <li><a href="/privacy/" class="footer-link">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- Contact -->
+      <div>
+        <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Contact</p>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+19862027387" class="footer-link">(986) 202-7387</a>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+            <a href="mailto:info@boisetreepros.com" class="footer-link">info@boisetreepros.com</a>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span style="font-size:14px;color:rgba(250,240,230,0.65);">Boise, ID &amp; Treasure Valley</span>
+          </li>
+          <li style="display:flex;align-items:flex-start;gap:10px;">
+            <svg width="15" height="15" style="flex-shrink:0;margin-top:2px;color:#87CEEB;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span style="font-size:14px;color:rgba(250,240,230,0.65);">Mon–Sat 7am–7pm<br>24/7 Emergency Line</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bottom bar -->
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;font-size:13px;color:rgba(250,240,230,0.7);">
+      <span>© 2026 Boise Tree Pros. All rights reserved. Licensed &amp; Insured in Idaho.</span>
+      <div style="display:flex;gap:20px;">
+        <a href="/privacy/" class="footer-link">Privacy Policy</a>
+        <a href="/terms/" class="footer-link">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Footer responsive styles -->
+<style>
+  @media (max-width: 900px) {
+    .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
+  }
+  @media (max-width: 600px) {
+    .footer-grid { grid-template-columns: 1fr !important; }
+  }
+</style>
+
+</body>
+</html>

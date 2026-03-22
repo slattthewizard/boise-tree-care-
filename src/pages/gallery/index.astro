@@ -1,0 +1,450 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout
+  title="Project Gallery | Boise Tree Pros — Tree Care in Boise, Idaho"
+  description="Browse our project gallery — real tree trimming, removal, stump grinding, and emergency work across Boise, Meridian, Eagle & the Treasure Valley."
+  canonical="https://boisetreepro.com/gallery/"
+  ogTitle="Project Gallery | Boise Tree Pros"
+  ogDescription="Browse our project gallery — real tree care work across the Treasure Valley."
+  ogImage="https://boisetreepro.com/images/og-image.jpg"
+>
+  <Fragment slot="head">
+<style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+    .nav-link { position: relative; font-weight: 500; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: #363636; text-decoration: none; transition: color 0.2s; }
+    .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .dropdown-open .blog-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
+    .areas-open .areas-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
+    .dropdown-open svg { transform: rotate(180deg); }
+    .areas-open svg { transform: rotate(180deg); }
+    .blog-dropdown a:hover { background: #f5f0eb; color: #1A531A; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
+    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* Gallery masonry */
+    .gallery-grid {
+      columns: 3;
+      column-gap: 16px;
+    }
+    .gallery-card {
+      break-inside: avoid;
+      margin-bottom: 16px;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      background: #FAF0E6;
+    }
+    .gallery-card img {
+      width: 100%;
+      display: block;
+      transition: transform 0.4s cubic-bezier(0.34, 1.2, 0.64, 1);
+    }
+    .gallery-card:hover img {
+      transform: scale(1.05);
+    }
+    .gallery-card .card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15,48,16,0.7) 0%, rgba(15,48,16,0.1) 40%, transparent 60%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      display: flex;
+      align-items: flex-end;
+      padding: 20px;
+    }
+    .gallery-card:hover .card-overlay {
+      opacity: 1;
+    }
+    .card-overlay span {
+      font-family: 'Zilla Slab', Georgia, serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #FAF0E6;
+      letter-spacing: 0.01em;
+    }
+
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      background: rgba(0,0,0,0.92);
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
+    .lightbox.active { display: flex; }
+    .lightbox img {
+      max-width: 90vw;
+      max-height: 85vh;
+      border-radius: 8px;
+      object-fit: contain;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 24px;
+      right: 28px;
+      width: 44px;
+      height: 44px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 50%;
+      color: #fff;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .lightbox-close:hover { background: rgba(255,255,255,0.2); }
+    .lightbox-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 48px;
+      height: 48px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 50%;
+      color: #fff;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .lightbox-nav:hover { background: rgba(255,255,255,0.2); }
+    .lightbox-prev { left: 20px; }
+    .lightbox-next { right: 20px; }
+    .lightbox-caption {
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      max-width: 600px;
+    }
+
+    /* Filter buttons */
+    .filter-btn {
+      padding: 12px 20px;
+      min-height: 48px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      border: 1px solid #e8ddd0;
+      border-radius: 6px;
+      background: #fff;
+      color: #666;
+      cursor: pointer;
+      transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+    .filter-btn:hover { border-color: #1A531A; color: #1A531A; }
+    .filter-btn.active {
+      background: #1A531A;
+      color: #FAF0E6;
+      border-color: #1A531A;
+    }
+
+    @media (max-width: 900px) {
+      .gallery-grid { columns: 2; }
+      .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
+    }
+    @media (max-width: 640px) {
+      .gallery-grid { columns: 1; }
+      .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    }
+  </style>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Gallery", "item": "https://boisetreepro.com/gallery/" }
+    ]
+  }
+  </script>
+  </Fragment>
+<!-- ══════════════════════════════════
+     BREADCRUMB
+══════════════════════════════════ -->
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+  <ol style="list-style:none;padding:0;margin:0;display:flex;gap:8px;font-size:13px;color:#888;">
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Home</a></li>
+    <li>/</li>
+    <li style="color:#363636;">Gallery</li>
+  </ol>
+</nav>
+
+<!-- ══════════════════════════════════
+     PAGE HEADER
+══════════════════════════════════ -->
+<section style="padding:32px 0 48px;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <span class="section-tag">Our Work</span>
+    <h1 class="section-heading" style="font-size:clamp(30px,4.5vw,48px);margin-bottom:14px;">Project Gallery</h1>
+    <p style="font-size:16px;line-height:1.7;color:#666;max-width:600px;margin-bottom:32px;">Real work from real jobs across Boise and the Treasure Valley. Every photo is from our crew on-site.</p>
+
+    <!-- Filter buttons -->
+    <div style="display:flex;flex-wrap:wrap;gap:8px;" id="filters">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="trimming">Trimming</button>
+      <button class="filter-btn" data-filter="removal">Removal</button>
+      <button class="filter-btn" data-filter="stump">Stump Grinding</button>
+      <button class="filter-btn" data-filter="planting">Planting</button>
+      <button class="filter-btn" data-filter="clearing">Lot Clearing</button>
+      <button class="filter-btn" data-filter="crew">Our Crew</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     GALLERY GRID
+══════════════════════════════════ -->
+<section style="padding:0 0 80px;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="gallery-grid" id="gallery-grid">
+
+      <div class="gallery-card" data-category="trimming" onclick="openLightbox(0)">
+        <img src="/images/Tree Trimming Project-400.webp" srcset="/images/Tree Trimming Project-400.webp 400w, /images/Tree Trimming Project-800.webp 800w, /images/Tree Trimming Project-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="615" data-full="/images/Tree Trimming Project-1600.webp" alt="Professional arborist trimming a mature elm tree in a Boise Idaho neighborhood" loading="lazy">
+        <div class="card-overlay"><span>Tree Trimming — Boise Neighborhood</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="trimming" onclick="openLightbox(1)">
+        <img src="/images/Tree pruing-400.webp" srcset="/images/Tree pruing-400.webp 400w, /images/Tree pruing-800.webp 800w, /images/Tree pruing-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Tree pruing-1600.webp" alt="Close-up of arborist pruning a fruit tree branch with bypass shears" loading="lazy">
+        <div class="card-overlay"><span>Precision Pruning — Fruit Tree</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="removal" onclick="openLightbox(2)">
+        <img src="/images/Tree Removal-400.webp" srcset="/images/Tree Removal-400.webp 400w, /images/Tree Removal-800.webp 800w, /images/Tree Removal-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Tree Removal-1600.webp" alt="Arborist crew using a crane to remove a dead pine tree in a Boise front yard" loading="lazy">
+        <div class="card-overlay"><span>Dead Pine Removal — Boise</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="stump" onclick="openLightbox(3)">
+        <img src="/images/Stump Grinding-400.webp" srcset="/images/Stump Grinding-400.webp 400w, /images/Stump Grinding-800.webp 800w, /images/Stump Grinding-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Stump Grinding-1600.webp" alt="Stump grinder machine grinding down a tree stump in a residential yard" loading="lazy">
+        <div class="card-overlay"><span>Stump Grinding — Residential Yard</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="planting" onclick="openLightbox(4)">
+        <img src="/images/Tree Planting-400.webp" srcset="/images/Tree Planting-400.webp 400w, /images/Tree Planting-800.webp 800w, /images/Tree Planting-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Tree Planting-1600.webp" alt="Two arborists planting a young maple tree in a Boise Idaho front yard" loading="lazy">
+        <div class="card-overlay"><span>Maple Planting — Boise Front Yard</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="clearing" onclick="openLightbox(5)">
+        <img src="/images/Lot Clearing-400.webp" srcset="/images/Lot Clearing-400.webp 400w, /images/Lot Clearing-800.webp 800w, /images/Lot Clearing-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Lot Clearing-1600.webp" alt="Cleared residential lot after tree and brush removal in Boise Idaho" loading="lazy">
+        <div class="card-overlay"><span>Lot Clearing — Residential</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="trimming" onclick="openLightbox(6)">
+        <img src="/images/Canopy Trimming ready-400.webp" srcset="/images/Canopy Trimming ready-400.webp 400w, /images/Canopy Trimming ready-800.webp 800w, /images/Canopy Trimming ready-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="146" data-full="/images/Canopy Trimming ready-1600.webp" alt="Bucket truck with arborist trimming high tree canopy over a Boise residential street" loading="lazy">
+        <div class="card-overlay"><span>Canopy Trimming — Bucket Truck</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="trimming" onclick="openLightbox(7)">
+        <img src="/images/Backyard-Tree-Trimming-400.webp" srcset="/images/Backyard-Tree-Trimming-400.webp 400w, /images/Backyard-Tree-Trimming-800.webp 800w, /images/Backyard-Tree-Trimming-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Backyard-Tree-Trimming-1600.webp" alt="Arborist climbing ladder to trim a large backyard tree in Boise Idaho" loading="lazy">
+        <div class="card-overlay"><span>Backyard Tree Trimming — Boise</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="trimming" onclick="openLightbox(8)">
+        <img src="/images/Arborist-Climbing-Trim-400.webp" srcset="/images/Arborist-Climbing-Trim-400.webp 400w, /images/Arborist-Climbing-Trim-800.webp 800w, /images/Arborist-Climbing-Trim-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="536" data-full="/images/Arborist-Climbing-Trim-1600.webp" alt="Arborist high in tree canopy with climbing ropes and safety gear near Boise foothills" loading="lazy">
+        <div class="card-overlay"><span>Arborist Climbing — Foothills Job</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="trimming" onclick="openLightbox(9)">
+        <img src="/images/Shaped-Tree-Branch-Cleanup-400.webp" srcset="/images/Shaped-Tree-Branch-Cleanup-400.webp 400w, /images/Shaped-Tree-Branch-Cleanup-800.webp 800w, /images/Shaped-Tree-Branch-Cleanup-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="400" data-full="/images/Shaped-Tree-Branch-Cleanup-1600.webp" alt="Neatly shaped ornamental tree with branch pile after trimming on Boise neighborhood street" loading="lazy">
+        <div class="card-overlay"><span>Tree Shaping — Neighborhood Street</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="removal" onclick="openLightbox(10)">
+        <img src="/images/Dead-Tree-Removal-Powerlines-400.webp" srcset="/images/Dead-Tree-Removal-Powerlines-400.webp 400w, /images/Dead-Tree-Removal-Powerlines-800.webp 800w, /images/Dead-Tree-Removal-Powerlines-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="536" data-full="/images/Dead-Tree-Removal-Powerlines-1600.webp" alt="Crew removing a dead tree near power lines in a Boise backyard using ropes" loading="lazy">
+        <div class="card-overlay"><span>Dead Tree Removal — Near Power Lines</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="removal" onclick="openLightbox(11)">
+        <img src="/images/Stump-And-Log-Hauling-400.webp" srcset="/images/Stump-And-Log-Hauling-400.webp 400w, /images/Stump-And-Log-Hauling-800.webp 800w, /images/Stump-And-Log-Hauling-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Stump-And-Log-Hauling-1600.webp" alt="Large tree stump with chainsaw and flatbed truck loaded with logs at Boise residential job" loading="lazy">
+        <div class="card-overlay"><span>Stump & Log Hauling — Residential</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="removal" onclick="openLightbox(12)">
+        <img src="/images/Aerial-Tree-Cutting-400.webp" srcset="/images/Aerial-Tree-Cutting-400.webp 400w, /images/Aerial-Tree-Cutting-800.webp 800w, /images/Aerial-Tree-Cutting-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="400" data-full="/images/Aerial-Tree-Cutting-1600.webp" alt="Arborist cutting tree from height with aerial view of Boise neighborhood below" loading="lazy">
+        <div class="card-overlay"><span>Aerial Tree Cutting — Boise</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="removal" onclick="openLightbox(13)">
+        <img src="/images/Before-After-Backyard-Cleanup-400.webp" srcset="/images/Before-After-Backyard-Cleanup-400.webp 400w, /images/Before-After-Backyard-Cleanup-800.webp 800w, /images/Before-After-Backyard-Cleanup-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="198" data-full="/images/Before-After-Backyard-Cleanup-1600.webp" alt="Before and after photo of backyard tree cleanup and yard transformation in Boise" loading="lazy">
+        <div class="card-overlay"><span>Before & After — Backyard Cleanup</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="removal" onclick="openLightbox(14)">
+        <img src="/images/Before-After-Dead-Tree-Removal-400.webp" srcset="/images/Before-After-Dead-Tree-Removal-400.webp 400w, /images/Before-After-Dead-Tree-Removal-800.webp 800w, /images/Before-After-Dead-Tree-Removal-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="198" data-full="/images/Before-After-Dead-Tree-Removal-1600.webp" alt="Before and after photo of dead tree removal at a Boise home with mountain backdrop" loading="lazy">
+        <div class="card-overlay"><span>Before & After — Dead Tree Removal</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="crew" onclick="openLightbox(15)">
+        <img src="/images/Crew-With-Truck-400.webp" srcset="/images/Crew-With-Truck-400.webp 400w, /images/Crew-With-Truck-800.webp 800w, /images/Crew-With-Truck-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="299" data-full="/images/Crew-With-Truck-1600.webp" alt="Boise Tree Pros crew of three standing in front of work truck and wood chipper" loading="lazy">
+        <div class="card-overlay"><span>Our Crew — Ready to Work</span></div>
+      </div>
+
+      <div class="gallery-card" data-category="crew" onclick="openLightbox(16)">
+        <img src="/images/Equipment-Closeup-400.webp" srcset="/images/Equipment-Closeup-400.webp 400w, /images/Equipment-Closeup-800.webp 800w, /images/Equipment-Closeup-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw" width="400" height="400" data-full="/images/Equipment-Closeup-1600.webp" alt="Professional tree care equipment including Stihl chainsaws climbing ropes and safety helmet on truck bed" loading="lazy">
+        <div class="card-overlay"><span>Our Equipment — Tools of the Trade</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     CTA BANNER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 40%, #2A6B2A 100%);padding:64px 0;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;background:url('data:image/svg+xml,%3Csvg viewBox=%220 0 256 256%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22 opacity=%220.04%22/%3E%3C/svg%3E');opacity:0.5;"></div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative" style="z-index:1;text-align:center;">
+    <h2 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:clamp(24px,3.5vw,36px);color:#FAF0E6;margin-bottom:12px;">Like What You See?</h2>
+    <p style="font-size:16px;color:rgba(250,240,230,0.75);margin-bottom:28px;max-width:480px;margin-left:auto;margin-right:auto;">Get the same quality care for your trees. Free estimates, no pressure.</p>
+    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;">Get Your Free Estimate</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<script>
+  // Gallery data
+  const galleryItems = document.querySelectorAll('.gallery-card');
+  const images = [];
+  galleryItems.forEach(card => {
+    const img = card.querySelector('img');
+    const caption = card.querySelector('.card-overlay span');
+    images.push({ src: img.dataset.full || img.src, alt: img.alt, caption: caption ? caption.textContent : '' });
+  });
+
+  let currentIndex = 0;
+
+  function openLightbox(index) {
+    currentIndex = index;
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    const cap = document.getElementById('lightbox-caption');
+    img.src = images[index].src;
+    img.alt = images[index].alt;
+    cap.textContent = images[index].caption;
+    lb.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function navLightbox(dir) {
+    // Only navigate visible images
+    const visible = [];
+    galleryItems.forEach((card, i) => {
+      if (card.style.display !== 'none') visible.push(i);
+    });
+    const currentVisible = visible.indexOf(currentIndex);
+    const nextVisible = (currentVisible + dir + visible.length) % visible.length;
+    openLightbox(visible[nextVisible]);
+  }
+
+  // Close on escape
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navLightbox(-1);
+    if (e.key === 'ArrowRight') navLightbox(1);
+  });
+
+  // Close on background click
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) closeLightbox();
+  });
+
+  // Filter functionality
+  document.getElementById('filters').addEventListener('click', function(e) {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    const filter = btn.dataset.filter;
+
+    // Update active state
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Filter cards
+    galleryItems.forEach(card => {
+      if (filter === 'all' || card.dataset.category === filter) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
+<script>
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
+</script>
+</Layout>

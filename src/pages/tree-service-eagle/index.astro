@@ -1,0 +1,525 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout
+  title="Tree Service Eagle, ID | ISA-Certified Arborists | Boise Tree Pros"
+  description="Tree service in Eagle, ID by ISA-certified arborists. Large tree experts with crane capability. Trimming, removal, cabling, and 24/7 emergency. Free estimates."
+  canonical="https://boisetreepro.com/tree-service-eagle/"
+  ogTitle="Tree Service Eagle, ID | ISA-Certified Arborists | Boise Tree Pros"
+  ogDescription="Tree service in Eagle, ID by ISA-certified arborists. Large tree experts with crane capability. Trimming, removal, cabling, and 24/7 emergency. Free estimates."
+  ogImage="https://boisetreepro.com/images/og-image.png"
+>
+  <Fragment slot="head">
+<style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; color: #363636; background: #FAF0E6; margin: 0; }
+    .nav-link { position: relative; font-weight: 500; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: #363636; text-decoration: none; transition: color 0.2s; }
+    .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .dropdown-link { display: flex; align-items: center; padding: 10px 18px; min-height: 48px; font-size: 14px; color: #363636; text-decoration: none; transition: background-color 0.2s, color 0.2s, opacity 0.2s; outline: none; }
+    .dropdown-link:hover { background: #f0e8de; color: #1A531A; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
+    .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
+    .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
+    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* Article content styles */
+    .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
+    .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
+    .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
+    .article-content a { color: #8B5A2B; font-weight: 600; text-decoration: none; }
+    .article-content a:hover { text-decoration: underline; }
+    .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 20px; }
+    .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+    .article-content strong { color: #363636; }
+    .article-content em { font-style: italic; }
+    .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
+    .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
+    .article-content td { padding: 12px 16px; border-bottom: 1px solid #e8ddd0; color: #555; }
+    .article-content tr:last-child td { border-bottom: none; }
+    .article-content tr:nth-child(even) { background: #FAF0E6; }
+
+    /* TOC styles */
+    .toc { background: #FAF0E6; border: 1px solid #e8ddd0; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc ul { list-style: none; padding: 0; margin: 0; }
+    .toc li { font-size: 15px; margin-bottom: 8px; padding-left: 16px; position: relative; }
+    .toc li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: #8B5A2B; border-radius: 50%; }
+    .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
+    .toc a:hover { text-decoration: underline; }
+
+    /* FAQ styles */
+    .faq-item { border-bottom: 1px solid #e0d5c8; padding: 18px 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-family: 'Zilla Slab', Georgia, serif; font-weight: 600; font-size: 1.05rem; color: #1A531A; margin-bottom: 8px; }
+    .faq-answer { line-height: 1.75; color: #4a3f35; }
+
+    @media (max-width: 768px) {
+      .content-grid { grid-template-columns: 1fr !important; }
+      .hidden-mobile { display: none !important; }
+      .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    }
+  </style>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["TreeService", "LocalBusiness"],
+    "name": "Boise Tree Pros",
+    "url": "https://boisetreepro.com",
+    "telephone": "+19862027387",
+    "email": "info@boisetreepros.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise",
+      "addressRegion": "ID"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Eagle",
+      "addressRegion": "ID"
+    },
+    "description": "Professional tree service in Eagle, Idaho. Expert tree trimming, removal, cabling and emergency service for large lots and mature trees. ISA-certified arborists.",
+    "priceRange": "$150-$5,000+"
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 3, "name": "Eagle", "item": "https://boisetreepro.com/tree-service-eagle/" }
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to trim a large tree in Eagle?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Large tree trimming (50 feet and up) typically runs $800 to $2,000 or more in Eagle, depending on species, canopy spread, access, and proximity to structures. Mature elms, pines, and cottonwoods fall in this range. Smaller trees start around $150. Every estimate is free and includes an on-site assessment by an ISA-certified arborist."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a permit to remove a tree in Eagle?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For routine removal on private residential property, Eagle generally does not require a permit. If your property is involved in new construction, remodeling, or falls under the city's tree preservation ordinance, there may be requirements. Some HOAs also restrict removal of larger trees without approval. Our arborists can tell you what applies to your situation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When is the best time to prune trees in Eagle?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Late winter (February through early March) is ideal for most species. The tree is dormant and spring growth heals the cuts quickly. Two exceptions: elms should only be pruned November through March to avoid Dutch elm disease vectors, and maples are best pruned in late summer to minimize sap bleeding. Deadwood and hazard pruning can be done any time of year."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is defensible space and do I need it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If your Eagle property borders the foothills (Dry Creek, Avimor, Hidden Springs area), you are in the wildland-urban interface where wildfire risk is real. Defensible space means reducing fuel (vegetation, dead branches, dense stands) within a specific distance of your home. Our arborists can assess your property and recommend the right approach. This work may also lower your homeowners insurance premiums."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you save a tree instead of removing it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Often, yes. Cabling and bracing can support trees with structural weaknesses for decades. Health assessments can identify treatable diseases and pest problems. We always prefer preservation when the tree can be made safe. Removal is the recommendation only when the tree is beyond recovery or poses an unacceptable risk."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How fast can you respond to a tree emergency in Eagle?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our base is about 10 minutes from most Eagle neighborhoods. For emergencies (fallen trees, trees on structures, hanging limbs), we typically respond within 30 minutes to an hour. Our 24/7 emergency line is (986) 202-7387."
+        }
+      }
+    ]
+  }
+  </script>
+  </Fragment>
+<!-- ══════════════════════════════════
+     BREADCRUMB
+══════════════════════════════════ -->
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+  <ol style="list-style:none;padding:0;margin:0;display:flex;gap:8px;font-size:13px;color:#888;">
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Home</a></li>
+    <li>&#8250;</li>
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Service Areas</a></li>
+    <li>&#8250;</li>
+    <li style="color:#363636;">Eagle</li>
+  </ol>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO / PAGE HEADER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;opacity:0.15;">
+    <img src="/images/tree-service-eagle-hero.webp" srcset="/images/tree-service-eagle-hero-400.webp 400w, /images/tree-service-eagle-hero-800.webp 800w, /images/tree-service-eagle-hero-1600.webp 1600w" sizes="100vw" fetchpriority="high" loading="eager" decoding="async" alt="Arborist climbing a tall ponderosa pine on a large Eagle Idaho estate with foothills in background" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+    <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">ISA Certified Arborists</span>
+    <h1 class="section-heading text-cream" style="font-size:clamp(36px,5vw,56px);margin-bottom:16px;">Tree Service in Eagle, Idaho</h1>
+    <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">Expert tree care for Eagle's large lots, mature canopies, and high-value landscapes. ISA-certified arborists just 10 minutes away.</p>
+    <div class="flex flex-wrap gap-4">
+      <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
+      <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     ARTICLE CONTENT
+══════════════════════════════════ -->
+<section style="padding:72px 0;background:#FAF0E6;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:64px;align-items:start;" class="content-grid">
+
+      <!-- Main Content Column -->
+      <div class="article-content">
+
+        <p>Eagle is one of the Treasure Valley's most desirable communities, about ten miles northwest of downtown Boise. Half-acre to multi-acre parcels are common here, and many of them have specimen trees that are 40, 60, or even 80 years old.</p>
+
+        <p>That is a lot of tree to take care of. And a lot of value to protect.</p>
+
+        <p>Boise Tree Pros has crews in Eagle neighborhoods on a weekly basis. Our shop is roughly 10 minutes from the heart of Eagle, and we understand the specific challenges that come with caring for trees on larger properties, in alkaline Treasure Valley soils, and in neighborhoods where landscape investment is a priority.</p>
+
+        <p>A healthy, well-maintained specimen tree can add $10,000 or more to a property's value. The wrong pruning cut or a delayed removal can cost far more than the service would have.</p>
+
+        <p><strong>Free estimates on all non-emergency work. No pressure, no upselling.</strong></p>
+
+        <p><a href="/#contact">Get Your Free Estimate</a> | <a href="tel:+19862027387">Call (986) 202-7387</a></p>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+          <strong style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;color:#1A531A;">On this page:</strong>
+          <ul style="margin-top:12px;">
+            <li><a href="#services">Services We Offer in Eagle</a></li>
+            <li><a href="#common-problems">Common Tree Problems in Eagle</a></li>
+            <li><a href="#neighborhoods">Eagle Neighborhoods We Serve</a></li>
+            <li><a href="#local-considerations">Local Considerations for Tree Work in Eagle</a></li>
+            <li><a href="#pricing">Tree Service Pricing in Eagle</a></li>
+            <li><a href="#why-choose">Why Eagle Homeowners Choose Boise Tree Pros</a></li>
+            <li><a href="#faqs">FAQs: Tree Service in Eagle</a></li>
+          </ul>
+        </div>
+
+        <h2 id="services">Services We Offer in Eagle</h2>
+
+        <h3>Tree Trimming and Pruning</h3>
+        <p>Proper pruning is the foundation of tree health and safety. In Eagle, where many properties feature mature shade trees with wide canopies, regular pruning keeps trees structurally sound, reduces storm damage risk, and maintains the look homeowners expect. We do crown thinning, deadwood removal, canopy raising, structural pruning for younger trees, and vista pruning for foothill properties with views worth preserving.</p>
+        <p><a href="/blog/tree-trimming-boise/">Read our full tree trimming guide</a></p>
+
+        <h3>Tree Removal</h3>
+        <p>Sometimes a tree has to come down. Dead, structurally compromised, encroaching on a foundation, or just in the wrong place. Eagle properties often have large trees in tight spaces, close to homes, fences, pools, and outbuildings. Our crew is experienced with technical removals that require rigging, sectional dismantling, and crane assistance. Every removal includes complete cleanup.</p>
+        <p><a href="/blog/tree-removal-boise/">What to expect during tree removal</a></p>
+
+        <h3>Emergency Tree Service</h3>
+        <p>Windstorms, ice storms, and heavy snow loads are all part of life in the Treasure Valley. When a tree or large limb comes down on your roof, driveway, or power lines, you need a response measured in hours, not days. We provide 24/7 emergency tree service throughout Eagle and can typically have a crew on site the same day.</p>
+        <p><a href="/blog/emergency-tree-service-boise/">Emergency tree service details</a></p>
+
+        <h3>Tree Cabling and Bracing</h3>
+        <p>Eagle's large, mature trees frequently develop structural issues that do not require removal but do require support. Co-dominant stems, heavy lateral limbs extending over structures, and trees with a historical lean are all candidates for cabling and bracing. This is one of our most common services in Eagle, because preserving a 60-year-old shade tree is almost always preferable to removing it.</p>
+        <p><a href="/blog/tree-cabling-bracing-boise/">Learn about cabling and bracing</a></p>
+
+        <h3>Tree Health Assessments</h3>
+        <p>If you are concerned about a tree's health, planning construction near a tree's root zone, or want to know the condition of the trees on a property you are purchasing, a professional health assessment gives you answers. Our arborists evaluate root health, trunk integrity, canopy condition, pest and disease presence, and soil conditions.</p>
+        <p><a href="/blog/tree-health-assessment-boise/">Signs your tree needs an assessment</a></p>
+
+        <h3>Stump Grinding</h3>
+        <p>After a tree is removed, the stump remains. We grind stumps below grade so you can replant, resod, or landscape over the area. Eagle's larger lots sometimes accumulate old stumps from previous removals that were never finished. We handle those too.</p>
+        <p><a href="/blog/stump-grinding-boise/">Stump grinding costs and process</a></p>
+
+        <h2 id="common-problems">Common Tree Problems in Eagle</h2>
+
+        <h3>Ponderosa Pines in the Foothills</h3>
+        <p>Properties north of Eagle, particularly around Dry Creek and toward Avimor, often feature native ponderosa pines. These trees are well adapted to Idaho's climate, but they face real challenges on developed lots. Construction damage to root zones is common when homes are built in native stands. <a href="https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5187466.pdf" target="_blank" rel="noopener">Bark beetle infestations</a> can target stressed ponderosas, especially during drought years. And wildfire risk in the wildland-urban interface means defensible space pruning (removing lower limbs, reducing ladder fuels) is not just good practice; it is a safety requirement for foothill properties.</p>
+
+        <h3>Mature Elms</h3>
+        <p>Eagle's older neighborhoods feature large American and Siberian elms that provide tremendous shade but need careful management. <a href="https://www.fs.usda.gov/research/treesearch/1519" target="_blank" rel="noopener">Dutch elm disease</a> remains a concern in Idaho, and all elm pruning must happen during the dormant season (November through March) to avoid attracting the bark beetles that spread it. Many of Eagle's elms are also reaching an age where co-dominant stems and heavy limbs create structural risks. Cabling and bracing can often address these problems without removing a tree that took decades to grow.</p>
+
+        <h3>Maples</h3>
+        <p>Silver maples, Norway maples, and ornamental maple varieties are planted all over Eagle. Silver maples grow fast but develop brittle wood and weak branch unions. They are one of the most common species we see for emergency calls after windstorms. Regular structural pruning and weight reduction can cut the risk of branch failure significantly. One timing note: maples should be pruned in late summer to avoid excessive sap bleeding.</p>
+
+        <h3>Cottonwoods</h3>
+        <p>Along irrigation canals and in older areas of Eagle, large cottonwoods are common. These trees grow massive but have brittle wood. Cottonwoods near homes, fences, and structures need regular crown thinning to reduce wind load. Many Eagle homeowners eventually decide to remove cottonwoods that have outgrown their location and replace them with longer-lived, more structurally sound species.</p>
+
+        <h3>Ornamental Trees in Newer Developments</h3>
+        <p>Newer Eagle developments along the Eagle Road corridor and in communities like Eagle Springs feature ornamental plantings: flowering pears, crabapples, Japanese maples. These smaller trees still need professional attention, particularly structural pruning in their first five to ten years to establish strong branch architecture and prevent problems down the road.</p>
+
+        <h3>Common Issues Across Eagle</h3>
+        <p><strong>Wind exposure.</strong> Eagle's foothill lots and open properties catch significant wind, especially during spring storms. Trees on exposed sites need regular crown thinning to reduce sail area and lower the risk of uprooting or branch failure.</p>
+        <p><strong>Irrigation dependency.</strong> Many Eagle landscapes rely on pressurized irrigation systems. Trees that have grown dependent on irrigation can suffer stress during fall shutdowns, droughts, or if watering patterns change.</p>
+        <p><strong>Alkaline soil.</strong> The Treasure Valley's naturally alkaline soils cause iron chlorosis in certain species, particularly red maples and pin oaks. Yellowing leaves with green veins is the telltale sign.</p>
+        <p><strong>Construction damage.</strong> Eagle's ongoing development means trees frequently endure grade changes, root compaction, and trenching during nearby construction. The damage may not show up for two to five years.</p>
+
+        <h2 id="neighborhoods">Eagle Neighborhoods We Serve</h2>
+
+        <h3>Eagle Hills</h3>
+        <p>One of Eagle's established neighborhoods with mature landscaping and larger lots. Many properties here have trees planted 20 to 30 years ago that are now reaching a size where professional management is necessary.</p>
+
+        <h3>Banbury</h3>
+        <p>Known for its equestrian properties and acreages, Banbury has a mix of native and planted trees on spacious lots.</p>
+
+        <h3>Lexington Hills</h3>
+        <p>A well-maintained community with consistent landscaping and tree-lined streets.</p>
+
+        <h3>Eagle Springs</h3>
+        <p>A newer development where trees are in the critical structural pruning phase.</p>
+
+        <h3>Floating Feather Area</h3>
+        <p>The area around Floating Feather Road features a mix of older rural properties and newer developments.</p>
+
+        <h3>Eagle Ranch</h3>
+        <p>A golf course community with carefully maintained landscapes.</p>
+
+        <h3>Dry Creek Area</h3>
+        <p>Properties along Dry Creek Road extend into the foothills and often include native ponderosa pines. <a href="https://www.idl.idaho.gov/fire-management/" target="_blank" rel="noopener">Wildfire risk mitigation</a>, defensible space creation, and native tree preservation are top priorities.</p>
+
+        <h3>Avimor</h3>
+        <p>Located at the northern edge of our primary service area, Avimor sits in the foothills with native vegetation and newer plantings.</p>
+
+        <h3>Hidden Springs</h3>
+        <p>A planned community north of Eagle with an emphasis on natural landscape integration.</p>
+
+        <h3>Paramount (Eagle Side)</h3>
+        <p>The Eagle-side portions of Paramount feature newer homes with developing landscapes.</p>
+
+        <p>If your neighborhood is not listed here but you are in Eagle or the surrounding area, we almost certainly serve your location. Give us a call.</p>
+
+        <h2 id="local-considerations">Local Considerations for Tree Work in Eagle</h2>
+
+        <h3>Eagle City Tree Preservation Ordinance</h3>
+        <p>The City of Eagle has tree preservation requirements that apply to certain development and construction activities. For routine maintenance on private property, no permits are typically required.</p>
+
+        <h3>HOA Requirements</h3>
+        <p>Many Eagle communities have covenants that include tree appearance standards.</p>
+
+        <h3>Large Properties and Crane Access</h3>
+        <p>Eagle's larger lots are both an advantage and a challenge. Some Eagle properties have trees that are too large or too close to structures for conventional removal.</p>
+
+        <h3>Wildfire Risk in Foothill and WUI Areas</h3>
+        <p>Eagle properties bordering the foothills sit in the wildland-urban interface, where wildfire risk is real and increasing.</p>
+
+        <h3>Eagle Historical District</h3>
+        <p>Properties in Eagle's historical district may have additional considerations for tree work.</p>
+
+        <h3>Irrigation and Root Systems</h3>
+        <p>Eagle's pressurized irrigation systems are the lifeline for most landscapes in the area. Tree roots and irrigation lines often conflict.</p>
+
+        <h2 id="pricing">Tree Service Pricing in Eagle</h2>
+
+        <table>
+          <thead>
+            <tr><th>Service</th><th>Typical Range</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Tree Trimming (small, under 25 ft)</td><td>$150 &ndash; $400</td><td>Ornamentals, small shade trees</td></tr>
+            <tr><td>Tree Trimming (medium, 25-50 ft)</td><td>$350 &ndash; $900</td><td>Most residential shade trees</td></tr>
+            <tr><td>Tree Trimming (large, 50-80+ ft)</td><td>$800 &ndash; $2,000+</td><td>Mature elms, pines, cottonwoods</td></tr>
+            <tr><td>Tree Removal (small)</td><td>$300 &ndash; $800</td><td>Under 25 ft, open access</td></tr>
+            <tr><td>Tree Removal (medium)</td><td>$800 &ndash; $2,500</td><td>25-50 ft, standard access</td></tr>
+            <tr><td>Tree Removal (large)</td><td>$2,500 &ndash; $5,000+</td><td>50+ ft, may require crane</td></tr>
+            <tr><td>Stump Grinding</td><td>$150 &ndash; $500</td><td>Per stump, based on diameter</td></tr>
+            <tr><td>Emergency Service</td><td>$500 &ndash; $3,000+</td><td>Same-day response, storm damage</td></tr>
+            <tr><td>Cabling and Bracing</td><td>$400 &ndash; $1,200</td><td>Per system installed</td></tr>
+            <tr><td>Tree Health Assessment</td><td>$150 &ndash; $400</td><td>Per tree or site visit</td></tr>
+          </tbody>
+        </table>
+
+        <p>These ranges reflect 2026 pricing for the Boise-Eagle area.</p>
+
+        <p><strong>Every estimate is free.</strong></p>
+
+        <h2 id="why-choose">Why Eagle Homeowners Choose Boise Tree Pros</h2>
+
+        <p><strong>Experience with high-value properties.</strong> Tree work on a high-value Eagle property is not just about the trees. It is about protecting the home, the landscape, the hardscaping, and the overall property value. Our crews are trained to work carefully, protect turf and plantings, and leave your property looking better than when we arrived. We carry $2 million in liability coverage on every job.</p>
+
+        <p><strong>Large tree expertise.</strong> Eagle's big trees require arborists who have the skills and equipment to work safely at height. Our climbers handle 60, 80, even 100-foot specimens.</p>
+
+        <p><strong>Crane capability.</strong> When a tree is too large, too close to a structure, or too compromised for conventional removal, crane-assisted work is the safest option.</p>
+
+        <p><strong>Eagle-specific knowledge.</strong> From alkaline soils and irrigation dependency to HOA requirements and wildfire risk in the foothills, we know Eagle.</p>
+
+        <p><strong><a href="https://www.isa-arb.org/" target="_blank" rel="noopener">ISA certification</a> and ANSI standards.</strong> Our arborists hold credentials from the International Society of Arboriculture. All pruning follows ANSI A300 standards.</p>
+
+        <p><strong>10 minutes away.</strong> We are based just outside Eagle with crews in the area regularly.</p>
+
+        <h2 id="faqs">FAQs: Tree Service in Eagle</h2>
+
+        <div class="faq-item">
+          <div class="faq-question">How much does it cost to trim a large tree in Eagle?</div>
+          <div class="faq-answer">Large tree trimming (50 feet and up) typically runs $800 to $2,000 or more in Eagle, depending on species, canopy spread, access, and proximity to structures. Mature elms, pines, and cottonwoods fall in this range. Smaller trees start around $150. Every estimate is free and includes an on-site assessment by an ISA-certified arborist.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Do I need a permit to remove a tree in Eagle?</div>
+          <div class="faq-answer">For routine removal on private residential property, Eagle generally does not require a permit. If your property is involved in new construction, remodeling, or falls under the city's tree preservation ordinance, there may be requirements. Some HOAs also restrict removal of larger trees without approval. Our arborists can tell you what applies to your situation.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">When is the best time to prune trees in Eagle?</div>
+          <div class="faq-answer">Late winter (February through early March) is ideal for most species. The tree is dormant and spring growth heals the cuts quickly. Two exceptions: elms should only be pruned November through March to avoid Dutch elm disease vectors, and maples are best pruned in late summer to minimize sap bleeding. Deadwood and hazard pruning can be done any time of year.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">What is defensible space and do I need it?</div>
+          <div class="faq-answer">If your Eagle property borders the foothills (Dry Creek, Avimor, Hidden Springs area), you are in the wildland-urban interface where wildfire risk is real. Defensible space means reducing fuel (vegetation, dead branches, dense stands) within a specific distance of your home. Our arborists can assess your property and recommend the right approach. This work may also lower your homeowners insurance premiums.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Can you save a tree instead of removing it?</div>
+          <div class="faq-answer">Often, yes. Cabling and bracing can support trees with structural weaknesses for decades. Health assessments can identify treatable diseases and pest problems. We always prefer preservation when the tree can be made safe. Removal is the recommendation only when the tree is beyond recovery or poses an unacceptable risk.</div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">How fast can you respond to a tree emergency in Eagle?</div>
+          <div class="faq-answer">Our base is about 10 minutes from most Eagle neighborhoods. For emergencies (fallen trees, trees on structures, hanging limbs), we typically respond within 30 minutes to an hour. Our 24/7 emergency line is (986) 202-7387.</div>
+        </div>
+
+        <!-- Closing CTA -->
+        <div style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 100%);border-radius:8px;padding:32px;margin-top:48px;">
+          <h2 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:24px;color:#FAF0E6;margin:0 0 16px 0;">Schedule Your Free Estimate in Eagle</h2>
+          <p style="font-size:16px;line-height:1.8;color:rgba(250,240,230,0.85);margin-bottom:20px;">You contact us, we schedule a visit at a time that works for you, an ISA-certified arborist walks your property and assesses your trees, and you get a detailed written estimate with clear pricing and scope of work. No pressure. No upselling. Honest recommendations from arborists who care about trees and the people who live among them.</p>
+          <p style="font-size:16px;color:#FAF0E6;margin-bottom:20px;"><strong>Call <a href="tel:+19862027387" style="color:#FAF0E6;">(986) 202-7387</a></strong> or <a href="/#contact" style="color:#FAF0E6;font-weight:600;">request your estimate online</a>.</p>
+          <p style="font-size:14px;color:rgba(250,240,230,0.7);margin-bottom:0;">We also serve homeowners across the Treasure Valley, including <a href="/tree-service-meridian/" style="color:rgba(250,240,230,0.85);">Meridian</a>, <a href="/tree-service-garden-city/" style="color:rgba(250,240,230,0.85);">Garden City</a>, <a href="/tree-service-nampa/" style="color:rgba(250,240,230,0.85);">Nampa</a>, and <a href="/tree-service-caldwell/" style="color:rgba(250,240,230,0.85);">Caldwell</a>.</p>
+          <div style="margin-top:20px;">
+            <a href="/#contact" class="btn-bark">Get Free Estimate</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <aside>
+        <!-- CTA Box -->
+        <div style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 100%);border-radius:8px;padding:28px;margin-bottom:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#FAF0E6;margin-bottom:12px;">Free Estimate in Eagle</h3>
+          <p style="font-size:14px;line-height:1.7;color:rgba(250,240,230,0.85);margin-bottom:20px;">An ISA-certified arborist will visit your Eagle property, assess your trees, and provide a detailed written estimate at no cost.</p>
+          <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Request Estimate</a>
+          <a href="tel:+19862027387" class="btn-bark" style="width:100%;justify-content:center;">Call (986) 202-7387</a>
+        </div>
+
+        <!-- Quick Pricing Reference -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Quick Pricing Reference</h3>
+          <table style="width:100%;border-collapse:collapse;font-size:13px;">
+            <tr><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#555;">Trimming (small)</td><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#363636;font-weight:600;text-align:right;">$150&ndash;$400</td></tr>
+            <tr><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#555;">Trimming (large)</td><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#363636;font-weight:600;text-align:right;">$800&ndash;$2,000+</td></tr>
+            <tr><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#555;">Removal (medium)</td><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#363636;font-weight:600;text-align:right;">$800&ndash;$2,500</td></tr>
+            <tr><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#555;">Stump Grinding</td><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#363636;font-weight:600;text-align:right;">$150&ndash;$500</td></tr>
+            <tr><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#555;">Emergency</td><td style="padding:8px 0;border-bottom:1px solid #e8ddd0;color:#363636;font-weight:600;text-align:right;">$500&ndash;$3,000+</td></tr>
+            <tr><td style="padding:8px 0;color:#555;">Cabling</td><td style="padding:8px 0;color:#363636;font-weight:600;text-align:right;">$400&ndash;$1,200</td></tr>
+          </table>
+        </div>
+
+        <!-- Other Service Areas -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Other Service Areas</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/tree-service-meridian/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Meridian</a></li>
+            <li><a href="/tree-service-garden-city/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Garden City</a></li>
+            <li><a href="/tree-service-nampa/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Nampa</a></li>
+            <li><a href="/tree-service-caldwell/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Caldwell</a></li>
+          </ul>
+        </div>
+
+        <!-- Related Services -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Related Services</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/blog/tree-trimming-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Trimming</a></li>
+            <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Removal</a></li>
+            <li><a href="/blog/emergency-tree-service-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Emergency Tree Service</a></li>
+            <li><a href="/blog/stump-grinding-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Stump Grinding</a></li>
+            <li><a href="/blog/tree-health-assessment-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Health Assessment</a></li>
+            <li><a href="/blog/tree-cabling-bracing-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Cabling &amp; Bracing</a></li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     CTA BANNER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 50%, #1A531A 100%);padding:64px 24px;text-align:center;">
+  <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Ready to Get Started in Eagle?</h2>
+  <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">Get a free, no-obligation estimate from an ISA-certified arborist. Most estimates scheduled within 48 hours.</p>
+  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
+    <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<script>
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
+</script>
+</Layout>

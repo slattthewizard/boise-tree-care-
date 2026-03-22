@@ -1,0 +1,560 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout
+  title="Tree Service Meridian, ID | ISA-Certified Arborists | Boise Tree Pros"
+  description="Tree service in Meridian, ID from ISA-certified arborists. Trimming, removal, stump grinding, and 24/7 emergency service. Free estimates, 10-minute response."
+  canonical="https://boisetreepro.com/tree-service-meridian/"
+  ogTitle="Tree Service Meridian, ID | ISA-Certified Arborists | Boise Tree Pros"
+  ogDescription="Tree service in Meridian, ID from ISA-certified arborists. Trimming, removal, stump grinding, and 24/7 emergency service. Free estimates, 10-minute response."
+  ogImage="https://boisetreepro.com/images/og-image.png"
+>
+  <Fragment slot="head">
+<style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+    .nav-link { position: relative; font-weight: 500; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: #363636; text-decoration: none; transition: color 0.2s; }
+    .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .dropdown-link { display: flex; align-items: center; padding: 10px 18px; min-height: 48px; font-size: 14px; color: #363636; text-decoration: none; transition: background-color 0.2s, color 0.2s, opacity 0.2s; outline: none; }
+    .dropdown-link:hover { background: #f5f0eb; color: #1A531A; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
+    .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
+    .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
+    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+    .footer-link { font-size: 14px; color: rgba(250,240,230,0.65); text-decoration: none; }
+    .footer-link:hover { color: #FAF0E6; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* Article content styles */
+    .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
+    .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
+    .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
+    .article-content a { color: #8B5A2B; font-weight: 600; text-decoration: none; }
+    .article-content a:hover { text-decoration: underline; }
+    .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 20px; }
+    .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+    .article-content strong { color: #363636; }
+    .article-content em { font-style: italic; }
+    .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
+    .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
+    .article-content td { padding: 12px 16px; border-bottom: 1px solid #e8ddd0; color: #555; }
+    .article-content tr:last-child td { border-bottom: none; }
+    .article-content tr:nth-child(even) { background: #FAF0E6; }
+
+    /* TOC styles */
+    .toc { background: #FAF0E6; border: 1px solid #e8ddd0; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc ul { list-style: none; padding: 0; margin: 0; }
+    .toc li { font-size: 15px; margin-bottom: 8px; padding-left: 16px; position: relative; }
+    .toc li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: #8B5A2B; border-radius: 50%; }
+    .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
+    .toc a:hover { text-decoration: underline; }
+
+    /* Example box */
+    .example-box {
+      background: linear-gradient(135deg, #f5ede4 0%, #efe3d4 100%);
+      border-left: 4px solid #8B5A2B;
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+    .example-box strong { color: #8B5A2B; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 6px; }
+
+    .faq-item { border-bottom: 1px solid #e0d5c8; padding: 18px 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question { font-family: 'Zilla Slab', Georgia, serif; font-weight: 600; font-size: 1.05rem; color: #1A531A; margin-bottom: 8px; }
+    .faq-answer { line-height: 1.75; color: #4a3f35; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .content-grid { grid-template-columns: 1fr !important; }
+      .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    }
+  </style>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["TreeService", "LocalBusiness"],
+    "name": "Boise Tree Pros",
+    "url": "https://boisetreepro.com",
+    "telephone": "+19862027387",
+    "email": "info@boisetreepros.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boise",
+      "addressRegion": "ID",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Meridian",
+      "addressRegion": "ID"
+    },
+    "description": "Professional tree service in Meridian, Idaho. Tree trimming, removal, stump grinding and emergency service by ISA-certified arborists.",
+    "priceRange": "$75-$5,000+",
+    "image": "https://boisetreepro.com/images/Canopy Trimming ready.webp",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "07:00",
+        "closes": "19:00"
+      }
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 3, "name": "Meridian", "item": "https://boisetreepro.com/tree-service-meridian/" }
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does tree trimming cost in Meridian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most residential tree trimming in Meridian ranges from $150 to $2,000, depending on tree size, species, and access. A single ornamental tree might be $150 to $300. A large mature silver maple or cottonwood with a wide canopy can run $800 to $2,000 or more. Every estimate is free and includes an on-site assessment by an ISA-certified arborist."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a permit to remove a tree in Meridian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For trees on private residential property, Meridian generally does not require a permit. However, if your property is in a planned development with tree preservation requirements, or if the tree is in or near the public right-of-way, there may be restrictions. HOA-governed neighborhoods may also have their own rules. Our arborists can advise you on what applies to your specific situation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When is the best time to trim trees in Meridian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For most species, late winter (February through early March) is ideal. The tree is dormant, you can see the structure clearly, and spring growth will heal the cuts quickly. The big exception is elms: prune only between November and March to avoid attracting Dutch elm disease vectors. Deadwood removal and hazard pruning can be done any time of year."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can you respond to an emergency in Meridian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our base is about 10 minutes from most Meridian neighborhoods. For emergencies (fallen trees, trees on structures, hanging limbs over driveways), we typically respond within 30 minutes. Our 24/7 emergency line is (986) 202-7387."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "My new trees look unhealthy. Is that normal in Meridian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not exactly normal, but very common. Meridian's alkaline clay soils and post-construction soil compaction stress a lot of young trees. Yellowing leaves (especially between the veins), thin canopy, and slow growth are signs your tree is struggling. A tree health assessment can pinpoint the issue, whether that is iron chlorosis, root damage, or planting depth, and give you a plan to fix it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work with HOAs in Meridian?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We regularly work with HOAs in Paramount, Lochsa Falls, Heritage Commons, and other Meridian subdivisions. We understand their tree maintenance standards and can provide the documentation they require, including before-and-after photos, work descriptions, and certificates of insurance."
+        }
+      }
+    ]
+  }
+  </script>
+  </Fragment>
+<!-- ══════════════════════════════════
+     BREADCRUMB
+══════════════════════════════════ -->
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+  <ol style="list-style:none;padding:0;margin:0;display:flex;gap:8px;font-size:13px;color:#888;">
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Home</a></li>
+    <li>&rsaquo;</li>
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Service Areas</a></li>
+    <li>&rsaquo;</li>
+    <li style="color:#363636;">Meridian</li>
+  </ol>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO / PAGE HEADER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;opacity:0.15;">
+    <img src="/images/tree-service-meridian-hero.webp" srcset="/images/tree-service-meridian-hero-400.webp 400w, /images/tree-service-meridian-hero-800.webp 800w, /images/tree-service-meridian-hero-1600.webp 1600w" sizes="100vw" fetchpriority="high" loading="eager" decoding="async" alt="Boise Tree Pros bucket truck trimming a tree in a Meridian Idaho suburban neighborhood" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+    <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">ISA Certified Arborists</span>
+    <h1 class="section-heading text-cream" style="font-size:clamp(36px,5vw,56px);margin-bottom:16px;">Tree Service in Meridian, Idaho</h1>
+    <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">ISA-certified arborists providing professional tree trimming, removal, stump grinding &amp; emergency service throughout Meridian. Fully insured. Free estimates.</p>
+    <div class="flex flex-wrap gap-4">
+      <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
+      <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     ARTICLE CONTENT
+══════════════════════════════════ -->
+<section style="padding:72px 0;background:#fff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:64px;align-items:start;" class="content-grid">
+
+      <!-- Main Content Column -->
+      <div class="article-content">
+
+        <!-- Intro -->
+        <p>Meridian went from a quiet farming town to Idaho's fastest-growing city in about a decade. The population has blown past 130,000, new subdivisions keep going up along Ten Mile and south of the freeway, and thousands of young trees are getting planted into alkaline clay soil that is not exactly kind to them.</p>
+
+        <p>Meanwhile, older neighborhoods near downtown still have 50-year-old silver maples and cottonwoods that are reaching the end of their safe lifespan.</p>
+
+        <p>Boise Tree Pros handles both sides of that. We are ISA-certified arborists based about 10 minutes from most Meridian neighborhoods, and we work in the city daily. Need structural pruning on the two-year-old maple in your Paramount front yard? Or a full hazard removal of a cracking cottonwood near Settlers Canal? We have the crew, the equipment, and the local knowledge to do it right.</p>
+
+        <p><strong>Free estimates. No pressure. Honest tree advice from certified arborists.</strong></p>
+
+        <p><a href="/#contact">Get Your Free Estimate</a> | <a href="tel:+19862027387">Call (986) 202-7387</a></p>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+          <strong style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;color:#1A531A;">On this page:</strong>
+          <ul style="margin-top:12px;">
+            <li><a href="#services" class="toc-link">Services we offer in Meridian</a></li>
+            <li><a href="#common-problems" class="toc-link">Common tree problems in Meridian</a></li>
+            <li><a href="#neighborhoods" class="toc-link">Meridian neighborhoods we serve</a></li>
+            <li><a href="#regulations" class="toc-link">Local regulations and considerations</a></li>
+            <li><a href="#pricing" class="toc-link">Tree service pricing in Meridian</a></li>
+            <li><a href="#why-choose" class="toc-link">Why Meridian homeowners choose Boise Tree Pros</a></li>
+            <li><a href="#faqs" class="toc-link">FAQs: Tree service in Meridian</a></li>
+          </ul>
+        </div>
+
+        <h2 id="services">Services We Offer in Meridian</h2>
+
+        <h3>Tree Trimming and Pruning</h3>
+        <p>Crown thinning, deadwood removal, structural pruning for young trees, and canopy raising for clearance over driveways, walkways, and rooflines. In Meridian's newer subdivisions, most of what we do is establishment pruning: training young trees to develop strong structure before problems start. In older neighborhoods, it is more about managing mature canopies and removing deadwood before it drops.</p>
+        <p><a href="/blog/tree-trimming-boise/">Read our full tree trimming guide</a></p>
+
+        <h3>Tree Removal</h3>
+        <p>Dead trees, hazardous trees, storm-damaged trees, and trees that have simply outgrown the space. We handle everything from small ornamental removals to crane-assisted takedowns of 80-foot cottonwoods next to houses. Every removal includes complete cleanup and debris hauling.</p>
+        <p><a href="/blog/tree-removal-boise/">What to expect during tree removal</a></p>
+
+        <h3>Stump Grinding</h3>
+        <p>We grind stumps 6 to 12 inches below grade, backfill with the grindings, and leave the area ready for replanting or landscaping. Most residential stumps take 30 to 60 minutes.</p>
+        <p><a href="/blog/stump-grinding-boise/">Stump grinding costs and process</a></p>
+
+        <h3>Emergency Tree Service</h3>
+        <p>24/7 response for storm damage, fallen trees, hanging limbs, and trees on structures or power lines. We carry $2 million in liability insurance and coordinate directly with Idaho Power when utility lines are involved. Typical response to Meridian is under 30 minutes.</p>
+        <p><a href="/blog/emergency-tree-service-boise/">Emergency tree service details</a></p>
+
+        <h3>Tree Health Assessment</h3>
+        <p>ISA-certified arborists evaluate your trees for disease, pest damage, structural defects, root zone issues, and overall vigor. We provide a written report with specific treatment recommendations. This service is especially common in Meridian's newer subdivisions, where construction stress is killing young trees that look fine on the surface.</p>
+        <p><a href="/blog/tree-health-assessment-boise/">Signs your tree needs an assessment</a></p>
+
+        <h3>Tree Cabling and Bracing</h3>
+        <p>Hardware support systems for trees with structural weaknesses: split trunks, heavy lateral limbs, codominant stems with included bark. Cabling can extend a tree's safe life by decades when removal is not the right call.</p>
+        <p><a href="/blog/tree-cabling-bracing-boise/">Learn about cabling and bracing</a></p>
+
+        <h2 id="common-problems">Common Tree Problems in Meridian</h2>
+
+        <p>We see the same tree problems across Meridian week after week. Knowing what to watch for can save you thousands in emergency costs.</p>
+
+        <h3>Silver Maples and the Included Bark Problem</h3>
+        <p>Silver maples are everywhere in older Meridian neighborhoods. They grow fast, throw great shade, and they have one serious flaw: they love to develop included bark.</p>
+        <p>Here is what that means. When two main stems grow tightly together, bark gets trapped between them instead of forming a solid wood union. That junction looks fine from the ground, but it is structurally weak. In a windstorm, it splits. We have removed dozens of split silver maples across Meridian, and in almost every case, the homeowner had no idea the tree was at risk.</p>
+        <p><strong>What to look for:</strong> A tight V-shaped fork between the main trunks. If you can see a dark line of bark being squeezed between the stems, that is included bark.</p>
+        <p><strong>What to do:</strong> Have it assessed. In many cases, a cabling system can provide the support needed to prevent failure. If the split has already started or the tree is over a roofline, reduction pruning or removal may be the safer call.</p>
+
+        <h3>Cottonwoods Along the Canals</h3>
+        <p>Meridian sits along several irrigation canals managed by the <a href="https://www.nmid.org/" target="_blank" rel="noopener">Nampa and Meridian Irrigation District</a>, and cottonwoods love that water. These trees get massive (80 to 100 feet tall) but their wood is soft and brittle. Cottonwoods are one of the most common species involved in emergency calls across the Treasure Valley.</p>
+        <p>They drop large limbs with little warning. Summer thunderstorms are the worst, when the canopy is fully leafed out and catches wind like a sail.</p>
+        <p><strong>If you have a large cottonwood near your home:</strong> Regular crown thinning and deadwood removal are not optional. They are the difference between a tree that handles a storm and one that puts a branch through your roof.</p>
+
+        <h3>Elm Pruning and Dutch Elm Disease</h3>
+        <p>American and Siberian elms are common in Meridian's established streets. They require careful timing when pruning because <a href="https://www.fs.usda.gov/research/treesearch/1519" target="_blank" rel="noopener">Dutch elm disease</a> is spread by bark beetles attracted to fresh pruning wounds during warmer months.</p>
+        <p><strong>The rule is simple:</strong> All elm pruning in the Treasure Valley should happen between November and March, when the beetles are inactive. If someone offers to prune your elm in July, find a different company.</p>
+        <p>Our arborists are trained to spot early symptoms of Dutch elm disease (yellowing and wilting on one side of the canopy, brown streaking under the bark) and can advise you on treatment or removal before it spreads to neighboring elms.</p>
+
+        <h3>New-Construction Tree Stress</h3>
+        <p>This is the problem we see most often in Meridian right now.</p>
+        <p>During construction, builders compact the soil with heavy equipment, grade the lot, bury debris, and then plant young trees into what amounts to a hostile growing environment. The roots cannot spread. Drainage is poor. The trees struggle.</p>
+        <p>We frequently see young trees in Meridian's newer subdivisions showing stress within two to three years of planting:</p>
+        <ul>
+          <li>Yellowing leaves (especially between the veins)</li>
+          <li>Sparse, thin canopy</li>
+          <li>Dieback at the branch tips</li>
+          <li>Slow or no growth compared to neighbors</li>
+        </ul>
+        <p>A tree health assessment can identify the cause (compacted soil, buried debris, improper planting depth, iron chlorosis) and help you put together a plan before the tree declines beyond recovery.</p>
+
+        <h3>Iron Chlorosis in Maples</h3>
+        <p>Meridian's soils are alkaline, often with a pH above 7.5. Many maple species (particularly red maples and some ornamental cultivars) cannot absorb iron efficiently in alkaline conditions. The result is iron chlorosis: leaves turn yellow between the veins while the veins stay green, giving the foliage a distinctive striped look.</p>
+        <p>Left alone, the tree weakens over time and becomes more vulnerable to disease and pests. Soil amendments, trunk injections, and choosing the right species in the first place can all help manage this. If your maple looks washed out every summer, it is probably not getting enough iron.</p>
+
+        <h2 id="neighborhoods">Meridian Neighborhoods We Serve</h2>
+
+        <p>We work across all of Meridian. Here is what we typically see in each area.</p>
+
+        <h3>The Village at Meridian Area</h3>
+        <p>Mix of commercial properties and residential subdivisions with relatively young trees. Common work here: structural pruning on newly planted trees, canopy raising for clearance over parking areas and walkways, and stump grinding where older trees have been removed for development.</p>
+
+        <h3>Paramount Subdivision</h3>
+        <p>One of Meridian's largest master-planned communities, with hundreds of homes and young to mid-age landscape trees. Paramount has HOA regulations governing tree maintenance standards, and our arborists know those requirements well. We handle individual homeowner requests and HOA-coordinated maintenance projects throughout the subdivision.</p>
+
+        <h3>Lochsa Falls</h3>
+        <p>Similar tree care profile to Paramount: young trees needing establishment care, structural pruning, and monitoring for transplant stress. Lochsa Falls is also close to irrigation infrastructure, so some properties have cottonwoods and other water-loving species along the edges that need more aggressive maintenance.</p>
+
+        <h3>Heritage Commons</h3>
+        <p>Mix of housing ages and tree maturities. Older sections have established shade trees that need regular pruning and deadwood removal. Newer phases have young trees still getting established. We serve both and coordinate maintenance schedules for property managers overseeing common areas.</p>
+
+        <h3>Downtown and Old Meridian</h3>
+        <p>The blocks around downtown and the older residential streets north and south of Main Street have the most mature tree canopy in the city. This is where the largest silver maples, elms, and cottonwoods live, and where hazard assessment and removal are most frequently needed.</p>
+        <p>Many of these lots are smaller, which means tree work requires careful planning to avoid damage to fences, sheds, neighboring properties, and overhead utility lines. Tight-access removals are something we handle regularly here.</p>
+
+        <h3>Ten Mile Area</h3>
+        <p>One of Meridian's fastest-growing zones. New commercial and residential development means young trees needing proper establishment care. We also do land-clearing work in this area as agricultural land gets converted to subdivisions.</p>
+        <p>If you are a builder or developer along Ten Mile, we offer commercial services including site clearing, transplanting, and post-construction tree assessments.</p>
+
+        <h3>South Meridian Developments</h3>
+        <p>South of the freeway, Meridian keeps expanding with new subdivisions and commercial projects on former farmland. Many of these properties have existing mature trees (primarily cottonwoods and elms along irrigation ditches) that need to be assessed, pruned, or removed as part of the development process.</p>
+
+        <h3>Settlers Park Area</h3>
+        <p>One of Meridian's more established residential areas with a well-developed canopy. Homeowners here call us regularly for pruning, deadwood removal, and health assessments on mature trees. The proximity to Settlers Canal means cottonwoods and willows are common along the waterway, and both species require regular attention to prevent limb failure.</p>
+
+        <h2 id="regulations">Local Regulations and Considerations</h2>
+
+        <h3>Meridian City Tree Ordinances</h3>
+        <p>The City of Meridian has ordinances for trees in the public right-of-way and in certain development areas. If your tree overhangs a public sidewalk or street, you are responsible for maintaining proper clearance. The city may also require tree preservation plans during new construction or remodeling. Our arborists can help you navigate these requirements.</p>
+
+        <h3>HOA Rules in Newer Subdivisions</h3>
+        <p>Paramount, Lochsa Falls, Heritage Commons, and most of Meridian's newer communities have HOA rules that govern tree maintenance, replacement species selection, and even the timing of tree work. Before scheduling major work, check your CC&amp;Rs or contact your association. We routinely work within HOA guidelines and can provide the documentation your association needs: before-and-after photos, detailed work descriptions, and certificates of insurance.</p>
+
+        <h3>Irrigation Canal Proximity</h3>
+        <p>Trees growing along Meridian's irrigation canals (managed by the <a href="https://www.nmid.org/" target="_blank" rel="noopener">Nampa and Meridian Irrigation District</a>) present unique challenges. Roots can damage canal infrastructure, and falling limbs can block water flow. There may be easement restrictions on what work can be done and who is responsible. Our crews have experience working near canals and understand the coordination required with district officials.</p>
+
+        <h3>Construction Damage to Existing Trees</h3>
+        <p>If you purchased a home on a lot that retained existing mature trees, those trees may be suffering from construction-related root damage that does not show up for two to three years. By the time you notice crown dieback or leaf thinning, the damage has been progressing underground for a while. A professional assessment can identify root zone damage and recommend treatment before the tree is too far gone.</p>
+
+        <h3>Ada County and ACHD Requirements</h3>
+        <p>Meridian properties fall under Ada County regulations for tree removal on certain lot sizes, wildfire mitigation, and utility easement clearance. <a href="https://www.achdidaho.org/" target="_blank" rel="noopener">Ada County Highway District (ACHD)</a> has its own requirements for trees near public roadways. We stay current on all applicable local and county rules.</p>
+
+        <h2 id="pricing">Tree Service Pricing in Meridian</h2>
+
+        <p>Every property is different, but here are typical ranges for residential tree work in Meridian:</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Typical Range</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tree Trimming</td>
+              <td>$150 &ndash; $2,000+</td>
+            </tr>
+            <tr>
+              <td>Tree Removal</td>
+              <td>$500 &ndash; $5,000+</td>
+            </tr>
+            <tr>
+              <td>Stump Grinding</td>
+              <td>$75 &ndash; $400</td>
+            </tr>
+            <tr>
+              <td>Emergency Service</td>
+              <td>$300 &ndash; $3,000+</td>
+            </tr>
+            <tr>
+              <td>Tree Health Assessment</td>
+              <td>$75 &ndash; $250</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Price depends on tree size, species, location, access, and complexity. A 25-foot ornamental removal in an open yard is a very different job than an 80-foot cottonwood leaning over a roof.</p>
+
+        <p><strong>Every estimate is free.</strong> An ISA-certified arborist comes to your property, evaluates your trees, answers your questions, and provides a detailed written estimate. No pressure, no obligation.</p>
+
+        <h2 id="why-choose">Why Meridian Homeowners Choose Boise Tree Pros</h2>
+
+        <ul>
+          <li><strong>ISA-Certified Arborists.</strong> Not general laborers with chainsaws. Our arborists have passed examinations in tree biology, diagnosis, pruning, removal, and safety through the <a href="https://www.isa-arb.org/" target="_blank" rel="noopener">International Society of Arboriculture</a>.</li>
+          <li><strong>$2 Million Insurance Coverage.</strong> General liability and full workers' compensation. This protects you if anything goes wrong on your property. Always ask any tree company for proof of insurance before they start work. We provide certificates on request.</li>
+          <li><strong>15+ Years in the Treasure Valley.</strong> Caring for trees across the Boise metro since 2008. We know Meridian's soil, species, weather patterns, and regulations because we have been working here for over a decade.</li>
+          <li><strong>10-Minute Response to Meridian.</strong> Our Boise base is roughly 10 minutes from most Meridian neighborhoods. For emergencies, that means faster response. For scheduled work, it means we show up on time.</li>
+          <li><strong>Free On-Site Estimates.</strong> Every non-emergency job starts with an arborist walking your property, looking at your trees, and giving you a written estimate. No pressure, no sales tactics. We tell you what your trees need and let you decide.</li>
+          <li><strong>Meridian-Specific Knowledge.</strong> Alkaline soil causing iron chlorosis. Construction stress in new subdivisions. Included bark in silver maples. Dutch elm disease timing. HOA requirements in Paramount and Lochsa Falls. We do not give generic advice. We give Meridian advice.</li>
+        </ul>
+
+        <h2 id="faqs">FAQs: Tree Service in Meridian</h2>
+
+        <div class="faq-item">
+          <h3>How much does tree trimming cost in Meridian?</h3>
+          <p>Most residential tree trimming in Meridian ranges from $150 to $2,000, depending on tree size, species, and access. A single ornamental tree might be $150 to $300. A large mature silver maple or cottonwood with a wide canopy can run $800 to $2,000 or more. Every estimate is free and includes an on-site assessment by an ISA-certified arborist.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do I need a permit to remove a tree in Meridian?</h3>
+          <p>For trees on private residential property, Meridian generally does not require a permit. However, if your property is in a planned development with tree preservation requirements, or if the tree is in or near the public right-of-way, there may be restrictions. HOA-governed neighborhoods may also have their own rules. Our arborists can advise you on what applies to your specific situation.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>When is the best time to trim trees in Meridian?</h3>
+          <p>For most species, late winter (February through early March) is ideal. The tree is dormant, you can see the structure clearly, and spring growth will heal the cuts quickly. The big exception is elms: prune only between November and March to avoid attracting Dutch elm disease vectors. Deadwood removal and hazard pruning can be done any time of year.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How quickly can you respond to an emergency in Meridian?</h3>
+          <p>Our base is about 10 minutes from most Meridian neighborhoods. For emergencies (fallen trees, trees on structures, hanging limbs over driveways), we typically respond within 30 minutes. Our 24/7 emergency line is <a href="tel:+19862027387">(986) 202-7387</a>.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>My new trees look unhealthy. Is that normal in Meridian?</h3>
+          <p>Not exactly normal, but very common. Meridian's alkaline clay soils and post-construction soil compaction stress a lot of young trees. Yellowing leaves (especially between the veins), thin canopy, and slow growth are signs your tree is struggling. A <a href="/blog/tree-health-assessment-boise/">tree health assessment</a> can pinpoint the issue, whether that is iron chlorosis, root damage, or planting depth, and give you a plan to fix it.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do you work with HOAs in Meridian?</h3>
+          <p>Yes. We regularly work with HOAs in Paramount, Lochsa Falls, Heritage Commons, and other Meridian subdivisions. We understand their tree maintenance standards and can provide the documentation they require, including before-and-after photos, work descriptions, and certificates of insurance.</p>
+        </div>
+
+        <!-- Closing CTA -->
+        <div style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 100%);border-radius:8px;padding:32px;margin-top:48px;">
+          <h2 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:24px;color:#FAF0E6;margin:0 0 12px;">Get Your Free Estimate in Meridian</h2>
+          <p style="font-size:15px;line-height:1.7;color:rgba(250,240,230,0.85);margin-bottom:20px;">Routine trim, hazard removal, or a tree that just does not look right. We will come out, take a look, and tell you exactly what we recommend. No charge for the estimate, no pressure to book.</p>
+          <p style="font-size:16px;color:#FAF0E6;font-weight:700;margin-bottom:16px;">Call <a href="tel:+19862027387" style="color:#FAF0E6;text-decoration:underline;">(986) 202-7387</a> or <a href="/#contact" style="color:#FAF0E6;text-decoration:underline;">request your estimate online</a>.</p>
+          <p style="font-size:14px;color:rgba(250,240,230,0.7);margin-bottom:16px;">We also serve homeowners across the Treasure Valley, including <a href="/tree-service-eagle/" style="color:rgba(250,240,230,0.85);text-decoration:underline;">Eagle</a>, <a href="/tree-service-garden-city/" style="color:rgba(250,240,230,0.85);text-decoration:underline;">Garden City</a>, <a href="/tree-service-nampa/" style="color:rgba(250,240,230,0.85);text-decoration:underline;">Nampa</a>, and <a href="/tree-service-caldwell/" style="color:rgba(250,240,230,0.85);text-decoration:underline;">Caldwell</a>.</p>
+          <a href="/#contact" class="btn-bark" style="margin-top:4px;">Get Free Estimate</a>
+        </div>
+
+      </div>
+
+      <!-- Sidebar -->
+      <aside style="position:sticky; top:84px; display:flex; flex-direction:column; gap:24px;">
+        <!-- CTA Box -->
+        <div style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 100%);border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#FAF0E6;margin-bottom:12px;">Get a Free Estimate in Meridian</h3>
+          <p style="font-size:14px;line-height:1.7;color:rgba(250,240,230,0.8);margin-bottom:20px;">An ISA-certified arborist will visit your Meridian property, assess your trees, and provide a detailed written estimate at no cost.</p>
+          <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Request Estimate</a>
+          <a href="tel:+19862027387" class="btn-bark" style="width:100%;justify-content:center;">Call (986) 202-7387</a>
+        </div>
+
+        <!-- Quick Pricing Reference -->
+        <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Quick Pricing Reference</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Tree Trimming</span><strong style="color:#363636;">$150&ndash;$2,000+</strong></li>
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Tree Removal</span><strong style="color:#363636;">$500&ndash;$5,000+</strong></li>
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Stump Grinding</span><strong style="color:#363636;">$75&ndash;$400</strong></li>
+            <li style="font-size:14px;color:#555;display:flex;justify-content:space-between;"><span>Emergency</span><strong style="color:#363636;">$300&ndash;$3,000+</strong></li>
+          </ul>
+          <a href="/#contact" style="display:block;text-align:center;margin-top:16px;font-size:13px;color:#8B5A2B;font-weight:600;text-decoration:none;">Get an exact quote &rarr;</a>
+        </div>
+
+        <!-- Other Service Areas -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Other Service Areas</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/tree-service-eagle/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Eagle</a></li>
+            <li><a href="/tree-service-garden-city/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Garden City</a></li>
+            <li><a href="/tree-service-nampa/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Nampa</a></li>
+            <li><a href="/tree-service-caldwell/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Caldwell</a></li>
+          </ul>
+        </div>
+
+        <!-- Related Services -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Related Services</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/blog/tree-trimming-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Trimming</a></li>
+            <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Removal</a></li>
+            <li><a href="/blog/stump-grinding-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Stump Grinding</a></li>
+            <li><a href="/blog/emergency-tree-service-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Emergency Tree Service</a></li>
+            <li><a href="/blog/tree-health-assessment-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Health Assessment</a></li>
+            <li><a href="/blog/tree-cabling-bracing-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Cabling &amp; Bracing</a></li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     CTA BANNER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 50%, #1A531A 100%);padding:64px 24px;text-align:center;">
+  <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Get Your Free Estimate in Meridian</h2>
+  <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">ISA-certified arborists. $2M insured. Free on-site estimates for all tree services in Meridian, Idaho.</p>
+  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
+    <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<script>
+  (function () {
+    const analyticsId = 'G-X3CW5HT1Z5';
+    const clarityId = 'vxfansa76s';
+    let loaded = false;
+
+    function loadAnalytics() {
+      if (loaded) return;
+      loaded = true;
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){dataLayer.push(arguments);};
+      window.gtag('js', new Date());
+      window.gtag('config', analyticsId);
+
+      const gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId;
+      document.head.appendChild(gaScript);
+
+      window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+      const clarityScript = document.createElement('script');
+      clarityScript.async = true;
+      clarityScript.src = 'https://www.clarity.ms/tag/' + clarityId;
+      document.head.appendChild(clarityScript);
+    }
+
+    function scheduleAnalytics() {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadAnalytics, { timeout: 10000 });
+      } else {
+        window.setTimeout(loadAnalytics, 8000);
+      }
+    }
+
+    if (document.readyState === 'complete') {
+      scheduleAnalytics();
+    } else {
+      window.addEventListener('load', scheduleAnalytics, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach((eventName) => {
+      window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+    });
+  })();
+</script>
+</Layout>
