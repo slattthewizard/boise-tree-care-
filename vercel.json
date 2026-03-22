@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    { "source": "/services/tree-trimming-boise/(.*)", "destination": "/blog/tree-trimming-boise/$1", "statusCode": 301 },
+    { "source": "/services/tree-removal-boise/(.*)", "destination": "/blog/tree-removal-boise/$1", "statusCode": 301 },
+    { "source": "/services/emergency-tree-service-boise/(.*)", "destination": "/blog/emergency-tree-service-boise/$1", "statusCode": 301 },
+    { "source": "/services/tree-trimming-boise", "destination": "/blog/tree-trimming-boise/", "statusCode": 301 },
+    { "source": "/services/tree-removal-boise", "destination": "/blog/tree-removal-boise/", "statusCode": 301 },
+    { "source": "/services/emergency-tree-service-boise", "destination": "/blog/emergency-tree-service-boise/", "statusCode": 301 }
+  ],
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}
