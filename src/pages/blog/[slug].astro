@@ -26,19 +26,9 @@ const title = post.data.metaTitle ?? post.data.title;
   ogDescription={post.data.metaDescription}
   ogImage={ogImage}
 >
-  <Fragment slot="head">
-<style>
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
-  .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
-  .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
-  .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
-  .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
-  .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
-  .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
 
-  /* Article content styles */
+<style is:global>
+  /* Article content styles — matches existing blog posts */
   .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
   .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
   .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
@@ -48,32 +38,64 @@ const title = post.data.metaTitle ?? post.data.title;
   .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
   .article-content strong { color: #363636; }
   .article-content em { font-style: italic; }
+  .article-content hr { border: none; border-top: 1px solid #e8ddd0; margin: 32px 0; }
+  .article-content blockquote { border-left: 4px solid #1A531A; margin: 24px 0; padding: 12px 20px; background: #f5f0eb; border-radius: 0 6px 6px 0; font-style: italic; color: #555; }
+
+  /* Tables */
   .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
   .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
   .article-content td { padding: 12px 16px; border-bottom: 1px solid #e8ddd0; color: #555; }
   .article-content tr:last-child td { border-bottom: none; }
   .article-content tr:nth-child(even) { background: #FAF0E6; }
-  .article-content blockquote { border-left: 4px solid #1A531A; margin: 24px 0; padding: 12px 20px; background: #f5f0eb; border-radius: 0 6px 6px 0; font-style: italic; color: #555; }
-  .article-content hr { border: none; border-top: 1px solid #e8ddd0; margin: 32px 0; }
 
-  /* TOC styles */
-  .toc { background: #FAF0E6; border: 1px solid #e8ddd0; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
-  .toc ul { list-style: none; padding: 0; margin: 0; }
-  .toc li { font-size: 15px; margin-bottom: 8px; padding-left: 16px; position: relative; }
-  .toc li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: #8B5A2B; border-radius: 50%; }
-  .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
-  .toc a:hover { text-decoration: underline; }
+  /* Style the first ul (the "What you'll learn" list) like a TOC box */
+  .article-content > ul:first-of-type {
+    background: #FAF0E6;
+    border: 1px solid #e8ddd0;
+    border-radius: 8px;
+    padding: 20px 24px 20px 40px;
+    margin-bottom: 32px;
+    list-style: none;
+  }
+  .article-content > ul:first-of-type li {
+    padding-left: 16px;
+    position: relative;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  .article-content > ul:first-of-type li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background: #8B5A2B;
+    border-radius: 50%;
+  }
+  .article-content > ul:first-of-type li a { color: #8B5A2B; }
 
-  /* FAQ styles */
-  .faq-item { margin-bottom: 24px; }
-  .faq-item h3 { font-size: 18px; color: #363636; margin-bottom: 8px; }
-  .faq-item p { margin-bottom: 0; }
+  /* FAQ section — paragraphs with only a strong child = FAQ question */
+  .article-content p:has(> strong:only-child) {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: 18px;
+    color: #363636;
+    margin-bottom: 6px;
+    margin-top: 20px;
+  }
+  .article-content p:has(> strong:only-child) strong { color: #363636; font-size: inherit; }
 
   /* Content grid */
   .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 64px; align-items: start; }
   @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; gap: 40px; } }
+
+  /* Buttons */
+  .btn-primary-blog { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+  .btn-primary-blog:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+  .btn-bark-blog { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
+  .btn-bark-blog:hover { background: #A06830; transform: translateY(-1px); }
 </style>
-  </Fragment>
 
 <!-- BREADCRUMB -->
 <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
@@ -92,13 +114,13 @@ const title = post.data.metaTitle ?? post.data.title;
     {post.data.tag && (
       <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">{post.data.tag}</span>
     )}
-    <h1 class="section-heading text-cream" style="font-size:clamp(28px,4vw,48px);margin-bottom:16px;color:#FAF0E6;">{post.data.title}</h1>
+    <h1 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;color:#FAF0E6;line-height:1.1;letter-spacing:-0.01em;font-size:clamp(28px,4vw,48px);margin-bottom:16px;">{post.data.title}</h1>
     {post.data.subtitle && (
       <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">{post.data.subtitle}</p>
     )}
-    <div class="flex flex-wrap gap-4">
-      <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
-      <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+    <div style="display:flex;flex-wrap:wrap;gap:16px;">
+      <a href="/#contact" class="btn-primary-blog" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
+      <a href="tel:+19862027387" class="btn-primary-blog" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
     </div>
   </div>
 </section>
@@ -115,15 +137,13 @@ const title = post.data.metaTitle ?? post.data.title;
 
       <!-- Sidebar -->
       <aside>
-        <!-- CTA Box -->
         <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;">
           <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:12px;">Get a Free Estimate</h3>
           <p style="font-size:14px;line-height:1.7;color:#555;margin-bottom:20px;">An ISA-certified arborist will visit your property, assess your trees, and provide a detailed written estimate at no cost.</p>
-          <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;">Request Estimate</a>
-          <a href="tel:+19862027387" class="btn-bark" style="width:100%;justify-content:center;">Call (986) 202-7387</a>
+          <a href="/#contact" class="btn-primary-blog" style="width:100%;justify-content:center;margin-bottom:12px;">Request Estimate</a>
+          <a href="tel:+19862027387" class="btn-bark-blog" style="width:100%;justify-content:center;">Call (986) 202-7387</a>
         </div>
 
-        <!-- Other Blogs -->
         <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
           <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Other Blogs</h3>
           <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
@@ -135,7 +155,6 @@ const title = post.data.metaTitle ?? post.data.title;
           </ul>
         </div>
 
-        <!-- Service Areas -->
         <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-top:24px;">
           <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:12px;">Service Areas</h3>
           <p style="font-size:14px;line-height:1.7;color:#555;">We provide tree care throughout the Treasure Valley:</p>
@@ -158,8 +177,9 @@ const title = post.data.metaTitle ?? post.data.title;
   <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Need Tree Service in Boise?</h2>
   <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">Get a free, no-obligation estimate from an ISA-certified arborist. Most estimates scheduled within 48 hours.</p>
   <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
-    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
-    <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+    <a href="/#contact" class="btn-primary-blog" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
+    <a href="tel:+19862027387" class="btn-primary-blog" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
   </div>
 </section>
+
 </Layout>
