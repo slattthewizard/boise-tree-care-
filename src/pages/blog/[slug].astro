@@ -1,0 +1,229 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const canonical = post.data.canonical ?? `https://boisetreepro.com/blog/${post.slug}/`;
+const ogImage = post.data.ogImage ?? 'https://boisetreepro.com/images/og-image.png';
+---
+
+<Layout
+  title={post.data.metaTitle ?? post.data.title}
+  description={post.data.metaDescription}
+  canonical={canonical}
+  ogTitle={post.data.metaTitle ?? post.data.title}
+  ogDescription={post.data.metaDescription}
+  ogImage={ogImage}
+>
+<style>
+  .blog-post-hero {
+    background: linear-gradient(135deg, #0d2e0d 0%, #1A531A 60%, #2A6B2A 100%);
+    padding: 56px 24px 48px;
+    color: #FAF0E6;
+  }
+  .blog-post-hero .breadcrumb {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .blog-post-hero .breadcrumb a { color: #FAF0E6; text-decoration: none; }
+  .blog-post-hero .breadcrumb a:hover { text-decoration: underline; }
+  .blog-post-hero .tag {
+    display: inline-block;
+    background: rgba(250,240,230,0.15);
+    color: #FAF0E6;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+  .blog-post-hero h1 {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    font-weight: 700;
+    color: #FAF0E6;
+    margin: 0 0 12px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    max-width: 760px;
+  }
+  .blog-post-hero .subtitle {
+    font-size: 1rem;
+    opacity: 0.8;
+    max-width: 640px;
+    line-height: 1.6;
+    margin: 0 0 16px;
+  }
+  .blog-post-hero .meta {
+    font-size: 12px;
+    opacity: 0.65;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Article body */
+  .blog-post-body {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  .blog-post-body :global(h2) {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: #1A531A;
+    margin: 2.2em 0 0.7em;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+  }
+  .blog-post-body :global(h3) {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1A531A;
+    margin: 1.8em 0 0.5em;
+  }
+  .blog-post-body :global(p) {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #363636;
+    margin: 0 0 1.2em;
+  }
+  .blog-post-body :global(ul), .blog-post-body :global(ol) {
+    margin: 0 0 1.2em 1.5em;
+    padding: 0;
+  }
+  .blog-post-body :global(li) {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #363636;
+    margin-bottom: 0.4em;
+  }
+  .blog-post-body :global(a) {
+    color: #1A531A;
+    text-decoration: underline;
+    text-decoration-color: rgba(26,83,26,0.3);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s;
+  }
+  .blog-post-body :global(a:hover) {
+    text-decoration-color: #1A531A;
+  }
+  .blog-post-body :global(strong) { color: #1a1a1a; font-weight: 600; }
+  .blog-post-body :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.9rem;
+  }
+  .blog-post-body :global(th) {
+    background: #1A531A;
+    color: #FAF0E6;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .blog-post-body :global(td) {
+    padding: 10px 14px;
+    border-bottom: 1px solid #e8ddd0;
+    color: #363636;
+  }
+  .blog-post-body :global(tr:nth-child(even) td) { background: #faf7f3; }
+  .blog-post-body :global(blockquote) {
+    border-left: 4px solid #1A531A;
+    margin: 1.5em 0;
+    padding: 12px 20px;
+    background: #f5f0eb;
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+    color: #555;
+  }
+  .blog-post-body :global(hr) {
+    border: none;
+    border-top: 1px solid #e8ddd0;
+    margin: 2em 0;
+  }
+
+  .post-cta {
+    background: linear-gradient(135deg, #0d2e0d, #1A531A);
+    border-radius: 12px;
+    padding: 32px 28px;
+    text-align: center;
+    margin-top: 48px;
+    color: #FAF0E6;
+  }
+  .post-cta h3 {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: 1.4rem;
+    margin: 0 0 8px;
+    color: #FAF0E6;
+  }
+  .post-cta p { font-size: 0.9rem; opacity: 0.8; margin: 0 0 20px; }
+  .post-cta a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #FAF0E6;
+    color: #1A531A;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 13px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .post-cta a:hover { background: #fff; transform: translateY(-1px); }
+</style>
+
+<div class="blog-post-hero">
+  <div style="max-width:900px;margin:0 auto;">
+    <div class="breadcrumb">
+      <a href="/">Home</a>
+      <span>›</span>
+      <a href="/blog/">Blog</a>
+      <span>›</span>
+      <span>{post.data.navTitle ?? post.data.title}</span>
+    </div>
+    {post.data.tag && <span class="tag">{post.data.tag}</span>}
+    <h1>{post.data.title}</h1>
+    {post.data.subtitle && <p class="subtitle">{post.data.subtitle}</p>}
+    <div class="meta">
+      <span>📅 {new Date(post.data.publishedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+      <span>·</span>
+      <span>Boise Tree Pros</span>
+    </div>
+  </div>
+</div>
+
+<div class="blog-post-body">
+  <Content />
+
+  <div class="post-cta">
+    <h3>Need Tree Service in Boise?</h3>
+    <p>Get a free, no-obligation estimate from our certified arborists.</p>
+    <a href="/#contact">Get a Free Quote →</a>
+  </div>
+</div>
+</Layout>
