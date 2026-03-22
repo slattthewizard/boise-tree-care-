@@ -15,215 +15,151 @@ const { Content } = await post.render();
 
 const canonical = post.data.canonical ?? `https://boisetreepro.com/blog/${post.slug}/`;
 const ogImage = post.data.ogImage ?? 'https://boisetreepro.com/images/og-image.png';
+const title = post.data.metaTitle ?? post.data.title;
 ---
 
 <Layout
-  title={post.data.metaTitle ?? post.data.title}
+  title={title}
   description={post.data.metaDescription}
   canonical={canonical}
-  ogTitle={post.data.metaTitle ?? post.data.title}
+  ogTitle={title}
   ogDescription={post.data.metaDescription}
   ogImage={ogImage}
 >
+  <Fragment slot="head">
 <style>
-  .blog-post-hero {
-    background: linear-gradient(135deg, #0d2e0d 0%, #1A531A 60%, #2A6B2A 100%);
-    padding: 56px 24px 48px;
-    color: #FAF0E6;
-  }
-  .blog-post-hero .breadcrumb {
-    font-size: 12px;
-    opacity: 0.7;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .blog-post-hero .breadcrumb a { color: #FAF0E6; text-decoration: none; }
-  .blog-post-hero .breadcrumb a:hover { text-decoration: underline; }
-  .blog-post-hero .tag {
-    display: inline-block;
-    background: rgba(250,240,230,0.15);
-    color: #FAF0E6;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 4px 12px;
-    border-radius: 20px;
-    margin-bottom: 16px;
-  }
-  .blog-post-hero h1 {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-size: clamp(1.6rem, 4vw, 2.6rem);
-    font-weight: 700;
-    color: #FAF0E6;
-    margin: 0 0 12px;
-    letter-spacing: -0.02em;
-    line-height: 1.2;
-    max-width: 760px;
-  }
-  .blog-post-hero .subtitle {
-    font-size: 1rem;
-    opacity: 0.8;
-    max-width: 640px;
-    line-height: 1.6;
-    margin: 0 0 16px;
-  }
-  .blog-post-hero .meta {
-    font-size: 12px;
-    opacity: 0.65;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+  .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
+  .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+  .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+  .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+  .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
+  .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
 
-  /* Article body */
-  .blog-post-body {
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 48px 24px 80px;
-  }
-  .blog-post-body :global(h2) {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-size: 1.55rem;
-    font-weight: 700;
-    color: #1A531A;
-    margin: 2.2em 0 0.7em;
-    letter-spacing: -0.01em;
-    line-height: 1.25;
-  }
-  .blog-post-body :global(h3) {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #1A531A;
-    margin: 1.8em 0 0.5em;
-  }
-  .blog-post-body :global(p) {
-    font-size: 1rem;
-    line-height: 1.75;
-    color: #363636;
-    margin: 0 0 1.2em;
-  }
-  .blog-post-body :global(ul), .blog-post-body :global(ol) {
-    margin: 0 0 1.2em 1.5em;
-    padding: 0;
-  }
-  .blog-post-body :global(li) {
-    font-size: 1rem;
-    line-height: 1.7;
-    color: #363636;
-    margin-bottom: 0.4em;
-  }
-  .blog-post-body :global(a) {
-    color: #1A531A;
-    text-decoration: underline;
-    text-decoration-color: rgba(26,83,26,0.3);
-    text-underline-offset: 3px;
-    transition: text-decoration-color 0.2s;
-  }
-  .blog-post-body :global(a:hover) {
-    text-decoration-color: #1A531A;
-  }
-  .blog-post-body :global(strong) { color: #1a1a1a; font-weight: 600; }
-  .blog-post-body :global(table) {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.5em 0;
-    font-size: 0.9rem;
-  }
-  .blog-post-body :global(th) {
-    background: #1A531A;
-    color: #FAF0E6;
-    padding: 10px 14px;
-    text-align: left;
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-  .blog-post-body :global(td) {
-    padding: 10px 14px;
-    border-bottom: 1px solid #e8ddd0;
-    color: #363636;
-  }
-  .blog-post-body :global(tr:nth-child(even) td) { background: #faf7f3; }
-  .blog-post-body :global(blockquote) {
-    border-left: 4px solid #1A531A;
-    margin: 1.5em 0;
-    padding: 12px 20px;
-    background: #f5f0eb;
-    border-radius: 0 6px 6px 0;
-    font-style: italic;
-    color: #555;
-  }
-  .blog-post-body :global(hr) {
-    border: none;
-    border-top: 1px solid #e8ddd0;
-    margin: 2em 0;
-  }
+  /* Article content styles */
+  .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
+  .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
+  .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
+  .article-content a { color: #8B5A2B; font-weight: 600; text-decoration: none; }
+  .article-content a:hover { text-decoration: underline; }
+  .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 20px; }
+  .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+  .article-content strong { color: #363636; }
+  .article-content em { font-style: italic; }
+  .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
+  .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
+  .article-content td { padding: 12px 16px; border-bottom: 1px solid #e8ddd0; color: #555; }
+  .article-content tr:last-child td { border-bottom: none; }
+  .article-content tr:nth-child(even) { background: #FAF0E6; }
+  .article-content blockquote { border-left: 4px solid #1A531A; margin: 24px 0; padding: 12px 20px; background: #f5f0eb; border-radius: 0 6px 6px 0; font-style: italic; color: #555; }
+  .article-content hr { border: none; border-top: 1px solid #e8ddd0; margin: 32px 0; }
 
-  .post-cta {
-    background: linear-gradient(135deg, #0d2e0d, #1A531A);
-    border-radius: 12px;
-    padding: 32px 28px;
-    text-align: center;
-    margin-top: 48px;
-    color: #FAF0E6;
-  }
-  .post-cta h3 {
-    font-family: 'Zilla Slab', Georgia, serif;
-    font-size: 1.4rem;
-    margin: 0 0 8px;
-    color: #FAF0E6;
-  }
-  .post-cta p { font-size: 0.9rem; opacity: 0.8; margin: 0 0 20px; }
-  .post-cta a {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: #FAF0E6;
-    color: #1A531A;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 13px 26px;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: background 0.2s, transform 0.15s;
-  }
-  .post-cta a:hover { background: #fff; transform: translateY(-1px); }
+  /* TOC styles */
+  .toc { background: #FAF0E6; border: 1px solid #e8ddd0; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+  .toc ul { list-style: none; padding: 0; margin: 0; }
+  .toc li { font-size: 15px; margin-bottom: 8px; padding-left: 16px; position: relative; }
+  .toc li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: #8B5A2B; border-radius: 50%; }
+  .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
+  .toc a:hover { text-decoration: underline; }
+
+  /* FAQ styles */
+  .faq-item { margin-bottom: 24px; }
+  .faq-item h3 { font-size: 18px; color: #363636; margin-bottom: 8px; }
+  .faq-item p { margin-bottom: 0; }
+
+  /* Content grid */
+  .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 64px; align-items: start; }
+  @media (max-width: 768px) { .content-grid { grid-template-columns: 1fr; gap: 40px; } }
 </style>
+  </Fragment>
 
-<div class="blog-post-hero">
-  <div style="max-width:900px;margin:0 auto;">
-    <div class="breadcrumb">
-      <a href="/">Home</a>
-      <span>›</span>
-      <a href="/blog/">Blog</a>
-      <span>›</span>
-      <span>{post.data.navTitle ?? post.data.title}</span>
-    </div>
-    {post.data.tag && <span class="tag">{post.data.tag}</span>}
-    <h1>{post.data.title}</h1>
-    {post.data.subtitle && <p class="subtitle">{post.data.subtitle}</p>}
-    <div class="meta">
-      <span>📅 {new Date(post.data.publishedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-      <span>·</span>
-      <span>Boise Tree Pros</span>
+<!-- BREADCRUMB -->
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+  <ol style="list-style:none;padding:0;margin:0;display:flex;gap:8px;font-size:13px;color:#888;">
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Home</a></li>
+    <li>/</li>
+    <li><a href="/blog/" style="color:#8B5A2B;text-decoration:none;">Blog</a></li>
+    <li>/</li>
+    <li style="color:#363636;">{post.data.navTitle ?? post.data.title}</li>
+  </ol>
+</nav>
+
+<!-- HERO -->
+<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+    {post.data.tag && (
+      <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">{post.data.tag}</span>
+    )}
+    <h1 class="section-heading text-cream" style="font-size:clamp(28px,4vw,48px);margin-bottom:16px;color:#FAF0E6;">{post.data.title}</h1>
+    {post.data.subtitle && (
+      <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">{post.data.subtitle}</p>
+    )}
+    <div class="flex flex-wrap gap-4">
+      <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
+      <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
     </div>
   </div>
-</div>
+</section>
 
-<div class="blog-post-body">
-  <Content />
+<!-- ARTICLE CONTENT -->
+<section style="padding:72px 0;background:#fff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="content-grid">
 
-  <div class="post-cta">
-    <h3>Need Tree Service in Boise?</h3>
-    <p>Get a free, no-obligation estimate from our certified arborists.</p>
-    <a href="/#contact">Get a Free Quote →</a>
+      <!-- Main Content -->
+      <div class="article-content">
+        <Content />
+      </div>
+
+      <!-- Sidebar -->
+      <aside>
+        <!-- CTA Box -->
+        <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:12px;">Get a Free Estimate</h3>
+          <p style="font-size:14px;line-height:1.7;color:#555;margin-bottom:20px;">An ISA-certified arborist will visit your property, assess your trees, and provide a detailed written estimate at no cost.</p>
+          <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;">Request Estimate</a>
+          <a href="tel:+19862027387" class="btn-bark" style="width:100%;justify-content:center;">Call (986) 202-7387</a>
+        </div>
+
+        <!-- Other Blogs -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Other Blogs</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/blog/tree-trimming-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;">&#8594; Tree Trimming</a></li>
+            <li><a href="/blog/tree-removal-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;">&#8594; Tree Removal</a></li>
+            <li><a href="/blog/emergency-tree-service-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;">&#8594; Emergency Tree Service</a></li>
+            <li><a href="/blog/stump-grinding-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;">&#8594; Stump Grinding</a></li>
+            <li><a href="/blog/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;">&#8594; All Blogs</a></li>
+          </ul>
+        </div>
+
+        <!-- Service Areas -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-top:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:12px;">Service Areas</h3>
+          <p style="font-size:14px;line-height:1.7;color:#555;">We provide tree care throughout the Treasure Valley:</p>
+          <ul style="padding-left:18px;margin-top:8px;">
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Boise, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Meridian, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Eagle, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Nampa, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Caldwell, ID</li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
   </div>
-</div>
+</section>
+
+<!-- CTA BANNER -->
+<section style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 50%, #1A531A 100%);padding:64px 24px;text-align:center;">
+  <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Need Tree Service in Boise?</h2>
+  <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">Get a free, no-obligation estimate from an ISA-certified arborist. Most estimates scheduled within 48 hours.</p>
+  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
+    <a href="tel:+19862027387" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (986) 202-7387</a>
+  </div>
+</section>
 </Layout>
