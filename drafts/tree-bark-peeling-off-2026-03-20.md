@@ -1,3 +1,14 @@
+---
+Meta Title: Why Is My Tree Bark Peeling Off? | Boise Tree Pros
+Meta Description: Tree bark peeling off? Learn which Boise trees shed bark naturally vs. signs of disease, sunscald, or pests — and when to call an arborist.
+Primary Keyword: tree bark peeling off
+Secondary Keywords: bark falling off tree, tree losing bark, why is bark coming off my tree, tree bark disease
+URL Slug: /blog/tree-bark-peeling-off
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /services/emergency-tree-service-boise/, /#services, /#contact
+External Links: University of Idaho Extension (uidaho.edu), ISA TreesAreGood (treesaregood.org), USDA Forest Service (fs.usda.gov)
+Word Count: ~2,700
+---
+
 # Why Is My Tree Bark Peeling Off?
 
 You're grabbing the morning paper and notice something that stops you mid-step. Your maple in the front yard, the one your kids climb every summer, has bark curling away from the trunk like old wallpaper. Underneath, the wood looks pale and exposed. Your stomach drops. Is the tree dying?

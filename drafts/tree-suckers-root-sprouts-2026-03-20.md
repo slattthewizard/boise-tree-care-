@@ -1,3 +1,14 @@
+---
+Meta Title: Tree Suckers Growing From Base? How to Stop Them | Boise
+Meta Description: Tree suckers growing from base of your tree or roots? Learn why they keep coming back and how Boise arborists stop them for good. Free assessment.
+Primary Keyword: tree suckers growing from base
+Secondary Keywords: tree root sprouts, sucker growth on tree, how to stop tree suckers, tree shoots from roots
+URL Slug: /blog/tree-suckers-root-sprouts
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /services/emergency-tree-service-boise/, /#contact
+External Links: ISA TreesAreGood (treesaregood.org), University of Idaho Extension (uidaho.edu), USDA Forest Service (fs.usda.gov)
+Word Count: ~2,600
+---
+
 # Tree Suckers and Root Sprouts: Why They Keep Coming Back
 
 You're mowing the lawn on a Saturday morning. The mower blade catches something woody, makes that awful grinding sound, and you look down. More shoots. Again. Sprouting right out of the ground, six inches from the trunk of your silver maple — or worse, popping up in the middle of the yard, 15 feet from the nearest tree. You yanked these things out last weekend. You *cut* them the weekend before that. And yet here they are, back with a vengeance, like some botanical horror movie.

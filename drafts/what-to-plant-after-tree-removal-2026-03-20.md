@@ -1,3 +1,14 @@
+---
+Meta Title: What to Plant After Tree Removal | Boise Guide
+Meta Description: Find out what to plant after tree removal in Boise. Species recommendations, soil prep, timing, and planting tips from local ISA-certified arborists.
+Primary Keyword: what to plant after tree removal
+Secondary Keywords: tree replacement boise, best replacement trees, replanting after tree removal, new tree after stump grinding
+URL Slug: /blog/what-to-plant-after-tree-removal-boise
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /services/emergency-tree-service-boise/, /services/stump-grinding-boise/, /#services, /#contact
+External Links: University of Idaho Extension (uidaho.edu), ISA TreesAreGood (treesaregood.org), USDA Plant Database (plants.usda.gov), USDA Forest Service (fs.usda.gov)
+Word Count: ~2,400
+---
+
 # What to Plant After Tree Removal (Boise Replacement Guide)
 
 You stare at the spot where the old ash used to be. There's a circle of sawdust and a patch of bare dirt, and the whole property looks unfinished. The neighbors' houses are suddenly visible. The patio that used to be shaded is now baking in full sun by 10 a.m.

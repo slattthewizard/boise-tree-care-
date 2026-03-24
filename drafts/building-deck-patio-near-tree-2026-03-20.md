@@ -1,3 +1,14 @@
+---
+Meta Title: Building a Deck Around a Tree | Tips for Boise Homeowners
+Meta Description: Planning on building a deck around a tree? Learn how to protect roots, choose the right materials, and avoid costly mistakes. Free Boise arborist consultation.
+Primary Keyword: building deck around a tree
+Secondary Keywords: build patio near tree, fence near tree roots, construction near trees, tree root zone protection
+URL Slug: /blog/building-deck-patio-near-tree
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /#services, /#contact
+External Links: ISA TreesAreGood (treesaregood.org), University of Idaho Extension (uidaho.edu)
+Word Count: ~2,500
+---
+
 # Can I Build a Deck, Patio, or Fence Near a Tree?
 
 You've been eyeing that big silver maple in your backyard all winter. Now it's March, the snow's melting in the North End, and you're ready to finally build that deck you've been sketching on napkins since last summer. But there's a problem: the perfect spot for your new outdoor living space is right where that tree has been growing for the last 40 years.

@@ -1,3 +1,14 @@
+---
+Meta Title: Why Is My Tree Dripping Sap? Boise Arborist Explains
+Meta Description: Wondering why is my tree dripping sap on your car or driveway? Learn to identify sap, honeydew, or slime flux and get free help from Boise Tree Pros.
+Primary Keyword: why is my tree dripping sap
+Secondary Keywords: tree dripping sap on driveway, sticky stuff dripping from tree, tree sap on car boise, honeydew aphids tree
+URL Slug: /blog/why-is-my-tree-dripping-sap
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /services/emergency-tree-service-boise/, /#services, /#contact
+External Links: University of Idaho Extension (uidaho.edu), ISA TreesAreGood (treesaregood.org), USDA Forest Service (fs.usda.gov)
+Word Count: ~2,500
+---
+
 # Sap Dripping From My Tree: What's Going On?
 
 You walk out to your driveway on a warm June morning, coffee in hand, and your windshield looks like someone poured syrup on it. Again.

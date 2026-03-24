@@ -1,3 +1,14 @@
+---
+Meta Title: Tree Leaves Turning Yellow in Summer? Chlorosis Fix | Boise
+Meta Description: Tree leaves turning yellow in summer? Iron chlorosis is the #1 cause in Boise. Learn how to identify it, treat it, and prevent it. Free assessments available.
+Primary Keyword: tree leaves turning yellow in summer
+Secondary Keywords: iron chlorosis boise, yellow leaves on tree, tree chlorosis treatment, why are my tree leaves yellow
+URL Slug: /blog/tree-leaves-turning-yellow-summer
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /services/emergency-tree-service-boise/, /#services, /#contact
+External Links: ISA (treesaregreen.org), University of Idaho Extension (uidaho.edu)
+Word Count: ~2,800
+---
+
 # Tree Leaves Turning Yellow in Summer? It's Probably Chlorosis
 
 It's the middle of July. Your red maple looked great in May. Now the leaves are turning a sickly yellow-green, and you're standing in the yard with a garden hose, wondering what you did wrong.

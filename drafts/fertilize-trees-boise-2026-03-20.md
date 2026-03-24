@@ -1,3 +1,14 @@
+---
+Meta Title: When to Fertilize Trees in Boise | Boise Tree Pros
+Meta Description: Learn when to fertilize trees in Boise and when to skip it. Boise's alkaline soil needs a different approach. Get expert advice from local arborists.
+Primary Keyword: when to fertilize trees boise
+Secondary Keywords: tree fertilizer boise, fertilizing trees idaho, best fertilizer for trees, do trees need fertilizer
+URL Slug: /blog/fertilize-trees-boise
+Internal Links: /services/tree-trimming-boise/, /#services, /#contact
+External Links: University of Idaho Extension (uidaho.edu), ISA TreesAreGood (treesaregood.org)
+Word Count: ~2,800
+---
+
 # Should You Fertilize Trees in Boise? When It Helps vs. Hurts
 
 You're standing in the Zamzows on Eagle Road with a box of tree fertilizer spikes in one hand and your phone in the other, Googling whether your sad-looking maple actually needs this stuff. The label promises "lush, vigorous growth." The price seems reasonable. But here's what that box won't tell you: **for most established trees in Boise, fertilizer does more harm than good.**

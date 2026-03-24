@@ -1,3 +1,14 @@
+---
+Meta Title: Emerald Ash Borer in Idaho: Treat or Remove? (2026)
+Meta Description: Emerald ash borer is heading to Idaho. Learn when to treat vs. remove your ash tree, what treatments cost, and how Boise homeowners can prepare today.
+Primary Keyword: emerald ash borer idaho
+Secondary Keywords: EAB idaho, ash tree treatment boise, emerald ash borer treatment, should I remove my ash tree, ash borer boise
+URL Slug: /blog/emerald-ash-borer-idaho
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /services/emergency-tree-service-boise/, /#services, /#contact
+External Links: Idaho State Department of Agriculture (agri.idaho.gov), USDA APHIS (aphis.usda.gov), University of Idaho Extension (uidaho.edu)
+Word Count: ~3,000
+---
+
 # Emerald Ash Borer in Idaho: Treat or Remove Your Ash Tree?
 
 The emerald ash borer is heading for Boise. It's not a question of if. It's a question of when.

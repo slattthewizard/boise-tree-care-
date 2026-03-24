@@ -1,3 +1,14 @@
+---
+Meta Title: Is a Crack in Your Tree Trunk Dangerous? | Boise Tree Pros
+Meta Description: Spotted a crack in your tree trunk? Learn which cracks are dangerous vs. cosmetic and when to call a Boise arborist. Free tree risk assessments available.
+Primary Keyword: crack in tree trunk dangerous
+Secondary Keywords: tree trunk split, vertical crack in tree, tree trunk crack repair, is my tree going to fall
+URL Slug: /blog/crack-in-tree-trunk
+Internal Links: /services/tree-removal-boise/, /services/tree-trimming-boise/, /services/emergency-tree-service-boise/, /#contact
+External Links: ISA TreesAreGood (treesaregood.org), University of Idaho Extension (uidaho.edu), USDA Plant Hardiness Zone Map (planthardiness.ars.usda.gov)
+Word Count: ~2,800
+---
+
 # Crack in My Tree Trunk: Is It Going to Fall?
 
 You're walking to the mailbox on a Saturday morning when you notice it: a long, dark split running up the trunk of that big silver maple in your front yard. Your stomach drops. Is the whole thing about to come crashing into the living room?
