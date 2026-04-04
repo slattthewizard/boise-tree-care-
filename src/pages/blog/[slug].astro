@@ -29,6 +29,25 @@ const breadcrumbSchema = JSON.stringify({
   ]
 });
 
+const articleSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "description": post.data.metaDescription,
+  "url": canonical,
+  "datePublished": post.data.publishedDate,
+  "dateModified": post.data.publishedDate,
+  "author": {
+    "@type": "Organization",
+    "name": "Boise Tree Pros"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Boise Tree Pros",
+    "url": "https://boisetreepro.com"
+  }
+});
+
 const faqSchema = faq.length > 0 ? JSON.stringify({
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -53,6 +72,7 @@ const faqSchema = faq.length > 0 ? JSON.stringify({
 >
 
 <Fragment slot="head">
+  <script type="application/ld+json" set:html={articleSchema} />
   <script type="application/ld+json" set:html={breadcrumbSchema} />
   {faqSchema && <script type="application/ld+json" set:html={faqSchema} />}
 </Fragment>
