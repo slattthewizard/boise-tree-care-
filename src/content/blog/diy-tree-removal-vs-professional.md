@@ -8,6 +8,17 @@ publishedDate: "2026-03-26"
 tag: "Tree Removal"
 subtitle: "You've made the decision. The tree is coming down. Maybe it's dead. Maybe it's leaning toward your roof. Maybe it's dropping limbs every time the wind picks up in the Boise foothills."
 canonical: "https://boisetreepro.com/blog/diy-tree-removal-vs-professional/"
+faq:
+  - question: "Is DIY tree removal safe for small trees?"
+    answer: "Yes, if conditions are right. A healthy tree under 15 feet tall, with no lean, no nearby structures, no power lines, and a clear drop zone is a reasonable DIY project for someone comfortable with a chainsaw. Safety gear is non-negotiable: chainsaw chaps, a helmet with face screen, eye protection, ear protection, and steel-toed boots. Always plan two escape paths at 45-degree angles behind your cutting position before you make the first cut."
+  - question: "How much does professional tree removal cost in Boise compared to DIY?"
+    answer: "Professional tree removal in Boise typically costs $500 to $1,500 for a medium-sized tree (15 to 25 feet), including felling, cleanup, haul-away, and often stump grinding. DIY costs for the same tree run $350 to $750 when you factor in chainsaw rental, safety gear, truck rental, dump fees, and a full day or more of your time. The price gap narrows significantly when you account for the included cleanup, stump grinding, insurance coverage, and the value of your time."
+  - question: "What happens if a tree I'm removing falls on my neighbor's property?"
+    answer: "You are personally liable for any damage. Unlike a natural tree fall caused by a storm (which is typically covered by your neighbor's homeowner's insurance), a tree that falls on a neighbor's property because you were actively felling it is considered negligence. Your homeowner's policy likely won't cover it. You could face repair costs, a lawsuit, or both. Professional tree services carry $2 million or more in liability insurance specifically for this scenario."
+  - question: "Do I need a permit to remove a tree in Boise?"
+    answer: "It depends on the tree's species, size, and location. Boise has specific regulations regarding tree removal, particularly for trees in certain zoning areas or trees that meet specific size thresholds. Removing a protected tree without a permit can result in fines. Professional tree services handle the permit process as part of the job. If you're going the DIY route, contact the City of Boise's Planning and Development Services department before you start cutting."
+  - question: "Can I just cut the tree down and leave the stump?"
+    answer: "You can, but you probably won't want to. A stump left in the ground attracts termites and other wood-boring insects, sends up new shoots for years, creates a tripping hazard, and makes mowing difficult. Stump grinding requires specialized equipment that most homeowners don't own. Rental grinders cost $150 to $300 per day and are less effective than commercial machines. Most professional tree removal services in Boise include stump grinding or offer it as an affordable add-on."
 ---
 ## That Tree Has to Go. The Question Is Who Takes It Down.
 

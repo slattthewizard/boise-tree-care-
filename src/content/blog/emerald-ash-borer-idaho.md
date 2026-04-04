@@ -9,6 +9,15 @@ publishedDate: "2026-03-28"
 tag: "Tree Removal"
 subtitle: "The emerald ash borer is heading for Boise. It's not a question of if. It's a question of when. First detected in Oregon in 2022, EAB has since spread to multiple counties across the Willamette..."
 canonical: "https://boisetreepro.com/blog/emerald-ash-borer-idaho/"
+faq:
+  - question: "Is the emerald ash borer in Idaho yet?"
+    answer: "EAB has not yet been confirmed in the Boise or Treasure Valley area. It was first detected in the Pacific Northwest in Oregon in 2022 and has since spread to multiple Oregon counties, including Portland in 2025. Idaho officials consider EAB arrival a matter of when, not if. The Idaho State Department of Agriculture and USDA APHIS actively monitor for the pest."
+  - question: "How much does it cost to treat an ash tree for EAB?"
+    answer: "Trunk injection with emamectin benzoate (the most effective treatment) typically costs $150-$400 per application depending on tree size. Treatment is needed every two to three years for as long as EAB is present in the region. For a medium-sized ash tree, that works out to roughly $800-$1,200 over a decade. Compare that to one-time removal costs of $800-$2,500 for a mature tree."
+  - question: "Can I treat my ash tree for EAB myself?"
+    answer: "Trunk injection with emamectin benzoate (the most effective option) must be applied by a licensed professional with specialized equipment. DIY soil drenches with imidacloprid are available at garden centers but are significantly less effective for mature trees over 15 inches in diameter. For high-value trees, professional trunk injection is worth the investment."
+  - question: "When is it too late to treat an ash tree for emerald ash borer?"
+    answer: "Once an infested ash tree has lost more than 50% of its canopy, treatment is unlikely to save it. The vascular damage from larval feeding is too extensive for the tree to recover, even with insecticide protection. This is why early, preventive treatment matters so much. Starting before heavy infestation gives you the best chance of saving the tree. --- --- Meta Title: Emerald Ash Borer in Idaho: Treat or Remove? (2026) Meta Description: Emerald ash borer is heading to Idaho. Learn when to treat vs. remove your ash tree, what treatments cost, and how Boise homeowners can prepare today. Primary Keyword: emerald ash borer idaho Secondary Keywords: EAB idaho, ash tree treatment boise, emerald ash borer treatment, should I remove my ash tree, ash borer boise URL Slug: /blog/emerald-ash-borer-idaho ---"
 ---
 The emerald ash borer is heading for Boise. It's not a question of if. It's a question of when.
 

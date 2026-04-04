@@ -9,6 +9,15 @@ publishedDate: "2026-03-24"
 tag: "Tree Protection"
 subtitle: "You've been eyeing that big silver maple in your backyard all winter. Now it's March, the snow's melting in the North End, and you're ready to finally build that deck you've been sketching on napkins..."
 canonical: "https://boisetreepro.com/blog/building-deck-patio-near-tree/"
+faq:
+  - question: "How close can I build a deck to a tree trunk?"
+    answer: "The minimum safe distance depends on the tree's size and species. As a starting point, stay outside the Critical Root Zone, which means one foot of distance per inch of trunk diameter. For the deck surface itself, leave at least two inches of gap per year of expected growth to allow for trunk expansion. A certified arborist can give you species-specific guidance for your exact tree."
+  - question: "Will tree roots damage my patio or deck?"
+    answer: "They can. Roots seek water and nutrients, and they'll push through paths of least resistance. Concrete slabs are most vulnerable to cracking and heaving from root growth. Permeable pavers and flagstone on sand handle root movement much better because individual pieces can be lifted and reset. Elevated decks on piers avoid the issue almost entirely."
+  - question: "Can I cut tree roots to install a fence?"
+    answer: "You can cut small roots (under two inches in diameter) without significant harm to most healthy trees. Never cut roots larger than two inches without consulting an arborist — these are structural roots that keep the tree stable and alive. Losing too many large roots on one side can make a tree hazardous in storms, especially during Boise's spring wind events."
+  - question: "Do I need a permit to build near a tree in Boise?"
+    answer: "Boise doesn't currently require permits specifically for building near trees on private residential property, but your deck, patio, or fence project likely needs a standard building permit. Some Boise neighborhoods and HOAs have tree preservation requirements. If your property borders the Boise River or is in a designated conservation area, additional rules may apply. Check with the City of Boise Planning & Development Services before starting. --- Meta Title: Building a Deck Around a Tree | Tips for Boise Homeowners Meta Description: Planning on building a deck around a tree? Learn how to protect roots, choose the right materials, and avoid costly mistakes. Free Boise arborist consultation. Primary Keyword: building deck around a tree Secondary Keywords: build patio near tree, fence near tree roots, construction near trees, tree root zone protection URL Slug: /blog/building-deck-patio-near-tree ---"
 ---
 You've been eyeing that big silver maple in your backyard all winter. Now it's March, the snow's melting in the North End, and you're ready to finally build that deck you've been sketching on napkins since last summer. But there's a problem: the perfect spot for your new outdoor living space is right where that tree has been growing for the last 40 years.
 

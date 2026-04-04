@@ -8,6 +8,17 @@ publishedDate: "2026-03-27"
 tag: "Stump Grinding"
 subtitle: "You had a tree removed last year. Maybe two years ago. The crew cut it down, hauled off the trunk and branches, and left the stump sitting flush with the ground."
 canonical: "https://boisetreepro.com/blog/do-tree-stumps-attract-termites/"
+faq:
+  - question: "How quickly can termites infest a tree stump?"
+    answer: "It depends on local termite pressure and how fast the stump decays. In the Boise area, most stumps become attractive to subterranean termites within two to three years after the tree is removed. Stumps in shaded, moist areas or those from softer wood species may attract termites sooner. The key factor is moisture; once the wood stays consistently damp, it's on the termite radar."
+  - question: "Can I treat a tree stump with pesticide instead of removing it?"
+    answer: "You can, but it's a temporary fix. Liquid termiticides or borate treatments may deter termites for a season or two, but they don't eliminate the underlying problem: a decaying wood mass in contact with soil. The stump continues to rot, the chemical breaks down, and the cycle starts over. Stump grinding removes the food source permanently, which is why pest professionals and arborists recommend it over chemical treatment."
+  - question: "Do pine stumps attract termites more than hardwood stumps?"
+    answer: "Pine and other softwood stumps tend to decay faster, which means they reach the \"attractive to termites\" stage sooner. However, hardwood stumps (like those from oak, maple, or elm) still attract termites once decay progresses. The difference is timing, not outcome. All species of tree stumps will eventually attract wood-destroying organisms if left in the ground long enough."
+  - question: "How far from my house does a stump need to be to not be a risk?"
+    answer: "There's no perfectly \"safe\" distance, but stumps within 20 feet of your foundation are the highest priority for removal. Subterranean termites can forage up to 150 feet from their colony, so even distant stumps contribute to overall pest pressure on your property. That said, a stump 50 feet away is far less urgent than one sitting five feet from your back wall. Prioritize by proximity."
+  - question: "Should I get my stumps ground at the same time as tree removal?"
+    answer: "Absolutely. This is the most cost-effective and practical approach. The equipment is already on-site, the crew is already there, and you eliminate the pest risk before it ever develops. Many homeowners skip stump grinding to save money on the initial tree removal, then end up paying more later when the stump becomes a problem. At Boise Tree Pros, we offer stump grinding as part of our tree removal service so you can handle everything in one visit."
 ---
 ## That Old Stump in Your Yard Might Be Sending an Invitation
 

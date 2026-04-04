@@ -9,6 +9,19 @@ publishedDate: "2026-03-24"
 tag: "Tree Removal"
 subtitle: "Every June, half of Boise looks like it's trapped inside a snow globe. That \"snow\" is cottonwood fluff, and if you own the tree producing it, you already know the drill: clogged gutters, a patio..."
 canonical: "https://boisetreepro.com/blog/cottonwood-tree-removal-boise/"
+faq:
+  - question: "Should I remove my cottonwood tree?"
+    answer: "It depends on the tree's health, structure, location, and your tolerance for the maintenance. If the tree is structurally sound, has room to grow, and you value the shade, keeping it with regular pruning is reasonable. If it's showing decay, causing root damage, or dropping large branches regularly, removal is the safer and more cost-effective path."
+  - question: "Are cottonwood trees protected in Boise?"
+    answer: "Boise does not have a blanket tree preservation ordinance that prevents removal of cottonwoods on private residential property. However, some subdivisions have HOA rules, and trees near waterways may fall under riparian buffer regulations. Check with your HOA and the City of Boise Urban Forestry division if you're unsure."
+  - question: "Can I just prune my cottonwood instead of removing it?"
+    answer: "In many cases, yes. Targeted pruning to remove deadwood, reduce end-weight on long limbs, and thin the canopy can significantly reduce storm damage risk. But pruning can't fix a rotten trunk, invasive roots, or a tree that's simply too large for its location. Pruning buys time for a healthy tree. It doesn't save a failing one."
+  - question: "How long does cottonwood removal take?"
+    answer: "Most residential cottonwood removals in Boise take one full day. Very large trees, trees requiring crane work, or trees with limited access may take a day and a half. Stump grinding is usually done the same day or scheduled shortly after."
+  - question: "Will the roots keep growing after the tree is removed?"
+    answer: "Cottonwood roots can produce sucker growth (new shoots from the root system) for one to three years after removal. Thorough stump grinding below grade reduces this significantly. Any suckers that do appear can be cut or treated with herbicide."
+  - question: "What's the best time of year to remove a cottonwood in Boise?"
+    answer: "Cottonwoods can be removed any time of year. Late fall and winter (after leaf drop) are often ideal because the tree is lighter without foliage, the ground may be firmer, and there's less impact to surrounding landscape. But if the tree is hazardous, don't wait for a \"better\" season."
 ---
 Every June, half of Boise looks like it's trapped inside a snow globe. That "snow" is cottonwood fluff, and if you own the tree producing it, you already know the drill: clogged gutters, a patio buried in white fuzz, and neighbors giving you looks across the fence.
 

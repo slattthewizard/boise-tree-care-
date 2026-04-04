@@ -8,6 +8,17 @@ publishedDate: "2026-04-01"
 tag: "Tree Care"
 subtitle: "Here's a question we hear every week: how often should trees be trimmed? Most homeowners in Boise don't have a clue. That's not an insult; it's just the truth."
 canonical: "https://boisetreepro.com/blog/how-often-should-trees-be-trimmed/"
+faq:
+  - question: "How often should trees be trimmed near a house?"
+    answer: "Trees with branches within 10 feet of your roof or siding should be checked annually and trimmed as needed, typically every two to three years. Branches in direct contact with your home should be addressed immediately. They damage roofing material, provide pest access, and create fire risk in dry Boise summers."
+  - question: "Is it OK to trim trees every year?"
+    answer: "For fruit trees, yes. Annual pruning is essential. For most shade trees, annual pruning is unnecessary and can actually stress the tree if too much live tissue is removed each time. Stick to the three- to five-year cycle for mature shade trees unless a specific issue requires earlier attention."
+  - question: "What happens if you never trim your trees?"
+    answer: "Neglected trees develop dense, heavy canopies that catch wind like a parachute. Deadwood accumulates and falls unpredictably. Weak branch unions go undetected until they fail. Disease spreads unchecked through crowded interior growth. The result is a tree that's more dangerous, less attractive, and significantly more expensive to deal with when something finally goes wrong."
+  - question: "Can I trim my own trees?"
+    answer: "You can handle small tasks: removing a dead branch under two inches in diameter, light shaping of a small ornamental tree, or pruning fruit trees you can reach from the ground. Any work that requires a ladder, a chainsaw, or proximity to power lines should be left to professionals. Improper cuts cause long-term damage, and falls from ladders are one of the most common homeowner injuries in the country."
+  - question: "What is the best month to trim trees in Boise?"
+    answer: "February is the sweet spot for most species in Boise. Trees are fully dormant, disease vectors are inactive, and spring growth is just weeks away to begin sealing pruning wounds. The main exceptions are spring-flowering ornamentals (prune after bloom) and elms (prune November through February to avoid Dutch elm disease transmission)."
 ---
 ## You're Probably Overdue
 

@@ -9,6 +9,17 @@ publishedDate: "2026-04-02"
 tag: "Tree Care"
 subtitle: "When was the last time you had your trees pruned? If you can't remember, you're in good company. Most homeowners in Boise don't think about tree pruning until something goes wrong: a branch drops on..."
 canonical: "https://boisetreepro.com/blog/how-often-trim-trees/"
+faq:
+  - question: "How often should I trim trees near my house?"
+    answer: "Trees with branches within 10 feet of your roof, siding, or windows should be pruned every two to three years. Clearance pruning prevents physical damage, reduces moisture trapping, and eliminates rodent access. Trees further from structures can go three to five years between prunings."
+  - question: "Is it bad to trim trees every year?"
+    answer: "For most shade trees, annual pruning is unnecessary and can stress the tree if too much is removed each time. The exception is fruit trees, which benefit from annual pruning for production and disease management. For everything else, every three to five years is optimal."
+  - question: "How much of a tree can you prune at once?"
+    answer: "The ISA recommends removing no more than 25% of a tree's live canopy in a single pruning session. Removing more stresses the tree, triggers excessive regrowth (water sprouts), and weakens the overall structure. If your tree needs heavy work, spread it over two sessions a year or two apart."
+  - question: "Should I trim my trees in summer?"
+    answer: "Light work (deadwood removal, minor clearance) is fine in summer. Avoid heavy structural pruning from July through September. Trees are under heat stress, and major cuts stimulate growth that won't harden before winter. Late winter is the preferred season for major pruning in the Treasure Valley."
+  - question: "My tree was pruned five years ago and looks fine. Does it still need pruning?"
+    answer: "Possibly. \"Looks fine\" from the ground doesn't always mean the canopy is healthy. Deadwood, early decay, and structural issues in the upper canopy are hard to see without climbing or using binoculars. A ground-level assessment takes 15 minutes and can confirm whether you're good for another year or two, or whether work is needed."
 ---
 When was the last time you had your trees pruned? If you can't remember, you're in good company. Most homeowners in Boise don't think about tree pruning until something goes wrong: a branch drops on the driveway, limbs start scraping the roof, or a windstorm rips through the Treasure Valley and turns an overgrown canopy into an expensive emergency.
 

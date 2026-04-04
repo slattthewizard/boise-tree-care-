@@ -9,6 +9,19 @@ publishedDate: "2026-03-31"
 tag: "Tree Health"
 subtitle: "That crack snaking across your driveway didn't come from the weather. And that slow drain in your basement bathroom? It's probably not a coincidence that a 40-foot silver maple sits 15 feet from your..."
 canonical: "https://boisetreepro.com/blog/how-deep-do-tree-roots-go/"
+faq:
+  - question: "How deep do tree roots actually go?"
+    answer: "Most tree roots grow in the top 12 to 18 inches of soil. Some structural roots may reach 3 to 6 feet deep, and in rare cases a tap root can go deeper, but 80-90% of the root system stays shallow."
+  - question: "Can tree roots damage my foundation?"
+    answer: "Yes, though it's less common than sewer or sidewalk damage. Roots typically exploit existing cracks rather than breaking through intact concrete. Older foundations with cracks or poor drainage are most vulnerable."
+  - question: "How far do tree roots spread from the trunk?"
+    answer: "Roots commonly extend two to three times the tree's height. A 30-foot tree may have roots reaching 60-90 feet from the trunk in all directions."
+  - question: "Will cutting tree roots kill the tree?"
+    answer: "It depends on which roots, how many, and how close to the trunk. Cutting small roots on one side usually won't kill a healthy tree. Cutting large structural roots or roots on multiple sides can destabilize or kill it."
+  - question: "Do root barriers actually work?"
+    answer: "Root barriers can redirect root growth and are effective when installed correctly. They're not a permanent guarantee, but they significantly reduce root intrusion toward pipes and concrete."
+  - question: "Should I remove a tree that's damaging my sewer line?"
+    answer: "Not always, but if roots have invaded the pipe more than once, removal is usually the most cost-effective long-term solution. A professional assessment will tell you whether the tree can stay with management or whether it needs to go."
 ---
 That crack snaking across your driveway didn't come from the weather. And that slow drain in your basement bathroom? It's probably not a coincidence that a 40-foot silver maple sits 15 feet from your sewer cleanout.
 

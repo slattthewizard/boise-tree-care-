@@ -9,6 +9,15 @@ publishedDate: "2026-03-25"
 tag: "Tree Safety"
 subtitle: "You're walking to the mailbox on a Saturday morning when you notice it: a long, dark split running up the trunk of that big silver maple in your front yard. Your stomach drops."
 canonical: "https://boisetreepro.com/blog/crack-in-tree-trunk/"
+faq:
+  - question: "Can a tree with a crack in the trunk be saved?"
+    answer: "Yes, in many cases. Shallow frost cracks, included bark unions, and moderate structural cracks can often be managed with cabling, bracing, or corrective pruning. The key factors are how deep the crack goes, whether decay is present, and whether the tree still has enough solid wood to support itself. A certified arborist can make that call based on the specific tree."
+  - question: "Is a vertical crack in a tree trunk dangerous?"
+    answer: "It depends on the depth and cause. A vertical crack in a tree caused by frost is usually cosmetic. The tree forms a callus ridge and compartmentalizes the wound. But a deep vertical split that extends through the trunk, especially at a branch union with included bark, can be a sign of structural failure. Depth matters more than length."
+  - question: "Should I fill or seal a crack in my tree trunk?"
+    answer: "No. The old practice of filling tree cavities with concrete or sealing wounds with tar has been abandoned by modern arboriculture. These treatments actually trap moisture and promote decay. The best approach is to let the tree compartmentalize the wound naturally while monitoring for signs of progression. The ISA no longer recommends wound sealants for any tree injury."
+  - question: "How much does it cost to fix a cracked tree?"
+    answer: "Costs vary widely depending on the solution. Monitoring is free (we don't charge for initial assessments). Cabling and bracing a single union typically runs a few hundred dollars. Structural pruning depends on the tree's size and access. Full tree removal for a large, hazardous tree is the most expensive option, but it's also the last resort. In almost every case, early assessment saves money compared to waiting for a failure. --- --- Meta Title: Is a Crack in Your Tree Trunk Dangerous? | Boise Tree Pros Meta Description: Spotted a crack in your tree trunk? Learn which cracks are dangerous vs. cosmetic and when to call a Boise arborist. Free tree risk assessments available. Primary Keyword: crack in tree trunk dangerous Secondary Keywords: tree trunk split, vertical crack in tree, tree trunk crack repair, is my tree going to fall URL Slug: /blog/crack-in-tree-trunk-dangerous ---"
 ---
 You're walking to the mailbox on a Saturday morning when you notice it: a long, dark split running up the trunk of that big silver maple in your front yard. Your stomach drops. Is the whole thing about to come crashing into the living room?
 

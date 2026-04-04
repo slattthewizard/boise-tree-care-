@@ -9,6 +9,15 @@ publishedDate: "2026-03-29"
 tag: "Tree Health"
 subtitle: "You're mowing the backyard and — thunk — the mower blade catches a root. Again. Those thick, snaking roots have been creeping across your lawn for years now, and they're only getting worse."
 canonical: "https://boisetreepro.com/blog/exposed-tree-roots-above-ground/"
+faq:
+  - question: "Is It OK to Cover Exposed Tree Roots With Dirt?"
+    answer: "You can add a thin layer, no more than two inches, of light, well-draining topsoil. But never pile on heavy soil or fill dirt in thick layers. Anything over two to three inches can suffocate the feeder roots and slowly kill the tree. For most situations, mulch is a safer and more effective option than soil."
+  - question: "Will Cutting Exposed Tree Roots Kill the Tree?"
+    answer: "It depends on the size and location of the roots. Cutting small roots (under two inches in diameter) far from the trunk is generally low-risk. Cutting large structural roots, especially within the drip line, can destabilize the tree or cause decline. Always consult a certified arborist before cutting any root larger than your thumb."
+  - question: "Why Are My Tree's Roots Growing Above Ground?"
+    answer: "The most common causes are shallow watering habits, compacted clay soil (very common in the Boise area), natural erosion, and species genetics. Silver maples, cottonwoods, willows, and elms are especially prone to surface rooting. Switching to deep, infrequent watering can help slow future root surfacing."
+  - question: "Can Surface Roots Damage My Home's Foundation?"
+    answer: "Tree roots rarely crack or break foundations directly. They're not strong enough to push through intact concrete. But roots can exploit existing cracks, grow into gaps, and contribute to soil moisture changes that cause shifting. If you have large roots growing toward your foundation, a professional assessment can determine the actual risk level. Learn more in our guide on tree roots and foundation concerns. --- Meta Title: Tree Roots Above Ground: What to Do | Boise Tree Pros Meta Description: Wondering what to do about tree roots above ground? Learn safe fixes that protect your tree, the #1 mistake to avoid, and when to call an arborist in Boise. Primary Keyword: tree roots above ground what to do Secondary Keywords: exposed tree roots, tree roots sticking up, how to cover tree roots in yard, surface tree roots URL Slug: /blog/exposed-tree-roots-what-to-do ---"
 ---
 You're mowing the backyard and — *thunk* — the mower blade catches a root. Again. Those thick, snaking roots have been creeping across your lawn for years now, and they're only getting worse. They trip the kids. They've cracked the edge of the patio. And every time you try to push the mower over them, you wince.
 

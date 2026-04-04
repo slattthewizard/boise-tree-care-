@@ -8,6 +8,17 @@ publishedDate: "2026-04-03"
 tag: "Tree Care"
 subtitle: "You walk outside on a Saturday morning, coffee in hand, and admire the fresh mulch your landscaper spread yesterday. It looks clean. Professional."
 canonical: "https://boisetreepro.com/blog/how-to-mulch-around-trees/"
+faq:
+  - question: "How deep should mulch be around a tree?"
+    answer: "Two to four inches is the ideal range. In Boise's dry climate, three to four inches provides the best moisture retention without creating problems. Never exceed four inches. More is not better; it restricts oxygen to roots and can cause the same issues as volcano mulching."
+  - question: "Can you put too much mulch around a tree?"
+    answer: "Absolutely. Mulch deeper than four inches, or mulch piled against the trunk at any depth, causes bark rot, girdling roots, fungal disease, and pest problems. The proper tree mulching technique keeps mulch shallow and away from the trunk, always."
+  - question: "What is the best mulch for trees in Boise?"
+    answer: "Arborist wood chips are the best all-around choice for Boise trees. They're coarse, decompose slowly, improve clay soil over time, and are often available free from local tree services. Shredded bark and leaf mulch are also excellent options. Avoid dyed mulch, rubber mulch, and rock placed directly against tree trunks."
+  - question: "Should mulch touch the tree trunk?"
+    answer: "No. Mulch should never touch the trunk. Leave a two- to three-inch gap between the mulch and the bark on all sides. The root flare (where the trunk widens at the base) must remain visible and dry. Mulch against bark traps moisture and leads to decay."
+  - question: "How often should I replace mulch around my trees?"
+    answer: "Refresh mulch once or twice per year, ideally in early spring and late fall. Check the depth before adding new material. If the existing layer is still close to three or four inches, you may only need a light top-off. Break up any matted layers with a rake before adding fresh mulch on top."
 ---
 You walk outside on a Saturday morning, coffee in hand, and admire the fresh mulch your landscaper spread yesterday. It looks clean. Professional. The mulch is piled high against each trunk like a neat little cone.
 

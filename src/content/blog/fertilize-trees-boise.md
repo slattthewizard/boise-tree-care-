@@ -9,6 +9,15 @@ publishedDate: "2026-03-30"
 tag: "Tree Care"
 subtitle: "You're standing in the Zamzows on Eagle Road with a box of tree fertilizer spikes in one hand and your phone in the other, Googling whether your sad-looking maple actually needs this stuff."
 canonical: "https://boisetreepro.com/blog/fertilize-trees-boise/"
+faq:
+  - question: "What is the best time to fertilize trees in Boise?"
+    answer: "If your tree genuinely needs fertilizer, early spring (March through mid-April) is the best window in Boise. The soil has thawed and trees are entering active growth, so they can use the nutrients efficiently. Late fall after full dormancy (late November through December) is the second-best option. Avoid fertilizing in summer, since it stimulates tender growth that won't survive our first hard freeze."
+  - question: "Do trees need fertilizer every year?"
+    answer: "Most established trees in Boise do not need annual fertilizer. They get adequate nutrition from lawn fertilizer runoff, decomposing organic matter, and irrigation water. Newly planted trees, trees recovering from stress, and trees in nutrient-poor compacted soil may benefit from periodic fertilization, but a soil test should always guide the decision."
+  - question: "Why are my tree's leaves turning yellow in Boise?"
+    answer: "Yellow leaves with green veins are a classic sign of iron chlorosis, which is extremely common in Boise due to our alkaline soil (pH 7.5-8.5). The high pH locks iron into forms that tree roots can't absorb. Standard fertilizer won't fix this and high-nitrogen fertilizer will make it worse. Chelated iron applications or trunk injections are the proper treatment. If the entire leaf is yellowing uniformly, the cause could be overwatering, underwatering, or another issue entirely."
+  - question: "Are fertilizer spikes good for trees?"
+    answer: "Fertilizer spikes are not the most effective option for trees. They create small pockets of concentrated nutrients in a limited area rather than feeding the entire root zone, which can extend two to three times wider than the tree's canopy. Much of the fertilizer ends up feeding surrounding lawn grass rather than tree roots. If you do need to fertilize, a granular slow-release product spread evenly across the root zone and watered in is a better approach. --- --- Meta Title: When to Fertilize Trees in Boise | Boise Tree Pros Meta Description: Learn when to fertilize trees in Boise and when to skip it. Boise's alkaline soil needs a different approach. Get expert advice from local arborists. Primary Keyword: when to fertilize trees boise Secondary Keywords: tree fertilizer boise, fertilizing trees idaho, best fertilizer for trees, do trees need fertilizer URL Slug: /blog/fertilize-trees-boise ---"
 ---
 You're standing in the Zamzows on Eagle Road with a box of tree fertilizer spikes in one hand and your phone in the other, Googling whether your sad-looking maple actually needs this stuff. The label promises "lush, vigorous growth." The price seems reasonable. But here's what that box won't tell you: **for most established trees in Boise, fertilizer does more harm than good.**
 
