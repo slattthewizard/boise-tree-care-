@@ -119,6 +119,52 @@ def parse_frontmatter(content):
     return fm or {}, body
 
 
+def extract_faq(body):
+    """Extract FAQ question-answer pairs from markdown body.
+    Looks for a FAQ section (## heading containing 'FAQ' or 'Frequently Asked'),
+    then parses questions in either ### H3 or **bold** format.
+    """
+    faq_pattern = r'^##\s+.*(?:FAQ|Frequently Asked).*$'
+    faq_match = re.search(faq_pattern, body, re.MULTILINE | re.IGNORECASE)
+    if not faq_match:
+        return []
+
+    faq_section = body[faq_match.end():]
+    # Stop at next ## heading that isn't a sub-FAQ heading
+    next_h2 = re.search(r'^##\s+(?!#)', faq_section, re.MULTILINE)
+    if next_h2:
+        faq_section = faq_section[:next_h2.start()]
+
+    pairs = []
+
+    # Try ### H3 format first: ### Question?\n\nAnswer paragraph(s)
+    h3_pattern = r'###\s+(.+?\?)\s*\n+([\s\S]*?)(?=\n###\s|\Z)'
+    h3_matches = list(re.finditer(h3_pattern, faq_section))
+
+    if h3_matches:
+        for m in h3_matches:
+            question = m.group(1).strip()
+            answer = m.group(2).strip()
+            answer = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', answer)
+            answer = re.sub(r'[*_`]', '', answer)
+            answer = re.sub(r'\n+', ' ', answer).strip()
+            if question and answer:
+                pairs.append({'question': question, 'answer': answer})
+    else:
+        # Fallback: **Question?** followed by answer lines
+        bold_pattern = r'\*\*(.+?\?)\*\*\s*\n([\s\S]*?)(?=\n\*\*[^*]+\?\*\*|\Z)'
+        for m in re.finditer(bold_pattern, faq_section):
+            question = m.group(1).strip()
+            answer = m.group(2).strip()
+            answer = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', answer)
+            answer = re.sub(r'[*_`]', '', answer)
+            answer = re.sub(r'\n+', ' ', answer).strip()
+            if question and answer:
+                pairs.append({'question': question, 'answer': answer})
+
+    return pairs
+
+
 def clean_body_links(body):
     body = re.sub(r'https?://boisetreepro\.com/services/', '/blog/', body)
     body = re.sub(r'https?://boisetreepro\.com/', '/', body)
@@ -152,6 +198,7 @@ def convert_and_write(draft_path, output_path, publish_date, slug):
     nav_title = make_nav_title(title)
     tag = guess_tag(title, primary_keyword)
     subtitle = extract_subtitle(body)
+    faq_pairs = extract_faq(body)
     body = clean_body_links(body)
     canonical = f'https://boisetreepro.com/blog/{slug}/'
 
@@ -167,6 +214,11 @@ def convert_and_write(draft_path, output_path, publish_date, slug):
     lines.append(f'tag: {escape_yaml(tag)}')
     lines.append(f'subtitle: {escape_yaml(subtitle)}')
     lines.append(f'canonical: {escape_yaml(canonical)}')
+    if faq_pairs:
+        lines.append('faq:')
+        for pair in faq_pairs:
+            lines.append(f'  - question: {escape_yaml(pair["question"])}')
+            lines.append(f'    answer: {escape_yaml(pair["answer"])}')
     lines.append('---')
     lines.append('')
 

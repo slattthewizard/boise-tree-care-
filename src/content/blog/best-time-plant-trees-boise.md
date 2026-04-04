@@ -9,6 +9,17 @@ publishedDate: "2026-03-22"
 tag: "Tree Planting"
 subtitle: "Last July, a homeowner in Southeast Boise picked up a beautiful autumn blaze maple from a local nursery. Planted it that weekend in 98-degree heat. Watered it religiously."
 canonical: "https://boisetreepro.com/blog/best-time-plant-trees-boise/"
+faq:
+  - question: "Can I plant a tree in August in Boise?"
+    answer: "You can, but expect significantly higher maintenance and lower survival rates. The heat stress is intense. If you've already bought the tree, get it in the ground as soon as possible, mulch heavily, and water deeply every one to two days. But if you can wait until October, wait."
+  - question: "Is fall or spring better for planting trees in Idaho?"
+    answer: "Fall is generally better in the Treasure Valley. The soil is still warm from summer, air temperatures are cooling, and the tree can focus on root growth instead of leaf growth. Spring is a solid second choice if you plant early, by mid-April at the latest."
+  - question: "How long does it take a newly planted tree to establish?"
+    answer: "Most trees take one to three years to fully establish their root system. The first year is the most critical. After that, the tree becomes progressively more self-sufficient with each growing season."
+  - question: "Do I need to amend the soil when planting?"
+    answer: "Usually no. Backfill with the native soil you removed from the hole. Amending the planting hole with rich compost can create a bathtub where roots circle instead of spreading outward. If your soil is extremely compacted or clay-heavy (common in parts of Meridian and south Boise), topdress with compost around the surface instead."
+  - question: "Should I water my tree in winter?"
+    answer: "Yes, during dry spells. Boise winters can be surprisingly dry, and newly planted trees, especially evergreens, still lose moisture through their needles and bark. Water once or twice a month when there's no snow cover and temperatures are above freezing."
 ---
 Last July, a homeowner in Southeast Boise picked up a beautiful autumn blaze maple from a local nursery. Planted it that weekend in 98-degree heat. Watered it religiously. By September, the leaves were crispy and curling. By March, the tree was dead.
 
