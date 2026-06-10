@@ -238,4 +238,4 @@ The good news: Boise has excellent tree options that handle our alkaline soil, d
 
 If you are not sure whether to keep a tree, remove a tree, or plant a new one, our ISA-certified arborists will walk your property, assess what you have, and give you a clear recommendation. No charge for the consultation. No sales pressure. Just honest advice from people who work with Boise's trees every single day.
 
-**Call (986) 202-7387** or [request your free consultation online](/#contact).
+**Call (509) 224-3484** or [request your free consultation online](/#contact).
