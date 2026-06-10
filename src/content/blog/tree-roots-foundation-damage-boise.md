@@ -153,7 +153,7 @@ Root barriers are a tool, not a miracle. They work best as a preventative measur
 
 ## When Tree Removal Is the Only Option
 
-Nobody wants to hear this, but sometimes taking the tree down is the smartest, safest, most cost-effective decision. [Professional tree removal](/blog/tree-removal-boise/) protects your biggest investment: your home.
+Nobody wants to hear this, but sometimes taking the tree down is the smartest, safest, most cost-effective decision. [Professional tree removal](/tree-removal-boise/) protects your biggest investment: your home.
 
 ### Removal Makes Sense When
 
@@ -169,7 +169,7 @@ Removing the tree stops new root growth, but existing roots don't disappear over
 
 Your arborist and foundation contractor should coordinate on timing and soil management. **Important**: don't attempt to grind or dig out major roots near the foundation yourself. Disturbing the soil aggressively can cause more settlement damage than leaving the roots to decompose naturally.
 
-After removal, [targeted pruning and care](/blog/tree-trimming-boise/) for remaining trees on your property helps ensure you don't end up in the same situation again. And when you're ready to replant, we can recommend species and placement that give you shade without the risk.
+After removal, [targeted pruning and care](/tree-trimming-boise/) for remaining trees on your property helps ensure you don't end up in the same situation again. And when you're ready to replant, we can recommend species and placement that give you shade without the risk.
 
 ## FAQs: Tree Roots and Foundation Damage in Boise
 

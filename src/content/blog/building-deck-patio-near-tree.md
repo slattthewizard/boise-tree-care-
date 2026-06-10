@@ -15,7 +15,7 @@ faq:
   - question: "Will tree roots damage my patio or deck?"
     answer: "They can. Roots seek water and nutrients, and they'll push through paths of least resistance. Concrete slabs are most vulnerable to cracking and heaving from root growth. Permeable pavers and flagstone on sand handle root movement much better because individual pieces can be lifted and reset. Elevated decks on piers avoid the issue almost entirely."
   - question: "Can I cut tree roots to install a fence?"
-    answer: "You can cut small roots (under two inches in diameter) without significant harm to most healthy trees. Never cut roots larger than two inches without consulting an arborist — these are structural roots that keep the tree stable and alive. Losing too many large roots on one side can make a tree hazardous in storms, especially during Boise's spring wind events."
+    answer: "You can cut small roots (under two inches in diameter) without significant harm to most healthy trees. Never cut roots larger than two inches without consulting an arborist â€” these are structural roots that keep the tree stable and alive. Losing too many large roots on one side can make a tree hazardous in storms, especially during Boise's spring wind events."
   - question: "Do I need a permit to build near a tree in Boise?"
     answer: "Boise doesn't currently require permits specifically for building near trees on private residential property, but your deck, patio, or fence project likely needs a standard building permit. Some Boise neighborhoods and HOAs have tree preservation requirements. If your property borders the Boise River or is in a designated conservation area, additional rules may apply. Check with the City of Boise Planning & Development Services before starting. --- Meta Title: Building a Deck Around a Tree | Tips for Boise Homeowners Meta Description: Planning on building a deck around a tree? Learn how to protect roots, choose the right materials, and avoid costly mistakes. Free Boise arborist consultation. Primary Keyword: building deck around a tree Secondary Keywords: build patio near tree, fence near tree roots, construction near trees, tree root zone protection URL Slug: /blog/building-deck-patio-near-tree ---"
 ---
@@ -95,7 +95,7 @@ The [University of Idaho Extension](https://www.uidaho.edu/extension/county/ada)
 
 ## Fences Near Tree Roots: Post Placement Is Everything
 
-Fences are deceptively dangerous to trees. The fence itself isn't the problem — it's the **post holes.**
+Fences are deceptively dangerous to trees. The fence itself isn't the problem â€” it's the **post holes.**
 
 A standard fence post requires a hole 8 to 12 inches wide and 24 to 36 inches deep. Dig one of those in the wrong spot and you can sever a root that's been anchoring your tree for decades. And unlike branches, **major roots don't grow back.** Cut a large structural root on one side of the tree and you've permanently compromised its stability.
 
@@ -121,7 +121,7 @@ Let's make this simple. If you care about keeping a mature tree alive and health
 - **Pave over the root zone with solid concrete or asphalt.** We covered this above, but it's the single most common way homeowners accidentally kill a tree during a backyard project.
 - **Pile construction materials on the root zone.** Stacking lumber, bricks, or bags of concrete mix over roots, even temporarily, compacts the soil and blocks air.
 
-If your project requires any of these activities near a tree worth keeping, you need a plan B. Sometimes that means adjusting the design. Sometimes it means the tree needs to come out first. If [tree removal](/blog/tree-removal-boise/) is the right call, it's better to make it intentionally before construction than to watch a compromised tree slowly die over the next few years, or worse, fail during a storm.
+If your project requires any of these activities near a tree worth keeping, you need a plan B. Sometimes that means adjusting the design. Sometimes it means the tree needs to come out first. If [tree removal](/tree-removal-boise/) is the right call, it's better to make it intentionally before construction than to watch a compromised tree slowly die over the next few years, or worse, fail during a storm.
 
 ## Plan for the Future: Your Tree Isn't Done Growing
 
@@ -131,7 +131,7 @@ When you're planning your project, account for:
 
 - **Trunk expansion.** That two-inch gap you left around the trunk? Your tree needs it. Boise's common species (silver maples, green ash, American elms, honeylocusts) can add half an inch or more of trunk diameter per year.
 - **Root growth.** Roots will continue exploring outward. A deck footing that has clearance today might have roots pressing against it in 10 years. Design for it now.
-- **Branch spread.** That canopy is going to get wider. Make sure your structure can handle leaf litter and the occasional branch drop. Regular [tree trimming](/blog/tree-trimming-boise/) helps manage canopy size and keeps branches from interfering with your new deck or patio.
+- **Branch spread.** That canopy is going to get wider. Make sure your structure can handle leaf litter and the occasional branch drop. Regular [tree trimming](/tree-trimming-boise/) helps manage canopy size and keeps branches from interfering with your new deck or patio.
 
 Think of your backyard project as a 20-year partnership with your tree. Plan for the tree it will be, not just the tree it is today.
 
@@ -163,7 +163,7 @@ They can. Roots seek water and nutrients, and they'll push through paths of leas
 
 ### Can I cut tree roots to install a fence?
 
-You can cut small roots (under two inches in diameter) without significant harm to most healthy trees. **Never cut roots larger than two inches** without consulting an arborist — these are structural roots that keep the tree stable and alive. Losing too many large roots on one side can make a tree hazardous in storms, especially during Boise's spring wind events.
+You can cut small roots (under two inches in diameter) without significant harm to most healthy trees. **Never cut roots larger than two inches** without consulting an arborist â€” these are structural roots that keep the tree stable and alive. Losing too many large roots on one side can make a tree hazardous in storms, especially during Boise's spring wind events.
 
 ### Do I need a permit to build near a tree in Boise?
 

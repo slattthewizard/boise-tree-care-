@@ -7,7 +7,7 @@ primaryKeyword: "tree roots above ground what to do"
 secondaryKeywords: "exposed tree roots, tree roots sticking up, how to cover tree roots in yard, surface tree roots"
 publishedDate: "2026-03-29"
 tag: "Tree Health"
-subtitle: "You're mowing the backyard and — thunk — the mower blade catches a root. Again. Those thick, snaking roots have been creeping across your lawn for years now, and they're only getting worse."
+subtitle: "You're mowing the backyard and â€” thunk â€” the mower blade catches a root. Again. Those thick, snaking roots have been creeping across your lawn for years now, and they're only getting worse."
 canonical: "https://boisetreepro.com/blog/exposed-tree-roots-above-ground/"
 faq:
   - question: "Is It OK to Cover Exposed Tree Roots With Dirt?"
@@ -19,7 +19,7 @@ faq:
   - question: "Can Surface Roots Damage My Home's Foundation?"
     answer: "Tree roots rarely crack or break foundations directly. They're not strong enough to push through intact concrete. But roots can exploit existing cracks, grow into gaps, and contribute to soil moisture changes that cause shifting. If you have large roots growing toward your foundation, a professional assessment can determine the actual risk level. Learn more in our guide on tree roots and foundation concerns. --- Meta Title: Tree Roots Above Ground: What to Do | Boise Tree Pros Meta Description: Wondering what to do about tree roots above ground? Learn safe fixes that protect your tree, the #1 mistake to avoid, and when to call an arborist in Boise. Primary Keyword: tree roots above ground what to do Secondary Keywords: exposed tree roots, tree roots sticking up, how to cover tree roots in yard, surface tree roots URL Slug: /blog/exposed-tree-roots-what-to-do ---"
 ---
-You're mowing the backyard and — *thunk* — the mower blade catches a root. Again. Those thick, snaking roots have been creeping across your lawn for years now, and they're only getting worse. They trip the kids. They've cracked the edge of the patio. And every time you try to push the mower over them, you wince.
+You're mowing the backyard and â€” *thunk* â€” the mower blade catches a root. Again. Those thick, snaking roots have been creeping across your lawn for years now, and they're only getting worse. They trip the kids. They've cracked the edge of the patio. And every time you try to push the mower over them, you wince.
 
 So you're wondering: **tree roots above ground, what to do?**
 
@@ -53,7 +53,7 @@ We get calls about this more than you'd think. A homeowner gets frustrated with 
 
 Tree roots need oxygen. The fine feeder roots, the ones that actually absorb water and nutrients, are concentrated in the top 12 to 18 inches of soil. When you dump heavy soil on top of them, you cut off their air supply. The effect isn't immediate, which is what makes this mistake so sneaky. The tree looks fine for a season, maybe two. Then the decline starts: thinning canopy, yellowing leaves, dead branches, and eventually the whole tree goes.
 
-**We saw this play out in a Southeast Boise neighborhood a few years back.** A homeowner (let's call him Dave) had a 40-year-old silver maple with roots running across half his backyard. He piled about eight inches of fill dirt over the entire root zone. The tree leafed out fine that spring. By the following summer, the canopy was noticeably thinner. By year three, we were called out to assess it. The tree was in irreversible decline. Dave ended up paying for a [full tree removal](/blog/tree-removal-boise/). That tree had been perfectly healthy before the soil was added.
+**We saw this play out in a Southeast Boise neighborhood a few years back.** A homeowner (let's call him Dave) had a 40-year-old silver maple with roots running across half his backyard. He piled about eight inches of fill dirt over the entire root zone. The tree leafed out fine that spring. By the following summer, the canopy was noticeably thinner. By year three, we were called out to assess it. The tree was in irreversible decline. Dave ended up paying for a [full tree removal](/tree-removal-boise/). That tree had been perfectly healthy before the soil was added.
 
 **The rule of thumb from the International Society of Arboriculture (ISA):** never add more than two inches of soil over a tree's root zone at one time, and even then, use a light, well-draining mix. Not heavy clay or fill dirt.
 
@@ -65,7 +65,7 @@ Now for the good stuff. Here are the approaches that solve the problem without h
 
 This is the single most effective and tree-friendly solution for surface tree roots.
 
-**Spread two to three inches of organic mulch** (wood chips, shredded bark, or arborist chips) over the exposed roots. Keep the mulch a few inches away from the trunk itself (no [volcano mulching](/blog/tree-trimming-boise/)). Extend it out to the drip line if possible.
+**Spread two to three inches of organic mulch** (wood chips, shredded bark, or arborist chips) over the exposed roots. Keep the mulch a few inches away from the trunk itself (no [volcano mulching](/tree-trimming-boise/)). Extend it out to the drip line if possible.
 
 What this does:
 
@@ -137,7 +137,7 @@ Cutting a tree root is essentially amputating part of the tree's support and nut
 
 **A good rule:** if you're not sure whether a root is safe to cut, don't cut it. A certified arborist can evaluate which roots are structural and which can be safely pruned without compromising the tree's stability or health.
 
-We had a situation in the Bench area where a homeowner, Tom, cut three large roots on the south side of a cottonwood because they were lifting his fence. The tree survived, but it developed a noticeable lean toward the south within two years. We ended up recommending removal because the tree had become a [safety risk](/blog/tree-removal-boise/) over his neighbor's property.
+We had a situation in the Bench area where a homeowner, Tom, cut three large roots on the south side of a cottonwood because they were lifting his fence. The tree survived, but it developed a noticeable lean toward the south within two years. We ended up recommending removal because the tree had become a [safety risk](/tree-removal-boise/) over his neighbor's property.
 
 **If you're dealing with surface tree roots near structures**, [give us a call](/#contact) before you grab the chainsaw. A quick assessment can save you from a much bigger problem down the road.
 
@@ -187,7 +187,7 @@ Apply two to three inches of mulch. Create a defined mulch ring or bed. This sol
 Convert to a mulch bed or shade garden. Stop fighting a battle you can't win. This usually looks better than patchy grass anyway.
 
 **Roots are lifting hardscape (sidewalks, patios, fences):**
-Call a certified arborist. Selective root pruning *may* be possible, but it needs professional evaluation. Sometimes [strategic trimming](/blog/tree-trimming-boise/) to reduce canopy weight can help slow root expansion.
+Call a certified arborist. Selective root pruning *may* be possible, but it needs professional evaluation. Sometimes [strategic trimming](/tree-trimming-boise/) to reduce canopy weight can help slow root expansion.
 
 **Roots are heaving on one side, tree is leaning:**
 This is a potential safety issue. Get a professional assessment immediately.

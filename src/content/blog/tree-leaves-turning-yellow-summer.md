@@ -144,7 +144,7 @@ Trunk injections deliver iron directly into the tree's vascular system, bypassin
 
 We use this approach for large trees or cases where the tree is in serious decline. It's a professional treatment that should be done by a [certified arborist](/#services) to avoid unnecessary trunk damage.
 
-A homeowner in the Highlands neighborhood (we'll call him Dave) had a gorgeous pin oak that had been declining for three years. The canopy was 60% yellow, with dead branches throughout. After trunk injections in early June, the improvement was visible by mid-July. We also [removed the dead branches](/blog/tree-trimming-boise/) to improve the tree's structure while it recovered.
+A homeowner in the Highlands neighborhood (we'll call him Dave) had a gorgeous pin oak that had been declining for three years. The canopy was 60% yellow, with dead branches throughout. After trunk injections in early June, the improvement was visible by mid-July. We also [removed the dead branches](/tree-trimming-boise/) to improve the tree's structure while it recovered.
 
 ### 3. Soil Acidification
 
@@ -195,11 +195,11 @@ A balanced fertilizer application in early spring usually resolves this.
 
 Construction projects, trenching for utilities, heavy foot traffic, or even parking heavy equipment on the root zone can damage roots or compact soil so badly that the tree can't function.
 
-We once worked with a homeowner near Ann Morrison Park whose elm started yellowing after a new patio was installed. The contractor had cut through major roots and compacted the soil with heavy equipment. That's a case where [emergency tree care](/blog/emergency-tree-service-boise/) and root zone restoration were needed, not iron supplements.
+We once worked with a homeowner near Ann Morrison Park whose elm started yellowing after a new patio was installed. The contractor had cut through major roots and compacted the soil with heavy equipment. That's a case where [emergency tree care](/emergency-tree-service-boise/) and root zone restoration were needed, not iron supplements.
 
 ### When to Consider Tree Removal
 
-Sometimes a tree has been struggling with severe chlorosis for so long that recovery isn't realistic. If more than 50% of the canopy is dead, major scaffold branches are failing, or the tree has been severely chlorotic for five or more years without treatment, it may be time for an honest conversation about [tree removal](/blog/tree-removal-boise/) and replanting with a species better suited to our soil.
+Sometimes a tree has been struggling with severe chlorosis for so long that recovery isn't realistic. If more than 50% of the canopy is dead, major scaffold branches are failing, or the tree has been severely chlorotic for five or more years without treatment, it may be time for an honest conversation about [tree removal](/tree-removal-boise/) and replanting with a species better suited to our soil.
 
 It's not the answer anyone wants to hear. But replacing a dying red maple with a healthy bur oak is sometimes the smartest long-term move.
 
@@ -211,7 +211,7 @@ The single best thing you can do to avoid chlorosis is **plant trees that thrive
 
 Before you plant, know your soil. Ada County soil is almost universally alkaline. A simple soil test (available through the [University of Idaho Extension](https://www.uidaho.edu/extension)) will tell you your exact pH.
 
-If you love the look of a maple, go with a species adapted to higher pH—like a Norway maple or certain hybrid varieties bred for alkaline tolerance. If you want an oak, skip the pin oak and plant a bur oak or swamp white oak (which, despite the name, handles alkaline soil surprisingly well).
+If you love the look of a maple, go with a species adapted to higher pHâ€”like a Norway maple or certain hybrid varieties bred for alkaline tolerance. If you want an oak, skip the pin oak and plant a bur oak or swamp white oak (which, despite the name, handles alkaline soil surprisingly well).
 
 And if you already have an acid-loving tree that's been in the ground for years? Don't panic. Consistent treatment can keep a chlorotic tree healthy and attractive for decades. It just takes commitment.
 

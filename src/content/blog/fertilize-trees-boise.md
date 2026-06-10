@@ -33,13 +33,13 @@ Let's walk through when fertilizer actually helps, when it hurts, and what to do
 
 This might sound strange coming from a tree care company, but it's true. **Most healthy, established trees in Boise are already getting the nutrients they need.** Here's why:
 
-- **Lawn fertilizer runoff.** If you fertilize your lawn—or your neighbor does—your trees are already absorbing those nutrients through their root systems, which extend far beyond the drip line.
+- **Lawn fertilizer runoff.** If you fertilize your lawnâ€”or your neighbor doesâ€”your trees are already absorbing those nutrients through their root systems, which extend far beyond the drip line.
 - **Decomposing organic matter.** Leaves, grass clippings, and mulch break down and feed the soil naturally.
 - **Irrigation water.** Boise's irrigation water carries dissolved minerals that contribute to soil nutrition.
 
 Think of it this way: a mature tree's root system can spread two to three times wider than its canopy. That root network is picking up nutrients from a huge area. Unless something specific is wrong, your tree is probably fine.
 
-**So when should you actually worry?** When the tree is telling you something's off: yellowing leaves, stunted growth, sparse canopy, or dieback in the upper branches. But even then, fertilizer isn't always the answer. Sometimes it's a [watering issue, a pest problem, or a structural concern](/blog/tree-trimming-boise/) that needs attention first.
+**So when should you actually worry?** When the tree is telling you something's off: yellowing leaves, stunted growth, sparse canopy, or dieback in the upper branches. But even then, fertilizer isn't always the answer. Sometimes it's a [watering issue, a pest problem, or a structural concern](/tree-trimming-boise/) that needs attention first.
 
 If you're not sure what's going on with your trees, **[reach out for a free tree health assessment](/#contact)**. We'll tell you what's actually happening before you spend money on products that might not help.
 
@@ -77,7 +77,7 @@ During year one, a new tree should focus entirely on root establishment, not top
 
 ### Trees Recovering from Stress or Disease
 
-A tree that's been through drought stress, storm damage, a [significant pruning](/blog/tree-trimming-boise/), or disease treatment may benefit from targeted nutrition. The key word is "targeted." A soil test should guide what you apply, not a guess.
+A tree that's been through drought stress, storm damage, a [significant pruning](/tree-trimming-boise/), or disease treatment may benefit from targeted nutrition. The key word is "targeted." A soil test should guide what you apply, not a guess.
 
 ### Trees in Compacted Urban Soil
 
@@ -97,7 +97,7 @@ We once worked with a homeowner in the Southeast Boise foothills (let's call her
 
 The result? **Explosive, leggy growth with thin branches, a bad aphid infestation, clusters of water sprouts shooting up from the base of each tree, and zero structural strength.** The fast, soft growth was an all-you-can-eat buffet for aphids, and the trees were putting energy into sucker growth instead of developing strong branch structure.
 
-We had to [remove the water sprouts](/blog/tree-trimming-boise/), treat the aphid problem, and put her on a recovery plan that started with—you guessed it—no fertilizer at all for a full year.
+We had to [remove the water sprouts](/tree-trimming-boise/), treat the aphid problem, and put her on a recovery plan that started withâ€”you guessed itâ€”no fertilizer at all for a full year.
 
 Here's when fertilizer does more damage than good:
 
@@ -149,7 +149,7 @@ In Boise's semi-arid climate, **improper watering causes more tree problems than
 
 So you've done the homework. You got a soil test. You've confirmed a nutrient deficiency. Here's how to do it right in Boise:
 
-**1. Start with a soil test.** Contact the [University of Idaho Extension — Ada County](https://www.uidaho.edu/extension/county/ada) for soil testing options. Know your pH, nitrogen, phosphorus, potassium, and iron levels before spending a dime.
+**1. Start with a soil test.** Contact the [University of Idaho Extension â€” Ada County](https://www.uidaho.edu/extension/county/ada) for soil testing options. Know your pH, nitrogen, phosphorus, potassium, and iron levels before spending a dime.
 
 **2. Choose the right product.** For most Boise applications, a slow-release, organic fertilizer with moderate nitrogen is your best bet. Avoid anything with a first number above 15 (that first number is nitrogen percentage). For iron chlorosis specifically, look for chelated iron products. EDDHA chelates work best in our high-pH soils.
 

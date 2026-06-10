@@ -35,7 +35,7 @@ This guide gives you a clear framework to decide: should you treat your ash tree
 
 EAB is a metallic green beetle, about half an inch long, native to Asia. It looks almost pretty. Don't let that fool you.
 
-The adults aren't the problem. **The larvae are.** Female beetles lay eggs in bark crevices. When the larvae hatch, they bore into the inner bark and feed on the phloem and cambium — the layers that transport water and nutrients throughout the tree. They carve S-shaped galleries under the bark and essentially strangle the tree from the inside out.
+The adults aren't the problem. **The larvae are.** Female beetles lay eggs in bark crevices. When the larvae hatch, they bore into the inner bark and feed on the phloem and cambium â€” the layers that transport water and nutrients throughout the tree. They carve S-shaped galleries under the bark and essentially strangle the tree from the inside out.
 
 An infested ash tree typically dies within three to five years. In cities where EAB has been established for a decade, the kill rate approaches 99% for untreated ash trees. That's not an exaggeration. The [USDA Animal and Plant Health Inspection Service (APHIS)](https://www.aphis.usda.gov/plant-pests-diseases/eab) estimates EAB has killed hundreds of millions of ash trees in North America since it was first detected in Michigan in 2002.
 
@@ -75,12 +75,12 @@ This is the big question every Boise homeowner with an ash tree will face. There
 ### Remove Your Ash Tree If:
 
 - **It's already in decline.** Significant deadwood, thinning canopy, fungal issues, root problems. Spending money to protect a tree that's on its way out anyway doesn't make sense.
-- **It has structural defects.** Poor branch architecture, included bark unions, large cavities, or heavy lean toward your house. A compromised ash tree becomes a liability, especially with [Boise's wind events](/blog/emergency-tree-service-boise/).
-- **It's too close to a structure.** If the tree is within striking distance of your house, garage, or power lines and has any structural concerns, [removal](/blog/tree-removal-boise/) may be the safer and cheaper long-term play.
+- **It has structural defects.** Poor branch architecture, included bark unions, large cavities, or heavy lean toward your house. A compromised ash tree becomes a liability, especially with [Boise's wind events](/emergency-tree-service-boise/).
+- **It's too close to a structure.** If the tree is within striking distance of your house, garage, or power lines and has any structural concerns, [removal](/tree-removal-boise/) may be the safer and cheaper long-term play.
 - **You don't want ongoing treatment costs.** That's completely valid. A one-time removal cost versus decades of injections is a legitimate financial decision.
 - **Canopy loss exceeds 50%.** Once an infested tree loses more than half its canopy, treatment is unlikely to bring it back. The vascular system is too damaged.
 
-A couple in Southeast Boise asked us to look at their three ash trees last fall. One was a gorgeous 50-foot green ash shading their entire back deck: full canopy, solid structure, the kind of tree you'd pay thousands to have if it didn't already exist. Treat it. No question. The second was a smaller ash in the side yard, leaning toward the garage, with a history of included bark and a crack in the main union. Even without EAB, that tree was a liability. We recommended [removal](/blog/tree-removal-boise/). The third was a street-side ash with moderate dieback from drought stress. That one was a judgment call; they decided to treat it and revisit next year.
+A couple in Southeast Boise asked us to look at their three ash trees last fall. One was a gorgeous 50-foot green ash shading their entire back deck: full canopy, solid structure, the kind of tree you'd pay thousands to have if it didn't already exist. Treat it. No question. The second was a smaller ash in the side yard, leaning toward the garage, with a history of included bark and a crack in the main union. Even without EAB, that tree was a liability. We recommended [removal](/tree-removal-boise/). The third was a street-side ash with moderate dieback from drought stress. That one was a judgment call; they decided to treat it and revisit next year.
 
 Three trees. Three different answers. That's normal.
 
@@ -136,7 +136,7 @@ Let's run the real numbers so you can compare.
 
 ### Removal Costs
 
-- **Ash tree removal:** Varies by size, location, and access, but a mature ash typically runs $800-$2,500 for [professional removal](/blog/tree-removal-boise/), stump grinding included
+- **Ash tree removal:** Varies by size, location, and access, but a mature ash typically runs $800-$2,500 for [professional removal](/tree-removal-boise/), stump grinding included
 - **Replacement tree (optional):** $200-$500 for a quality nursery tree, plus planting
 - **One-time cost.** No ongoing commitment
 
@@ -187,13 +187,13 @@ Good replacements for ash trees in Boise's climate include:
 
 Avoid planting another ash tree. Diversifying your tree species is one of the best things you can do for your property's long-term resilience. The reason EAB is so devastating is that cities planted ash everywhere, sometimes 30-40% of urban canopy. When one pest takes out one species, monocultures collapse.
 
-For more on tree selection for Boise properties, check out our [tree trimming and care services](/blog/tree-trimming-boise/) or [get in touch](/#contact) for species recommendations tailored to your yard.
+For more on tree selection for Boise properties, check out our [tree trimming and care services](/tree-trimming-boise/) or [get in touch](/#contact) for species recommendations tailored to your yard.
 
 ---
 
 ## Conclusion
 
-The emerald ash borer is coming to the Treasure Valley. The cities and homeowners who fare best will be the ones who made decisions before the beetles arrived — not after.
+The emerald ash borer is coming to the Treasure Valley. The cities and homeowners who fare best will be the ones who made decisions before the beetles arrived â€” not after.
 
 If you have ash trees in your yard, the smart move right now is simple: **get them assessed and make a plan.** Treat the healthy, valuable trees and remove the ones that aren't worth the investment. Plant diverse replacements where you can.
 

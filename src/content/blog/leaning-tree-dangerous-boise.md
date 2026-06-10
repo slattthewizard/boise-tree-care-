@@ -91,7 +91,7 @@ Not every leaning tree needs to come down. In some cases, supplemental support s
 - The tree has good overall health and vigor
 - The tree has high value (shade, property value, aesthetics) worth preserving
 
-**A real scenario:** Dave in Meridian had a 40-foot green ash in his backyard that had leaned about eight degrees toward his neighbor's fence for years. The lean was natural -- the trunk was gently curved, roots were solid, and the tree was healthy. But after a heavy snow season, a few branches cracked and he got worried. We installed a cable system between the two main leaders and reduced canopy weight on the leaning side with targeted [pruning](/blog/tree-trimming-boise/). Total cost was about a third of what removal would have run, and that tree still provides shade to both yards three seasons later.
+**A real scenario:** Dave in Meridian had a 40-foot green ash in his backyard that had leaned about eight degrees toward his neighbor's fence for years. The lean was natural -- the trunk was gently curved, roots were solid, and the tree was healthy. But after a heavy snow season, a few branches cracked and he got worried. We installed a cable system between the two main leaders and reduced canopy weight on the leaning side with targeted [pruning](/tree-trimming-boise/). Total cost was about a third of what removal would have run, and that tree still provides shade to both yards three seasons later.
 
 **Cabling and bracing will not work when:**
 - The root system is actively failing (heaving soil, lifting roots)
@@ -107,7 +107,7 @@ Sometimes removal is the right call. Not because we want to take down trees (we'
 
 **Removal is typically necessary when:**
 
-- **The root plate is actively failing.** Heaving soil, exposed roots, and a lean that's getting worse -- this tree is coming down eventually. The question is whether it comes down on your terms or on its own during a windstorm. [Professional tree removal](/blog/tree-removal-boise/) while the tree is still standing is safer, more controlled, and almost always cheaper than emergency removal after a failure.
+- **The root plate is actively failing.** Heaving soil, exposed roots, and a lean that's getting worse -- this tree is coming down eventually. The question is whether it comes down on your terms or on its own during a windstorm. [Professional tree removal](/tree-removal-boise/) while the tree is still standing is safer, more controlled, and almost always cheaper than emergency removal after a failure.
 
 - **The tree leans toward a high-value target.** A tree leaning toward an empty field is a different risk calculation than a **tree leaning toward a house**, garage, power lines, or play area. When failure means property damage or injury, the threshold for removal drops significantly.
 
@@ -125,7 +125,7 @@ This is the section nobody wants to need. But if you're here, here's what to do 
 
 **Step 1: Keep people and vehicles away from the fall zone.** Look at the direction the tree is leaning and estimate where it would land if it fell. Keep everyone out of that area. If the fall zone includes bedrooms, consider whether anyone should sleep in those rooms until the tree is assessed.
 
-**Step 2: Call a certified arborist, not a general contractor.** You need someone who can assess structural risk, not someone who can cut down a tree. ISA-certified arborists know how to evaluate root failure, trunk integrity, and wind-load risk. At Boise Tree Pros, our [24/7 emergency tree service](/blog/emergency-tree-service-boise/) handles exactly this situation.
+**Step 2: Call a certified arborist, not a general contractor.** You need someone who can assess structural risk, not someone who can cut down a tree. ISA-certified arborists know how to evaluate root failure, trunk integrity, and wind-load risk. At Boise Tree Pros, our [24/7 emergency tree service](/emergency-tree-service-boise/) handles exactly this situation.
 
 **Step 3: Do not try to cable, brace, or prop the tree yourself.** Ratchet straps, chains, lumber braces -- we've seen homeowners try all of these. They don't work. A large tree under active root failure weighs thousands of pounds. No hardware-store fix will hold it, and being near the tree during failure is the most dangerous place on your property.
 

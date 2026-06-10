@@ -51,7 +51,7 @@ That's the pattern with tree diseases in Boise. Most of them are treatable if yo
 
 **How it spreads.** Elm bark beetles carry the fungus from infected trees to healthy ones. The beetles are attracted to fresh pruning wounds during warmer months. This is why all elm pruning in the Treasure Valley must happen between November and March, when the beetles are dormant. If someone offers to prune your elm in July, find a different company.
 
-**What to do.** Call an arborist immediately if you see one-sided wilting in an elm. Early detection gives you options: pruning out infected branches (if less than 5% of the crown is affected) or fungicide injection. Once the infection reaches the main trunk, [removal](/blog/tree-removal-boise/) is usually the only option, and you need to act fast to protect nearby elms.
+**What to do.** Call an arborist immediately if you see one-sided wilting in an elm. Early detection gives you options: pruning out infected branches (if less than 5% of the crown is affected) or fungicide injection. Once the infection reaches the main trunk, [removal](/tree-removal-boise/) is usually the only option, and you need to act fast to protect nearby elms.
 
 **Prevention.** Don't prune elms in warm months. Period. Also avoid wounding elm bark during summer (lawn mower damage, construction nicks). Healthy, well-maintained elms are more resistant than stressed ones.
 

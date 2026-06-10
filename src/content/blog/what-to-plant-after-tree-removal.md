@@ -37,7 +37,7 @@ We've spent 15+ years helping Treasure Valley homeowners with this. Here's the f
 
 Before you shop for a new tree, you've got to address what's left of the old one. Skipping this step is the most common mistake we see.
 
-**Stump grinding is non-negotiable.** A leftover stump takes up root space and attracts insects. It can also harbor the disease that killed your previous tree. If you had [tree removal](/blog/tree-removal-boise/) done professionally, stump grinding was likely offered as an add-on. If you skipped it, go back and get it done.
+**Stump grinding is non-negotiable.** A leftover stump takes up root space and attracts insects. It can also harbor the disease that killed your previous tree. If you had [tree removal](/tree-removal-boise/) done professionally, stump grinding was likely offered as an add-on. If you skipped it, go back and get it done.
 
 Here's what to do:
 
@@ -80,7 +80,7 @@ This is the part everyone skips to. But the categories matter. What you need fro
 You lost a big canopy tree and your yard is broiling. These species will fill that gap and actually thrive in Boise conditions:
 
 - **Honeylocust ('Shademaster' or 'Skyline').** The go-to shade tree for the Treasure Valley. Tolerates alkaline soil, drought, wind, and heat. Dappled shade, strong wood, 40 to 50 feet tall.
-- **Hackberry.** Underrated and tough as nails. Broad canopy, handles our soil without complaint, and almost never needs [emergency tree service](/blog/emergency-tree-service-boise/) after a windstorm.
+- **Hackberry.** Underrated and tough as nails. Broad canopy, handles our soil without complaint, and almost never needs [emergency tree service](/emergency-tree-service-boise/) after a windstorm.
 - **Bur oak.** The legacy choice. Long-lived (200+ years), drought-tough, 60 to 80 feet tall and wide. Needs a big yard, but plant one and your grandkids will thank you.
 
 ### For Ornamental Value
@@ -118,7 +118,7 @@ This section could save you thousands of dollars and a decade of frustration.
 
 **Rule three: don't ignore mature size.** That cute 6-foot nursery tree is going to be 50 feet tall and 40 feet wide in 20 years. Check the mature dimensions before you plant. The [USDA plant database](https://plants.usda.gov/) is a solid free resource for this.
 
-**A story about getting it wrong:** A homeowner on the Boise Bench — we'll call her Karen — had a declining elm removed in 2021. She wanted fall color, so she grabbed a silver maple from a big-box nursery. It grew fast and looked good the first year.
+**A story about getting it wrong:** A homeowner on the Boise Bench â€” we'll call her Karen â€” had a declining elm removed in 2021. She wanted fall color, so she grabbed a silver maple from a big-box nursery. It grew fast and looked good the first year.
 
 By year two, the leaves were yellow between the veins, textbook **iron chlorosis** from Boise's alkaline soil. By year three, it was dropping branches in moderate wind. By year four, surface roots made mowing impossible.
 
@@ -128,7 +128,7 @@ We removed that silver maple in 2025 and replaced it with a 'Shademaster' honeyl
 
 ## Right Tree, Right Place: Planting Distance and Placement
 
-Where you plant matters as much as what you plant. Get the placement wrong and you'll be reading about [tree trimming](/blog/tree-trimming-boise/) costs every few years — or worse, dealing with root damage to your foundation.
+Where you plant matters as much as what you plant. Get the placement wrong and you'll be reading about [tree trimming](/tree-trimming-boise/) costs every few years â€” or worse, dealing with root damage to your foundation.
 
 Here are the spacing guidelines we follow (based on ISA recommendations and our experience in Boise):
 

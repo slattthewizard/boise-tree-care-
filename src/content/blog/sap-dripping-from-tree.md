@@ -17,7 +17,7 @@ faq:
   - question: "Q: Can I spray my large tree for aphids myself?"
     answer: "A: For trees under 15 feet, a hose-end sprayer with horticultural oil or insecticidal soap can work well. For mature trees (and many of Boise's neighborhood trees are 40 to 60 feet tall), canopy spraying isn't practical or safe without professional equipment. Trunk injection by a licensed applicator is the most effective option for large trees with recurring aphid or scale infestations."
   - question: "Q: Should I remove a tree with slime flux?"
-    answer: "A: Not necessarily. Slime flux alone isn't a death sentence. Many trees live for decades with bacterial wetwood. The key question is whether the decay associated with the wetwood has compromised the tree's structural integrity. An arborist can assess this with a visual inspection and, if needed, a resistograph test that measures internal wood density. Removal is only recommended when the structural risk outweighs the tree's value, and a qualified arborist can help you make that call. Learn more about our tree care services to find the right solution. --- --- Meta Title: Why Is My Tree Dripping Sap? Boise Arborist Explains Meta Description: Wondering why is my tree dripping sap on your car or driveway? Learn to identify sap, honeydew, or slime flux — and get free help from Boise Tree Pros. Primary Keyword: why is my tree dripping sap Secondary Keywords: tree dripping sap on driveway, sticky stuff dripping from tree, tree sap on car boise, honeydew aphids tree URL Slug: /blog/why-is-my-tree-dripping-sap ---"
+    answer: "A: Not necessarily. Slime flux alone isn't a death sentence. Many trees live for decades with bacterial wetwood. The key question is whether the decay associated with the wetwood has compromised the tree's structural integrity. An arborist can assess this with a visual inspection and, if needed, a resistograph test that measures internal wood density. Removal is only recommended when the structural risk outweighs the tree's value, and a qualified arborist can help you make that call. Learn more about our tree care services to find the right solution. --- --- Meta Title: Why Is My Tree Dripping Sap? Boise Arborist Explains Meta Description: Wondering why is my tree dripping sap on your car or driveway? Learn to identify sap, honeydew, or slime flux â€” and get free help from Boise Tree Pros. Primary Keyword: why is my tree dripping sap Secondary Keywords: tree dripping sap on driveway, sticky stuff dripping from tree, tree sap on car boise, honeydew aphids tree URL Slug: /blog/why-is-my-tree-dripping-sap ---"
 ---
 You walk out to your driveway on a warm June morning, coffee in hand, and your windshield looks like someone poured syrup on it. Again.
 
@@ -57,13 +57,13 @@ Trees move sap through their vascular systems the way we move blood through vein
 - **Location:** Dripping from branches, wounds, or pruning cuts
 - **Timing:** Heaviest in spring during active growth
 
-**The bottom line:** If it's clear, sticky, and coming from a visible wound or branch junction — it's probably real sap, and it's usually harmless. The tree is doing what trees do.
+**The bottom line:** If it's clear, sticky, and coming from a visible wound or branch junction â€” it's probably real sap, and it's usually harmless. The tree is doing what trees do.
 
 ### When Sap Flow Becomes a Concern
 
 A small amount of sap from a pruning cut? Normal. But if sap is pouring from large cracks in the trunk or from multiple points on the tree, that can signal structural damage. Storm-damaged trees sometimes weep heavily from split limbs, and that warrants a closer look.
 
-If your tree took a hit during one of Boise's late-spring windstorms and is now leaking sap from significant wounds, our [emergency tree service](/blog/emergency-tree-service-boise/) team can assess whether the tree is structurally sound or if those wounds create a failure risk.
+If your tree took a hit during one of Boise's late-spring windstorms and is now leaking sap from significant wounds, our [emergency tree service](/emergency-tree-service-boise/) team can assess whether the tree is structurally sound or if those wounds create a failure risk.
 
 ## The Sticky Stuff That Isn't Sap: Honeydew From Aphids and Scale
 
@@ -88,7 +88,7 @@ Last summer, a homeowner on Harrison Boulevard (we'll call her Maria) called us 
 
 We sent a certified arborist out. Within two minutes of looking up into the canopy, the diagnosis was clear: **linden aphids**. Thousands of them on the undersides of leaves, quietly pumping out honeydew. The black patches on her roses? **Sooty mold**, a secondary fungus that grows on honeydew deposits.
 
-Maria's tree wasn't dying. It had tenants. A targeted treatment and a follow-up [tree trimming](/blog/tree-trimming-boise/) to remove the most heavily infested interior branches knocked the problem down by 90% within three weeks.
+Maria's tree wasn't dying. It had tenants. A targeted treatment and a follow-up [tree trimming](/tree-trimming-boise/) to remove the most heavily infested interior branches knocked the problem down by 90% within three weeks.
 
 ### How to Tell It's Honeydew, Not Sap
 
@@ -123,7 +123,7 @@ Here's the nuanced answer: **wetwood itself rarely kills a tree**, but it signal
 
 We had a client in the Bench neighborhood (let's call him Dave) who'd been watching dark ooze run down his 50-year-old elm trunk for two seasons. He figured it was cosmetic. When we assessed it, the wetwood itself wasn't the main issue. But the wound where it was escaping had decayed enough to compromise a major scaffold branch hanging over his roof.
 
-We performed a targeted [tree trimming](/blog/tree-trimming-boise/) to remove the compromised branch and reduce the canopy weight on that side. Dave's tree is still standing and healthy four years later. But if he'd ignored it another season or two, that branch could have failed during a Boise windstorm.
+We performed a targeted [tree trimming](/tree-trimming-boise/) to remove the compromised branch and reduce the canopy weight on that side. Dave's tree is still standing and healthy four years later. But if he'd ignored it another season or two, that branch could have failed during a Boise windstorm.
 
 ### What NOT to Do
 
@@ -162,14 +162,14 @@ Now that you know what you're dealing with, here's how to handle it.
 - **Horticultural oil or insecticidal soap** applied to the canopy targets soft-bodied insects without harming beneficial predators like ladybugs and lacewings. Timing matters. Apply in early morning or evening when temperatures are below 90 degrees.
 - **Encourage natural predators.** Ladybugs, lacewing larvae, and parasitic wasps all feed on aphids. Avoid broad-spectrum insecticides that kill these allies.
 - **Trunk injection** for severe or recurring infestations. This delivers systemic insecticide directly into the tree's vascular system, which is effective for large trees where canopy spraying isn't practical. This is a professional-only application.
-- **Prune heavily infested branches.** Removing dense interior growth improves air circulation and reduces habitat for pest colonies. Our [tree trimming service](/blog/tree-trimming-boise/) includes a pest assessment with every visit.
+- **Prune heavily infested branches.** Removing dense interior growth improves air circulation and reduces habitat for pest colonies. Our [tree trimming service](/tree-trimming-boise/) includes a pest assessment with every visit.
 
 ### For Slime Flux
 
 - **Don't drill, don't seal, don't panic.**
 - **Monitor annually** for changes in the size of the affected area and any signs of structural weakness (cracking, leaning, dead branches above the ooze).
 - **Get a professional structural assessment** if the wetwood is near a major branch union or if the tree overhangs a structure, driveway, or play area.
-- **Consider removal** only if decay has significantly compromised the trunk or major scaffold branches. Our team can help you evaluate whether [tree removal](/blog/tree-removal-boise/) is warranted or if the tree can be preserved with targeted pruning.
+- **Consider removal** only if decay has significantly compromised the trunk or major scaffold branches. Our team can help you evaluate whether [tree removal](/tree-removal-boise/) is warranted or if the tree can be preserved with targeted pruning.
 
 ## When Should You Call an Arborist?
 
@@ -215,7 +215,7 @@ A: Not necessarily. Slime flux alone isn't a death sentence. Many trees live for
 ```
 ---
 Meta Title: Why Is My Tree Dripping Sap? Boise Arborist Explains
-Meta Description: Wondering why is my tree dripping sap on your car or driveway? Learn to identify sap, honeydew, or slime flux — and get free help from Boise Tree Pros.
+Meta Description: Wondering why is my tree dripping sap on your car or driveway? Learn to identify sap, honeydew, or slime flux â€” and get free help from Boise Tree Pros.
 Primary Keyword: why is my tree dripping sap
 Secondary Keywords: tree dripping sap on driveway, sticky stuff dripping from tree, tree sap on car boise, honeydew aphids tree
 URL Slug: /blog/why-is-my-tree-dripping-sap

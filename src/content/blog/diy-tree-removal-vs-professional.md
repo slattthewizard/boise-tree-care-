@@ -56,7 +56,7 @@ If every single box checks out, you're probably in safe territory for a DIY remo
 
 ## When to Hire a Pro: The Non-Negotiable Situations
 
-There's a clear line where DIY tree removal stops being a money-saver and starts being a liability. Cross any one of these thresholds and you need a [professional tree removal service](/blog/tree-removal-boise/).
+There's a clear line where DIY tree removal stops being a money-saver and starts being a liability. Cross any one of these thresholds and you need a [professional tree removal service](/tree-removal-boise/).
 
 ### The tree is over 20 feet tall
 
@@ -238,7 +238,7 @@ It depends on the tree's species, size, and location. Boise has specific regulat
 
 ### Can I just cut the tree down and leave the stump?
 
-You can, but you probably won't want to. A stump left in the ground attracts termites and other wood-boring insects, sends up new shoots for years, creates a tripping hazard, and makes mowing difficult. Stump grinding requires specialized equipment that most homeowners don't own. Rental grinders cost $150 to $300 per day and are less effective than commercial machines. Most professional [tree removal services in Boise](/blog/tree-removal-boise/) include stump grinding or offer it as an affordable add-on.
+You can, but you probably won't want to. A stump left in the ground attracts termites and other wood-boring insects, sends up new shoots for years, creates a tripping hazard, and makes mowing difficult. Stump grinding requires specialized equipment that most homeowners don't own. Rental grinders cost $150 to $300 per day and are less effective than commercial machines. Most professional [tree removal services in Boise](/tree-removal-boise/) include stump grinding or offer it as an affordable add-on.
 
 ## The Bottom Line
 

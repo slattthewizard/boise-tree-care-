@@ -47,7 +47,7 @@ Regardless of what someone calls it, the result is the same. You're left with a 
 
 Here is the clearest way to understand it: **topping removes 50% to 100% of a tree's leaf-bearing crown in a single cut.** Leaves are how trees produce food through photosynthesis. Removing that much canopy is the equivalent of cutting off someone's lungs and asking them to run a marathon.
 
-Topping is not the same as [professional pruning](/blog/tree-trimming-boise/). Legitimate pruning follows established standards. It targets specific branches for specific reasons: clearance, weight reduction, deadwood removal, or structural improvement.
+Topping is not the same as [professional pruning](/tree-trimming-boise/). Legitimate pruning follows established standards. It targets specific branches for specific reasons: clearance, weight reduction, deadwood removal, or structural improvement.
 
 Topping is indiscriminate. It cuts everything back to an arbitrary height with no regard for branch structure, species biology, or long-term tree health.
 
@@ -73,7 +73,7 @@ Within a few seasons, the tree's canopy is the same size it was before topping, 
 
 Mike, a homeowner in Eagle, learned this the hard way. He had a large cottonwood topped in 2022 because it was "getting too big." By 2025, the regrowth was denser and heavier than the original canopy.
 
-During a spring windstorm, three epicormic branches snapped off and landed on his fence and his neighbor's car. His [emergency tree service](/blog/emergency-tree-service-boise/) call cost more than the original topping job and the proper pruning he should have done combined.
+During a spring windstorm, three epicormic branches snapped off and landed on his fence and his neighbor's car. His [emergency tree service](/emergency-tree-service-boise/) call cost more than the original topping job and the proper pruning he should have done combined.
 
 ### 3. Stress and Sunscald
 
@@ -89,7 +89,7 @@ If curb appeal or property value is part of your reasoning, topping does the opp
 
 ### 5. It Shortens the Tree's Life
 
-Trees that are properly pruned can live for decades or even centuries. Topped trees rarely recover their original health. The cycle of topping, regrowth, and re-topping gradually depletes the tree's energy reserves, introduces progressive decay, and weakens the structure beyond repair. Many topped trees in Boise eventually need [full removal](/blog/tree-removal-boise/) within 10 to 15 years, when they might have lived another 50 with proper care.
+Trees that are properly pruned can live for decades or even centuries. Topped trees rarely recover their original health. The cycle of topping, regrowth, and re-topping gradually depletes the tree's energy reserves, introduces progressive decay, and weakens the structure beyond repair. Many topped trees in Boise eventually need [full removal](/tree-removal-boise/) within 10 to 15 years, when they might have lived another 50 with proper care.
 
 ### 6. It Costs More in the Long Run
 
@@ -109,7 +109,7 @@ Crown reduction is how an arborist takes three to five feet off a silver maple t
 
 ### Crown Thinning
 
-If the goal is reducing wind resistance, improving light, or lowering branch weight, [crown thinning](/blog/tree-trimming-boise/) is the answer. This involves selectively removing interior branches throughout the canopy, typically no more than 15% to 20% of live growth. The tree keeps its shape but becomes more open, reducing the sail effect during Boise's notorious spring windstorms.
+If the goal is reducing wind resistance, improving light, or lowering branch weight, [crown thinning](/tree-trimming-boise/) is the answer. This involves selectively removing interior branches throughout the canopy, typically no more than 15% to 20% of live growth. The tree keeps its shape but becomes more open, reducing the sail effect during Boise's notorious spring windstorms.
 
 ### Structural Pruning
 
@@ -157,7 +157,7 @@ Any company that claims to be professional should be able to discuss these stand
 
 Tree topping in Boise comes with extra risks because of our local conditions.
 
-**Wind.** The Treasure Valley gets strong spring windstorms, sometimes with gusts over 50 mph. Topped trees with their dense clusters of weakly attached regrowth are far more likely to lose branches in these storms than properly pruned trees. We see this every March and April when the [emergency calls](/blog/emergency-tree-service-boise/) spike.
+**Wind.** The Treasure Valley gets strong spring windstorms, sometimes with gusts over 50 mph. Topped trees with their dense clusters of weakly attached regrowth are far more likely to lose branches in these storms than properly pruned trees. We see this every March and April when the [emergency calls](/emergency-tree-service-boise/) spike.
 
 **Common species.** Silver maples, cottonwoods, and Bradford pears are the trees we see topped most often in Boise. All three are fast growers with relatively brittle wood. Topping these species is especially harmful because they produce aggressive epicormic regrowth that compounds the structural weakness. A topped cottonwood in a North End yard is a liability waiting to happen.
 

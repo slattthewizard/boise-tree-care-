@@ -70,7 +70,7 @@ Dave and Linda in Boise's North End had a cottonwood they'd enjoyed for 20 years
 
 But after a wind event in April 2025, a 14-inch-diameter limb sheared off at the trunk and dropped onto their back patio. It destroyed a table, two chairs, and put a crack in their concrete slab. No rot, no obvious defect. The wood simply wasn't strong enough to handle the wind load. That's cottonwood.
 
-We handle [emergency tree service](/blog/emergency-tree-service-boise/) calls for cottonwood damage more than any other species in the Treasure Valley.
+We handle [emergency tree service](/emergency-tree-service-boise/) calls for cottonwood damage more than any other species in the Treasure Valley.
 
 ### Aggressive Root Systems
 
@@ -107,7 +107,7 @@ Before you schedule a removal, pump the brakes. Not every cottonwood is a liabil
 - **You value the shade.** Few trees in Boise can match a mature cottonwood for shade coverage. On a hot August afternoon with the temperature pushing 100 degrees, that canopy is doing real work for your comfort and your energy bill.
 - **It's a heritage or specimen tree.** Large, healthy cottonwoods add significant character and even property value. Removing a 60-year-old tree changes the entire feel of a property.
 
-If your cottonwood checks these boxes, the better move is ongoing [professional pruning](/blog/tree-trimming-boise/) to reduce weight on extended limbs, remove deadwood, and manage the canopy for safety. Regular pruning every three to five years can dramatically reduce storm damage risk in cottonwoods.
+If your cottonwood checks these boxes, the better move is ongoing [professional pruning](/tree-trimming-boise/) to reduce weight on extended limbs, remove deadwood, and manage the canopy for safety. Regular pruning every three to five years can dramatically reduce storm damage risk in cottonwoods.
 
 **Want a professional opinion before deciding?** [Schedule a free on-site assessment](/#contact). Our arborists will give you an honest evaluation, whether that means keeping the tree or taking it down.
 
@@ -203,6 +203,6 @@ If your cottonwood is healthy, well-placed, and properly maintained, keep it. In
 
 If it's cracked, rotting, dropping limbs, damaging your infrastructure, or just too big for the space, removal is the responsible call. Waiting until a storm makes the decision for you always costs more.
 
-**Boise Tree Pros has removed hundreds of cottonwoods across the Treasure Valley.** Our ISA-certified arborists will assess your tree honestly, explain your options, and handle the job safely, whether that's [professional pruning](/blog/tree-trimming-boise/) to extend its life or [complete removal](/blog/tree-removal-boise/) to protect your property.
+**Boise Tree Pros has removed hundreds of cottonwoods across the Treasure Valley.** Our ISA-certified arborists will assess your tree honestly, explain your options, and handle the job safely, whether that's [professional pruning](/tree-trimming-boise/) to extend its life or [complete removal](/tree-removal-boise/) to protect your property.
 
 **Call (208) 555-0192 or [get your free estimate](/#contact) today.** No pressure. Just a straight answer from people who know Boise's trees.

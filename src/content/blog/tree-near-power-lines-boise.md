@@ -45,7 +45,7 @@ Here's your immediate action checklist:
 - **Call Idaho Power at (208) 388-2323** to report the situation
 - **Call 911** if the line is sparking, on fire, or someone has been injured
 
-**[If you're dealing with an emergency right now, call our 24/7 team at Boise Tree Pros: (208) 555-0192.](/blog/emergency-tree-service-boise/)** We can coordinate with Idaho Power and handle the tree once the line is de-energized.
+**[If you're dealing with an emergency right now, call our 24/7 team at Boise Tree Pros: (208) 555-0192.](/emergency-tree-service-boise/)** We can coordinate with Idaho Power and handle the tree once the line is de-energized.
 
 That's it. That's the whole plan for an active emergency. Don't freelance it.
 
@@ -83,7 +83,7 @@ These are the **lower-voltage lines** running from the utility pole to your home
 - There is typically **one bundled cable** (called a triplex)
 - They connect to a mast or bracket on your roof
 
-**These are the homeowner's responsibility** in most cases. Idaho Power owns the wire, but maintaining clearance around it falls to you. This is where a [certified arborist](/blog/tree-trimming-boise/) comes in, but not just any arborist.
+**These are the homeowner's responsibility** in most cases. Idaho Power owns the wire, but maintaining clearance around it falls to you. This is where a [certified arborist](/tree-trimming-boise/) comes in, but not just any arborist.
 
 ### The Gray Area
 
@@ -137,7 +137,7 @@ Here's what sets them apart:
 
 **A regular tree service, no matter how experienced, cannot legally work within ten feet of an energized power line.** If a company tells you otherwise, that's a red flag. Walk away.
 
-At Boise Tree Pros, our line clearance team holds both ISA credentials and OSHA-compliant electrical safety training. When you need [tree trimming near power lines](/blog/tree-trimming-boise/) or [tree removal near electrical infrastructure](/blog/tree-removal-boise/), we coordinate directly with Idaho Power to de-energize lines when necessary.
+At Boise Tree Pros, our line clearance team holds both ISA credentials and OSHA-compliant electrical safety training. When you need [tree trimming near power lines](/tree-trimming-boise/) or [tree removal near electrical infrastructure](/tree-removal-boise/), we coordinate directly with Idaho Power to de-energize lines when necessary.
 
 ### When to Call Us
 
@@ -167,7 +167,7 @@ The second-most common culprit. Silver maples grow fast, top out at 50 to 70 fee
 
 ### American Elm (*Ulmus americana*) and Siberian Elm (*Ulmus pumila*)
 
-Elms are tall, wide-canopied, and aggressive growers. Siberian elm in particular is practically invasive in the Boise area; it seeds prolifically, grows fast, and colonizes utility easements if you're not paying attention. Once established near a power line, an elm requires [regular trimming](/blog/tree-trimming-boise/) on a two- to three-year cycle to stay clear.
+Elms are tall, wide-canopied, and aggressive growers. Siberian elm in particular is practically invasive in the Boise area; it seeds prolifically, grows fast, and colonizes utility easements if you're not paying attention. Once established near a power line, an elm requires [regular trimming](/tree-trimming-boise/) on a two- to three-year cycle to stay clear.
 
 ### Other Problem Species
 
@@ -217,20 +217,20 @@ Your best move: plant outside the easement entirely. Your second-best move: plan
 Use this when you're standing in your yard trying to figure out who to call.
 
 **Is the tree touching or within ten feet of the HIGH lines (top of pole, pole to pole)?**
-- YES → Call **Idaho Power: (208) 388-2323**. Do not approach.
-- NO → Continue.
+- YES â†’ Call **Idaho Power: (208) 388-2323**. Do not approach.
+- NO â†’ Continue.
 
 **Is the tree touching or within ten feet of the LOW line (pole to your house)?**
-- YES → Call a **line clearance arborist**. Do not attempt to trim yourself.
-- NO → Continue.
+- YES â†’ Call a **line clearance arborist**. Do not attempt to trim yourself.
+- NO â†’ Continue.
 
 **Is the tree growing toward any power line and likely to reach it within one to two years?**
-- YES → Schedule **proactive pruning** with a qualified arborist.
-- NO → Monitor annually. Consider the tree's growth rate and mature size.
+- YES â†’ Schedule **proactive pruning** with a qualified arborist.
+- NO â†’ Monitor annually. Consider the tree's growth rate and mature size.
 
 **Is the tree a cottonwood, silver maple, or elm within 50 feet of power lines?**
-- YES → Get a **risk assessment**. These species are high-failure candidates.
-- NO → Standard monitoring is fine.
+- YES â†’ Get a **risk assessment**. These species are high-failure candidates.
+- NO â†’ Standard monitoring is fine.
 
 **For any of the above, [contact Boise Tree Pros](/#contact) or call (208) 555-0192.**
 
@@ -254,7 +254,7 @@ If your tree damages Idaho Power infrastructure, you may be **liable for repair 
 
 ### Who pays for tree removal near power lines?
 
-It depends on the situation. If Idaho Power determines a tree is an **imminent threat to their distribution lines**, they may remove it at no cost. For service drop clearance or non-emergency removal, the homeowner pays. [Tree removal near power lines](/blog/tree-removal-boise/) typically costs more than standard removal due to the specialized equipment and line clearance certification required. Get a written estimate before work begins.
+It depends on the situation. If Idaho Power determines a tree is an **imminent threat to their distribution lines**, they may remove it at no cost. For service drop clearance or non-emergency removal, the homeowner pays. [Tree removal near power lines](/tree-removal-boise/) typically costs more than standard removal due to the specialized equipment and line clearance certification required. Get a written estimate before work begins.
 
 ## Don't Wait for the Next Storm
 

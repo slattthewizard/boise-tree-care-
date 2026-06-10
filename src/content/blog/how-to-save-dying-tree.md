@@ -27,7 +27,7 @@ Maybe. But here's the honest answer most articles won't give you: **not every dy
 
 At Boise Tree Pros, our ISA-certified arborists have spent 15+ years treating stressed and declining trees across the Treasure Valley. We've saved hundreds. We've also told homeowners the hard truth when a tree was too far gone. This guide covers both sides so you can make the right call for your tree, your property, and your budget.
 
-Here's what we'll cover: how to figure out what's actually wrong, treatments that give your tree a real chance, common "fixes" that waste your money, and the tipping point where [professional tree removal](/blog/tree-removal-boise/) becomes the smarter option.
+Here's what we'll cover: how to figure out what's actually wrong, treatments that give your tree a real chance, common "fixes" that waste your money, and the tipping point where [professional tree removal](/tree-removal-boise/) becomes the smarter option.
 
 ## First Step: Figure Out Why Your Tree Is Dying
 
@@ -136,7 +136,7 @@ Leaves are how trees make food. Removing a large portion of a sick tree's remain
 
 Maria in Eagle learned this the hard way. Her landscaper "cleaned up" a struggling honeylocust by removing every dead or yellowing branch, about a third of the tree. Without enough leaf surface to produce energy, the tree declined rapidly through the summer. By October, it was completely dead.
 
-**What to do instead:** Remove only truly dead branches and obvious hazards. Light, targeted [pruning](/blog/tree-trimming-boise/) is fine. Heavy pruning on a declining tree is not.
+**What to do instead:** Remove only truly dead branches and obvious hazards. Light, targeted [pruning](/tree-trimming-boise/) is fine. Heavy pruning on a declining tree is not.
 
 ## The Tipping Point: When Removal Makes More Sense
 
@@ -180,7 +180,7 @@ A mature tree can need 50-100 gallons of water per week during peak summer. Your
 
 ### Wind and Storm Damage
 
-Boise's spring windstorms are no joke. Trees weakened by disease, drought, or poor pruning are the first to lose limbs or come down entirely. If your tree is already declining and storm season is approaching, factor that risk into your decision. Our [emergency tree service](/blog/emergency-tree-service-boise/) handles storm damage 24/7, but prevention is always cheaper than cleanup.
+Boise's spring windstorms are no joke. Trees weakened by disease, drought, or poor pruning are the first to lose limbs or come down entirely. If your tree is already declining and storm season is approaching, factor that risk into your decision. Our [emergency tree service](/emergency-tree-service-boise/) handles storm damage 24/7, but prevention is always cheaper than cleanup.
 
 ## FAQs: Saving a Dying Tree
 

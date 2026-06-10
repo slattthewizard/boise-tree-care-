@@ -69,7 +69,7 @@ This is where a certified arborist earns their keep. Structural pruning addresse
 - **Overextended laterals**, branches that have grown too long and heavy for their attachment point
 - **Dense canopy interiors**, thinning the interior reduces wind resistance (called "sail effect")
 
-Proper [tree trimming](/blog/tree-trimming-boise/) done in fall or early winter gives your trees a structural advantage heading into the worst months.
+Proper [tree trimming](/tree-trimming-boise/) done in fall or early winter gives your trees a structural advantage heading into the worst months.
 
 ### Cabling and Bracing
 
@@ -100,7 +100,7 @@ This is the most common mistake Boise homeowners make. Hitting or shaking snow-l
 
 ### Stay Away from Leaning Trees
 
-A tree that's leaning more than it was yesterday, or a tree with a visible crack at the base, is a falling hazard. Do not walk under it. Do not park under it. Keep your family and pets clear. If it's threatening a structure or power line, call for [emergency tree service](/blog/emergency-tree-service-boise/) immediately.
+A tree that's leaning more than it was yesterday, or a tree with a visible crack at the base, is a falling hazard. Do not walk under it. Do not park under it. Keep your family and pets clear. If it's threatening a structure or power line, call for [emergency tree service](/emergency-tree-service-boise/) immediately.
 
 ### Don't Attempt Your Own Chainsaw Work in Storm Conditions
 
@@ -177,7 +177,7 @@ Frozen or dormant ground means less damage from equipment. No flower beds to cru
 - **Spring-blooming shrubs** (lilacs, forsythia): prune right after they bloom
 - **Bleeding species** (birch, walnut): pruning in late winter causes heavy sap flow, cosmetically messy but not harmful
 
-Ready to schedule winter pruning? [See our tree trimming services](/blog/tree-trimming-boise/) or [get in touch](/#contact) for a free estimate.
+Ready to schedule winter pruning? [See our tree trimming services](/tree-trimming-boise/) or [get in touch](/#contact) for a free estimate.
 
 ## The Details Most People Miss: Salt, Sunscald, and Dry Air
 

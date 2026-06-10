@@ -49,7 +49,7 @@ Your right to trim overhanging branches in Idaho comes with several important co
 
 > **Bottom line:** You have the right to trim to the property line. You don't have the right to harm the tree. That distinction matters more than most people realize.
 
-If those overhanging branches are already causing problems, our [professional tree trimming](/blog/tree-trimming-boise/) team can handle the pruning safely and correctly, with proper documentation. **Call (208) 555-0192** for a free assessment.
+If those overhanging branches are already causing problems, our [professional tree trimming](/tree-trimming-boise/) team can handle the pruning safely and correctly, with proper documentation. **Call (208) 555-0192** for a free assessment.
 
 ## What Happens When Tree Trimming Goes Wrong
 
@@ -75,7 +75,7 @@ Dave's neighbor hired an attorney. The tree was appraised at $22,000. Dave's hom
 
 Contrast that with Karen, a homeowner in Eagle whose neighbor had a silver maple with limbs hanging 10 feet over her roof. Broken shingles after every windstorm. Gutters clogged twice a year.
 
-Karen called our team for an arborist assessment instead of grabbing a saw. We documented the encroachment, identified the branches causing roof contact, and provided a written pruning plan. Karen shared the report with her neighbor, who hadn't realized the tree had grown that far, and they split the cost of [professional tree trimming](/blog/tree-trimming-boise/).
+Karen called our team for an arborist assessment instead of grabbing a saw. We documented the encroachment, identified the branches causing roof contact, and provided a written pruning plan. Karen shared the report with her neighbor, who hadn't realized the tree had grown that far, and they split the cost of [professional tree trimming](/tree-trimming-boise/).
 
 We pruned to the property line following ANSI A300 standards. The tree stayed healthy. The roof damage stopped. The neighbors still wave to each other.
 
@@ -132,7 +132,7 @@ We've seen every version of a neighbor tree dispute go wrong in Boise. Here are 
 
 - **Don't poison the tree.** Applying herbicide to a neighbor's tree (roots, trunk, or soil) is destruction of property. Arborists can identify herbicide damage, and it's prosecutable. We've seen this in subdivisions near Eagle and Meridian. Just don't.
 - **Don't cut on their side of the property line.** Your right stops at the line. Period. Even if "just one more cut" would make the canopy look balanced. Stay on your side.
-- **Don't top the tree.** Topping (cutting main branches back to stubs) is not pruning. It creates weak regrowth, invites disease, and can kill the tree. If the canopy is too large for proper pruning, that's a conversation about [tree removal in Boise](/blog/tree-removal-boise/) between your neighbor and an arborist.
+- **Don't top the tree.** Topping (cutting main branches back to stubs) is not pruning. It creates weak regrowth, invites disease, and can kill the tree. If the canopy is too large for proper pruning, that's a conversation about [tree removal in Boise](/tree-removal-boise/) between your neighbor and an arborist.
 - **Don't hire an unlicensed crew.** If they damage the tree, you're liable. Not them.
 - **Don't escalate before documenting.** Acting on anger without a paper trail is how you lose a case even when you're right.
 - **Don't ignore the problem either.** If hazardous branches hang over your property and fall on someone, you could share liability for not addressing a known hazard.

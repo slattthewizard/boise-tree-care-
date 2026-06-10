@@ -112,7 +112,7 @@ Before you touch anything:
 - **Check for gas lines.** Fence posts near gas meters can shift underground lines. If you smell gas, evacuate and call Intermountain Gas.
 - **Don't climb on or under the fallen tree.** A tree resting on a fence is under tension. Shifting weight can cause it to roll or drop unexpectedly.
 
-If there's an immediate danger to people or structures, call our [24/7 emergency tree service](/blog/emergency-tree-service-boise/) at (208) 555-0192.
+If there's an immediate danger to people or structures, call our [24/7 emergency tree service](/emergency-tree-service-boise/) at (208) 555-0192.
 
 ### Step 2: Document Everything (Before Anyone Touches It)
 
@@ -213,7 +213,7 @@ The best time to deal with a questionable tree is before it falls. A few proacti
 - **Put it in writing.** After a verbal conversation, follow up with a text or email summarizing what you discussed. This creates a record that can matter later.
 - **Offer to split the cost of an assessment.** A shared [tree health assessment](/#services) is far cheaper than a shared insurance claim.
 - **Know your rights for overhanging branches.** Under Idaho law, you generally have the right to trim branches and roots that cross onto your property, up to the property line. But you cannot enter your neighbor's property or damage the tree's health by over-pruning.
-- **Get regular pruning on your own trees.** A well-maintained tree is far less likely to fail. [Professional pruning](/blog/tree-trimming-boise/) every three to five years keeps canopies balanced and removes deadwood before it becomes a hazard.
+- **Get regular pruning on your own trees.** A well-maintained tree is far less likely to fail. [Professional pruning](/tree-trimming-boise/) every three to five years keeps canopies balanced and removes deadwood before it becomes a hazard.
 
 ## FAQs: Tree Fell on Property, Who Pays in Idaho?
 

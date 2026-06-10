@@ -70,9 +70,9 @@ Here's the decision framework we use, based on [ISA (International Society of Ar
 
 ## A Tale of Two Cracks: What Happens When You Act (and When You Don't)
 
-**The crack that got caught in time.** Last spring, a homeowner in Southeast Boise (let's call her Maria) noticed a vertical split forming at a major branch union on her 40-foot green ash. The two co-dominant stems were slowly pulling apart, with included bark visible at the base of the V. She called us for an assessment. Our arborist recommended a **steel cabling system** installed high in the canopy to reduce the load on that weak union, plus a [structural pruning session](/blog/tree-trimming-boise/) to lighten the heavier side. Total cost was a fraction of what removal would have been. That tree is still standing, still shading her backyard, and the crack hasn't widened a millimeter since.
+**The crack that got caught in time.** Last spring, a homeowner in Southeast Boise (let's call her Maria) noticed a vertical split forming at a major branch union on her 40-foot green ash. The two co-dominant stems were slowly pulling apart, with included bark visible at the base of the V. She called us for an assessment. Our arborist recommended a **steel cabling system** installed high in the canopy to reduce the load on that weak union, plus a [structural pruning session](/tree-trimming-boise/) to lighten the heavier side. Total cost was a fraction of what removal would have been. That tree is still standing, still shading her backyard, and the crack hasn't widened a millimeter since.
 
-**The crack that got ignored.** A few years back, a family in West Boise had a large silver maple with a deep shear crack running diagonally across the lower trunk. They figured it had been there a while and the tree looked green and full up top. During a November windstorm, the kind that rolls down off the foothills, the trunk failed right at that crack line. The upper half of the tree came down across their fence and into their neighbor's yard. Nobody was hurt, thankfully, but the [emergency removal](/blog/emergency-tree-service-boise/) and fence repair cost several thousand dollars. An assessment six months earlier would have flagged it.
+**The crack that got ignored.** A few years back, a family in West Boise had a large silver maple with a deep shear crack running diagonally across the lower trunk. They figured it had been there a while and the tree looked green and full up top. During a November windstorm, the kind that rolls down off the foothills, the trunk failed right at that crack line. The upper half of the tree came down across their fence and into their neighbor's yard. Nobody was hurt, thankfully, but the [emergency removal](/emergency-tree-service-boise/) and fence repair cost several thousand dollars. An assessment six months earlier would have flagged it.
 
 **The takeaway:** you don't need to panic, but you do need to investigate. Cracks don't heal on their own. The ones that matter tend to get worse, not better.
 
@@ -115,7 +115,7 @@ For minor frost cracks and shallow surface splits with no decay, the prescriptio
 
 ### 2. Prune to Reduce Load
 
-If the crack is at a branch union or caused by an unbalanced canopy, [strategic pruning](/blog/tree-trimming-boise/) can reduce the mechanical stress on the weak point. This is especially effective on co-dominant stems where one side is significantly heavier. We follow ANSI A300 pruning standards: no topping, no lion-tailing, no hacking.
+If the crack is at a branch union or caused by an unbalanced canopy, [strategic pruning](/tree-trimming-boise/) can reduce the mechanical stress on the weak point. This is especially effective on co-dominant stems where one side is significantly heavier. We follow ANSI A300 pruning standards: no topping, no lion-tailing, no hacking.
 
 ### 3. Cable and Brace
 
@@ -125,7 +125,7 @@ For structurally significant cracks that haven't yet progressed to the point of 
 
 ### 4. Remove the Tree
 
-When the crack is too deep, the decay too advanced, or the structural compromise too severe, [removal is the responsible call](/blog/tree-removal-boise/). This isn't a decision we take lightly. We'd rather save a tree when we can. But when a 50-foot trunk has a through-and-through shear crack with active decay and it's leaning toward your roof, there's only one safe answer.
+When the crack is too deep, the decay too advanced, or the structural compromise too severe, [removal is the responsible call](/tree-removal-boise/). This isn't a decision we take lightly. We'd rather save a tree when we can. But when a 50-foot trunk has a through-and-through shear crack with active decay and it's leaning toward your roof, there's only one safe answer.
 
 Signs removal is likely the recommendation:
 - Crack extends through more than one-third of the trunk diameter
@@ -154,7 +154,7 @@ If you've read this far, you're already ahead of most homeowners. Here's your ac
 
 1. **Go look at the crack.** Run through the five-step self-assessment checklist above.
 2. **Take photos.** Close-ups of the crack, a wide shot of the whole tree, and a photo showing what's in the potential fall zone.
-3. **Don't panic — but don't ignore it.** A crack in a tree trunk is your tree telling you something. Listen to it.
+3. **Don't panic â€” but don't ignore it.** A crack in a tree trunk is your tree telling you something. Listen to it.
 4. **Call for a professional assessment if anything looks concerning.** A 20-minute visit from a certified arborist can save you thousands in emergency costs and give you real peace of mind.
 
 We've assessed thousands of cracked trees across the Treasure Valley, from the Boise Bench to Eagle and Meridian. Most of the time, the news is better than homeowners expect. But the ones that are serious? Those are the ones you really don't want to gamble on.
@@ -179,7 +179,7 @@ No. The old practice of filling tree cavities with concrete or sealing wounds wi
 
 ### How much does it cost to fix a cracked tree?
 
-Costs vary widely depending on the solution. Monitoring is free (we don't charge for initial assessments). Cabling and bracing a single union typically runs a few hundred dollars. Structural pruning depends on the tree's size and access. Full [tree removal](/blog/tree-removal-boise/) for a large, hazardous tree is the most expensive option, but it's also the last resort. In almost every case, early assessment saves money compared to waiting for a failure.
+Costs vary widely depending on the solution. Monitoring is free (we don't charge for initial assessments). Cabling and bracing a single union typically runs a few hundred dollars. Structural pruning depends on the tree's size and access. Full [tree removal](/tree-removal-boise/) for a large, hazardous tree is the most expensive option, but it's also the last resort. In almost every case, early assessment saves money compared to waiting for a failure.
 
 ---
 

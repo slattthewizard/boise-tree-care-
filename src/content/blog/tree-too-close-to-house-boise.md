@@ -102,7 +102,7 @@ Branches that overhang your roof do three things:
 - **Abrade shingles** during wind events, shortening roof life by years
 - **Create moisture traps** where leaves accumulate and hold dampness against roofing material
 
-We see Boise homeowners spend $3,000 to $8,000 on roof repairs that could have been prevented with regular [tree trimming](/blog/tree-trimming-boise/).
+We see Boise homeowners spend $3,000 to $8,000 on roof repairs that could have been prevented with regular [tree trimming](/tree-trimming-boise/).
 
 ### Sewer Line Invasion
 
@@ -166,7 +166,7 @@ Removal is also the right call when:
 - Root damage is already extensive and ongoing
 - The species is highly aggressive (silver maple, cottonwood, willow) and the proximity is too close to manage
 
-We perform [tree removals across the Boise area](/blog/tree-removal-boise/) safely and efficiently, including stump grinding to prevent regrowth and continued root activity.
+We perform [tree removals across the Boise area](/tree-removal-boise/) safely and efficiently, including stump grinding to prevent regrowth and continued root activity.
 
 ### Option 2: Root Barriers
 
@@ -190,7 +190,7 @@ We disagreed. The elm's root system, while extensive, was deep-set and wasn't ca
 
 We put Margaret on a **biennial pruning schedule**: crown raising to clear the roofline, deadwood removal, and structural pruning to reduce wind load on that overhanging limb. Total cost: about $800 every two years. She kept her 60-year-old elm, her roof stays clean, and she sleeps better during November wind events.
 
-Not every tree near a house needs to come down. But every tree near a house needs to be **actively managed**. A [professional trimming program](/blog/tree-trimming-boise/) is the difference between a beautiful shade tree and an expensive liability.
+Not every tree near a house needs to come down. But every tree near a house needs to be **actively managed**. A [professional trimming program](/tree-trimming-boise/) is the difference between a beautiful shade tree and an expensive liability.
 
 ## Planning New Plantings: Right Tree, Right Place
 

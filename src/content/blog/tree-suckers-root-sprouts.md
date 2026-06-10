@@ -19,7 +19,7 @@ faq:
   - question: "Is There a Way to Kill Tree Roots Without Harming the Parent Tree?"
     answer: "Not reliably. The roots producing suckers are connected to the parent tree's vascular system. Herbicides applied to root sprouts can travel back to the main tree and cause damage or death. If you need to stop root sprouts in a specific area while keeping the tree alive, a physical root barrier (a sheet of heavy plastic or metal installed vertically in a trench) is the safest option. An arborist can help determine where to place it without compromising the tree's stability. --- --- Meta Title: Tree Suckers Growing From Base? How to Stop Them | Boise Meta Description: Tree suckers growing from base of your tree or roots? Learn why they keep coming back and how Boise arborists stop them for good. Free assessment. Primary Keyword: tree suckers growing from base Secondary Keywords: tree root sprouts, sucker growth on tree, how to stop tree suckers, tree shoots from roots URL Slug: /blog/tree-suckers-root-sprouts ---"
 ---
-You're mowing the lawn on a Saturday morning. The mower blade catches something woody, makes that awful grinding sound, and you look down. More shoots. Again. Sprouting right out of the ground, six inches from the trunk of your silver maple — or worse, popping up in the middle of the yard, 15 feet from the nearest tree. You yanked these things out last weekend. You *cut* them the weekend before that. And yet here they are, back with a vengeance, like some botanical horror movie.
+You're mowing the lawn on a Saturday morning. The mower blade catches something woody, makes that awful grinding sound, and you look down. More shoots. Again. Sprouting right out of the ground, six inches from the trunk of your silver maple â€” or worse, popping up in the middle of the yard, 15 feet from the nearest tree. You yanked these things out last weekend. You *cut* them the weekend before that. And yet here they are, back with a vengeance, like some botanical horror movie.
 
 If you've got **tree suckers growing from base** of a trunk or root sprouts erupting across your lawn, you're not imagining things. They really do grow back faster every time you cut them. That's not bad luck. It's biology. And here in Boise, where cottonwoods, aspens, and ornamental crabapples dominate our yards, sucker growth is one of the most common and most frustrating tree problems homeowners deal with.
 
@@ -49,7 +49,7 @@ Not all trees are created equal when it comes to sucker production. Some species
 
 ### The Notorious Suckerers
 
-**Cottonwoods** are Boise's undisputed sucker champions. Their root systems are massive and aggressive, and those roots send up sprouts with astonishing enthusiasm. We had a client in the North End, Dave, who was spending nearly every weekend from May through September pulling cottonwood suckers out of his lawn. They were popping up 30 feet from the trunk, pushing through his flower beds, even emerging in the gravel along his driveway. He'd been fighting them for three years before he called us. The root system was so extensive that even after [removing the tree](/blog/tree-removal-boise/), he dealt with root sprouts for another full season.
+**Cottonwoods** are Boise's undisputed sucker champions. Their root systems are massive and aggressive, and those roots send up sprouts with astonishing enthusiasm. We had a client in the North End, Dave, who was spending nearly every weekend from May through September pulling cottonwood suckers out of his lawn. They were popping up 30 feet from the trunk, pushing through his flower beds, even emerging in the gravel along his driveway. He'd been fighting them for three years before he called us. The root system was so extensive that even after [removing the tree](/tree-removal-boise/), he dealt with root sprouts for another full season.
 
 **Quaking aspens** are another major offender, and this one surprises people. That pretty grove of aspens in your yard? It's probably one organism. Aspens reproduce through clonal root sprouting. It's not a bug, it's a feature. A single aspen can send up shoots across an entire yard. They're beautiful in the Boise foothills, but in a residential landscape, they can take over fast.
 
@@ -67,7 +67,7 @@ Maples, lindens, and most fruit trees don't normally produce heavy sucker growth
 
 Here's where most homeowners go wrong, and it's completely understandable. You see a sucker, you grab the pruners, you cut it off at ground level. Problem solved, right?
 
-Wrong. **Cutting a sucker stimulates dormant buds.** Instead of one shoot, you get two or three. It's the tree equivalent of whack-a-mole — every time you knock one down, more pop up. The tree interprets the removal of the sucker as more pruning stress, which triggers more sucker growth. You've accidentally created a feedback loop.
+Wrong. **Cutting a sucker stimulates dormant buds.** Instead of one shoot, you get two or three. It's the tree equivalent of whack-a-mole â€” every time you knock one down, more pop up. The tree interprets the removal of the sucker as more pruning stress, which triggers more sucker growth. You've accidentally created a feedback loop.
 
 A client in Southeast Boise, Maria, called us about her ornamental pear tree. She'd been cutting suckers from the base every few weeks for two full growing seasons. By the time she reached out, the base of the tree looked like a shrub, with dozens of thin shoots clustered around the trunk. Each cut had stimulated more growth. The tree was also showing canopy thinning, which was the actual root cause; the tree was stressed from a fungal issue. The suckers were a symptom, not the actual problem.
 
@@ -79,7 +79,7 @@ A client in Southeast Boise, Maria, called us about her ornamental pear tree. Sh
 
 **Timing matters.** Remove suckers during the growing season when the tree is actively putting energy into canopy growth. Removing them in late winter or early spring, right when the tree is mobilizing its energy reserves, can actually stimulate more production.
 
-For persistent cases, a combination of proper removal technique and addressing the underlying stress is the only path to long-term success. Sometimes that means adjusting your [tree trimming approach](/blog/tree-trimming-boise/) or dealing with a root system issue.
+For persistent cases, a combination of proper removal technique and addressing the underlying stress is the only path to long-term success. Sometimes that means adjusting your [tree trimming approach](/tree-trimming-boise/) or dealing with a root system issue.
 
 ## The Grafted Tree Problem: When the Rootstock Fights Back
 
@@ -111,7 +111,7 @@ Here's what aggressive sucker production can indicate:
 
 **Drought.** Boise's summers are hot and dry. Trees that aren't receiving adequate water, especially during July and August, may produce stress suckers. The [University of Idaho Extension](https://www.uidaho.edu/extension/county/ada) is an excellent resource for watering guidelines specific to our climate.
 
-If your tree is suckering heavily *and* showing any of these other symptoms, don't ignore it. A stressed tree that's also producing heavy sucker growth may be in serious decline. In some cases, that tree becomes a safety concern, especially during Boise's winter windstorms. Our [emergency tree service](/blog/emergency-tree-service-boise/) handles trees that have become hazards, but ideally you catch the warning signs early.
+If your tree is suckering heavily *and* showing any of these other symptoms, don't ignore it. A stressed tree that's also producing heavy sucker growth may be in serious decline. In some cases, that tree becomes a safety concern, especially during Boise's winter windstorms. Our [emergency tree service](/emergency-tree-service-boise/) handles trees that have become hazards, but ideally you catch the warning signs early.
 
 ## How to Stop Tree Suckers: A Decision Framework
 
@@ -127,7 +127,7 @@ Not everyone needs the same approach. Here's a practical framework based on what
 
 ### Scenario 3: Suckers Sprouting Across the Yard From Roots
 
-**What to do:** This usually means cottonwoods, aspens, or another aggressive suckering species. Your options are ongoing removal (a real commitment), root barriers to contain spread, or [tree removal](/blog/tree-removal-boise/) if the problem is severe enough. Be honest about how much maintenance you're willing to do.
+**What to do:** This usually means cottonwoods, aspens, or another aggressive suckering species. Your options are ongoing removal (a real commitment), root barriers to contain spread, or [tree removal](/tree-removal-boise/) if the problem is severe enough. Be honest about how much maintenance you're willing to do.
 
 ### Scenario 4: Rootstock Suckers on a Grafted Tree
 

@@ -121,7 +121,7 @@ We removed the maple and ground the stump. She replanted with a honeylocust, set
 - **Don't plant water-hungry species near pipes.** Cottonwoods, willows, and silver maples should be 50+ feet from any sewer or water line.
 - **Consider root barriers** -- physical barriers installed between the tree and the pipe can redirect root growth. They're not foolproof, but they help.
 
-If roots have already invaded your sewer line, the tree might need to come down. [Our tree removal team](/blog/tree-removal-boise/) can assess the situation and give you a straight answer about whether removal is the right call.
+If roots have already invaded your sewer line, the tree might need to come down. [Our tree removal team](/tree-removal-boise/) can assess the situation and give you a straight answer about whether removal is the right call.
 
 ## Tree Roots and Sidewalk Damage: Who's Responsible?
 
@@ -192,7 +192,7 @@ Nobody wants to hear "that tree has to come out." But sometimes root problems re
 
 ### The Math That Changes Minds
 
-Consider a homeowner who spends $300 per year on sewer line clearing, plus $1,500 every few years on sidewalk repairs. Over a decade, that's $6,000 or more in root-related maintenance. Professional [tree removal in Boise](/blog/tree-removal-boise/) costs less than that, and it solves the problem permanently.
+Consider a homeowner who spends $300 per year on sewer line clearing, plus $1,500 every few years on sidewalk repairs. Over a decade, that's $6,000 or more in root-related maintenance. Professional [tree removal in Boise](/tree-removal-boise/) costs less than that, and it solves the problem permanently.
 
 That doesn't mean every tree near a sewer line needs to go. Many trees coexist with infrastructure for decades without issues. The key is having a professional assessment to determine whether you're dealing with a manageable situation or a ticking clock.
 
@@ -211,7 +211,7 @@ Whether you're dealing with existing root problems or trying to prevent them, he
 - Watch for early warning signs (slow drains, cracked concrete, soil heaving)
 - Get a sewer camera inspection if you have mature trees near your sewer line
 - Have surface roots evaluated by a certified arborist before cutting them
-- Schedule regular [tree trimming and pruning](/blog/tree-trimming-boise/) -- a healthy, well-maintained tree is less likely to develop problem root patterns
+- Schedule regular [tree trimming and pruning](/tree-trimming-boise/) -- a healthy, well-maintained tree is less likely to develop problem root patterns
 
 **When Problems Appear:**
 - Don't panic-cut roots without a professional assessment

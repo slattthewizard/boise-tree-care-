@@ -74,7 +74,7 @@ Rodents, insects, and other pests love a warm, moist, dark hiding spot. A volcan
 
 The root flare needs air exchange. Burying it under eight inches of mulch cuts off oxygen and changes the soil chemistry around the most critical part of your tree's root system.
 
-**A mini-story worth telling:** Two years ago, a landscaping company mulched an entire neighborhood in Southwest Boise, about 40 homes in a single HOA. Every tree got the volcano treatment. Thick, tall cones of dyed red mulch against every trunk. When we were called in for a separate [tree trimming job](/blog/tree-trimming-boise/) at one of the homes, we noticed the problem immediately. We surveyed the street. Roughly half the trees, mostly young red maples and honeylocusts, already had bark rot at the base. Several had visible girdling roots. The fix required pulling back all the mulch, cutting girdling roots on a dozen trees, and treating fungal infections. Two trees couldn't be saved. Forty homes. One bad mulching practice. Thousands of dollars in damage.
+**A mini-story worth telling:** Two years ago, a landscaping company mulched an entire neighborhood in Southwest Boise, about 40 homes in a single HOA. Every tree got the volcano treatment. Thick, tall cones of dyed red mulch against every trunk. When we were called in for a separate [tree trimming job](/tree-trimming-boise/) at one of the homes, we noticed the problem immediately. We surveyed the street. Roughly half the trees, mostly young red maples and honeylocusts, already had bark rot at the base. Several had visible girdling roots. The fix required pulling back all the mulch, cutting girdling roots on a dozen trees, and treating fungal infections. Two trees couldn't be saved. Forty homes. One bad mulching practice. Thousands of dollars in damage.
 
 It doesn't have to go that way.
 
@@ -164,8 +164,8 @@ Mulch breaks down. That's the point; it's feeding your soil as it decomposes. Bu
 
 **Refresh once or twice per year.** For most Boise properties, the ideal schedule is:
 
-- **Early spring (March–April):** Top off the mulch ring to three to four inches before the heat sets in. This locks in winter moisture and prepares roots for the growing season.
-- **Late fall (October–November):** Add another inch or two after leaves drop. This insulates roots heading into Boise's freeze-thaw cycles and gives the soil a fresh layer of organic material to work on over winter.
+- **Early spring (Marchâ€“April):** Top off the mulch ring to three to four inches before the heat sets in. This locks in winter moisture and prepares roots for the growing season.
+- **Late fall (Octoberâ€“November):** Add another inch or two after leaves drop. This insulates roots heading into Boise's freeze-thaw cycles and gives the soil a fresh layer of organic material to work on over winter.
 
 **Before you add new mulch, check the existing layer.** If the old mulch has compressed into a dense mat, break it up with a rake before adding fresh material. Matted mulch repels water instead of absorbing it, defeating the purpose entirely.
 
@@ -177,7 +177,7 @@ Mulching is one piece of the puzzle. A tree with perfect mulch but no pruning, p
 
 Here's how mulching connects to the bigger picture:
 
-- **Pruning and trimming:** A well-mulched tree with a [proper pruning schedule](/blog/tree-trimming-boise/) grows stronger, heals wounds faster, and resists storm damage better. Mulch supports the root system that fuels everything above ground.
+- **Pruning and trimming:** A well-mulched tree with a [proper pruning schedule](/tree-trimming-boise/) grows stronger, heals wounds faster, and resists storm damage better. Mulch supports the root system that fuels everything above ground.
 - **Irrigation:** Mulch reduces water needs, but it doesn't eliminate them. Boise trees, especially those planted in the last five years, need deep, infrequent watering through summer. Mulch makes every gallon go further.
 - **Soil health:** Organic mulch is the single easiest way to improve your soil without tilling, amending, or disrupting roots. Over time, it transforms Boise's stubborn clay into something trees can actually thrive in.
 - **Disease and pest management:** Proper mulching reduces stress, and reduced stress means better disease resistance. It also eliminates the bark damage from mowers and trimmers that gives pathogens an entry point.

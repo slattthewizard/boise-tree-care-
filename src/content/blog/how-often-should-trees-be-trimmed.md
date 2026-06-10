@@ -133,7 +133,7 @@ A five-minute cut on a three-year-old maple prevents a $1,500 structural failure
 
 **This work follows [ANSI A300 pruning standards](https://www.tcia.org/TCIA/BUSINESS/ANSI_A300_702Standards/TCIA/BUSINESS/A300Standards.aspx)**, the industry benchmark for tree care. Every cut has a purpose. Every decision is based on how the tree will develop over the next decade and beyond.
 
-[See our full range of tree trimming services for Boise properties](/blog/tree-trimming-boise/).
+[See our full range of tree trimming services for Boise properties](/tree-trimming-boise/).
 
 ---
 
@@ -162,7 +162,7 @@ Schedules are guidelines. Sometimes a tree tells you it needs attention before t
 - **Uprooted root plate:** the tree may need cabling, bracing, or removal
 - **Split trunks:** a structural emergency that requires immediate professional evaluation
 
-**If you see any of these signs, don't wait for your next scheduled trimming.** Call for an assessment. [Our emergency tree service team responds quickly across the Boise metro](/blog/emergency-tree-service-boise/).
+**If you see any of these signs, don't wait for your next scheduled trimming.** Call for an assessment. [Our emergency tree service team responds quickly across the Boise metro](/emergency-tree-service-boise/).
 
 ---
 

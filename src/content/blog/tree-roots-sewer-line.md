@@ -159,7 +159,7 @@ This is the conversation nobody wants to have. You love the tree. It shades your
 - The root system has caused repeated damage despite repairs
 - The tree is in decline, diseased, or structurally compromised
 - Root pruning to protect the pipe would remove so much root mass that the tree becomes a fall hazard
-- The cost of repeated repairs exceeds the cost of [tree removal](/blog/tree-removal-boise/) and replanting a pipe-friendly species
+- The cost of repeated repairs exceeds the cost of [tree removal](/tree-removal-boise/) and replanting a pipe-friendly species
 
 **A story from the North End:** We got a call from a homeowner on Harrison Boulevard who had a gorgeous 60-year-old cottonwood in the front yard. She'd been calling a rooter service every four months for three years, spending roughly $400 each time. That's nearly $4,000 over three years for a problem that kept coming back.
 
@@ -214,13 +214,13 @@ If you own a home in the **North End, East End, Central Bench, or Boise Bench** 
 
 According to the [EPA](https://www.epa.gov/report-environment/condition-infrastructure), aging sewer infrastructure is a nationwide problem, and root intrusion is one of the leading causes of sanitary sewer overflows across the country. Boise is no exception.
 
-Combine aging pipes with the mature tree canopy that makes these neighborhoods so beautiful, and you have a recipe for root problems. Proactive inspection and strategic [tree trimming](/blog/tree-trimming-boise/) or removal can save you from an emergency situation down the road.
+Combine aging pipes with the mature tree canopy that makes these neighborhoods so beautiful, and you have a recipe for root problems. Proactive inspection and strategic [tree trimming](/tree-trimming-boise/) or removal can save you from an emergency situation down the road.
 
 ## Take the Guesswork Out of Tree Root Sewer Damage
 
 Dealing with **tree roots in your sewer line** is frustrating. The gurgling, the backups, the repeated service calls; it wears you down. But the fix doesn't have to be a guessing game.
 
-Here's what we recommend: get a camera inspection from a licensed plumber, then call us. We'll assess the tree, look at the root system, evaluate your options, and give you a clear, honest recommendation. Sometimes that means saving the tree. Sometimes it means [removing it](/blog/tree-removal-boise/) and starting fresh with the right species in the right spot.
+Here's what we recommend: get a camera inspection from a licensed plumber, then call us. We'll assess the tree, look at the root system, evaluate your options, and give you a clear, honest recommendation. Sometimes that means saving the tree. Sometimes it means [removing it](/tree-removal-boise/) and starting fresh with the right species in the right spot.
 
 Either way, you'll have a plan that actually solves the problem, not just a temporary fix that buys you another few months.
 

@@ -41,7 +41,7 @@ Heavy equipment, material storage, and foot traffic compress soil particles toge
 
 A single pass from a loaded dump truck can compact soil enough to reduce root oxygen by 50%. Multiple passes over several weeks? That soil may take decades to recover naturally.
 
-**The tricky part:** A tree with compacted root-zone soil may look perfectly healthy for a full year after construction ends. Then it starts declining. Smaller leaves, thinning canopy, branch dieback. By year two or three, the homeowner is calling for [tree removal in Boise](/blog/tree-removal-boise/) on a tree they thought they saved.
+**The tricky part:** A tree with compacted root-zone soil may look perfectly healthy for a full year after construction ends. Then it starts declining. Smaller leaves, thinning canopy, branch dieback. By year two or three, the homeowner is calling for [tree removal in Boise](/tree-removal-boise/) on a tree they thought they saved.
 
 ### Root Cutting
 
@@ -136,7 +136,7 @@ Here is what to communicate clearly, in writing, before the first shovel hits di
 
 5. **"Notify me before any trenching within 30 feet of a protected tree."** Utilities, irrigation, and drainage often conflict with root zones. There are tree-safe alternatives (boring instead of trenching, rerouting lines) that your arborist can recommend.
 
-6. **"Pruning is done by our arborist, not the construction crew."** If branches need clearance for equipment, have a [professional tree trimming service](/blog/tree-trimming-boise/) handle it. A chainsaw in untrained hands can cause permanent structural damage to a tree.
+6. **"Pruning is done by our arborist, not the construction crew."** If branches need clearance for equipment, have a [professional tree trimming service](/tree-trimming-boise/) handle it. A chainsaw in untrained hands can cause permanent structural damage to a tree.
 
 ### Put It in the Contract
 
@@ -221,7 +221,7 @@ Tree protection does not end when the last contractor leaves. Trees stressed by 
 - **Avoid additional stress:** Do not prune heavily, fertilize aggressively, or make further grade changes for at least two growing seasons.
 - **Watch for decline symptoms:** Smaller-than-normal leaves, early fall color, thinning canopy, branch dieback, and unusual pest or disease activity can all signal construction-related stress.
 
-If you notice decline, call an arborist sooner rather than later. Early intervention, including targeted root-zone treatments, supplemental watering programs, and structural pruning, can sometimes reverse the damage. Waiting until the tree is 70% dead leaves you with one option: [removal](/blog/tree-removal-boise/).
+If you notice decline, call an arborist sooner rather than later. Early intervention, including targeted root-zone treatments, supplemental watering programs, and structural pruning, can sometimes reverse the damage. Waiting until the tree is 70% dead leaves you with one option: [removal](/tree-removal-boise/).
 
 ## Protect Your Trees, Protect Your Investment
 

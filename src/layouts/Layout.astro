@@ -232,27 +232,25 @@ const {
 
     <!-- Desktop Nav -->
     <nav class="hidden md:flex items-center gap-8">
-      <a href="/#services" class="nav-link">Services</a>
+      <div class="relative" style="position:relative;">
+        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
+          Services
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="blog-dropdown" style="position:absolute;top:calc(100% + 8px);right:0;min-width:240px;background:#fff;border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.06);padding:8px 0;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity 0.2s,transform 0.2s,visibility 0.2s;z-index:100;">
+          <a href="/tree-trimming-boise/" class="dropdown-link">Tree Trimming &amp; Pruning</a>
+          <a href="/tree-removal-boise/" class="dropdown-link">Tree Removal</a>
+          <a href="/emergency-tree-service-boise/" class="dropdown-link">Emergency Tree Service</a>
+          <a href="/stump-grinding-boise/" class="dropdown-link">Stump Grinding</a>
+          <a href="/blog/tree-health-assessment-boise/" class="dropdown-link">Tree Health Assessment</a>
+        </div>
+      </div>
       <a href="/about/" class="nav-link">About</a>
       <a href="/gallery/" class="nav-link">Gallery</a>
       <a href="/#reviews" class="nav-link">Reviews</a>
       <a href="/cost-calculator/" class="nav-link">Cost Calculator</a>
+      <a href="/blog/" class="nav-link">Blog</a>
       <a href="/#contact" class="nav-link">Contact</a>
-      <div class="relative" style="position:relative;">
-        <button onclick="this.parentElement.classList.toggle('dropdown-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
-          Blogs
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transition:transform 0.2s;"><polyline points="6 9 12 15 18 9"/></svg>
-        </button>
-        <div class="blog-dropdown" style="position:absolute;top:calc(100% + 8px);right:0;min-width:240px;background:#fff;border-radius:10px;box-shadow:0 4px 24px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.06);padding:8px 0;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity 0.2s,transform 0.2s,visibility 0.2s;z-index:100;">
-          <a href="/blog/tree-trimming-boise/" class="dropdown-link">Tree Trimming Boise</a>
-          <a href="/blog/tree-removal-boise/" class="dropdown-link">Tree Removal Boise</a>
-          <a href="/blog/emergency-tree-service-boise/" class="dropdown-link">Emergency Tree Service</a>
-          <a href="/blog/stump-grinding-boise/" class="dropdown-link">Stump Grinding Boise</a>
-          <a href="/blog/tree-health-assessment-boise/" class="dropdown-link">Tree Health Assessment</a>
-          <div style="height:1px;background:#e8e0d8;margin:6px 0;"></div>
-          <a href="/blog/" class="dropdown-link" style="color:#1A531A;font-weight:600;font-size:13px;">View All Posts →</a>
-        </div>
-      </div>
       <div class="relative" style="position:relative;">
         <button onclick="this.parentElement.classList.toggle('areas-open')" class="nav-link" style="background:none;border:none;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500;font-size:14px;letter-spacing:0.04em;text-transform:uppercase;color:#363636;display:flex;align-items:center;gap:4px;padding:8px 0;min-height:48px;">
           Service Areas
@@ -282,7 +280,7 @@ const {
   <!-- Mobile Nav -->
   <div id="mobile-menu" style="border-top:1px solid #e8ddd0;background:#fff;">
     <nav class="flex flex-col px-4 py-4 gap-4">
-      <a href="/#services" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Services</a>
+      <a href="/blog/" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Blog</a>
       <a href="/about/" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">About</a>
       <a href="/gallery/" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Gallery</a>
       <a href="/#reviews" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Reviews</a>
@@ -290,14 +288,14 @@ const {
       <a href="/#contact" class="nav-link text-base" onclick="document.getElementById('mobile-menu').classList.remove('open')">Contact</a>
       <div>
         <button onclick="var el=document.getElementById('mobile-blogs');el.style.display=el.style.display==='flex'?'none':'flex';" class="nav-link text-base" style="background:none;border:none;cursor:pointer;font:inherit;color:inherit;display:flex;align-items:center;gap:4px;">
-          Blogs
+          Services
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-blogs" style="display:none;flex-direction:column;gap:2px;padding-left:16px;margin-top:4px;">
-          <a href="/blog/tree-trimming-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Trimming Boise</a>
-          <a href="/blog/tree-removal-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Removal Boise</a>
-          <a href="/blog/emergency-tree-service-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Emergency Tree Service</a>
-          <a href="/blog/stump-grinding-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Stump Grinding Boise</a>
+          <a href="/tree-trimming-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Trimming Boise</a>
+          <a href="/tree-removal-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Removal Boise</a>
+          <a href="/emergency-tree-service-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Emergency Tree Service</a>
+          <a href="/stump-grinding-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Stump Grinding Boise</a>
           <a href="/blog/tree-health-assessment-boise/" class="nav-link text-sm" onclick="document.getElementById('mobile-menu').classList.remove('open')">Tree Health Assessment</a>
           <a href="/blog/" class="nav-link text-sm" style="color:#1A531A;font-weight:600;" onclick="document.getElementById('mobile-menu').classList.remove('open')">View All Posts →</a>
         </div>
@@ -344,13 +342,13 @@ const {
       <div>
         <p style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;font-weight:700;color:#FAF0E6;margin-bottom:16px;letter-spacing:0.02em;">Services</p>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;">
-          <li><a href="/blog/tree-trimming-boise/" class="footer-link">Tree Trimming</a></li>
-          <li><a href="/blog/tree-removal-boise/" class="footer-link">Tree Removal</a></li>
-          <li><a href="/blog/stump-grinding-boise/" class="footer-link">Stump Grinding</a></li>
-          <li><a href="/blog/tree-trimming-boise/" class="footer-link">Tree Planting</a></li>
-          <li><a href="/blog/emergency-tree-service-boise/" class="footer-link">Emergency Service</a></li>
+          <li><a href="/tree-trimming-boise/" class="footer-link">Tree Trimming</a></li>
+          <li><a href="/tree-removal-boise/" class="footer-link">Tree Removal</a></li>
+          <li><a href="/stump-grinding-boise/" class="footer-link">Stump Grinding</a></li>
+          <li><a href="/tree-trimming-boise/" class="footer-link">Tree Planting</a></li>
+          <li><a href="/emergency-tree-service-boise/" class="footer-link">Emergency Service</a></li>
           <li><a href="/blog/tree-cabling-bracing-boise/" class="footer-link">Tree Cabling &amp; Bracing</a></li>
-          <li><a href="/blog/tree-removal-boise/" class="footer-link">Lot Clearing</a></li>
+          <li><a href="/tree-removal-boise/" class="footer-link">Lot Clearing</a></li>
         </ul>
       </div>
       <!-- Service Areas -->

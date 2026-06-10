@@ -2,7 +2,7 @@
 title: "Why Is My Tree Bark Peeling Off?"
 navTitle: "Why Is My Tree Bark Peeling"
 metaTitle: "Why Is My Tree Bark Peeling Off? | Boise Tree Pros"
-metaDescription: "Tree bark peeling off? Learn which Boise trees shed bark naturally vs. signs of disease, sunscald, or pests — and when to call an arborist."
+metaDescription: "Tree bark peeling off? Learn which Boise trees shed bark naturally vs. signs of disease, sunscald, or pests â€” and when to call an arborist."
 primaryKeyword: "tree bark peeling off"
 secondaryKeywords: "bark falling off tree, tree losing bark, why is bark coming off my tree, tree bark disease"
 publishedDate: "2026-04-11"
@@ -17,7 +17,7 @@ faq:
   - question: "Should I seal or paint a tree wound where bark has peeled off?"
     answer: "No. The old practice of painting tree wounds with sealant has been debunked by modern arboricultural research, including ISA guidelines. Wound sealants can actually trap moisture and promote fungal growth. Trees heal best with open air exposure. Your job is to keep the tree healthy overall with proper watering, mulching, and pruning, and let it do its thing."
   - question: "When should I call an arborist about peeling bark?"
-    answer: "Call an arborist when you see any of these: soft or spongy wood under the peeling bark, mushrooms or fungal growth on the trunk, large sections of bark falling off a tree species that doesn't normally shed, numerous tiny holes with sawdust (bark beetles), or when the tree has other symptoms like dead branches, leaning, or wilting leaves. In Boise, sunscald and frost damage are also worth a professional look if the cracks are severe. --- --- Meta Title: Why Is My Tree Bark Peeling Off? | Boise Tree Pros Meta Description: Tree bark peeling off? Learn which Boise trees shed bark naturally vs. signs of disease, sunscald, or pests — and when to call an arborist. Primary Keyword: tree bark peeling off Secondary Keywords: bark falling off tree, tree losing bark, why is bark coming off my tree, tree bark disease URL Slug: /blog/tree-bark-peeling-off ---"
+    answer: "Call an arborist when you see any of these: soft or spongy wood under the peeling bark, mushrooms or fungal growth on the trunk, large sections of bark falling off a tree species that doesn't normally shed, numerous tiny holes with sawdust (bark beetles), or when the tree has other symptoms like dead branches, leaning, or wilting leaves. In Boise, sunscald and frost damage are also worth a professional look if the cracks are severe. --- --- Meta Title: Why Is My Tree Bark Peeling Off? | Boise Tree Pros Meta Description: Tree bark peeling off? Learn which Boise trees shed bark naturally vs. signs of disease, sunscald, or pests â€” and when to call an arborist. Primary Keyword: tree bark peeling off Secondary Keywords: bark falling off tree, tree losing bark, why is bark coming off my tree, tree bark disease URL Slug: /blog/tree-bark-peeling-off ---"
 ---
 You're grabbing the morning paper and notice something that stops you mid-step. Your maple in the front yard, the one your kids climb every summer, has bark curling away from the trunk like old wallpaper. Underneath, the wood looks pale and exposed. Your stomach drops. Is the tree dying?
 
@@ -116,7 +116,7 @@ Frost cracks tend to reopen in the same spot year after year. You'll often see a
 - **Don't panic.** Many trees live long, healthy lives with frost cracks.
 - **Don't fill the crack** with caulk, foam, or wound sealant. Research, including guidelines from the [International Society of Arboriculture (ISA)](https://www.treesaregood.org/), shows wound sealants do more harm than good.
 - **Monitor for decay.** If the edges of the crack turn soft, dark, or start producing mushrooms, the tree may be developing internal decay.
-- **Keep the tree healthy.** Proper watering, mulching, and [seasonal trimming](/blog/tree-trimming-boise/) help the tree put energy into healing.
+- **Keep the tree healthy.** Proper watering, mulching, and [seasonal trimming](/tree-trimming-boise/) help the tree put energy into healing.
 
 ## Pests and Diseases That Cause Bark to Fall Off
 
@@ -145,7 +145,7 @@ Boise has a lot of mature American and Siberian elms, and **tree bark disease** 
 - Brown streaking in the sapwood if you peel back bark on a dying branch
 - Bark loosening on large limbs or the trunk
 
-If you suspect Dutch elm disease, timing matters. Infected trees should be [removed promptly](/blog/tree-removal-boise/) to prevent the disease from spreading to neighboring elms via root grafts or beetle vectors.
+If you suspect Dutch elm disease, timing matters. Infected trees should be [removed promptly](/tree-removal-boise/) to prevent the disease from spreading to neighboring elms via root grafts or beetle vectors.
 
 ### Fungal Decay
 
@@ -158,7 +158,7 @@ Fungal pathogens like *Armillaria* (honey fungus) and various canker diseases ca
 - A rotten or sour smell
 - The trunk sounds hollow when tapped
 
-A tree with significant internal decay can become a hazard, especially during Boise's occasional windstorms. If you see mushrooms on the trunk of a large tree near your home, that's worth an [emergency assessment](/blog/emergency-tree-service-boise/).
+A tree with significant internal decay can become a hazard, especially during Boise's occasional windstorms. If you see mushrooms on the trunk of a large tree near your home, that's worth an [emergency assessment](/emergency-tree-service-boise/).
 
 ## What to Do When You Notice Your Tree Losing Bark
 
@@ -174,7 +174,7 @@ Here's a simple checklist you can run through right now, standing in your yard:
 
 **Step 5: Decide your next move.**
 
-- **All clear?** Your tree's probably fine. Keep it watered, mulched, and [properly trimmed](/blog/tree-trimming-boise/).
+- **All clear?** Your tree's probably fine. Keep it watered, mulched, and [properly trimmed](/tree-trimming-boise/).
 - **Not sure?** Snap a few photos and [send them to our team](/#contact). We're happy to take a look.
 - **Obvious problems?** Soft wood, mushrooms, major cracks, or large sections falling off a tree that shouldn't be peeling? Call a certified arborist. That's us.
 
@@ -182,7 +182,7 @@ Mike over in Eagle found a shelf fungus the size of a dinner plate growing from 
 
 ## The Bottom Line on Peeling Bark
 
-**Tree bark peeling off** isn't automatically an emergency. For many of the trees you'll find across Boise — birches along the river, sycamores on State Street, aspens up in the foothills — it's just part of the growth cycle.
+**Tree bark peeling off** isn't automatically an emergency. For many of the trees you'll find across Boise â€” birches along the river, sycamores on State Street, aspens up in the foothills â€” it's just part of the growth cycle.
 
 But when peeling bark shows up on a species that shouldn't be shedding, or when the wood underneath is soft and decaying, it's time to pay attention. Sunscald, frost damage, bark beetles, and disease can all cause bark loss that points to deeper trouble.
 
@@ -215,7 +215,7 @@ Call an arborist when you see any of these: soft or spongy wood under the peelin
 ```
 ---
 Meta Title: Why Is My Tree Bark Peeling Off? | Boise Tree Pros
-Meta Description: Tree bark peeling off? Learn which Boise trees shed bark naturally vs. signs of disease, sunscald, or pests — and when to call an arborist.
+Meta Description: Tree bark peeling off? Learn which Boise trees shed bark naturally vs. signs of disease, sunscald, or pests â€” and when to call an arborist.
 Primary Keyword: tree bark peeling off
 Secondary Keywords: bark falling off tree, tree losing bark, why is bark coming off my tree, tree bark disease
 URL Slug: /blog/tree-bark-peeling-off

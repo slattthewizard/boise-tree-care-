@@ -166,9 +166,13 @@ def extract_faq(body):
 
 
 def clean_body_links(body):
-    body = re.sub(r'https?://boisetreepro\.com/services/', '/blog/', body)
+    body = re.sub(r'https?://boisetreepro\.com/services/', '/', body)
     body = re.sub(r'https?://boisetreepro\.com/', '/', body)
     body = re.sub(r'(\(/[^)]*?)\.html\)', r'\1/)', body)
+    # Core service pages live at the site root, not under /blog/
+    for svc in ('tree-trimming-boise', 'tree-removal-boise',
+                'emergency-tree-service-boise', 'stump-grinding-boise'):
+        body = body.replace(f'/blog/{svc}/', f'/{svc}/')
     return body
 
 
