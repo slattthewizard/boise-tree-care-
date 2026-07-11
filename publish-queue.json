@@ -216,7 +216,8 @@
   },
   {
     "draft": "drafts/frost-cracks-sunscald-trees-2026-07-04.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-07-11T14:44:14.505402Z"
   },
   {
     "draft": "drafts/girdling-roots-fix-2026-07-04.md",
