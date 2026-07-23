@@ -110,4 +110,4 @@ If a tree looks genuinely unwell rather than just shading out grass, it's worth 
 
 Grass and mature trees are competing for the same light and water, and the tree almost always wins that fight in a Treasure Valley yard. Rather than repeating a losing battle every spring, a mulch ring or shade groundcover gives you a better-looking, lower-maintenance space and protects the tree at the same time. And if that bare patch comes with other signs the tree itself isn't thriving, don't guess. An arborist can tell you in fifteen minutes whether you're dealing with normal shade competition or something that needs real attention.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

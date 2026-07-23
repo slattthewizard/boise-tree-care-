@@ -117,4 +117,4 @@ Japanese beetles are one piece of a bigger pest picture in the Treasure Valley; 
 
 Not every summer defoliation problem is Japanese beetle, and not every Japanese beetle problem needs an aggressive treatment plan. Our ISA-certified arborists can tell you which pest you are actually dealing with and whether your particular tree needs intervention or just time.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

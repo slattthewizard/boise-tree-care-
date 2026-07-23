@@ -99,4 +99,4 @@ If a section of the windbreak was planted years apart from the rest, expect unev
 
 A windbreak is a 20-year investment, and the design decisions you make in year one are hard to undo once trees are in the ground. If you are planning acreage plantings anywhere from Eagle to Caldwell, it is worth having someone walk the property and account for your specific wind exposure, soil, and what you are actually trying to protect before you buy a single tree.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

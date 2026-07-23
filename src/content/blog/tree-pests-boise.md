@@ -120,4 +120,4 @@ If your tree is oozing sap along with any pest symptoms, our [sap dripping from 
 
 Half the battle with tree pests is figuring out which of the four categories you are actually dealing with, because the right response for aphids can be completely wrong for borers. Our ISA-certified arborists can walk your property, identify what is actually going on, and tell you honestly whether treatment makes sense or whether your money is better spent elsewhere.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

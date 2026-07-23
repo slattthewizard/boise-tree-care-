@@ -127,4 +127,4 @@ Yes, and this is the most important safety point. Because girdling weakens root 
 
 If you cannot see where your tree's trunk widens into its roots, that is worth a look, especially on trees planted within the last fifteen years or planted by a previous homeowner or landscaper. Catching a girdling root early is a relatively small fix. Catching it late can mean losing a tree that otherwise had decades of life left.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

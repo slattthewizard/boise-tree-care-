@@ -212,4 +212,4 @@ Not yet as of early 2026. But it's moving westward and Idaho has been identified
 
 Most tree diseases in Boise are treatable when caught early. Most are fatal when ignored. If something looks off with one of your trees, don't wait weeks hoping it gets better. A quick call to an arborist can mean the difference between a $200 treatment and a $3,000 removal.
 
-**Call (509) 224-3484** or [request a free assessment online](/#contact).
+**Call (509) 351-8404** or [request a free assessment online](/#contact).

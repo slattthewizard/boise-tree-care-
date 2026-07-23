@@ -13,7 +13,7 @@ The wind finally dies down around midnight, and by morning there's a maple limb 
 
 If you're standing in your yard right now trying to figure out what a storm damaged tree means for your safety, your budget, and your insurance claim, this is the walk-through we give clients every time the Treasure Valley gets hit with a wind event. We've been doing storm response work here since 2008, and the calls follow a pattern. Some damage is genuinely dangerous. Some looks bad but isn't. Knowing the difference before you grab a chainsaw or climb a ladder matters more than almost anything else on this list.
 
-**If you have a tree down on your house, car, or power line right now, stop reading and call (509) 224-3484.** That's a same-day emergency, not a checklist item.
+**If you have a tree down on your house, car, or power line right now, stop reading and call (509) 351-8404.** That's a same-day emergency, not a checklist item.
 
 ## Step One: What You Should Never Touch
 
@@ -125,4 +125,4 @@ Very rarely, and only in young, flexible trees with minimal root disturbance. A 
 
 Storm damage looks scarier than it is sometimes, and other times it looks fine and isn't. The only way to know which situation you're in is to have someone who does this every day take a look, at your trees, on your property, after your specific storm.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

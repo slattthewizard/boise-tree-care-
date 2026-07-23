@@ -101,4 +101,4 @@ This is where "keep the wood" sometimes gets overridden for safety reasons. If a
 
 The wood question is easiest to answer before removal day, not after the trunk is already cut into short lengths and loaded. If you know you want firewood, a chip drop, or you are curious whether a big trunk section is worth milling, mention it when you schedule.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

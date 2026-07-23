@@ -112,4 +112,4 @@ Staking a new tree feels like the responsible thing to do, and sometimes it is. 
 
 If you have questions about a tree you just planted, or you have found embedded stakes on an older tree that need careful removal, our arborists can help.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

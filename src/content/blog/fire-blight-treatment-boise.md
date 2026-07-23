@@ -136,4 +136,4 @@ Fire blight is one specific disease among several that show up on Boise trees ev
 
 Fire blight moves fast, and the difference between catching it in May and catching it in July is often the difference between losing a few branches and losing the tree. If you are seeing blackened, hooked shoots on a pear, apple, or hawthorn anywhere on your property, do not wait to see if it clears up on its own. It will not.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).

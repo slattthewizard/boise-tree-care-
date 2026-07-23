@@ -122,4 +122,4 @@ A tree that looks stressed in July does not have to be a tree you lose by Octobe
 
 Our ISA-certified arborists look at drought-stressed trees across the Treasure Valley all summer long. We will tell you honestly whether your tree needs a watering schedule change, some corrective pruning, or something more serious, with no pressure either way.
 
-**Call (509) 224-3484** or [request your free consultation online](/#contact).
+**Call (509) 351-8404** or [request your free consultation online](/#contact).
