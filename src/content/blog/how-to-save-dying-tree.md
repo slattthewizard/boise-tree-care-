@@ -211,6 +211,6 @@ Figuring out how to save a dying tree starts with one question: what's actually 
 4. **Skip the snake oil.** No fertilizer spikes on sick trees. No wound paint. No heavy pruning on a struggling canopy.
 5. **Know your limit.** If the tree is more than 50% gone, structurally compromised, or in a high-risk location, removal is the responsible choice.
 
-If you've got a tree that's looking rough and you're not sure which direction to go, [call us at (208) 555-0192](/#contact) or schedule a visit online. We'll look at your tree, tell you what's going on, and give you a straight recommendation. No pressure, no upsell on treatments that won't work.
+If you've got a tree that's looking rough and you're not sure which direction to go, [call us at (509) 351-8404](/#contact) or schedule a visit online. We'll look at your tree, tell you what's going on, and give you a straight recommendation. No pressure, no upsell on treatments that won't work.
 
 That's what 15 years of tree care in Boise looks like: honest answers, even when the answer is "it's time to let this one go."

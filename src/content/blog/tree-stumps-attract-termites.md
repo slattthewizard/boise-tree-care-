@@ -54,7 +54,7 @@ Here's what makes a stump so attractive:
 
 **Hidden activity.** Termites work from the inside out. A stump can be hollowed out internally while looking solid on the outside. Homeowners often don't realize termites are active until the colony is well established and has started exploring outward, toward the house.
 
-**Is that stump in your yard a risk?** If it's been sitting for more than a year and it's within 30 feet of your home, it's worth investigating. Our team can assess the stump and recommend whether grinding makes sense for your situation. [Get a free estimate](https://boisetreepro. com/).
+**Is that stump in your yard a risk?** If it's been sitting for more than a year and it's within 30 feet of your home, it's worth investigating. Our team can assess the stump and recommend whether grinding makes sense for your situation. [Get a free estimate](/#contact).
 
 ## Idaho's Termite Situation: What Boise Homeowners Should Know
 
@@ -147,7 +147,7 @@ Some homeowners ask about letting the stump rot naturally. Here's the comparison
 
 The "free" option of letting a stump rot naturally is only free if you ignore the pest risk, the mowing hassle, and the aesthetic impact. For most Boise homeowners, grinding is the smart move.
 
-**Ready to get rid of that stump?** Boise Tree Pros grinds stumps of all sizes across the Treasure Valley. We'll grind below grade, clean up the chips, and leave your yard ready for whatever comes next. [Call (208) 555-0192](https://boisetreepro. com/) or get your free estimate online.
+**Ready to get rid of that stump?** Boise Tree Pros grinds stumps of all sizes across the Treasure Valley. We'll grind below grade, clean up the chips, and leave your yard ready for whatever comes next. [Call (509) 351-8404](tel:5093518404) or [get your free estimate online](/#contact).
 
 ## Other Reasons to Remove Old Stumps
 
@@ -193,8 +193,8 @@ That stump has been sitting in your yard long enough. Every year it rots a littl
 
 Stump grinding is a quick, affordable job that eliminates a real pest risk. Most residential stumps take under an hour to grind. Compare that to the cost and stress of dealing with a termite infestation in your home.
 
-**Call Boise Tree Pros at (208) 555-0192 or [schedule your free estimate](https://boisetreepro. com/).** We handle stump grinding, [tree removal](https://boisetreepro. com/services/tree-removal-boise/), and full property assessments across the Treasure Valley.
+**Call Boise Tree Pros at (509) 351-8404 or [schedule your free estimate](/#contact).** We handle stump grinding, [tree removal](/tree-removal-boise/), and full property assessments across the Treasure Valley.
 
 ---
 
-*Boise Tree Pros has been serving Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley since 2008. ISA-certified arborists, $2M insured, 24/7 emergency service. [See our services](https://boisetreepro. com/#services).*
+*Boise Tree Pros has been serving Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley since 2008. ISA-certified arborists, $2M insured, 24/7 emergency service. [See our services](/#services).*

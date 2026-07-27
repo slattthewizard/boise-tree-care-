@@ -45,7 +45,7 @@ Here's your immediate action checklist:
 - **Call Idaho Power at (208) 388-2323** to report the situation
 - **Call 911** if the line is sparking, on fire, or someone has been injured
 
-**[If you're dealing with an emergency right now, call our 24/7 team at Boise Tree Pros: (208) 555-0192.](/emergency-tree-service-boise/)** We can coordinate with Idaho Power and handle the tree once the line is de-energized.
+**[If you're dealing with an emergency right now, call our 24/7 team at Boise Tree Pros: (509) 351-8404.](/emergency-tree-service-boise/)** We can coordinate with Idaho Power and handle the tree once the line is de-energized.
 
 That's it. That's the whole plan for an active emergency. Don't freelance it.
 
@@ -147,7 +147,7 @@ At Boise Tree Pros, our line clearance team holds both ISA credentials and OSHA-
 - You need a tree **removed** that's growing under or near power lines
 - You want a **risk assessment** for trees in your utility easement
 
-**Ready to get a line clearance arborist on-site? [Contact Boise Tree Pros](/#contact) or call (208) 555-0192 for a free assessment.**
+**Ready to get a line clearance arborist on-site? [Contact Boise Tree Pros](/#contact) or call (509) 351-8404 for a free assessment.**
 
 ## The Worst Offenders: Tree Species That Cause Power Line Problems in Boise
 
@@ -232,7 +232,7 @@ Use this when you're standing in your yard trying to figure out who to call.
 - YES â†’ Get a **risk assessment**. These species are high-failure candidates.
 - NO â†’ Standard monitoring is fine.
 
-**For any of the above, [contact Boise Tree Pros](/#contact) or call (208) 555-0192.**
+**For any of the above, [contact Boise Tree Pros](/#contact) or call (509) 351-8404.**
 
 ## Frequently Asked Questions
 
@@ -264,6 +264,6 @@ Stop watching. Start acting.
 
 The homeowner who waits until a branch is on the wire pays more, stresses more, and risks more than the one who calls for a proactive assessment in the spring. A certified arborist can evaluate your trees, identify which ones are headed for trouble, and create a pruning plan that keeps your property safe and your power on.
 
-**Here's your next step:** Call Boise Tree Pros at **(208) 555-0192** or [schedule a free assessment online](/#contact). We'll walk your property, identify every tree that's a candidate for line conflict, and give you a clear, written plan, with pricing, before any work begins. If it turns out Idaho Power should handle it, we'll tell you that too.
+**Here's your next step:** Call Boise Tree Pros at **(509) 351-8404** or [schedule a free assessment online](/#contact). We'll walk your property, identify every tree that's a candidate for line conflict, and give you a clear, written plan, with pricing, before any work begins. If it turns out Idaho Power should handle it, we'll tell you that too.
 
 Your trees. Your power. Your call.

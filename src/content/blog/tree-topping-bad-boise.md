@@ -199,4 +199,4 @@ If your tree feels too large, too close to your house, or too risky in windstorm
 
 Boise Tree Pros has been caring for trees across the Treasure Valley for over 15 years. Our arborists are ISA-certified, ANSI A300 compliant, and backed by $2M in liability insurance. We don't top trees. We take care of them.
 
-**[Get your free estimate](/#contact) or call (208) 555-0192.**
+**[Get your free estimate](/#contact) or call (509) 351-8404.**

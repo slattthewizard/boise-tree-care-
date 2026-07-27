@@ -98,7 +98,7 @@ Both insurance companies pointed fingers. Mike's insurer said it was a natural e
 
 What resolved it? A [professional tree report](/#services) from an ISA-certified arborist that documented the tree's health at the time of failure, established it as structurally sound before the storm, and confirmed the cause of failure was wind load, not decay or neglect. Mike's neighbor filed under their own Coverage B. Both sides moved on.
 
-**Need a tree assessment for an insurance claim or neighbor dispute?** Boise Tree Pros provides [documented tree reports](/#services) that insurance adjusters and attorneys rely on. Call (208) 555-0192 for a consultation.
+**Need a tree assessment for an insurance claim or neighbor dispute?** Boise Tree Pros provides [documented tree reports](/#services) that insurance adjusters and attorneys rely on. Call (509) 351-8404 for a consultation.
 
 ## What to Do First After a Tree Falls on Your Fence
 
@@ -112,7 +112,7 @@ Before you touch anything:
 - **Check for gas lines.** Fence posts near gas meters can shift underground lines. If you smell gas, evacuate and call Intermountain Gas.
 - **Don't climb on or under the fallen tree.** A tree resting on a fence is under tension. Shifting weight can cause it to roll or drop unexpectedly.
 
-If there's an immediate danger to people or structures, call our [24/7 emergency tree service](/emergency-tree-service-boise/) at (208) 555-0192.
+If there's an immediate danger to people or structures, call our [24/7 emergency tree service](/emergency-tree-service-boise/) at (509) 351-8404.
 
 ### Step 2: Document Everything (Before Anyone Touches It)
 
@@ -252,4 +252,4 @@ Here's what to remember:
 
 Whether you're dealing with a tree that already came down or you're worried about one that might, Boise Tree Pros can help. We provide [tree assessments, professional reports](/#services), and [expert witness services](/#about) for insurance claims and neighbor disputes across Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley.
 
-**Call (208) 555-0192 for a consultation, or [schedule your visit](/#contact) online.** We'll give you a straight answer, backed by 15+ years of local experience and ISA certification.
+**Call (509) 351-8404 for a consultation, or [schedule your visit](/#contact) online.** We'll give you a straight answer, backed by 15+ years of local experience and ISA certification.

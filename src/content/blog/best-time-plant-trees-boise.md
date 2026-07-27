@@ -49,7 +49,7 @@ Here's what's happening underground when you plant a tree:
 
 **Boise's dry summers are the enemy.** Unlike the Pacific Northwest, we don't get summer rain to bail out a poorly timed planting. A newly planted tree in July needs constant watering just to survive, and even then success rates drop significantly.
 
-**Need help choosing the right tree for your property?** Our arborists can assess your soil, sun exposure, and space, then recommend species that thrive in your specific yard. [Schedule a free consultation](https://boisetreepro. com/#contact).
+**Need help choosing the right tree for your property?** Our arborists can assess your soil, sun exposure, and space, then recommend species that thrive in your specific yard. [Schedule a free consultation](/#contact).
 
 ## Fall Planting: The Best Window for Boise Trees
 
@@ -106,7 +106,7 @@ Spring planting works well for most trees, especially if you miss the fall windo
 3. **Water deeply from day one.** Don't wait for the tree to look thirsty. Establish a deep watering schedule right away.
 4. **Choose heat-tolerant species.** If you're planting in April, lean toward species that handle Boise summers well, like honey locust, bur oak, or hackberry.
 
-**Thinking about planting this spring?** Our arborists help homeowners across the Treasure Valley choose the right tree, plant it correctly, and set up a care plan for the first critical year. [Get your free estimate](https://boisetreepro. com/).
+**Thinking about planting this spring?** Our arborists help homeowners across the Treasure Valley choose the right tree, plant it correctly, and set up a care plan for the first critical year. [Get your free estimate](/#contact).
 
 ## Summer Planting: Risky but Possible
 
@@ -195,7 +195,7 @@ Whether you're planting in fall or spring, the process matters as much as the ti
 
 The first 12 months after planting determine whether your tree thrives or just survives. Here's what matters most in Boise's climate:
 
-**Watering:** Deep and infrequent beats shallow and daily. Soak the root zone with a slow hose or drip system once or twice a week. In July and August, you may need to water twice a week during heat waves. [Check out our full watering guide](https://boisetreepro. com/services/tree-trimming-boise/) for species-specific schedules.
+**Watering:** Deep and infrequent beats shallow and daily. Soak the root zone with a slow hose or drip system once or twice a week. In July and August, you may need to water twice a week during heat waves. [Check out our full watering guide](/blog/how-to-water-trees-boise/) for species-specific schedules.
 
 **Don't fertilize the first year.** New roots need to grow into native soil, not depend on fertilizer. Fertilizing too early pushes leaf growth that the roots can't support.
 
@@ -246,8 +246,8 @@ Fall planting gives your tree the strongest start by allowing root establishment
 
 No matter when you plant, the species selection, hole preparation, mulching, and first-year watering matter just as much as timing. Get those right and your tree will be shading your yard for decades.
 
-**Need help choosing the right tree or planning your planting?** Our ISA-certified arborists know which species thrive in Boise's soil and climate, and we can help you get it in the ground the right way. Call (208) 555-0192 or [get your free estimate](https://boisetreepro. com/) today.
+**Need help choosing the right tree or planning your planting?** Our ISA-certified arborists know which species thrive in Boise's soil and climate, and we can help you get it in the ground the right way. Call (509) 351-8404 or [get your free estimate](/#contact) today.
 
 ---
 
-*Boise Tree Pros has been planting, pruning, and caring for trees across the Treasure Valley since 2008. Every job is handled by ISA-certified arborists. [Learn more about our services](https://boisetreepro. com/#services).*
+*Boise Tree Pros has been planting, pruning, and caring for trees across the Treasure Valley since 2008. Every job is handled by ISA-certified arborists. [Learn more about our services](/#services).*

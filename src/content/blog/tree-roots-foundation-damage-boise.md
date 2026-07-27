@@ -199,4 +199,4 @@ Here's what to take away from all of this:
 
 If you've got a tree that concerns you, don't guess. Boise Tree Pros offers free, no-pressure estimates with ISA-certified arborists who will tell you exactly what's happening and what your options are, whether that's monitoring, a root barrier, pruning, or removal.
 
-**Call (208) 555-0192 or [schedule your free assessment](/#contact) today.** The earlier you catch root problems, the more options you have and the less it costs to fix.
+**Call (509) 351-8404 or [schedule your free assessment](/#contact) today.** The earlier you catch root problems, the more options you have and the less it costs to fix.

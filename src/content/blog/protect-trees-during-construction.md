@@ -238,7 +238,7 @@ Here is the quick recap:
 
 If you are planning construction or remodeling on your Boise property and you have trees worth keeping, start with a professional assessment. Boise Tree Pros provides pre-construction tree evaluations, protection zone mapping, and ongoing monitoring for construction sites across the Treasure Valley.
 
-**Call (208) 555-0192 or [get your free estimate](/#contact) before you break ground.**
+**Call (509) 351-8404 or [get your free estimate](/#contact) before you break ground.**
 
 ---
 
