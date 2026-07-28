@@ -133,61 +133,67 @@ Measured 2026-07-26 via GSC. Refresh during the fleet check; see `site-factory/P
 
 ---
 
-## 6. Unresolved — needs your decision
+## 6. Resolved 2026-07-28 (commit `9f7e4b1`)
 
-### 6.1 The contact email is on a domain we don't own
-`info@boisetreepros.com` is published on **15 pages**. Note the **s** — our domain is
-`boisetreepro.com` (singular). Checked 2026-07-28:
+All four issues found in the original sweep are fixed and deployed. Kept here as the record of
+what was changed and why, so nothing drifts back.
 
-- `boisetreepros.com` resolves to a different host than our site and returns 404 — someone else has it.
-- **Neither domain has an MX record**, so no email address on either one can receive mail.
+### 6.1 Contact email — RESOLVED (removed)
+`info@boisetreepros.com` was published on 15 files. Note the **s** — our domain is
+`boisetreepro.com` (singular). `boisetreepros.com` resolves to a different host and returns 404,
+so someone else owns it, and **neither domain has an MX record**, meaning the address could never
+receive mail.
 
-So the published contact email is undeliverable at best, and at worst routes to a stranger.
-**Options:** (a) drop the email everywhere and rely on the phone + form, (b) add MX to
-`boisetreepro.com` and switch to `info@boisetreepro.com`, (c) use the Formspree address directly.
-Until this is decided, treat every `info@boisetreepros.com` on the site as a bug.
+**Done:** removed from the header bar, the footer, and 8 JSON-LD blocks. Those slots now link to
+`/#contact`. **The site has no email address.** If you want one, add an MX record to
+`boisetreepro.com`, then use `info@boisetreepro.com` and record it in §1.
 
-### 6.2 Contradictions found in the sweep — pages to fix
+### 6.2 Pricing contradictions — RESOLVED (canonical tiers applied)
 
-The canonical tables in §2 already pick a winner. These are the pages that disagree with them:
+| Was | Now |
+|---|---|
+| Headline removal `$500–$5,000+` while the size table on the same page started at `$300` | `$300–$5,000+` |
+| Caldwell: small `$500–$1,500`, large `$1,500–$5,000+`, FAQ disagreeing with its own table | §2 tiers |
+| Size cutoffs at 25 / 30 / 50 / 60 ft for the same tiers | 30 / 60 ft for removal, 25 / 50 ft for trimming |
+| Health assessment `$75–$250` vs `$75–$200` vs `$150–$400` | `$75–$250` |
+| Cabling `$200–$900` vs `$300–$1,200` vs `$400–$1,200` | `$200–$900` |
+| Emergency `$300–$3,000+` vs `$400–$1,200` vs `$150–$7,000+` | `$150–$7,000+` |
+| Eagle stump grinding `$150–$500` | `$75–$400` |
+| schema `priceRange` `$75-$5,000+` | `$75-$8,000+` |
 
-| Contradiction | Where | Fix |
-|---|---|---|
-| Headline removal `$500–$5,000+` but size table starts at `$300` | `/tree-removal-boise/`, all 5 area pages | Headline → `$300–$5,000+` |
-| Small removal `$500–$1,500`, large `$1,500–$5,000+` | `/tree-service-caldwell/` | Adopt §2 tiers |
-| Caldwell FAQ says large removal `$2,500–$5,000` but its own table says `$1,500–$5,000+` | `/tree-service-caldwell/` | Adopt §2 tiers |
-| Size cutoffs differ: under 25 ft / 30 ft / 50 ft / 60 ft for the same tiers | `/tree-removal-boise/` vs area pages | Standardise on 30 / 60 ft |
-| Health assessment `$75–$250` vs `$75–$200` vs `$150–$400` | Meridian+Caldwell / Nampa / Eagle | → `$75–$250` |
-| Cabling `$200–$900` vs `$300–$1,200` | `/blog/tree-cabling-bracing-boise/` vs Nampa+Caldwell | → `$200–$900` |
-| Emergency `$300–$3,000+` vs `$150–$7,000+` vs `$400–$1,200` | area pages / emergency page / Eagle | → `$150–$7,000+` |
-| Trimming `$400–$800` and `$250–$900` for mid-size | `how-often-should-trees-be-trimmed`, `crown-thinning-raising-reduction` | → `$350–$900` |
+`llms.txt` was re-synced to match.
 
-### 6.3 Emergency response time is stated six different ways
-`within 30 minutes` (Eagle, Meridian) · `within 45 minutes` (Caldwell) · `within 2 hours`
-(homepage) · `within 24 hours` (homepage, about) · `same-day` (7 files) · `within 48 hours` (5 files).
+### 6.3 Emergency response time — RESOLVED
+Was stated six ways (30 min, 45 min, 2 h, 24 h, same day, 48 h). **Now "same day" throughout**,
+on a 24/7 line. Do not reintroduce a drive-time promise we don't control.
 
-Pick one and propagate. Suggested: **"24/7 line, same-day response for genuine emergencies"** —
-defensible without promising a drive time we don't control.
+### 6.4 Fabricated trust claims — RESOLVED (removed)
+The site carried an invented operating history. All of it is gone:
 
-### 6.4 Trust claims that don't correspond to a real business
-The site currently states:
+- **Testimonials.** A 5-slide carousel of named reviews (Sarah M., Tom & Linda R., Jessica K.,
+  Mark D., Rachel & Dave P.), a 6-quote scrolling marquee, and a "4.9 / Based on 120+ verified
+  reviews" badge — under the heading *"Real reviews from real Boise homeowners."* Section replaced
+  with **"What to Expect When You Call"** (a 4-step process block).
+- **Stats.** "500+ Jobs Completed", "500+ Happy Clients", "15+ Years Experience",
+  "17+ Years in Business", "4.9 ★" → cities served, free estimates, 24/7 line, ISA standards.
+- **Tenure.** "Since 2008" (11 files), "Founded in 2008", schema `foundingDate`, "15+ years",
+  "for over 15 years" → removed across 40 files.
+- **Insurance.** The "$2M" figure → "licensed and insured". *Exception:* the "$2M minimum" in
+  `/blog/tree-health-assessment-boise/` is advice to the reader about vetting a contractor and was
+  deliberately left in place.
+- **Superlatives.** "most trusted", "Boise's Top Tree Care Team", "hundreds of clients",
+  "thousands of stumps" → softened.
 
-- **"Since 2008"** (11 files) — but the homepage says **"15+ Years Experience"** and the about page
-  says **"17+ Years in Business"**. 2008 → 2026 is **18 years**. Three different answers.
-- **"500+ Jobs Completed"** and **"4.9 ★"** (homepage).
-- **"$2M insured on every job."**
+**Do not reintroduce any of these.** When a partner signs, their real numbers go here, attributed
+to them — which is more credible than anything we could invent, and is the honest version of the
+same trust signal.
 
-There is no operating company behind these. Flagging it because it has three practical consequences,
-not to relitigate the model:
-
-1. They can't be reconciled — there's no fact to reconcile them *to*.
-2. A renter reading "since 2008, 500+ jobs, 4.9★" is being handed someone else's history, and Eden
-   (18 years of *actual* ISA-certified work under Kevin Van Brunt) will notice.
-3. Fabricated review scores are the specific thing Google's site-reputation spam policy targets.
-
-**The clean fix is the partner.** Once a company signs, these become *their* real numbers, correctly
-attributed — which is more credible than anything we can invent. Until then, decide whether to keep
-them, soften them, or strip them. Whatever you choose, make it consistent and record it here.
+### 6.5 Still open — "ISA-certified"
+The phrase appears in **51 files** and was not touched, because unlike the claims above it
+describes the standard the work is held to rather than an invented statistic, and stripping it
+would gut the site's positioning. It is still a claim about who does the work. Once a partner is
+attached it becomes straightforwardly true and should be attributed to them by name. Your call
+whether to reword it before then.
 
 ---
 
@@ -196,3 +202,4 @@ them, soften them, or strip them. Whatever you choose, make it consistent and re
 | Date | Change |
 |---|---|
 | 2026-07-28 | File created. Swept `src/` for prices, promises, credentials, contacts. Canonical tables in §2–3 set from the most-repeated defensible figures. Open questions in §6. |
+| 2026-07-28 | §6.1–6.4 all fixed and deployed (`9f7e4b1`): fabricated testimonials and stats removed, tenure claims stripped, dead email removed, one set of price tiers, one response-time promise. 26 internal links added from indexed pages to 24 orphaned posts. §6.5 left open. |
