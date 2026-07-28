@@ -141,7 +141,7 @@ Not every company that shows up with a truck and a chainsaw knows what it's doin
 - **They offer unusually cheap estimates.** Topping is fast. Proper pruning takes longer because it requires climbing, assessing each branch, and making targeted cuts. If one estimate is dramatically lower than the others, ask why.
 - **They show you photos of topped trees as examples of their work.** This one speaks for itself.
 
-At Boise Tree Pros, our arborists are [ISA-certified and follow ANSI A300 standards on every job](/#about). We've been doing this in the Treasure Valley for over 15 years. If your tree needs work, we'll tell you exactly what kind, and topping isn't in our vocabulary.
+At Boise Tree Pros, our arborists are [ISA-certified and follow ANSI A300 standards on every job](/#about). We've been doing this in the Treasure Valley. If your tree needs work, we'll tell you exactly what kind, and topping isn't in our vocabulary.
 
 ## What Are ANSI A300 Standards (and Why Should You Care)?
 
@@ -197,6 +197,6 @@ If your tree feels too large, too close to your house, or too risky in windstorm
 - If your tree has already been topped, have it assessed for restoration or removal
 - If you're not sure what your tree needs, call for a free assessment
 
-Boise Tree Pros has been caring for trees across the Treasure Valley for over 15 years. Our arborists are ISA-certified, ANSI A300 compliant, and backed by $2M in liability insurance. We don't top trees. We take care of them.
+Boise Tree Pros has been caring for trees across the Treasure Valley. Our arborists are ISA-certified, ANSI A300 compliant, and fully insured. We don't top trees. We take care of them.
 
 **[Get your free estimate](/#contact) or call (509) 351-8404.**

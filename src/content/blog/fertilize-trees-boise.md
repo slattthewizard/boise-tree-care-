@@ -23,7 +23,7 @@ You're standing in the Zamzows on Eagle Road with a box of tree fertilizer spike
 
 We get it. Your neighbor's trees look great, and you want yours to catch up. Or maybe you've noticed yellow leaves and figured a shot of nutrients would fix things. That instinct makes sense, but knowing **when to fertilize trees in Boise** is the difference between helping your tree thrive and accidentally making its problems worse.
 
-After 15+ years caring for trees across the Treasure Valley, we've seen the same pattern play out hundreds of times. A well-meaning homeowner dumps fertilizer around a struggling tree, and six months later they're calling us because it looks even worse. The truth? Boise's unique soil chemistry means the standard fertilizer advice you'll find online doesn't quite apply here.
+From caring for trees across the Treasure Valley, we've seen the same pattern play out hundreds of times. A well-meaning homeowner dumps fertilizer around a struggling tree, and six months later they're calling us because it looks even worse. The truth? Boise's unique soil chemistry means the standard fertilizer advice you'll find online doesn't quite apply here.
 
 Let's walk through when fertilizer actually helps, when it hurts, and what to do instead.
 

@@ -256,15 +256,6 @@ import Layout from '../layouts/Layout.astro';
     .review-dot:hover::after { background: #A06830; }
     .review-dot:focus-visible { outline: 2px solid #1A531A; outline-offset: 3px; }
     .active-dot::after { background: #1A531A; width: 24px; border-radius: 4px; }
-    .mini-review {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: #fff; border: 1px solid #e8ddd0; border-radius: 40px;
-      padding: 10px 20px; font-size: 13px; color: #555; white-space: nowrap;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-    }
-    .mini-review span { font-style: italic; color: #363636; }
-    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-    .marquee-outer:hover .marquee-track { animation-play-state: paused; }
     @media (max-width: 640px) {
       .review-slide { padding: 32px 24px !important; }
     }
@@ -376,9 +367,7 @@ import Layout from '../layouts/Layout.astro';
     "name": "Boise Tree Pros",
     "url": "https://boisetreepro.com",
     "telephone": "(509) 351-8404",
-    "email": "info@boisetreepros.com",
     "description": "ISA-certified arborists providing tree trimming, removal, emergency service, and stump grinding in Boise and the Treasure Valley.",
-    "foundingDate": "2008",
     "priceRange": "$$",
     "image": "https://boisetreepro.com/images/og-image.png",
     "address": {
@@ -456,13 +445,13 @@ import Layout from '../layouts/Layout.astro';
       <!-- Trust bar -->
       <div class="fade-up delay-3 flex flex-wrap gap-6 mt-14" style="border-top:1px solid rgba(250,240,230,0.15);padding-top:24px;">
         <div class="text-cream">
-          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;line-height:1;">500+</div>
-          <div style="font-size:12px;letter-spacing:0.06em;color:rgba(250,240,230,0.65);text-transform:uppercase;">Jobs Completed</div>
+          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;line-height:1;">Free</div>
+          <div style="font-size:12px;letter-spacing:0.06em;color:rgba(250,240,230,0.65);text-transform:uppercase;">On-Site Estimates</div>
         </div>
         <div style="width:1px;background:rgba(250,240,230,0.2);"></div>
         <div class="text-cream">
-          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;line-height:1;">15+</div>
-          <div style="font-size:12px;letter-spacing:0.06em;color:rgba(250,240,230,0.65);text-transform:uppercase;">Years Experience</div>
+          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:28px;font-weight:700;line-height:1;">24/7</div>
+          <div style="font-size:12px;letter-spacing:0.06em;color:rgba(250,240,230,0.65);text-transform:uppercase;">Emergency Line</div>
         </div>
         <div style="width:1px;background:rgba(250,240,230,0.2);"></div>
         <div class="text-cream">
@@ -656,7 +645,7 @@ import Layout from '../layouts/Layout.astro';
           </li>
           <li class="check-item">
             <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
-            <span>Fully insured — $2M liability coverage</span>
+            <span>Licensed and insured crews</span>
           </li>
           <li class="check-item">
             <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
@@ -668,7 +657,7 @@ import Layout from '../layouts/Layout.astro';
           </li>
           <li class="check-item">
             <div class="check-icon"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="#FAF0E6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></div>
-            <span>Locally owned &amp; operated since 2008</span>
+            <span>Locally owned &amp; operated</span>
           </li>
         </ul>
 
@@ -859,13 +848,13 @@ import Layout from '../layouts/Layout.astro';
         <!-- Overlapping Stats Box -->
         <div class="about-stats" style="position:absolute; bottom:-32px; right:-32px; background:#fff; border-radius:8px; padding:24px 32px; box-shadow:0 12px 32px rgba(26,83,26,0.12), 0 4px 12px rgba(0,0,0,0.04); display:flex; gap:32px; z-index:2; border:1px solid #e8ddd0;">
           <div>
-            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:36px;font-weight:700;color:#1A531A;line-height:1;letter-spacing:-0.02em;">500+</div>
-            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#666;margin-top:6px;">Happy Clients</div>
+            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:36px;font-weight:700;color:#1A531A;line-height:1;letter-spacing:-0.02em;">6</div>
+            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#666;margin-top:6px;">Cities Served</div>
           </div>
           <div style="width:1px; background:#e8ddd0;"></div>
           <div>
-            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:36px;font-weight:700;color:#1A531A;line-height:1;letter-spacing:-0.02em;">4.9<span style="color:#8B5A2B;font-size:28px;">★</span></div>
-            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#666;margin-top:6px;">Google Rating</div>
+            <div style="font-family:'Zilla Slab',Georgia,serif;font-size:36px;font-weight:700;color:#1A531A;line-height:1;letter-spacing:-0.02em;">24/7</div>
+            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#666;margin-top:6px;">Emergency Line</div>
           </div>
         </div>
       </div>
@@ -874,7 +863,7 @@ import Layout from '../layouts/Layout.astro';
       <div>
         <span class="section-tag">About Us</span>
         <h2 class="section-heading" style="font-size:clamp(32px,4vw,48px);margin-bottom:24px;">Boise's Trusted Tree Care Experts</h2>
-        <p style="font-size:16px;line-height:1.7;color:#555;margin-bottom:16px;">Founded in 2008, Boise Tree Pros has grown from a one-truck operation into the region's most trusted tree care company — without ever losing the personal touch that sets us apart.</p>
+        <p style="font-size:16px;line-height:1.7;color:#555;margin-bottom:16px;">Boise Tree Pros connects Treasure Valley homeowners with ISA-certified arborists for trimming, removal, stump grinding and storm work &mdash; with honest assessments and written pricing before any work begins.</p>
         <p style="font-size:16px;line-height:1.7;color:#555;margin-bottom:32px;">Every member of our crew holds ISA certification, and we invest in continuous training to stay current with the latest arboricultural science and safety standards.</p>
 
         <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:22px;color:#1A531A;margin-bottom:20px;letter-spacing:-0.01em;">Why Homeowners Choose Us</h3>
@@ -908,152 +897,41 @@ import Layout from '../layouts/Layout.astro';
 <section id="reviews" style="background:#FAF0E6;padding:88px 0;overflow:hidden;">
   <div class="max-w-7xl mx-auto px-4 sm:px-6">
     <div class="text-center mb-14">
-      <span class="section-tag">Testimonials</span>
-      <h2 class="section-heading" style="font-size:clamp(30px,4vw,44px);margin-bottom:12px;">What Our Clients Say</h2>
-      <p style="max-width:480px;margin:0 auto;font-size:16px;line-height:1.8;color:#666;">Real reviews from real Boise homeowners.</p>
+      <span class="section-tag">How It Works</span>
+      <h2 class="section-heading" style="font-size:clamp(30px,4vw,44px);margin-bottom:12px;">What to Expect When You Call</h2>
+      <p style="max-width:520px;margin:0 auto;font-size:16px;line-height:1.8;color:#666;">No pressure, no obligation, and a written number before anyone starts cutting.</p>
     </div>
 
-    <!-- Featured carousel -->
-    <div style="position:relative;max-width:780px;margin:0 auto 64px;">
-      <div id="review-track" style="overflow:hidden;border-radius:16px;">
-        <div id="review-slides" style="display:flex;transition:transform 0.5s cubic-bezier(0.4,0,0.2,1);">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;max-width:1080px;margin:0 auto;">
 
-          <!-- Slide 1 -->
-          <div class="review-slide" style="min-width:100%;padding:48px 52px;background:#fff;box-shadow:0 4px 32px rgba(26,83,26,0.08),0 1px 4px rgba(0,0,0,0.04);">
-            <div style="color:#8B5A2B;font-size:22px;letter-spacing:3px;margin-bottom:20px;">★★★★★</div>
-            <p style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(17px,2.2vw,21px);line-height:1.7;color:#2a2a2a;margin-bottom:28px;">"Boise Tree Pros removed a massive cottonwood that was threatening our roof. The crew was professional, efficient, and left the yard spotless. Couldn't be happier with the results."</p>
-            <div style="display:flex;align-items:center;gap:14px;">
-              <div style="width:48px;height:48px;border-radius:50%;background:#1A531A;display:flex;align-items:center;justify-content:center;color:#FAF0E6;font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;flex-shrink:0;">S</div>
-              <div>
-                <div style="font-weight:600;font-size:15px;color:#1A531A;">Sarah M.</div>
-                <div style="font-size:13px;color:#666;">North End, Boise</div>
-              </div>
-              <div style="margin-left:auto;opacity:0.15;">
-                <svg width="48" height="36" viewBox="0 0 48 36" fill="#1A531A"><path d="M0 36V22.5C0 14.4 4.8 7.5 14.4 1.8L18 6C13.2 8.7 10.2 12.3 9 16.8h7.2V36H0zm26.4 0V22.5C26.4 14.4 31.2 7.5 40.8 1.8L44.4 6c-4.8 2.7-7.8 6.3-9 10.8H42.6V36H26.4z"/></svg>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="review-slide" style="min-width:100%;padding:48px 52px;background:#fff;box-shadow:0 4px 32px rgba(26,83,26,0.08),0 1px 4px rgba(0,0,0,0.04);">
-            <div style="color:#8B5A2B;font-size:22px;letter-spacing:3px;margin-bottom:20px;">★★★★★</div>
-            <p style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(17px,2.2vw,21px);line-height:1.7;color:#2a2a2a;margin-bottom:28px;">"Called them on a Sunday after a windstorm took down a large branch onto our fence. They were there within 2 hours. Truly outstanding emergency service — saved us from serious damage."</p>
-            <div style="display:flex;align-items:center;gap:14px;">
-              <div style="width:48px;height:48px;border-radius:50%;background:#8B5A2B;display:flex;align-items:center;justify-content:center;color:#FAF0E6;font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;flex-shrink:0;">T</div>
-              <div>
-                <div style="font-weight:600;font-size:15px;color:#1A531A;">Tom &amp; Linda R.</div>
-                <div style="font-size:13px;color:#666;">Meridian, ID</div>
-              </div>
-              <div style="margin-left:auto;opacity:0.15;">
-                <svg width="48" height="36" viewBox="0 0 48 36" fill="#1A531A"><path d="M0 36V22.5C0 14.4 4.8 7.5 14.4 1.8L18 6C13.2 8.7 10.2 12.3 9 16.8h7.2V36H0zm26.4 0V22.5C26.4 14.4 31.2 7.5 40.8 1.8L44.4 6c-4.8 2.7-7.8 6.3-9 10.8H42.6V36H26.4z"/></svg>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="review-slide" style="min-width:100%;padding:48px 52px;background:#fff;box-shadow:0 4px 32px rgba(26,83,26,0.08),0 1px 4px rgba(0,0,0,0.04);">
-            <div style="color:#8B5A2B;font-size:22px;letter-spacing:3px;margin-bottom:20px;">★★★★★</div>
-            <p style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(17px,2.2vw,21px);line-height:1.7;color:#2a2a2a;margin-bottom:28px;">"Had three large trees trimmed — the arborist explained exactly what he was doing and why. You can tell these guys genuinely care about the health of the trees, not just getting the job done fast."</p>
-            <div style="display:flex;align-items:center;gap:14px;">
-              <div style="width:48px;height:48px;border-radius:50%;background:#87CEEB;display:flex;align-items:center;justify-content:center;color:#1A531A;font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;flex-shrink:0;">J</div>
-              <div>
-                <div style="font-weight:600;font-size:15px;color:#1A531A;">Jessica K.</div>
-                <div style="font-size:13px;color:#666;">Eagle, ID</div>
-              </div>
-              <div style="margin-left:auto;opacity:0.15;">
-                <svg width="48" height="36" viewBox="0 0 48 36" fill="#1A531A"><path d="M0 36V22.5C0 14.4 4.8 7.5 14.4 1.8L18 6C13.2 8.7 10.2 12.3 9 16.8h7.2V36H0zm26.4 0V22.5C26.4 14.4 31.2 7.5 40.8 1.8L44.4 6c-4.8 2.7-7.8 6.3-9 10.8H42.6V36H26.4z"/></svg>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 4 -->
-          <div class="review-slide" style="min-width:100%;padding:48px 52px;background:#fff;box-shadow:0 4px 32px rgba(26,83,26,0.08),0 1px 4px rgba(0,0,0,0.04);">
-            <div style="color:#8B5A2B;font-size:22px;letter-spacing:3px;margin-bottom:20px;">★★★★★</div>
-            <p style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(17px,2.2vw,21px);line-height:1.7;color:#2a2a2a;margin-bottom:28px;">"Fair pricing, showed up exactly on time, and cleaned up completely after. The stump grinding was fast and they even swept the sidewalk. Will use them every year going forward."</p>
-            <div style="display:flex;align-items:center;gap:14px;">
-              <div style="width:48px;height:48px;border-radius:50%;background:#1A531A;display:flex;align-items:center;justify-content:center;color:#FAF0E6;font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;flex-shrink:0;">M</div>
-              <div>
-                <div style="font-weight:600;font-size:15px;color:#1A531A;">Mark D.</div>
-                <div style="font-size:13px;color:#666;">Garden City, ID</div>
-              </div>
-              <div style="margin-left:auto;opacity:0.15;">
-                <svg width="48" height="36" viewBox="0 0 48 36" fill="#1A531A"><path d="M0 36V22.5C0 14.4 4.8 7.5 14.4 1.8L18 6C13.2 8.7 10.2 12.3 9 16.8h7.2V36H0zm26.4 0V22.5C26.4 14.4 31.2 7.5 40.8 1.8L44.4 6c-4.8 2.7-7.8 6.3-9 10.8H42.6V36H26.4z"/></svg>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 5 -->
-          <div class="review-slide" style="min-width:100%;padding:48px 52px;background:#fff;box-shadow:0 4px 32px rgba(26,83,26,0.08),0 1px 4px rgba(0,0,0,0.04);">
-            <div style="color:#8B5A2B;font-size:22px;letter-spacing:3px;margin-bottom:20px;">★★★★★</div>
-            <p style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(17px,2.2vw,21px);line-height:1.7;color:#2a2a2a;margin-bottom:28px;">"The team assessed our dying oak and gave us honest advice — they could've upsold removal but recommended treatment instead. That kind of integrity is rare. Highly recommend."</p>
-            <div style="display:flex;align-items:center;gap:14px;">
-              <div style="width:48px;height:48px;border-radius:50%;background:#8B5A2B;display:flex;align-items:center;justify-content:center;color:#FAF0E6;font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;flex-shrink:0;">R</div>
-              <div>
-                <div style="font-weight:600;font-size:15px;color:#1A531A;">Rachel &amp; Dave P.</div>
-                <div style="font-size:13px;color:#666;">Nampa, ID</div>
-              </div>
-              <div style="margin-left:auto;opacity:0.15;">
-                <svg width="48" height="36" viewBox="0 0 48 36" fill="#1A531A"><path d="M0 36V22.5C0 14.4 4.8 7.5 14.4 1.8L18 6C13.2 8.7 10.2 12.3 9 16.8h7.2V36H0zm26.4 0V22.5C26.4 14.4 31.2 7.5 40.8 1.8L44.4 6c-4.8 2.7-7.8 6.3-9 10.8H42.6V36H26.4z"/></svg>
-              </div>
-            </div>
-          </div>
-
-        </div>
+      <div style="background:#fff;padding:36px 32px;border-radius:12px;box-shadow:0 2px 16px rgba(26,83,26,0.06);">
+        <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#87CEEB;line-height:1;margin-bottom:16px;">01</div>
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-size:19px;color:#1A531A;margin-bottom:10px;">Tell us what you're dealing with</h3>
+        <p style="font-size:15px;line-height:1.75;color:#555;">Call or send the form. Storm damage and hazard trees get triaged first &mdash; the emergency line runs 24/7, including nights and weekends.</p>
       </div>
 
-      <!-- Nav arrows -->
-      <button onclick="moveReview(-1)" aria-label="Previous review" class="review-arrow" style="position:absolute;left:-20px;top:50%;margin-top:-22px;z-index:2;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-      </button>
-      <button onclick="moveReview(1)" aria-label="Next review" class="review-arrow" style="position:absolute;right:-20px;top:50%;margin-top:-22px;z-index:2;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-      </button>
-
-      <!-- Dots -->
-      <div style="display:flex;justify-content:center;gap:8px;margin-top:24px;" id="review-dots">
-        <button onclick="goToReview(0)" class="review-dot active-dot" aria-label="Review 1"></button>
-        <button onclick="goToReview(1)" class="review-dot" aria-label="Review 2"></button>
-        <button onclick="goToReview(2)" class="review-dot" aria-label="Review 3"></button>
-        <button onclick="goToReview(3)" class="review-dot" aria-label="Review 4"></button>
-        <button onclick="goToReview(4)" class="review-dot" aria-label="Review 5"></button>
+      <div style="background:#fff;padding:36px 32px;border-radius:12px;box-shadow:0 2px 16px rgba(26,83,26,0.06);">
+        <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#87CEEB;line-height:1;margin-bottom:16px;">02</div>
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-size:19px;color:#1A531A;margin-bottom:10px;">We look at the tree in person</h3>
+        <p style="font-size:15px;line-height:1.75;color:#555;">Estimates are free and on-site. Photos can't show root flare, decay pockets, or what's above the canopy, so somebody walks the property.</p>
       </div>
+
+      <div style="background:#fff;padding:36px 32px;border-radius:12px;box-shadow:0 2px 16px rgba(26,83,26,0.06);">
+        <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#87CEEB;line-height:1;margin-bottom:16px;">03</div>
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-size:19px;color:#1A531A;margin-bottom:10px;">You get a written price</h3>
+        <p style="font-size:15px;line-height:1.75;color:#555;">Scope and cost in writing before any work is booked. If the tree doesn't need to come down, you'll be told that instead.</p>
+      </div>
+
+      <div style="background:#fff;padding:36px 32px;border-radius:12px;box-shadow:0 2px 16px rgba(26,83,26,0.06);">
+        <div style="font-family:'Zilla Slab',Georgia,serif;font-size:30px;font-weight:700;color:#87CEEB;line-height:1;margin-bottom:16px;">04</div>
+        <h3 style="font-family:'Zilla Slab',Georgia,serif;font-size:19px;color:#1A531A;margin-bottom:10px;">The work &mdash; and the cleanup</h3>
+        <p style="font-size:15px;line-height:1.75;color:#555;">Licensed and insured crews, full debris cleanup, and the yard raked before anyone leaves. Stump grinding available on the same visit.</p>
+      </div>
+
     </div>
 
-    <!-- Scrolling marquee row -->
-    <div style="position:relative;overflow:hidden;" class="marquee-outer">
-      <div style="position:absolute;left:0;top:0;bottom:0;width:80px;background:linear-gradient(to right,#FAF0E6,transparent);z-index:2;pointer-events:none;"></div>
-      <div style="position:absolute;right:0;top:0;bottom:0;width:80px;background:linear-gradient(to left,#FAF0E6,transparent);z-index:2;pointer-events:none;"></div>
-      <div class="marquee-track" style="display:flex;gap:16px;width:max-content;animation:marquee 32s linear infinite;">
-        <!-- Mini cards (duplicated for seamless loop) -->
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Best tree service in Boise, hands down."</span>&nbsp; — Kevin L., Boise</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Came same day, unbelievably fast."</span>&nbsp; — Amy W., Eagle</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"ISA certified — you can tell the difference."</span>&nbsp; — Brian S., Meridian</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Left the yard cleaner than they found it."</span>&nbsp; — Pam H., Boise</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Honest quote, no surprises. Perfect."</span>&nbsp; — Carlos M., Nampa</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Emergency response was incredible."</span>&nbsp; — Dana T., Garden City</div>
-        <!-- Duplicate for seamless loop -->
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Best tree service in Boise, hands down."</span>&nbsp; — Kevin L., Boise</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Came same day, unbelievably fast."</span>&nbsp; — Amy W., Eagle</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"ISA certified — you can tell the difference."</span>&nbsp; — Brian S., Meridian</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Left the yard cleaner than they found it."</span>&nbsp; — Pam H., Boise</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Honest quote, no surprises. Perfect."</span>&nbsp; — Carlos M., Nampa</div>
-        <div class="mini-review">⭐⭐⭐⭐⭐ &nbsp;<span>"Emergency response was incredible."</span>&nbsp; — Dana T., Garden City</div>
-      </div>
-    </div>
-
-    <!-- Google rating bar -->
     <div style="margin-top:48px;text-align:center;">
-      <div style="display:inline-flex;align-items:center;gap:16px;background:#fff;border:1px solid #e8ddd0;border-radius:12px;padding:16px 32px;box-shadow:0 2px 12px rgba(26,83,26,0.07);">
-        <div>
-          <div style="font-family:'Zilla Slab',Georgia,serif;font-size:32px;font-weight:700;color:#1A531A;line-height:1;">4.9</div>
-          <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#666;margin-top:2px;">Google Rating</div>
-        </div>
-        <div style="width:1px;height:44px;background:#e8ddd0;"></div>
-        <div>
-          <div style="color:#8B5A2B;font-size:22px;letter-spacing:3px;">★★★★★</div>
-          <div style="font-size:12px;color:#666;margin-top:2px;">Based on 120+ verified reviews</div>
-        </div>
-      </div>
+      <a href="#contact" class="btn-primary">Get Your Free Estimate</a>
     </div>
   </div>
 </section>
@@ -1101,42 +979,6 @@ import Layout from '../layouts/Layout.astro';
 <!-- ══════════════════════════════════
      12. FOOTER
 ══════════════════════════════════ -->
-<script>
-  // Review carousel
-  let reviewIdx = 0;
-  const totalReviews = 5;
-  let reviewTimer;
-
-  function updateCarousel() {
-    document.getElementById('review-slides').style.transform = 'translateX(-' + (reviewIdx * 100) + '%)';
-    document.querySelectorAll('.review-dot').forEach((d, i) => {
-      d.classList.toggle('active-dot', i === reviewIdx);
-    });
-  }
-
-  function moveReview(dir) {
-    reviewIdx = (reviewIdx + dir + totalReviews) % totalReviews;
-    updateCarousel();
-    resetTimer();
-  }
-
-  function goToReview(i) {
-    reviewIdx = i;
-    updateCarousel();
-    resetTimer();
-  }
-
-  function resetTimer() {
-    clearInterval(reviewTimer);
-    reviewTimer = setInterval(() => moveReview(1), 5000);
-  }
-
-  reviewTimer = setInterval(() => moveReview(1), 5000);
-
-  // Pause on hover
-  document.getElementById('review-track').addEventListener('mouseenter', () => clearInterval(reviewTimer));
-  document.getElementById('review-track').addEventListener('mouseleave', resetTimer);
-</script>
 <script>
   (function () {
     const analyticsId = 'G-X3CW5HT1Z5';

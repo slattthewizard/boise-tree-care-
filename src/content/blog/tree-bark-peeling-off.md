@@ -25,7 +25,7 @@ Take a breath. **Tree bark peeling off** is one of the most common concerns we h
 
 But sometimes peeling bark *is* a red flag. The difference between "totally fine" and "call an arborist yesterday" often comes down to a few simple observations anyone can make from the ground.
 
-After 15+ years diagnosing trees across Boise neighborhoods (from the North End to Southeast Boise to Eagle), we've seen every version of this story. This guide will help you figure out what's going on with your tree, what to do about it, and when it's time to call in a pro.
+From diagnosing trees across Boise neighborhoods (from the North End to Southeast Boise to Eagle), we've seen every version of this story. This guide will help you figure out what's going on with your tree, what to do about it, and when it's time to call in a pro.
 
 ## Some Trees Are *Supposed* to Peel. Here's Which Ones
 
@@ -188,7 +188,7 @@ But when peeling bark shows up on a species that shouldn't be shedding, or when 
 
 The good news? Most bark problems are either harmless or manageable, *if* you catch them early. A quick visual inspection using the checklist above will tell you a lot. And if you're still not sure, that's exactly what we're here for.
 
-Boise Tree Pros provides free consultations for Treasure Valley homeowners worried about their trees. No pressure, no upsell. Just honest answers from ISA-certified arborists who've been doing this for over 15 years. [Get in touch and let's figure it out together.](/#contact)
+Boise Tree Pros provides free consultations for Treasure Valley homeowners worried about their trees. No pressure, no upsell. Just honest answers from ISA-certified arborists who've been doing this. [Get in touch and let's figure it out together.](/#contact)
 
 ---
 

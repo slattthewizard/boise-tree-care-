@@ -23,7 +23,7 @@ You're walking to the mailbox on a Saturday morning when you notice it: a long, 
 
 Take a breath. You're right to pay attention, and we're glad you're looking into it. A **crack in a tree trunk** can be genuinely dangerous, or it can be something your tree has been living with for decades. The difference matters, and it's not always obvious to the untrained eye.
 
-Here's what we can tell you after 15+ years of assessing trees across the Treasure Valley: most cracks have a clear story behind them, and once you understand what's causing the split, you can make a smart decision about what to do next. In this guide, we'll walk you through the common types of tree trunk cracks Boise homeowners encounter, which ones actually threaten your home, and a straightforward framework for deciding when to call in a certified arborist versus when to simply keep an eye on things.
+Here's what we can tell you after assessing trees across the Treasure Valley: most cracks have a clear story behind them, and once you understand what's causing the split, you can make a smart decision about what to do next. In this guide, we'll walk you through the common types of tree trunk cracks Boise homeowners encounter, which ones actually threaten your home, and a straightforward framework for deciding when to call in a certified arborist versus when to simply keep an eye on things.
 
 Let's figure out what's going on with your tree.
 

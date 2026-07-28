@@ -25,7 +25,7 @@ So what wins? The deck or the tree?
 
 Good news: you don't always have to choose. **Building a deck around a tree** is absolutely possible, and so are patios and fences, but only if you understand what's happening underground. Skip that step, and you could kill a mature shade tree worth thousands of dollars or end up with a buckled patio inside of three years.
 
-We've been helping Boise homeowners handle exactly this situation for over 15 years across the Treasure Valley. From the massive elms along Harrison Boulevard to the maples shading backyards in Southeast Boise, we've seen what works and what doesn't. This guide gives you the practical framework to plan your project, protect your trees, and avoid expensive mistakes.
+We've been helping Boise homeowners handle exactly this situation across the Treasure Valley. From the massive elms along Harrison Boulevard to the maples shading backyards in Southeast Boise, we've seen what works and what doesn't. This guide gives you the practical framework to plan your project, protect your trees, and avoid expensive mistakes.
 
 Let's start with the part most contractors skip entirely.
 

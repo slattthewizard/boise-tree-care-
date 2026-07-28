@@ -103,7 +103,7 @@ A certified arborist can assess:
 - If the tree is healthy enough to justify the expense of pipe relining or replacement
 - What the long-term risk is if the tree stays
 
-We've worked alongside Boise plumbers for over 15 years. The best outcomes happen when both professionals are at the table. [Contact us to schedule an assessment](/#contact). We'll coordinate with your plumber so you get one clear plan, not two conflicting opinions.
+We've worked alongside Boise plumbers. The best outcomes happen when both professionals are at the table. [Contact us to schedule an assessment](/#contact). We'll coordinate with your plumber so you get one clear plan, not two conflicting opinions.
 
 ## Fix Options: From Quick Patch to Permanent Solution
 
@@ -224,7 +224,7 @@ Here's what we recommend: get a camera inspection from a licensed plumber, then 
 
 Either way, you'll have a plan that actually solves the problem, not just a temporary fix that buys you another few months.
 
-**Call Boise Tree Pros at (509) 351-8404** or [reach out online](/#contact) to schedule your assessment. We've been helping Boise homeowners make smart decisions about their trees for over 15 years. Let's figure this out together.
+**Call Boise Tree Pros at (509) 351-8404** or [reach out online](/#contact) to schedule your assessment. We've been helping Boise homeowners make smart decisions about their trees. Let's figure this out together.
 
 ---
 

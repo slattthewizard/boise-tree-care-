@@ -29,7 +29,7 @@ Short answer: yes. A rotting stump is a buffet for termites, carpenter ants, and
 
 Before you panic, here's the good news. The Treasure Valley's termite pressure is moderate compared to the Southeast or Gulf Coast. But subterranean termites absolutely exist in Boise, Meridian, Nampa, and across Ada and Canyon counties. And old stumps are one of the things that bring them closer to your home.
 
-This guide explains how stumps attract pests, which bugs you should worry about (and which you shouldn't), how close is too close, and what to do about it. Our arborists at Boise Tree Pros have ground thousands of stumps across the Treasure Valley, and pest prevention is one of the most common reasons homeowners finally make the call.
+This guide explains how stumps attract pests, which bugs you should worry about (and which you shouldn't), how close is too close, and what to do about it. Our arborists at Boise Tree Pros grind stumps across the Treasure Valley, and pest prevention is one of the most common reasons homeowners finally make the call.
 
 **What's covered:**
 - How stumps attract termites and other pests
@@ -195,6 +195,14 @@ Stump grinding is a quick, affordable job that eliminates a real pest risk. Most
 
 **Call Boise Tree Pros at (509) 351-8404 or [schedule your free estimate](/#contact).** We handle stump grinding, [tree removal](/tree-removal-boise/), and full property assessments across the Treasure Valley.
 
+
+## Related Reading
+
+- [What Happens to the Wood After Removal?](/blog/what-to-do-with-wood-after-removal/)
+- [Cottonwood Trees in Boise: Keep or Remove?](/blog/cottonwood-tree-removal-boise/)
+- [DIY Tree Removal vs. Hiring a Pro](/blog/diy-tree-removal-vs-professional/)
+- [Tree Suckers and Root Sprouts](/blog/tree-suckers-root-sprouts/)
+
 ---
 
-*Boise Tree Pros has been serving Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley since 2008. ISA-certified arborists, $2M insured, 24/7 emergency service. [See our services](/#services).*
+*Boise Tree Pros has been serving Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley. ISA-certified arborists, fully insured, 24/7 emergency service. [See our services](/#services).*

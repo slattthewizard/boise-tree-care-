@@ -27,7 +27,7 @@ The tree wasn't defective. The timing was.
 
 If you're planning to plant a tree in the Treasure Valley, **the best time to plant trees in Boise** is fall, specifically mid-October through mid-November. That window gives roots time to establish before summer heat arrives. But fall isn't the only option, and different species have different preferences.
 
-This guide breaks down the best planting windows for Boise's climate, which species to plant when, common mistakes that kill new trees, and how to give your tree the best shot at a long, healthy life. We've been planting and caring for trees across the Treasure Valley for over 15 years, and we'll tell you what actually works here, not what works in Portland or Phoenix.
+This guide breaks down the best planting windows for Boise's climate, which species to plant when, common mistakes that kill new trees, and how to give your tree the best shot at a long, healthy life. We've been planting and caring for trees across the Treasure Valley, and we'll tell you what actually works here, not what works in Portland or Phoenix.
 
 **What you'll learn:**
 - Why fall is the ideal planting season in Boise
@@ -248,6 +248,16 @@ No matter when you plant, the species selection, hole preparation, mulching, and
 
 **Need help choosing the right tree or planning your planting?** Our ISA-certified arborists know which species thrive in Boise's soil and climate, and we can help you get it in the ground the right way. Call (509) 351-8404 or [get your free estimate](/#contact) today.
 
+
+## Related Reading
+
+- [What to Plant After Tree Removal](/blog/what-to-plant-after-tree-removal/)
+- [Fast-Growing Privacy Trees for Boise](/blog/fast-growing-privacy-trees-boise/)
+- [Windbreak Trees for Treasure Valley Properties](/blog/windbreak-trees-treasure-valley/)
+- [Should You Stake a New Tree?](/blog/tree-staking-new-trees/)
+- [How Close to a Property Line Can You Plant?](/blog/planting-distance-property-line-fence/)
+- [Tree Too Close to the House? Safe Distances](/blog/tree-too-close-to-house-boise/)
+
 ---
 
-*Boise Tree Pros has been planting, pruning, and caring for trees across the Treasure Valley since 2008. Every job is handled by ISA-certified arborists. [Learn more about our services](/#services).*
+*Boise Tree Pros has been planting, pruning, and caring for trees across the Treasure Valley. Every job is handled by ISA-certified arborists. [Learn more about our services](/#services).*

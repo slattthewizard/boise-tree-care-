@@ -25,7 +25,7 @@ You notice it on a Saturday morning. The maple you planted when your kids were l
 
 Maybe. But here's the honest answer most articles won't give you: **not every dying tree can be saved.** Some can be brought back with the right treatment at the right time. Others are past the point where spending money on rescue makes sense. The difference comes down to diagnosis, timing, and knowing what actually works versus what the internet told you to try.
 
-At Boise Tree Pros, our ISA-certified arborists have spent 15+ years treating stressed and declining trees across the Treasure Valley. We've saved hundreds. We've also told homeowners the hard truth when a tree was too far gone. This guide covers both sides so you can make the right call for your tree, your property, and your budget.
+At Boise Tree Pros, our ISA-certified arborists treat stressed and declining trees across the Treasure Valley. We've saved hundreds. We've also told homeowners the hard truth when a tree was too far gone. This guide covers both sides so you can make the right call for your tree, your property, and your budget.
 
 Here's what we'll cover: how to figure out what's actually wrong, treatments that give your tree a real chance, common "fixes" that waste your money, and the tipping point where [professional tree removal](/tree-removal-boise/) becomes the smarter option.
 

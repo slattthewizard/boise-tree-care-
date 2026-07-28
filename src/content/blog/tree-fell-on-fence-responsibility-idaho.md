@@ -168,7 +168,7 @@ Not every fallen-tree-on-a-fence situation needs a formal report. But several sc
 - Arborist credentials and certification
 - Opinion on foreseeability
 
-At Boise Tree Pros, our head arborist provides [tree reports and documentation](/#services) that meet the standard insurance companies and attorneys expect. These aren't casual opinions. They're structured assessments backed by ISA certification and 15+ years of field experience in the Treasure Valley. When a dispute gets serious, the difference between "my tree guy said" and "our ISA-certified arborist's report concluded" is the difference between getting paid and getting ignored.
+At Boise Tree Pros, our head arborist provides [tree reports and documentation](/#services) that meet the standard insurance companies and attorneys expect. These aren't casual opinions. They're structured assessments backed by ISA certification and field experience in the Treasure Valley. When a dispute gets serious, the difference between "my tree guy said" and "our ISA-certified arborist's report concluded" is the difference between getting paid and getting ignored.
 
 ## When to Call an Arborist vs. a Lawyer
 
@@ -252,4 +252,4 @@ Here's what to remember:
 
 Whether you're dealing with a tree that already came down or you're worried about one that might, Boise Tree Pros can help. We provide [tree assessments, professional reports](/#services), and [expert witness services](/#about) for insurance claims and neighbor disputes across Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley.
 
-**Call (509) 351-8404 for a consultation, or [schedule your visit](/#contact) online.** We'll give you a straight answer, backed by 15+ years of local experience and ISA certification.
+**Call (509) 351-8404 for a consultation, or [schedule your visit](/#contact) online.** We'll give you a straight answer, backed by local experience and ISA certification.

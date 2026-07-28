@@ -158,7 +158,7 @@ You don't need an arborist for a few suckers on an otherwise healthy tree. But t
 - You suspect root damage from construction or utility work
 - You're not sure if your tree is grafted and want to know what you're dealing with
 
-At Boise Tree Pros, we've been helping Treasure Valley homeowners deal with problem trees for over 15 years. A proper assessment looks at the whole picture: the tree's health, the root system, the species, the site conditions. That gives you a plan that addresses the cause, not just the symptoms. [Get in touch for a free assessment.](/#contact)
+At Boise Tree Pros, we've been helping Treasure Valley homeowners deal with problem trees. A proper assessment looks at the whole picture: the tree's health, the root system, the species, the site conditions. That gives you a plan that addresses the cause, not just the symptoms. [Get in touch for a free assessment.](/#contact)
 
 ## The Bottom Line
 

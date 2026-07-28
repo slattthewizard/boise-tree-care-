@@ -27,7 +27,7 @@ If your **tree leaves are turning yellow in summer**, you're not alone. This is 
 
 The good news? Once you know what's happening, it's very treatable. The bad news? Watering more (which is most people's first instinct) usually makes it worse.
 
-We've been diagnosing and treating chlorosis across Boise for over 15 years. In this guide, we'll cover what causes yellow leaves in summer, how to tell chlorosis apart from other problems, and what actually works to get your trees green again.
+We've been diagnosing and treating chlorosis across Boise. In this guide, we'll cover what causes yellow leaves in summer, how to tell chlorosis apart from other problems, and what actually works to get your trees green again.
 
 ---
 

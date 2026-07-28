@@ -27,7 +27,7 @@ You're not alone. Across Boise, from the North End to Southeast Boise to the old
 
 Here's the good news: you don't have to choose between a beautiful yard and keeping your tree. There are safe, practical solutions that protect the tree's health while solving the tripping hazard. But there's one approach that's surprisingly common, and it can kill your tree outright.
 
-We've spent 15+ years helping Boise homeowners figure out the right fix. Let's walk through your options, starting with the mistake you absolutely want to avoid.
+We help Boise homeowners figure out the right fix. Let's walk through your options, starting with the mistake you absolutely want to avoid.
 
 ## Why Tree Roots Come to the Surface in the First Place
 

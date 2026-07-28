@@ -193,3 +193,10 @@ If you're staring at a leaning tree and wondering whether it's a real problem, y
 **Get clarity from a certified arborist.** Boise Tree Pros offers free, no-pressure estimates. We'll look at your tree, tell you what we see, and give you an honest recommendation -- whether that's "it's fine, keep an eye on it" or "this needs to come down before spring."
 
 **Call (509) 351-8404 or [schedule your free estimate online](/#contact).** We serve Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley.
+
+## Related Reading
+
+- [Is a Hollow Tree Dangerous?](/blog/hollow-tree-safe-or-hazard/)
+- [After the Windstorm: Damage Checklist](/blog/windstorm-tree-damage-checklist/)
+- [Tree Near Power Lines: What to Do](/blog/tree-near-power-lines-boise/)
+- [How Deep Do Tree Roots Go?](/blog/how-deep-do-tree-roots-go/)

@@ -27,7 +27,7 @@ If you're figuring out **what to plant after tree removal**, you're already ahea
 
 Here in Boise, the replacement decision matters more than in most cities. Our alkaline clay soil, dry summers, and spring windstorms eliminate half the trees you'll find at a garden center. A tree planted in the wrong spot creates the exact problem you just paid to remove.
 
-We've spent 15+ years helping Treasure Valley homeowners with this. Here's the full process, from stump to species selection.
+We help Treasure Valley homeowners with this. Here's the full process, from stump to species selection.
 
 **Need help picking the right replacement tree? [Talk to our arborists.](/#contact)**
 

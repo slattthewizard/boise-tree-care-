@@ -199,7 +199,7 @@ Emergency tree work after a failure? That's a different conversation. **Emergenc
 
 That's a $2,150 difference. And it doesn't count the garage repair, the insurance deductible, or the two days his family couldn't use the driveway.
 
-**Contrast that with a property owner in the North End** who's kept her trees (two large Norway maples and a row of green ash) on a consistent three-year pruning cycle for over 15 years. In that time, she's never had an emergency call. Not one. Her trees are healthy, well-structured, and have weathered every Boise windstorm without dropping a branch. Total cost over 15 years? About $6,000 across all her trees. Total emergency bills? Zero.
+**Contrast that with a property owner in the North End** who's kept her trees (two large Norway maples and a row of green ash) on a consistent three-year pruning cycle. In that time, she's never had an emergency call. Not one. Her trees are healthy, well-structured, and have weathered every Boise windstorm without dropping a branch. Total cost over 15 years? About $6,000 across all her trees. Total emergency bills? Zero.
 
 Preventive pruning isn't an expense. It's a hedge against a much bigger one.
 

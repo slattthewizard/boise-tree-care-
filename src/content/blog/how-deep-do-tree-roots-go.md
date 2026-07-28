@@ -29,7 +29,7 @@ If you're a Boise homeowner staring at concrete damage, plumbing bills, or a tre
 
 In this guide, we'll cover the real science behind tree root depth and how far roots actually spread. You'll learn which Boise-area trees cause the most root problems and what to do when roots are threatening your sewer lines, sidewalks, or foundation. We'll also cover root pruning and when root damage means the tree needs to come down entirely.
 
-**Boise Tree Pros** has spent 15+ years diagnosing root-related problems across the Treasure Valley. Here's what we've learned.
+**Boise Tree Pros** diagnoses root-related problems across the Treasure Valley. Here's what we've learned.
 
 ## The Truth About Tree Root Depth: It's Shallower Than You Think
 

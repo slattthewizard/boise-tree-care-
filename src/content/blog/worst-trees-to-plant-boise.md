@@ -29,7 +29,7 @@ We published our guide to the [best trees to plant in Boise](/blog/best-trees-to
 
 Because here is the thing about planting the wrong tree: it does not announce itself as a mistake right away. The nursery tag looks great. The sapling is adorable. Five years in, everything seems fine. Then year 10 hits and you have got root damage under your driveway, branches cracking off in every windstorm, or a tree that turns sickly yellow every single summer no matter what you do.
 
-As ISA-certified arborists who have worked across the Treasure Valley since 2008, we know the worst trees to plant in Boise because we remove them constantly. These are the species that generate the most emergency calls, the most frustrated homeowners, and the most expensive removals. If you are about to plant a tree or you are staring at a problem tree right now wondering if it was a bad choice, this guide will give you a straight answer.
+As ISA-certified arborists who have worked across the Treasure Valley, we know the worst trees to plant in Boise because we remove them constantly. These are the species that generate the most emergency calls, the most frustrated homeowners, and the most expensive removals. If you are about to plant a tree or you are staring at a problem tree right now wondering if it was a bad choice, this guide will give you a straight answer.
 
 **Already dealing with a problem tree? [Get a free assessment from our arborists.](/#contact)**
 

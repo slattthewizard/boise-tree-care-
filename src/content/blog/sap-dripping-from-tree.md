@@ -188,7 +188,7 @@ Not every sticky drip needs professional attention. Here's a simple framework:
 - The tree overhangs your home, driveway, or power lines
 - You've treated for aphids yourself and the problem keeps returning
 
-At Boise Tree Pros, our ISA-certified arborists have spent 15+ years diagnosing exactly these kinds of issues across the Treasure Valley. We'll tell you what's going on, whether it's a real problem, and what your options are, including doing nothing, if that's the right call.
+At Boise Tree Pros, our ISA-certified arborists diagnose exactly these kinds of issues across the Treasure Valley. We'll tell you what's going on, whether it's a real problem, and what your options are, including doing nothing, if that's the right call.
 
 **[Schedule your free tree health assessment](/#contact)** and we'll get to the bottom of what's dripping and whether it matters.
 

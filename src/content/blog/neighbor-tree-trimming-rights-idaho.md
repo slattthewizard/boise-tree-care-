@@ -25,7 +25,7 @@ That big silver maple next door looked harmless enough when you moved in. Now it
 
 You're staring up at those branches wondering: **can I trim my neighbor's tree branches in Idaho?** The short answer is yes, but with real limits that can land you in legal and financial trouble if you don't know them. We see this exact situation play out across the Treasure Valley every season, from the North End to Meridian to Eagle. The homeowners who handle it well almost always follow the same playbook.
 
-This guide covers your legal rights under Idaho law, what you can and can't cut, who pays for what, and when you need a professional involved. At Boise Tree Pros, our [ISA-certified arborists](/#about) have helped hundreds of homeowners navigate neighbor tree disputes over the past 15 years, and we'll give you the straight answer even when it means you don't need to hire us.
+This guide covers your legal rights under Idaho law, what you can and can't cut, who pays for what, and when you need a professional involved. At Boise Tree Pros, our [ISA-certified arborists](/#about) help homeowners navigate neighbor tree disputes over the past 15 years, and we'll give you the straight answer even when it means you don't need to hire us.
 
 ## Idaho Law on Trimming Neighbor's Tree Branches: Your Rights Explained
 

@@ -25,7 +25,7 @@ That crack running across your basement wall probably didn't show up overnight. 
 
 Here's the good news: if you catch it early, you have options. And not every tree near your house is a threat.
 
-This guide covers which Boise tree species cause the most root problems, how close is too close, what the warning signs look like, and when a tree needs to come down to protect your home. We've been diagnosing tree root problems in Boise for over 15 years, and we'll give you the same straight answers here that we would standing in your yard.
+This guide covers which Boise tree species cause the most root problems, how close is too close, what the warning signs look like, and when a tree needs to come down to protect your home. We've been diagnosing tree root problems in Boise, and we'll give you the same straight answers here that we would standing in your yard.
 
 ## How Tree Roots Actually Damage Foundations
 
