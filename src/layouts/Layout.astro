@@ -9,6 +9,7 @@ export interface Props {
   twitterTitle?: string;
   twitterDescription?: string;
   twitterImage?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -21,6 +22,7 @@ const {
   twitterTitle,
   twitterDescription,
   twitterImage,
+  noindex = false,
 } = Astro.props;
 ---
 
@@ -35,6 +37,7 @@ const {
   <link rel="icon" href="/favicon.ico">
   <title>{title}</title>
   <meta name="description" content={description} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
   <link rel="canonical" href={canonical} />
 
   <!-- Open Graph -->

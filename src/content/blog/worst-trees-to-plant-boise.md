@@ -55,11 +55,11 @@ Here is the full list. For each species, we cover what goes wrong, why it is spe
 
 ### Silver Maple (*Acer saccharinum*)
 
-**The problem:** Silver maples are the single biggest source of [emergency tree calls](/services/emergency-tree-service-boise/) we get across the Treasure Valley. They grow fast (which is why people plant them), but that fast growth comes with soft, brittle wood, narrow branch unions filled with included bark, and a root system that is aggressively invasive.
+**The problem:** Silver maples are the single biggest source of [emergency tree calls](/emergency-tree-service-boise/) we get across the Treasure Valley. They grow fast (which is why people plant them), but that fast growth comes with soft, brittle wood, narrow branch unions filled with included bark, and a root system that is aggressively invasive.
 
 **What happens in Boise:** Silver maples split. Not if, but when. The December 2025 windstorm dropped silver maple limbs across Boise like confetti. We had one week in January 2026 where seven of our 12 emergency calls involved silver maples. The branch unions on this species are structurally weak, and 20 to 30 years of growth creates heavy limbs that the tree's own architecture cannot support.
 
-Tom, a homeowner in the Bench neighborhood, called us after a silver maple split down the middle during a moderate windstorm. The tree was about 25 years old and looked healthy from the outside. But the main union had included bark running two feet deep. The split sent half the canopy onto his garage roof. Between the [tree removal](/services/tree-removal-boise/) and the roof repair, he was out close to $15,000.
+Tom, a homeowner in the Bench neighborhood, called us after a silver maple split down the middle during a moderate windstorm. The tree was about 25 years old and looked healthy from the outside. But the main union had included bark running two feet deep. The split sent half the canopy onto his garage roof. Between the [tree removal](/tree-removal-boise/) and the roof repair, he was out close to $15,000.
 
 The root system is the other issue. Silver maple roots are shallow, fast-spreading, and relentless. They crack driveways, lift sidewalks, invade sewer lines, and make it impossible to grow anything underneath the canopy. We have seen silver maple roots buckle a concrete patio 30 feet from the trunk.
 
@@ -75,7 +75,7 @@ We remove more cottonwoods from residential properties than almost any other spe
 
 **Plant this instead:** Bur oak for a large, long-lived shade tree. Hackberry for a tough, lower-maintenance option. Both handle Boise's conditions without the structural and infrastructure problems.
 
-**Already have a cottonwood near your home?** Regular [crown thinning](/services/tree-trimming-boise/) reduces wind load and lowers the risk of limb failure. It is not a permanent fix, but it buys time and safety.
+**Already have a cottonwood near your home?** Regular [crown thinning](/tree-trimming-boise/) reduces wind load and lowers the risk of limb failure. It is not a permanent fix, but it buys time and safety.
 
 ### Bradford Pear / Callery Pear (*Pyrus calleryana*)
 
@@ -107,7 +107,7 @@ The frustrating part: nurseries in the Treasure Valley still sell red maples. Ho
 
 **What happens in Boise:** Siberian elms are everywhere in the Treasure Valley, especially in older neighborhoods and along fence lines. They grow fast, break easily, seed prolifically, and produce thousands of seedlings that sprout in every crack, gutter, and garden bed within a block.
 
-The wood quality is terrible. Small branches litter the yard after every windstorm. Larger limbs crack and hang in the canopy. The tree requires [frequent pruning](/services/tree-trimming-boise/) just to keep it from becoming a hazard, and even with pruning, the inherent brittleness of the wood means you are managing a problem, not solving it.
+The wood quality is terrible. Small branches litter the yard after every windstorm. Larger limbs crack and hang in the canopy. The tree requires [frequent pruning](/tree-trimming-boise/) just to keep it from becoming a hazard, and even with pruning, the inherent brittleness of the wood means you are managing a problem, not solving it.
 
 We have clients who spend more on annual Siberian elm pruning and cleanup than the tree would cost to remove and replace with something better.
 
@@ -141,7 +141,7 @@ If you see a tree of heaven on your property, removing it early is critical. The
 
 **The problem:** Lombardy poplars are planted for their tall, narrow columnar form, typically as a fast-growing screen. The problem is they are extremely susceptible to bacterial canker and cytospora canker, both of which thrive in Boise's climate. Most Lombardy poplars start dying within 10 to 15 years.
 
-**What happens in Boise:** The pattern is remarkably consistent. A homeowner plants a row of Lombardy poplars for privacy. They shoot up fast and look great for five to eight years. Then the cankers start. Branches die from the top down. Bark weeps dark fluid. Within a few years, you have a row of half-dead trees that need [removal](/services/tree-removal-boise/) and replacement.
+**What happens in Boise:** The pattern is remarkably consistent. A homeowner plants a row of Lombardy poplars for privacy. They shoot up fast and look great for five to eight years. Then the cankers start. Branches die from the top down. Bark weeps dark fluid. Within a few years, you have a row of half-dead trees that need [removal](/tree-removal-boise/) and replacement.
 
 A client in Eagle, Dan, planted 12 Lombardy poplars along his back fence line in 2016. By 2023, nine of them had significant canker damage. He removed all 12 and replaced them with a mix of Austrian pines and arborvitae. The pines are half the height so far but healthy, and the arborvitae filled in for year-round screening within three seasons.
 
@@ -188,7 +188,7 @@ In a dry climate like Boise, a weeping willow also requires enormous amounts of 
 
 Not every problem tree needs to come down tomorrow. Here is how we think about it.
 
-**If the tree is healthy and not causing damage right now,** you may be able to manage it for years with regular [professional pruning](/services/tree-trimming-boise/) and monitoring. Silver maples and cottonwoods can be maintained with crown thinning and deadwood removal. It is an ongoing cost, but it keeps the tree safer.
+**If the tree is healthy and not causing damage right now,** you may be able to manage it for years with regular [professional pruning](/tree-trimming-boise/) and monitoring. Silver maples and cottonwoods can be maintained with crown thinning and deadwood removal. It is an ongoing cost, but it keeps the tree safer.
 
 **If the tree is already showing structural problems** (splits, cracks, dead branches, heavy lean, root damage to infrastructure), it is time for a professional assessment. Some trees can be cabled or braced to extend their safe lifespan. Others have passed the point where management makes financial or safety sense.
 
@@ -226,7 +226,7 @@ Trunk injections can green up a chlorotic tree for one to three seasons, but the
 
 ### How much does it cost to remove a problem tree in Boise?
 
-Removal costs vary widely based on tree size, location, access, and complexity. A small tree might run $300 to $800. A large, hazardous tree near a house can cost $2,000 to $5,000 or more if crane work is needed. The best way to get an accurate estimate is to [request a free on-site assessment](/services/tree-removal-boise/).
+Removal costs vary widely based on tree size, location, access, and complexity. A small tree might run $300 to $800. A large, hazardous tree near a house can cost $2,000 to $5,000 or more if crane work is needed. The best way to get an accurate estimate is to [request a free on-site assessment](/tree-removal-boise/).
 
 ---
 
