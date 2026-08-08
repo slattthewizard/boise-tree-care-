@@ -420,5 +420,73 @@ const {
   }
 </style>
 
+<!-- GA4 + Clarity loader and conversion event tracking (phone, email, form).
+     Single site-wide copy; the old per-page loader blocks were removed in favour of
+     this one. is:inline is required: without it Astro bundles this as a module. -->
+<script is:inline>
+(function () {
+  var GA_ID = 'G-X3CW5HT1Z5';
+  var CLARITY_ID = 'vxfansa76s';
+  var loaded = false;
+
+  // gtag shim exists immediately so events fired before gtag.js loads are queued
+  // in dataLayer and flushed once the library arrives.
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function(){ dataLayer.push(arguments); };
+
+  function loadAnalytics() {
+    if (loaded) return;
+    loaded = true;
+    window.gtag('js', new Date());
+    window.gtag('config', GA_ID, { anonymize_ip: true });
+    var ga = document.createElement('script');
+    ga.async = true;
+    ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(ga);
+    window.clarity = window.clarity || function(){(window.clarity.q = window.clarity.q || []).push(arguments);};
+    var cl = document.createElement('script');
+    cl.async = true;
+    cl.src = 'https://www.clarity.ms/tag/' + CLARITY_ID;
+    document.head.appendChild(cl);
+  }
+  function scheduleAnalytics() {
+    if ('requestIdleCallback' in window) requestIdleCallback(loadAnalytics, { timeout: 10000 });
+    else setTimeout(loadAnalytics, 8000);
+  }
+  if (document.readyState === 'complete') scheduleAnalytics();
+  else window.addEventListener('load', scheduleAnalytics, { once: true });
+  ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (eventName) {
+    window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+  });
+
+  function track(name, params) {
+    loadAnalytics();
+    window.gtag('event', name, params);
+  }
+  document.addEventListener('click', function (e) {
+    var tel = e.target.closest('a[href^="tel:"]');
+    if (tel) {
+      track('phone_click', { link_text: (tel.textContent || '').trim().slice(0, 100), page_path: location.pathname });
+      return;
+    }
+    var mail = e.target.closest('a[href^="mailto:"]');
+    if (mail) track('email_click', { page_path: location.pathname });
+  });
+  var started = false;
+  document.addEventListener('focusin', function (e) {
+    if (started) return;
+    if (e.target.closest('form[action*="formspree.io"]')) {
+      started = true;
+      track('form_start', { form_name: 'estimate_request', page_path: location.pathname });
+    }
+  });
+  document.addEventListener('submit', function (e) {
+    if (e.target.closest('form[action*="formspree.io"]')) {
+      track('form_submit', { form_name: 'estimate_request', page_path: location.pathname });
+    }
+  });
+})();
+</script>
+
 </body>
 </html>
