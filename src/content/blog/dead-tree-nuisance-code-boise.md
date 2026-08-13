@@ -63,7 +63,7 @@ If the tree in question does reach a sidewalk, street, or the right-of-way, here
 
 **A property owner near Nampa's Sugar Street corridor** had a dead ash leaning over a public sidewalk from the lot next door. A call to code compliance triggered a city forester inspection, which confirmed the pedestrian-obstruction test under the tree ordinance. The neighbor received formal notice and had the tree removed for roughly $1,150 within the window rather than risk the city doing it and billing them for more.
 
-Readers outside Boise proper, in [Nampa](/tree-service-nampa/), Caldwell, Meridian, Eagle, or Garden City, need to check with that city's own code compliance office, since each municipality runs its own version of this ordinance rather than deferring to Ada or Canyon County.
+Readers outside Boise proper, in [Nampa](/tree-service-nampa/), [Caldwell](/tree-service-caldwell/), [Meridian](/tree-service-meridian/), [Eagle](/tree-service-eagle/), or [Garden City](/tree-service-garden-city/), need to check with that city's own code compliance office, since each municipality runs its own version of this ordinance rather than deferring to Ada or Canyon County.
 
 ## What This Costs, and Who Pays
 

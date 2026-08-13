@@ -111,7 +111,7 @@ Here's a realistic breakdown for a medium-sized tree (15 to 25 feet):
 
 **Total out-of-pocket: $350 to $750.** And that's if everything goes right.
 
-Compare that to a professional removal for a similar tree in the Boise area: typically **$500 to $1,500**, which includes felling, cleanup, haul-away, and often stump grinding.
+Compare that to a professional removal for a similar tree in the Boise area: typically **$500 to $1,500**, which includes felling, cleanup, haul-away, and often stump grinding. (Full pricing by tree size is in our [tree removal cost breakdown](/tree-removal-boise/#cost).)
 
 The gap is narrower than most people expect. And the professional price comes with insurance, liability coverage, and a guarantee that your house stays intact.
 

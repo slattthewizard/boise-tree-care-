@@ -130,7 +130,7 @@ The tree was 15 feet from the house with roots running directly under the founda
 
 ## Cottonwood Removal Cost: What to Expect
 
-Here's where cottonwood tree removal gets real. Cottonwoods are among the largest, heaviest trees in the Treasure Valley, and their size directly affects what removal costs.
+Here's where cottonwood tree removal gets real. Cottonwoods are among the largest, heaviest trees in the Treasure Valley, and their size directly affects what removal costs. (For baseline [tree removal costs in Boise](/tree-removal-boise/#cost) across all species, see our pricing guide.)
 
 **Why cottonwood removal costs more than average:**
 

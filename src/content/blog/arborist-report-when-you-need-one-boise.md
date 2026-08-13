@@ -71,7 +71,7 @@ None of this is a DIY judgment call. If a tree near a build site or a property l
 
 ## What's Actually in a Written Arborist Report, and What It Costs
 
-A written arborist report typically covers the tree's species, trunk diameter, any defects found, a risk or condition rating, and a specific recommendation: prune, monitor, cable, or remove. Every report we write comes from an ISA-certified arborist's on-site inspection, the same visit as a standard [tree health assessment](/blog/tree-health-assessment-boise/) priced at $75-$250, often waived if you schedule the recommended work afterward.
+A written arborist report typically covers the tree's species, trunk diameter, any defects found, a risk or condition rating, and a specific recommendation: prune, monitor, cable, or remove. Every report we write comes from an [ISA-certified arborist's](/arborist-boise/) on-site inspection, the same visit as a standard [tree health assessment](/blog/tree-health-assessment-boise/) priced at $75-$250, often waived if you schedule the recommended work afterward.
 
 Our [online cost calculator](/cost-calculator/) gives you a ballpark for removal or trimming before you even call, but that's a rough estimate, not documentation. A written report is the opposite: a specific, dated assessment of one tree, built to be read by a permit office, an adjuster, or the other side of a dispute.
 

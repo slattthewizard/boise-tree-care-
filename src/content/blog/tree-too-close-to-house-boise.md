@@ -128,7 +128,7 @@ Dave told us he wished someone had flagged it during the home inspection. That's
 
 ## Signs a Tree Is Already Too Close to Your Home
 
-You don't always need an arborist to spot the warning signs. Walk your property and look for these:
+You don't always need [an arborist](/arborist-boise/) to spot the warning signs. Walk your property and look for these:
 
 **Foundation and Hardscape Warning Signs:**
 

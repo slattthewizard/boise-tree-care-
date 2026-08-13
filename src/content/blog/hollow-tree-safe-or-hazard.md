@@ -30,7 +30,7 @@ This is not something to eyeball from ten feet away. Arborists check shell thick
 
 ## Factors That Push a Hollow Tree Toward "Hazard"
 
-Shell thickness is the headline factor, but arborists weigh several things together before making a call:
+Shell thickness is the headline factor, but [certified arborists](/arborist-boise/) weigh several things together before making a call:
 
 - **Size and weight of the canopy above the hollow section.** A large, heavy crown puts more leverage on a compromised trunk than a smaller one.
 - **Lean.** A hollow tree with any noticeable lean carries more risk than one growing straight, since the leaning side concentrates stress on the weaker structure.

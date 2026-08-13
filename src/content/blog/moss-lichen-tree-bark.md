@@ -78,7 +78,7 @@ Improving light and airflow around a trunk, through selective pruning of overly 
 | Fungal conks/shelf fungi | Hard, shelf-like or bracket-shaped growths, often brown or white | Growing from inside decayed wood | Serious; indicates internal decay |
 | Cankers | Sunken, discolored, or cracked bark areas, sometimes oozing | Part of the bark tissue itself, not a separate organism | Serious; can girdle branches or trunk |
 
-The key visual difference: lichen and moss sit flat on the bark surface and can be lifted or scraped without disturbing the wood underneath. Shelf fungi and cankers are structurally connected to damaged wood beneath the bark and are a different conversation entirely, one worth calling an arborist about right away.
+The key visual difference: lichen and moss sit flat on the bark surface and can be lifted or scraped without disturbing the wood underneath. Shelf fungi and cankers are structurally connected to damaged wood beneath the bark and are a different conversation entirely, one worth [calling a certified arborist](/arborist-boise/) about right away.
 
 ## When to Actually Worry
 

@@ -201,7 +201,7 @@ The first 12 months after planting determine whether your tree thrives or just s
 
 **Watch for stress signs.** Wilting, leaf scorch (brown edges), premature leaf drop, and stunted growth all signal problems. If you see these, adjust watering before assuming the worst.
 
-**Skip pruning (mostly).** Don't prune a newly planted tree except to remove dead or broken branches. Let it establish before shaping. Wait at least one full growing season.
+**Skip pruning (mostly).** Don't prune a newly planted tree except to remove dead or broken branches. Let it establish before shaping. Wait at least one full growing season — after that, early [structural pruning](/tree-trimming-boise/) sets up a strong branch framework that pays off for the life of the tree.
 
 **Protect the trunk.** Young trees with thin bark (maples, honey locust, ash) can get sunscald in Boise winters. Wrap trunks with tree wrap from November through March for the first two to three winters.
 
@@ -260,4 +260,4 @@ No matter when you plant, the species selection, hole preparation, mulching, and
 
 ---
 
-*Boise Tree Pros has been planting, pruning, and caring for trees across the Treasure Valley. Every job is handled by ISA-certified arborists. [Learn more about our services](/#services).*
+*Boise Tree Pros has been planting, pruning, and caring for trees across the Treasure Valley. Every job is handled by [ISA-certified arborists](/arborist-boise/). [Learn more about our services](/#services).*

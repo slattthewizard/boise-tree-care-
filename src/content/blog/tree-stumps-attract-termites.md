@@ -147,7 +147,7 @@ Some homeowners ask about letting the stump rot naturally. Here's the comparison
 
 The "free" option of letting a stump rot naturally is only free if you ignore the pest risk, the mowing hassle, and the aesthetic impact. For most Boise homeowners, grinding is the smart move.
 
-**Ready to get rid of that stump?** Boise Tree Pros grinds stumps of all sizes across the Treasure Valley. We'll grind below grade, clean up the chips, and leave your yard ready for whatever comes next. [Call (509) 351-8404](tel:5093518404) or [get your free estimate online](/#contact).
+**Ready to get rid of that stump?** Boise Tree Pros provides [stump grinding across Boise](/stump-grinding-boise/) and the Treasure Valley for stumps of all sizes. We'll grind below grade, clean up the chips, and leave your yard ready for whatever comes next. [Call (509) 351-8404](tel:5093518404) or [get your free estimate online](/#contact).
 
 ## Other Reasons to Remove Old Stumps
 
@@ -193,7 +193,7 @@ That stump has been sitting in your yard long enough. Every year it rots a littl
 
 Stump grinding is a quick, affordable job that eliminates a real pest risk. Most residential stumps take under an hour to grind. Compare that to the cost and stress of dealing with a termite infestation in your home.
 
-**Call Boise Tree Pros at (509) 351-8404 or [schedule your free estimate](/#contact).** We handle stump grinding, [tree removal](/tree-removal-boise/), and full property assessments across the Treasure Valley.
+**Call Boise Tree Pros at (509) 351-8404 or [schedule your free estimate](/#contact).** We handle [stump grinding](/stump-grinding-boise/), [tree removal](/tree-removal-boise/), and full property assessments across the Treasure Valley.
 
 
 ## Related Reading

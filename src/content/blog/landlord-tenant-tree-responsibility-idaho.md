@@ -67,7 +67,7 @@ If the hazard is tangled in a power line, nobody on a rental property touches it
 
 Tenant liability only kicks in when the damage traces to something the tenant, or their equipment, actually did, not to age, disease, or weather. Running a mower or string trimmer into bark repeatedly enough to girdle a trunk is the classic case; we cover exactly how that damage happens in [lawn equipment and trunk damage](/blog/lawn-equipment-trunk-damage/). Topping a tree without asking, planting something that damages an underground utility, or ignoring a landlord's written instruction can also shift the bill.
 
-**A duplex in Garden City** had a young ornamental maple near the driveway. Over one growing season, the tenant's own mower repeatedly nicked the bark low on the trunk until the wound girdled the tree and it had to come down. Small removal plus a stump grinding add-on landed near $550, and because the damage was documented and traced to the tenant's own equipment, the property manager deducted it from the security deposit rather than filing an insurance claim.
+**A duplex in Garden City** had a young ornamental maple near the driveway. Over one growing season, the tenant's own mower repeatedly nicked the bark low on the trunk until the wound girdled the tree and it had to come down. Small removal plus a [stump grinding add-on](/stump-grinding-boise/) landed near $550, and because the damage was documented and traced to the tenant's own equipment, the property manager deducted it from the security deposit rather than filing an insurance claim.
 
 Normal wear and tear doesn't count. A tree that dies of age, disease, or a windstorm is the landlord's cost every time, even if it happens to fail during someone's tenancy.
 

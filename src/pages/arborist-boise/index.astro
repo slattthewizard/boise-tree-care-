@@ -1,0 +1,389 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout
+  title="Boise Arborist: ISA-Certified Tree Care &amp; Consultations (2026)"
+  description="Looking for a certified arborist in Boise? What arborists actually do, when you need one, and what consultations cost ($75-$250). Free estimates — call (509) 351-8404."
+  canonical="https://boisetreepro.com/arborist-boise/"
+  ogTitle="Boise Arborist: ISA-Certified Tree Care &amp; Consultations (2026)"
+  ogDescription="Looking for a certified arborist in Boise? What arborists actually do, when you need one, and what consultations cost ($75-$250)."
+  ogImage="https://boisetreepro.com/images/og-image.png"
+>
+  <Fragment slot="head">
+<style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: #363636; background: #fff; margin: 0; }
+    .nav-link { position: relative; font-weight: 500; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; color: #363636; text-decoration: none; transition: color 0.2s; }
+    .nav-link::after { content: ''; position: absolute; bottom: -3px; left: 0; right: 0; height: 2px; background: #1A531A; transform: scaleX(0); transform-origin: left; transition: transform 0.25s cubic-bezier(0.34, 1.2, 0.64, 1); }
+    .nav-link:hover { color: #1A531A; }
+    .nav-link:hover::after { transform: scaleX(1); }
+    .dropdown-open .blog-dropdown { opacity:1 !important; visibility:visible !important; transform:translateY(0) !important; }
+    .dropdown-open svg { transform: rotate(180deg); }
+    .blog-dropdown a:hover { background: #f5f0eb; color: #1A531A; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: #1A531A; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 14px 28px; border: 2px solid #1A531A; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(26,83,26,0.25); }
+    .btn-primary:hover { background: #2A6B2A; box-shadow: 0 6px 20px rgba(26,83,26,0.35); transform: translateY(-1px); }
+    .btn-bark { display: inline-flex; align-items: center; gap: 8px; background: #8B5A2B; color: #FAF0E6; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; padding: 13px 28px; border: 2px solid #8B5A2B; border-radius: 4px; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; box-shadow: 0 4px 14px rgba(139,90,43,0.25); }
+    .btn-bark:hover { background: #A06830; transform: translateY(-1px); }
+    .section-tag { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B5A2B; margin-bottom: 10px; }
+    .section-heading { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; color: #1A531A; line-height: 1.1; letter-spacing: -0.01em; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: block; }
+
+    /* Article content styles */
+    .article-content h2 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(22px,3vw,30px); color: #1A531A; margin-top: 48px; margin-bottom: 16px; line-height: 1.15; }
+    .article-content h3 { font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: 20px; color: #1A531A; margin-top: 28px; margin-bottom: 8px; }
+    .article-content p { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 16px; }
+    .article-content a { color: #8B5A2B; font-weight: 600; text-decoration: none; }
+    .article-content a:hover { text-decoration: underline; }
+    .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 20px; }
+    .article-content li { font-size: 16px; line-height: 1.8; color: #555; margin-bottom: 8px; }
+    .article-content strong { color: #363636; }
+    .article-content em { font-style: italic; }
+    .article-content table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
+    .article-content th { background: #1A531A; color: #FAF0E6; padding: 12px 16px; text-align: left; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; }
+    .article-content td { padding: 12px 16px; border-bottom: 1px solid #e8ddd0; color: #555; }
+    .article-content tr:last-child td { border-bottom: none; }
+    .article-content tr:nth-child(even) { background: #FAF0E6; }
+
+    /* TOC styles */
+    .toc { background: #FAF0E6; border: 1px solid #e8ddd0; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc ul { list-style: none; padding: 0; margin: 0; }
+    .toc li { font-size: 15px; margin-bottom: 8px; padding-left: 16px; position: relative; }
+    .toc li::before { content: ''; position: absolute; left: 0; top: 10px; width: 6px; height: 6px; background: #8B5A2B; border-radius: 50%; }
+    .toc a { color: #8B5A2B; text-decoration: none; font-weight: 500; }
+    .toc a:hover { text-decoration: underline; }
+
+    /* FAQ styles */
+    .faq-item { margin-bottom: 24px; }
+    .faq-item h3 { font-size: 18px; color: #363636; margin-bottom: 8px; }
+    .faq-item p { margin-bottom: 0; }
+  </style>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Arborist Services",
+    "description": "Certified arborist services in Boise, Idaho. Tree health assessments, risk assessments, consultations, fine pruning, and cabling by arborists working to ISA standards.",
+    "provider": {
+      "@type": ["TreeService", "LocalBusiness"],
+      "name": "Boise Tree Pros",
+      "url": "https://boisetreepro.com",
+      "telephone": "(509) 351-8404",
+      "areaServed": [
+        { "@type": "City", "name": "Boise", "addressRegion": "ID" },
+        { "@type": "City", "name": "Meridian", "addressRegion": "ID" },
+        { "@type": "City", "name": "Eagle", "addressRegion": "ID" },
+        { "@type": "City", "name": "Nampa", "addressRegion": "ID" }
+      ]
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Boise",
+      "addressRegion": "ID"
+    }
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://boisetreepro.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Arborist Services", "item": "https://boisetreepro.com/arborist-boise/" }
+    ]
+  }
+  </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does an arborist cost in Boise?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A tree health assessment in Boise runs $75-$250, and is often waived if you schedule work afterward. Estimates for specific jobs (trimming, removal, cabling) are free. The work itself ranges from $150 for small pruning jobs to $5,000+ for large tree removals. A formal written arborist report for insurance, real estate, or legal purposes costs more than a verbal assessment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you need an arborist to trim a tree?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Legally, no — Idaho doesn't require a license to trim trees. Practically, it depends on the job. Small ornamentals under 15 feet with hand tools are a reasonable DIY project. For mature trees, anything near structures or power lines, or any cut that requires leaving the ground, a certified arborist is worth it: bad pruning cuts don't show their damage until years later, and topping or flush cuts can permanently ruin a tree's structure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between an arborist and a tree service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An arborist is a certified tree care professional (ISA-certified) trained in tree biology, diagnosis, and care. A tree service is a company that does tree work, which may or may not employ certified arborists. For health assessments, diagnosis, and pruning decisions, you want a certified arborist involved."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are arborist consultations free in Boise?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Estimates for specific work are free — an arborist visits, assesses the tree, and quotes the job at no charge. A diagnostic tree health assessment (inspecting a sick or hazardous tree and explaining what's wrong) runs $75-$250, often credited back if you schedule the recommended work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I find an ISA-certified arborist in Boise?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use the free credential-verification tool at treesaregood.org (the International Society of Arboriculture's consumer site) to check any arborist's certification by name or company. Then confirm they carry both general liability insurance and workers' compensation before anyone climbs a tree on your property."
+        }
+      }
+    ]
+  }
+  </script>
+  </Fragment>
+<!-- ══════════════════════════════════
+     BREADCRUMB
+══════════════════════════════════ -->
+<nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+  <ol style="list-style:none;padding:0;margin:0;display:flex;gap:8px;font-size:13px;color:#888;">
+    <li><a href="/" style="color:#8B5A2B;text-decoration:none;">Home</a></li>
+    <li>/</li>
+    <li style="color:#363636;">Arborist Services</li>
+  </ol>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO / PAGE HEADER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #0F3010 0%, #1A531A 60%, #0F3010 100%);padding:64px 0;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;opacity:0.15;">
+    <img src="/images/Arborist-Climbing-Trim.webp" srcset="/images/Arborist-Climbing-Trim-400.webp 400w, /images/Arborist-Climbing-Trim-800.webp 800w, /images/Arborist-Climbing-Trim-1600.webp 1600w" sizes="100vw" fetchpriority="high" loading="eager" decoding="async" alt="Certified arborist climbing a mature tree with rope and harness to make precise pruning cuts in Boise Idaho" width="1600" height="600" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 relative">
+    <span class="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:rgba(135,206,235,0.18);color:#87CEEB;border:1px solid rgba(135,206,235,0.3);">ISA Certified Arborists</span>
+    <h1 class="section-heading text-cream" style="font-size:clamp(36px,5vw,56px);margin-bottom:16px;">Certified Arborists in Boise: What They Do, What They Cost, and When You Actually Need One</h1>
+    <p style="font-size:18px;line-height:1.7;color:rgba(250,240,230,0.8);max-width:600px;margin-bottom:28px;">Not every tree job needs an arborist — but the ones that do really do. Here's how to tell the difference, what a consultation costs in the Treasure Valley, and how to verify anyone's credentials before they touch your trees.</p>
+    <div class="flex flex-wrap gap-4">
+      <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get a Free Estimate</a>
+      <a href="tel:+15093518404" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (509) 351-8404</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     ARTICLE CONTENT
+══════════════════════════════════ -->
+<section style="padding:72px 0;background:#fff;">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:64px;align-items:start;" class="content-grid">
+
+      <!-- Main Content Column -->
+      <div class="article-content">
+
+        <p>Search "arborist Boise" and you'll get two very different kinds of results: certified tree care professionals who studied tree biology for years, and companies that put "arborist" in their name because it sounds better than "guy with a chainsaw." From the curb, their trucks look identical. Three years after they prune your maple, the difference is obvious.</p>
+
+        <p>This page explains what an arborist actually is, when hiring one matters (and when it honestly doesn't), what arborist services cost in Boise, and how to verify anyone's credentials in about two minutes — including ours.</p>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+          <strong style="font-family:'Zilla Slab',Georgia,serif;font-size:16px;color:#1A531A;">In this article:</strong>
+          <ul style="margin-top:12px;">
+            <li><a href="#what-is-an-arborist">What an arborist is (and what "ISA-certified" means)</a></li>
+            <li><a href="#arborist-vs-tree-service">Arborist vs. tree service: the difference that matters</a></li>
+            <li><a href="#when-you-need">7 situations where you need an arborist, not just a crew</a></li>
+            <li><a href="#services">Arborist services we provide in Boise</a></li>
+            <li><a href="#cost">What an arborist costs in Boise</a></li>
+            <li><a href="#do-you-need">Do you need an arborist to trim a tree?</a></li>
+            <li><a href="#verify">How to verify an arborist's credentials</a></li>
+            <li><a href="#faqs">FAQs about arborists in Boise</a></li>
+          </ul>
+        </div>
+
+        <h2 id="what-is-an-arborist">What Is an Arborist (and What Does "ISA-Certified" Mean)?</h2>
+
+        <p>An arborist is a professional trained in the science of individual tree care: biology, disease and pest diagnosis, pruning technique, structural assessment, and safe work practices. Where a forester manages woodlands and a landscaper manages yards, an arborist's specialty is the health and structure of a single tree — the 60-foot silver maple over your garage, the fire-blighted pear in the front yard, the cottonwood the wind keeps testing.</p>
+
+        <p>"ISA-certified" refers to the <a href="https://www.treesaregood.org/" target="_blank" rel="noopener">International Society of Arboriculture</a>, the industry's main credentialing body. ISA certification requires documented experience, a rigorous exam covering tree biology through safety, and continuing education to keep the credential current. It's the standard our work is held to on every job.</p>
+
+        <p>Why it matters: trees hide their injuries. A bad pruning cut doesn't look bad the day it's made — it looks bad in year three, when decay has moved into the trunk through a wound the tree couldn't close. Certification is the difference between someone who knows where a cut heals and someone who knows how to run a saw.</p>
+
+        <h2 id="arborist-vs-tree-service">Arborist vs. Tree Service: The Difference That Matters</h2>
+
+        <p>Every arborist does tree work. Not everyone doing tree work is an arborist. A "tree service" is any company with a truck, a chipper, and a business card — some are excellent, and some are why our <a href="/blog/tree-service-storm-chaser-scams-boise/">storm-chaser scams guide</a> exists.</p>
+
+        <p><strong>The practical test:</strong> a tree service tells you what they can cut. An arborist tells you what the tree needs — which is sometimes nothing, sometimes a $200 thinning instead of a $2,000 removal, and sometimes "this one's dangerous, don't wait." The diagnosis comes before the chainsaw, not after.</p>
+
+        <p>For routine clearance work on a healthy tree, a competent insured crew is fine. For anything involving a tree's health, structure, or safety, you want a certified arborist making the call. Our guide on <a href="/blog/how-to-hire-tree-service-boise/">how to hire a tree service in Boise</a> covers the full vetting checklist.</p>
+
+        <h2 id="when-you-need">7 Situations Where You Need an Arborist</h2>
+
+        <ul>
+          <li><strong>The tree looks sick and you don't know why.</strong> Yellowing leaves in summer, thinning canopy, <a href="/blog/sap-dripping-from-tree/">sap dripping</a>, fungus at the base. Diagnosis before treatment — a <a href="/blog/tree-health-assessment-boise/">tree health assessment</a> identifies the problem instead of guessing at it.</li>
+          <li><strong>A tree is leaning, cracked, or hollow.</strong> Whether a <a href="/blog/leaning-tree-dangerous-boise/">leaning tree</a> or <a href="/blog/hollow-tree-safe-or-hazard/">hollow trunk</a> is a hazard or harmless is exactly the judgment call arborists are trained for. Guessing wrong in either direction is expensive.</li>
+          <li><strong>The tree is near your house, or over anything valuable.</strong> Pruning or removal within falling distance of structures requires rigging decisions that come from structural assessment, not intuition.</li>
+          <li><strong>You're pruning a mature tree.</strong> A mature shade tree can't regrow its structure. Every large cut is permanent. Proper <a href="/blog/crown-thinning-raising-reduction/">crown thinning, raising, or reduction</a> keeps the tree sound; topping ruins it for good.</li>
+          <li><strong>A valuable tree needs saving, not removing.</strong> Cabling and bracing, soil treatment, and corrective pruning can rescue trees a removal-only crew would fell by default.</li>
+          <li><strong>You need documentation.</strong> Insurance claims, real estate deals, and neighbor disputes often require a <a href="/blog/arborist-report-when-you-need-one-boise/">written arborist report</a> — a formal assessment from a credentialed professional.</li>
+          <li><strong>Storm damage left a tree half-standing.</strong> Partially failed trees are the most dangerous work in this industry. That's <a href="/emergency-tree-service-boise/">emergency tree service</a> territory: call before anyone improvises with a ladder.</li>
+        </ul>
+
+        <h2 id="services">Arborist Services We Provide in Boise</h2>
+
+        <h3>Tree Health Assessments</h3>
+        <p>An arborist inspects the tree from root flare to canopy: soil condition, trunk wounds, decay indicators, pest and disease signs, and structural defects. You get a straight answer about what's wrong and what (if anything) to do about it. Runs $75&ndash;$250, often waived when you schedule the recommended work. Full details on our <a href="/blog/tree-health-assessment-boise/">tree health assessment page</a>.</p>
+
+        <h3>Tree Risk Assessments</h3>
+        <p>Focused on one question: how likely is this tree (or limb) to fail, and what would it hit? Essential for trees near houses, play areas, and driveways, and for <a href="/blog/buying-home-mature-trees-boise/">buying a home with mature trees</a>. After Boise's spring windstorms, this is our most-requested consultation.</p>
+
+        <h3>Fine and Structural Pruning</h3>
+        <p>Pruning to ANSI A300 standards: crown thinning for wind resistance, structural pruning to build sound scaffolds in young trees, clearance raising, deadwood removal. The full timing-and-technique breakdown is on our <a href="/tree-trimming-boise/">tree trimming page</a>.</p>
+
+        <h3>Cabling and Bracing</h3>
+        <p>Support systems for trees with weak unions or heavy limbs worth saving — a steel or synthetic cable system runs $200&ndash;$900 installed. See our <a href="/blog/tree-cabling-bracing-boise/">cabling and bracing guide</a> for when it works and when it's postponing the inevitable.</p>
+
+        <h3>Pest and Disease Diagnosis</h3>
+        <p>Fire blight in ornamental pears, borers in birches, <a href="/blog/pine-tree-problems-boise/">pine problems</a>, and the rest of the Treasure Valley's greatest hits. Identification first, then a treatment plan matched to the actual problem — see the <a href="/blog/tree-diseases-boise/">common Boise tree diseases guide</a>.</p>
+
+        <h3>Consultations and Second Opinions</h3>
+        <p>Another company says the tree has to come down? A consulting visit is cheap insurance before a four-figure removal. We'll tell you if we agree — and we'll tell you if we don't.</p>
+
+        <h2 id="cost">What Does an Arborist Cost in Boise?</h2>
+
+        <p>Two different things get called "arborist cost": the assessment (paying for expertise) and the work (paying for the job). Here's how both price out in the Boise area in 2026:</p>
+
+        <table>
+          <thead>
+            <tr><th>Service</th><th>Typical Cost</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Estimate for specific work</td><td>Free</td></tr>
+            <tr><td>Tree health assessment</td><td>$75&ndash;$250 (often waived if work is scheduled)</td></tr>
+            <tr><td>Deadwood removal</td><td>$150&ndash;$800</td></tr>
+            <tr><td>Cabling and bracing</td><td>$200&ndash;$900 per system</td></tr>
+            <tr><td>Crown thinning</td><td>$250&ndash;$1,500</td></tr>
+            <tr><td>Tree trimming (full range)</td><td>$150&ndash;$2,000+</td></tr>
+            <tr><td>Tree removal (full range)</td><td>$300&ndash;$5,000+</td></tr>
+          </tbody>
+        </table>
+
+        <p>These are ballpark ranges, not quotes — every tree and site is different. For the complete pricing breakdown by service, see <a href="/blog/arborist-cost-boise/">how much an arborist costs in Boise</a>. If you need a formal written report for insurance or a real estate transaction, that's priced separately — here's <a href="/blog/arborist-report-when-you-need-one-boise/">when you need an arborist report</a>.</p>
+
+        <h2 id="do-you-need">Do You Need an Arborist to Trim a Tree?</h2>
+
+        <p>Honest answer: legally, no. Idaho doesn't license tree trimming, and nothing stops you from pruning your own trees.</p>
+
+        <p><strong>When DIY is reasonable:</strong> small ornamentals and fruit trees under about 15 feet, cuts you can make with both feet on the ground, branches under 2 inches thick, and nothing near a structure or line. Learn where to cut and the tree will be fine.</p>
+
+        <p><strong>When it isn't:</strong> mature shade trees, anything requiring a ladder plus a saw (the classic amateur-injury combination), limbs over roofs or fences, anything within reach of a power line (that's <a href="/blog/tree-near-power-lines-boise/">Idaho Power's territory or a pro's</a> — never yours), and any structural decision on a tree you care about. Mature trees don't get do-overs: a topping job or a set of flush cuts is permanent damage, and fixing bad pruning costs far more than good pruning would have.</p>
+
+        <p>The middle path many Boise homeowners take: pay for an assessment, have the arborist mark and explain what should come off, and do the small ground-level cuts yourself while a crew handles the canopy.</p>
+
+        <h2 id="verify">How to Verify an Arborist's Credentials (Ours Included)</h2>
+
+        <p>Anyone can print "certified arborist" on a truck door. Verification takes two minutes:</p>
+
+        <ul>
+          <li><strong>Check ISA certification</strong> at <a href="https://www.treesaregood.org/findanarborist" target="_blank" rel="noopener">treesaregood.org</a> — the ISA's free lookup verifies any individual's credential by name.</li>
+          <li><strong>Ask for insurance certificates</strong> — general liability AND workers' compensation, issued by the insurer, not a photocopy. If a climber gets hurt on your property and the company isn't covered, that can become your problem.</li>
+          <li><strong>Ask how they'd do the job.</strong> An arborist talks about which cuts and why. If the answer to every tree is "top it" or "take it down," you're talking to a chainsaw, not an arborist.</li>
+        </ul>
+
+        <p>We hold every job to ISA standards and ANSI A300 pruning specifications, and we're licensed and insured. Ask us for documentation when we quote your job — a company that hesitates on that question has answered it.</p>
+
+        <h2 id="faqs">FAQs About Arborists in Boise</h2>
+
+        <div class="faq-item">
+          <h3>How much does an arborist cost in Boise?</h3>
+          <p>A tree health assessment runs $75&ndash;$250, often waived if you schedule work afterward. Estimates for specific jobs are free. The work itself ranges from $150 for small pruning jobs to $5,000+ for large removals. Formal written reports for insurance or legal purposes are priced separately.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do you need an arborist to trim a tree?</h3>
+          <p>Legally, no — Idaho doesn't require a license for tree trimming. Practically: small trees with ground-level cuts are fine to DIY, but mature trees, anything near structures or power lines, and any cut requiring a ladder belong with a professional. Bad pruning damage is permanent and shows up years later.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What is the difference between an arborist and a tree service?</h3>
+          <p>An arborist is a certified tree care professional (ISA-certified) trained in tree biology, diagnosis, and care. A tree service is a company that does tree work, which may or may not employ certified arborists. For health assessments, diagnosis, and pruning decisions, you want a certified arborist involved.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Are arborist consultations free?</h3>
+          <p>Estimates for specific work are free. A diagnostic health assessment — inspecting a sick or hazardous tree and explaining what's wrong — runs $75&ndash;$250 and is often credited back if you schedule the recommended work.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I find an ISA-certified arborist near me?</h3>
+          <p>Use the free lookup at treesaregood.org to verify any arborist's ISA credential by name or company, then confirm liability insurance and workers' comp before anyone starts work. We serve Boise, Meridian, Eagle, Garden City, Nampa, and Caldwell — call (509) 351-8404.</p>
+        </div>
+
+        <h2>Talk to an Arborist Before You Decide</h2>
+
+        <p>Whether your tree needs a $75 assessment, a careful pruning, or nothing at all, the right first step is the same: have someone qualified look at it before anyone cuts it. Trees take decades to grow and an afternoon to ruin.</p>
+
+        <p><strong>Ready for straight answers about your trees?</strong> <a href="/#contact">Get a free estimate from Boise Tree Pros</a>. An ISA-certified arborist will walk your property, assess what you have, and tell you honestly what needs attention and what doesn't.</p>
+
+        <p>Call <strong>(509) 351-8404</strong> or <a href="/#contact">book your free estimate online</a>.</p>
+
+      </div>
+
+      <!-- Sidebar -->
+      <aside>
+        <!-- CTA Box -->
+        <div style="background:#FAF0E6;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-bottom:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:20px;color:#1A531A;margin-bottom:12px;">Ask an Arborist</h3>
+          <p style="font-size:14px;line-height:1.7;color:#555;margin-bottom:20px;">An ISA-certified arborist will visit your property, assess your trees, and give you honest recommendations with a written estimate — free.</p>
+          <a href="/#contact" class="btn-primary" style="width:100%;justify-content:center;margin-bottom:12px;">Request Estimate</a>
+          <a href="tel:+15093518404" class="btn-bark" style="width:100%;justify-content:center;">Call (509) 351-8404</a>
+        </div>
+
+        <!-- Related Reading -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:16px;">Related Reading</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;">
+            <li><a href="/blog/arborist-cost-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; How Much Does an Arborist Cost?</a></li>
+            <li><a href="/blog/arborist-report-when-you-need-one-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; When You Need an Arborist Report</a></li>
+            <li><a href="/blog/tree-health-assessment-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Health Assessments</a></li>
+            <li><a href="/blog/crown-thinning-raising-reduction/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Crown Thinning vs Raising vs Reduction</a></li>
+            <li><a href="/blog/how-to-hire-tree-service-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; How to Hire a Tree Service</a></li>
+            <li><a href="/tree-trimming-boise/" style="font-size:14px;color:#8B5A2B;text-decoration:none;font-weight:500;display:flex;align-items:center;gap:6px;">&#8594; Tree Trimming &amp; Pruning</a></li>
+          </ul>
+        </div>
+
+        <!-- Service Areas -->
+        <div style="background:#fff;border:1px solid #e8ddd0;border-radius:8px;padding:28px;margin-top:24px;">
+          <h3 style="font-family:'Zilla Slab',Georgia,serif;font-weight:700;font-size:18px;color:#1A531A;margin-bottom:12px;">Service Areas</h3>
+          <p style="font-size:14px;line-height:1.7;color:#555;">Certified arborist services throughout the Treasure Valley:</p>
+          <ul style="padding-left:18px;margin-top:8px;">
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Boise, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Meridian, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Eagle, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Nampa, ID</li>
+            <li style="font-size:14px;color:#555;margin-bottom:4px;">Caldwell, ID</li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     CTA BANNER
+══════════════════════════════════ -->
+<section style="background:linear-gradient(135deg, #1A531A 0%, #2A6B2A 50%, #1A531A 100%);padding:64px 24px;text-align:center;">
+  <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(26px,4vw,40px);font-weight:700;color:#FAF0E6;margin-bottom:16px;">Need an Arborist's Opinion?</h2>
+  <p style="font-size:16px;color:rgba(250,240,230,0.8);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto;">Get a free, no-obligation assessment from an ISA-certified arborist. Most estimates scheduled within 48 hours.</p>
+  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+    <a href="/#contact" class="btn-primary" style="background:#FAF0E6;color:#1A531A;border-color:#FAF0E6;font-weight:700;">Get Free Estimate</a>
+    <a href="tel:+15093518404" class="btn-primary" style="background:transparent;border-color:rgba(250,240,230,0.5);color:#FAF0E6;">Call (509) 351-8404</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+</Layout>

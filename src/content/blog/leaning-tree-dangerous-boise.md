@@ -76,7 +76,7 @@ So your tree is leaning -- and you're not sure if it's always been that way. Her
 
 **The 15-degree rule.** As a general guideline, a tree leaning more than 15 degrees from vertical deserves professional evaluation, regardless of whether the lean appears natural. At that angle, wind loads and gravity create significant leverage on the root system. The [International Society of Arboriculture (ISA)](https://www. treesaregood.org/) recommends professional risk assessment for any tree with structural concerns near targets like homes, driveways, or play areas.
 
-**If you're seeing two or more of these signs together, don't wait.** Contact a certified arborist for a [hazardous tree assessment](/#services).
+**If you're seeing two or more of these signs together, don't wait.** Contact a [certified arborist for a hazardous tree assessment](/arborist-boise/).
 
 ## Can a Leaning Tree Be Saved? When Cabling and Bracing Help
 
