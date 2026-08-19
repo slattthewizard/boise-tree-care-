@@ -256,8 +256,24 @@ import Layout from '../layouts/Layout.astro';
     .review-dot:hover::after { background: #A06830; }
     .review-dot:focus-visible { outline: 2px solid #1A531A; outline-offset: 3px; }
     .active-dot::after { background: #1A531A; width: 24px; border-radius: 4px; }
+    /* Responsive overrides for the fixed inline grid columns below —
+       without these the page is 3–4 columns wide on a phone and scrolls
+       sideways into blank space. !important is needed to beat the inline styles. */
+    @media (max-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    }
+    @media (max-width: 900px) {
+      .grid-cols-advice,
+      .grid-cols-quality,
+      .grid-cols-cta,
+      .grid-cols-about,
+      .form-grid { grid-template-columns: 1fr !important; }
+      .grid-cols-quality, .grid-cols-about { gap: 48px !important; }
+      .grid-cols-gallery { grid-template-columns: repeat(2, 1fr) !important; }
+      .about-stats { right: 8px !important; padding: 18px 20px !important; gap: 20px !important; }
+    }
     @media (max-width: 640px) {
-      .review-slide { padding: 32px 24px !important; }
+      .services-grid { grid-template-columns: 1fr !important; }
     }
     .review-arrow {
       width: 44px; height: 44px; border-radius: 50%; background: #fff;

@@ -69,6 +69,9 @@ const {
   <style>
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
+    /* overflow-x: clip (not hidden) — clips stray horizontal overflow on phones
+       without creating a scroll container, so the sticky header keeps working */
+    html, body { overflow-x: clip; }
     body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; color: #363636; background: #fff; margin: 0; }
 
     /* Noise texture overlay */

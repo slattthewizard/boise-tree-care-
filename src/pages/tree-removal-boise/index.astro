@@ -59,6 +59,12 @@ import Layout from '../../layouts/Layout.astro';
     .faq-item { margin-bottom: 24px; }
     .faq-item h3 { font-size: 18px; color: #363636; margin-bottom: 8px; }
     .faq-item p { margin-bottom: 0; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .content-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+      .article-content table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    }
   </style>
 <script type="application/ld+json">
   {

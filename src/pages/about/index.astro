@@ -35,6 +35,16 @@ import Layout from '../../layouts/Layout.astro';
     .value-card { background: #fff; border: 1px solid #e8ddd0; border-radius: 12px; padding: 32px 28px; box-shadow: 0 2px 8px rgba(26,83,26,0.06); transition: transform 0.2s, box-shadow 0.2s; }
     .value-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(26,83,26,0.12); }
     .timeline-dot { width: 14px; height: 14px; background: #1A531A; border: 3px solid #FAF0E6; border-radius: 50%; box-shadow: 0 0 0 2px #1A531A; flex-shrink: 0; }
+
+    /* Responsive overrides for the fixed inline grid columns — !important beats the inline styles */
+    @media (max-width: 900px) {
+      .about-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+      .values-grid { grid-template-columns: repeat(2, 1fr) !important; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    }
+    @media (max-width: 640px) {
+      .values-grid { grid-template-columns: 1fr !important; }
+    }
   </style>
 <script type="application/ld+json">
   {
