@@ -25,7 +25,7 @@ These get used interchangeably and they're two different jobs with two very diff
 
 For the overwhelming majority of Boise properties, grinding is the right answer. There are four situations where it isn't, and knowing which one you're in before you book saves either money or a redo.
 
-**Got a stump to deal with? Call (509) 351-8404** or [request a free on-site estimate](/#contact).
+**Got a stump to deal with? Call (866) 228-3559** or [request a free on-site estimate](/#contact).
 
 ## The Quick Answer
 
@@ -143,4 +143,4 @@ Only for specific situations: building or hardscaping on the spot, planting in t
 
 The cheapest time to grind a stump is the day the tree comes down.
 
-**Call (509) 351-8404** or [request your free on-site estimate](/#contact). Our [stump grinding](/stump-grinding-boise/) service covers Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, with volume pricing for multiple stumps and grinding depth set to whatever you're planning to do with the space.
+**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Our [stump grinding](/stump-grinding-boise/) service covers Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, with volume pricing for multiple stumps and grinding depth set to whatever you're planning to do with the space.
