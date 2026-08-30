@@ -34,7 +34,7 @@ If you're about to build in Boise, Meridian, Nampa, Caldwell, Eagle, or Garden C
 | Larger or densely wooded parcel, crane-access trees | $6,000-$8,000+ | Extreme-tier trees or high total volume |
 | Keeping several mature trees, clearing around them | Same size tiers, plus protection fencing | Saving trees changes the site plan, not the per-tree price |
 
-**Planning a build and staring at a lot full of trees? [Get a free on-site clearing estimate](/#contact)** or call **(509) 351-8404**. A crew needs to walk the parcel to price it accurately, since tree count and access matter as much as acreage.
+**Planning a build and staring at a lot full of trees? [Get a free on-site clearing estimate](/#contact)** or call **(866) 228-3559**. A crew needs to walk the parcel to price it accurately, since tree count and access matter as much as acreage.
 
 ## The Permit Question Most Builders Skip
 
@@ -106,4 +106,4 @@ Survey and mark the trees, and confirm any right-of-way or easement permit quest
 
 A build lot full of trees is not a problem to solve with a single call to a dozer operator. Sorting out permits, pricing the actual removal work, and deciding what's worth protecting before grading starts keeps a routine part of the build from turning into a delay or an unplanned expense later.
 
-**Call (509) 351-8404** or [request your free on-site estimate](/#contact) before you schedule grading. A crew can walk the lot, flag anything that needs a permit check, and give you a straight number for what clearing the rest will actually cost.
+**Call (866) 228-3559** or [request your free on-site estimate](/#contact) before you schedule grading. A crew can walk the lot, flag anything that needs a permit check, and give you a straight number for what clearing the rest will actually cost.

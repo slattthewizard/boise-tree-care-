@@ -244,4 +244,4 @@ Root issues don't get better by waiting. Whether you're dealing with a slow drai
 
 We'll tell you whether the tree can stay, whether root pruning is safe, or whether removal is the smartest move for your property and your wallet. No pressure, no upsell.
 
-**Call (509) 351-8404 for a free estimate**, or [schedule your visit online](/#contact). We serve Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley.
+**Call (866) 228-3559 for a free estimate**, or [schedule your visit online](/#contact). We serve Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley.

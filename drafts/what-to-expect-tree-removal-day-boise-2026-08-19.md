@@ -13,7 +13,7 @@ Most people booking a tree removal have never watched one. The questions that co
 
 Here's the whole day, start to finish, plus the short list of things worth doing before the crew pulls up.
 
-**Ready to schedule, or still deciding? Call (509) 351-8404** or [request a free on-site estimate](/#contact).
+**Ready to schedule, or still deciding? Call (866) 228-3559** or [request a free on-site estimate](/#contact).
 
 ## The Quick Answer
 
@@ -144,4 +144,4 @@ Yes, out of the driveway and away from the work area. The truck and chipper gene
 
 Once the scope is written down and access is sorted, removal day is mostly a matter of staying out of the way.
 
-**Call (509) 351-8404** or [request your free on-site estimate](/#contact). Our ISA-certified crews handle [tree removal](/tree-removal-boise/) across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, with written itemized quotes that name the cleanup and the stump, not just the tree.
+**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Our ISA-certified crews handle [tree removal](/tree-removal-boise/) across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, with written itemized quotes that name the cleanup and the stump, not just the tree.

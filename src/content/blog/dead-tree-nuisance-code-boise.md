@@ -34,7 +34,7 @@ That's a different problem than the two tree disputes we hear about most. A neig
 | Dead tree is already dropping large limbs near people or structures | Sometimes, if it's a broader safety hazard | Call code compliance and get an arborist hazard report |
 | Tree has already fallen | Different question | See [tree fell on fence liability in Idaho](/blog/tree-fell-on-fence-responsibility-idaho/) |
 
-**Have a dead or leaning tree next door that worries you?** [Get a written hazard assessment](/#contact) before you decide which path applies. Call **(509) 351-8404**.
+**Have a dead or leaning tree next door that worries you?** [Get a written hazard assessment](/#contact) before you decide which path applies. Call **(866) 228-3559**.
 
 ## What Actually Makes a Dead Tree a "Public Nuisance" in Boise
 
@@ -109,4 +109,4 @@ Once a city forester confirms a tree meets the nuisance definition, the owner is
 
 A dead tree next door rarely stays a paperwork question for long. Idaho windstorms have a way of turning "who's responsible" into "who's paying for the damage" without much warning.
 
-**Call (509) 351-8404** or [request a free assessment](/#contact) and get a straight answer on whether this is a city matter, a neighbor conversation, or a job that needs to happen now.
+**Call (866) 228-3559** or [request a free assessment](/#contact) and get a straight answer on whether this is a city matter, a neighbor conversation, or a job that needs to happen now.

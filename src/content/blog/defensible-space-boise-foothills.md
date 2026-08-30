@@ -19,7 +19,7 @@ faq:
   - question: "Does defensible space guarantee my house won't burn in a wildfire?"
     answer: "No, nothing does. What it does is remove the fuel that lets embers and ground fire reach the structure directly, which meaningfully improves the odds and gives firefighters a safer space to work if a fire does reach the property."
   - question: "How often do I need to redo defensible space clearing?"
-    answer: "At least once a year, typically in spring before grass cures and cheatgrass dries out. Trees keep growing and dropping deadwood, so a property that was compliant last summer can drift out of compliance by the next one without a repeat check. Foothills properties carry a fire risk that valley-floor homes simply don't, and the three zones exist because they work: less continuous fuel means less chance an ember or ground fire ever reaches your walls. Call (509) 351-8404 or request a defensible space walk-through and find out exactly where your property stands before the next dry stretch."
+    answer: "At least once a year, typically in spring before grass cures and cheatgrass dries out. Trees keep growing and dropping deadwood, so a property that was compliant last summer can drift out of compliance by the next one without a repeat check. Foothills properties carry a fire risk that valley-floor homes simply don't, and the three zones exist because they work: less continuous fuel means less chance an ember or ground fire ever reaches your walls. Call (866) 228-3559 or request a defensible space walk-through and find out exactly where your property stands before the next dry stretch."
 ---
 Defensible space means clearing flammable vegetation around your house in three rings, measured out from the structure itself: 0 to 5 feet, 5 to 30 feet, and 30 to 100 feet. The rules get stricter the closer you get to the house, and Idaho Department of Lands guidance uses this same three-zone layout for every property sitting against open hillside.
 
@@ -55,7 +55,7 @@ Zone 1 is about spacing, not removal. The goal is 10 feet of clear air between t
 
 Drought-stressed trees are a bigger liability here than healthy ones. A stressed tree drops needles and small dead branches faster and holds more dry fuel in its crown, which is exactly what this zone is meant to eliminate. If your foothills trees have looked thin or off-color the last couple of summers, our post on [drought stress in Boise trees](/blog/drought-stress-trees-boise/) is worth reading before fire season, not after. Crown thinning to open up a dense canopy runs **$250 to $1,500** depending on the tree's size, and [our crown thinning, raising, and reduction guide](/blog/crown-thinning-raising-reduction/) explains the difference between the three techniques.
 
-**Working through a whole property's worth of spacing and limbing at once? [Call (509) 351-8404](tel:5093518404) for a walk-through and a same-day quote.**
+**Working through a whole property's worth of spacing and limbing at once? [Call (866) 228-3559](tel:8662283559) for a walk-through and a same-day quote.**
 
 ## Zone 2: 30 to 100 Feet, Slowing the Fire Down
 
@@ -96,4 +96,4 @@ No, nothing does. What it does is remove the fuel that lets embers and ground fi
 ### How often do I need to redo defensible space clearing?
 At least once a year, typically in spring before grass cures and cheatgrass dries out. Trees keep growing and dropping deadwood, so a property that was compliant last summer can drift out of compliance by the next one without a repeat check.
 
-Foothills properties carry a fire risk that valley-floor homes simply don't, and the three zones exist because they work: less continuous fuel means less chance an ember or ground fire ever reaches your walls. **Call (509) 351-8404** or [request a defensible space walk-through](/#contact) and find out exactly where your property stands before the next dry stretch.
+Foothills properties carry a fire risk that valley-floor homes simply don't, and the three zones exist because they work: less continuous fuel means less chance an ember or ground fire ever reaches your walls. **Call (866) 228-3559** or [request a defensible space walk-through](/#contact) and find out exactly where your property stands before the next dry stretch.

@@ -13,7 +13,7 @@ A big mature tree with one structural flaw is a frustrating thing to own. The tr
 
 Cabling and bracing exist for exactly that tree. A support system runs **$200 to $900** per system, and on the right tree it can add decades. On the wrong tree it's money spent decorating a hazard, which is why the assessment matters more than the hardware.
 
-**Wondering whether your tree can be supported instead of removed? Call (509) 351-8404** or [request a free on-site estimate](/#contact).
+**Wondering whether your tree can be supported instead of removed? Call (866) 228-3559** or [request a free on-site estimate](/#contact).
 
 ## The Quick Answer
 
@@ -125,4 +125,4 @@ Almost always, in the short run. A **$200 to $900** system against **$2,500 to $
 
 The decision comes down to what's holding the tree up, and that takes someone looking at the union, the trunk, and the root plate together.
 
-**Call (509) 351-8404** or [request your free on-site estimate](/#contact). Our ISA-certified arborists assess and install support systems across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and we'll tell you plainly if a tree isn't worth supporting rather than selling you hardware for it.
+**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Our ISA-certified arborists assess and install support systems across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and we'll tell you plainly if a tree isn't worth supporting rather than selling you hardware for it.

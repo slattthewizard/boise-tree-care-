@@ -287,4 +287,4 @@ Here's what it comes down to:
 
 Your trees are the most valuable plants on your property, for shade, for curb appeal, for property value, and for making Boise's summers actually livable. A little strategic watering goes a long way toward keeping them around for decades.
 
-**Not sure if your trees are getting enough water, or worried about signs of stress?** Boise Tree Pros offers free on-site estimates where our ISA-certified arborists assess your trees and recommend a care plan tailored to your property. Call [(509) 351-8404](tel:5093518404) or [schedule your free estimate online](/#contact).
+**Not sure if your trees are getting enough water, or worried about signs of stress?** Boise Tree Pros offers free on-site estimates where our ISA-certified arborists assess your trees and recommend a care plan tailored to your property. Call [(866) 228-3559](tel:8662283559) or [schedule your free estimate online](/#contact).

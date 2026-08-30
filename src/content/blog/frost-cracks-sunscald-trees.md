@@ -151,4 +151,4 @@ Winter trunk damage looks alarming, and the instinct to "fix" it with sealant or
 
 If you are not sure whether what you are looking at is minor winter injury or something that needs intervention, our ISA-certified arborists can take a look and give you a straight answer, free of charge.
 
-**Call (509) 351-8404** or [request your free consultation online](/#contact).
+**Call (866) 228-3559** or [request your free consultation online](/#contact).

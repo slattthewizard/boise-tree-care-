@@ -95,4 +95,4 @@ Hollow trees also carry real ecological value worth factoring in. Cavities provi
 
 A hollow trunk isn't a diagnosis by itself. It's a starting point for the real question: how much solid, load-bearing wood is left, and what happens if that margin fails. Trees are remarkably good at compartmentalizing decay and continuing to thrive around a hollow core, which is why so many century-old hollow trees are still standing strong across the Treasure Valley. But guessing at shell thickness from the ground is a bad way to make a safety call, especially with a heavy canopy or a nearby house in the equation.
 
-**Call (509) 351-8404** or [request your free consultation online](/#contact).
+**Call (866) 228-3559** or [request your free consultation online](/#contact).

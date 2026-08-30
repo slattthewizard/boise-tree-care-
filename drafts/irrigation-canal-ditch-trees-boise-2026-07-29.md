@@ -70,7 +70,7 @@ Do not assume the city's process for a regular yard tree applies here. Boise's o
 
 That is exactly the kind of call an ISA-certified arborist should make before anyone puts a chainsaw to a tree that close to moving water. Lean angle, root exposure, and bank condition decide whether a tree comes down clean or takes part of the bank with it, which is why [DIY removal near a ditch](/blog/diy-tree-removal-vs-professional/) is riskier than almost anywhere else on a residential lot. For the separate question of a tree near a property line rather than a ditch, see our guide to [neighbor tree trimming rights in Idaho](/blog/neighbor-tree-trimming-rights-idaho/).
 
-**Have a tree leaning toward a canal or lateral on your property? [Get an on-site assessment](/#contact) or call (509) 351-8404. Our crews are licensed and insured for exactly this kind of access-sensitive removal, and a genuine hazard over moving water gets same-day attention through our [emergency tree service](/emergency-tree-service-boise/) line.**
+**Have a tree leaning toward a canal or lateral on your property? [Get an on-site assessment](/#contact) or call (866) 228-3559. Our crews are licensed and insured for exactly this kind of access-sensitive removal, and a genuine hazard over moving water gets same-day attention through our [emergency tree service](/emergency-tree-service-boise/) line.**
 
 ## Frequently Asked Questions
 
@@ -91,4 +91,4 @@ In most cases the property owner covers it, especially if they planted the tree 
 
 A ditch bank easement is not something a fence line erases. The district keeping water moving through your neighborhood has more say over what grows there than most homeowners realize until a notice shows up, so check before you plant or remove, and bring in an ISA-certified arborist when a tree's lean or position over the water makes the call anything but obvious. The [University of Idaho Extension](https://www.uidaho.edu/extension) also has general homeowner tree resources worth a skim.
 
-**Call (509) 351-8404** or [request a free on-site assessment](/#contact) before you touch anything growing near a canal or ditch bank in Boise, Meridian, Nampa, Caldwell, Eagle, or Garden City.
+**Call (866) 228-3559** or [request a free on-site assessment](/#contact) before you touch anything growing near a canal or ditch bank in Boise, Meridian, Nampa, Caldwell, Eagle, or Garden City.

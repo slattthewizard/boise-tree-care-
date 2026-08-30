@@ -19,7 +19,7 @@ faq:
   - question: "Does finding a nest or swarm change the price of my tree removal or trimming?"
     answer: "Usually not for the tree work itself, since our pricing is based on the size and complexity of the tree, not what's living in it. The beekeeper's or pest control company's fee is separate and billed by them directly, not folded into our quote."
   - question: "Is it safe to knock down a wasp nest myself before your crew arrives?"
-    answer: "We'd rather you didn't, especially if the nest is more than a few feet off the ground or anywhere near where a chainsaw will be running. A miscalculated hit on an active hornet nest from a ladder is a common way people get stung repeatedly or fall, so it's worth leaving the timing to us or to a pest control company. Found something buzzing in the tree you need worked on? Call (509) 351-8404 or reach out online and tell us what you're seeing. We'll help you sort out whether it's a same-visit fix or a short reschedule, and get the job back on the calendar either way."
+    answer: "We'd rather you didn't, especially if the nest is more than a few feet off the ground or anywhere near where a chainsaw will be running. A miscalculated hit on an active hornet nest from a ladder is a common way people get stung repeatedly or fall, so it's worth leaving the timing to us or to a pest control company. Found something buzzing in the tree you need worked on? Call (866) 228-3559 or reach out online and tell us what you're seeing. We'll help you sort out whether it's a same-visit fix or a short reschedule, and get the job back on the calendar either way."
 ---
 A honeybee swarm in a tree needs a beekeeper, never a can of spray, and the tree work waits until the colony is safely gone. A wasp or hornet nest is usually a simpler fix: a small one often gets cleared the same visit, while a large, aggressive nest means rescheduling a few days so pest control can treat it first. Either way, a bee swarm or wasp nest in a tree changes the plan for your Boise removal or trim, and knowing which one you have tells you what happens next.
 
@@ -34,7 +34,7 @@ Not every buzzing tree is the same problem. Here's how the two situations usuall
 | Small paper wasp nest, away from the cut zone | Often cleared by our crew, same visit | Sometimes, carefully | Little to no delay |
 | Bald-faced hornet or yellow jacket nest, large or hidden in the canopy | Pest control company | Not by us | Job is rescheduled a few days until it's treated |
 
-**Not sure what you're looking at?** [Send us a photo through our contact form](/#contact) or call (509) 351-8404 and we'll help you figure out the next step before we show up.
+**Not sure what you're looking at?** [Send us a photo through our contact form](/#contact) or call (866) 228-3559 and we'll help you figure out the next step before we show up.
 
 ## Honeybee Swarms: Call a Beekeeper, Not an Exterminator
 
@@ -71,7 +71,7 @@ Whether the job on the calendar is a full [tree removal](/tree-removal-boise/) o
 
 We don't cancel the job when this happens. We hold your place on the schedule and come back as soon as the tree is clear.
 
-Call (509) 351-8404 once you've booked the beekeeper or pest control treatment, and we'll lock in the return visit before the calendar fills up. If you're comparing quotes from more than one crew for a job complicated by a nest, our guide on [how to hire a tree service in Boise](/blog/how-to-hire-tree-service-boise/) covers the questions worth asking about how a company actually handles a delay like this, versus just promising it won't happen.
+Call (866) 228-3559 once you've booked the beekeeper or pest control treatment, and we'll lock in the return visit before the calendar fills up. If you're comparing quotes from more than one crew for a job complicated by a nest, our guide on [how to hire a tree service in Boise](/blog/how-to-hire-tree-service-boise/) covers the questions worth asking about how a company actually handles a delay like this, versus just promising it won't happen.
 
 ## What a Nest or Swarm Adds to the Cost
 
@@ -105,4 +105,4 @@ Usually not for the tree work itself, since our pricing is based on the size and
 ### Is it safe to knock down a wasp nest myself before your crew arrives?
 We'd rather you didn't, especially if the nest is more than a few feet off the ground or anywhere near where a chainsaw will be running. A miscalculated hit on an active hornet nest from a ladder is a common way people get stung repeatedly or fall, so it's worth leaving the timing to us or to a pest control company.
 
-**Found something buzzing in the tree you need worked on?** Call (509) 351-8404 or [reach out online](/#contact) and tell us what you're seeing. We'll help you sort out whether it's a same-visit fix or a short reschedule, and get the job back on the calendar either way.
+**Found something buzzing in the tree you need worked on?** Call (866) 228-3559 or [reach out online](/#contact) and tell us what you're seeing. We'll help you sort out whether it's a same-visit fix or a short reschedule, and get the job back on the calendar either way.

@@ -94,4 +94,4 @@ If a property you are considering has one or more large trees, especially anythi
 
 A mature tree can be one of the best features of a property or one of the most expensive surprises waiting behind the listing photos. The only way to know which one you are getting is to have someone who actually understands tree structure take a look before you sign.
 
-**Call (509) 351-8404** or [request your free consultation online](/#contact).
+**Call (866) 228-3559** or [request your free consultation online](/#contact).

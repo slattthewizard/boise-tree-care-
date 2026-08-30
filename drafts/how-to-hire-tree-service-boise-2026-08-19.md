@@ -13,7 +13,7 @@ Tree work is one of the few home services where hiring badly can cost you more t
 
 That's the real reason the vetting matters, and it's why the most important question you'll ask has nothing to do with price.
 
-**Want a quote from a licensed, insured, ISA-certified crew? Call (509) 351-8404** or [request a free on-site estimate](/#contact).
+**Want a quote from a licensed, insured, ISA-certified crew? Call (866) 228-3559** or [request a free on-site estimate](/#contact).
 
 ## The Quick Answer
 
@@ -134,4 +134,4 @@ Usually because something isn't in it. The common omissions are insurance, debri
 
 Ask us the same questions you'd ask anyone else. We'd rather answer them before the work than after.
 
-**Call (509) 351-8404** or [request your free on-site estimate](/#contact). We're licensed and insured, our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and every quote is written, itemized, and includes what happens to the debris. Emergencies get a 24/7 line and same-day response.
+**Call (866) 228-3559** or [request your free on-site estimate](/#contact). We're licensed and insured, our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and every quote is written, itemized, and includes what happens to the debris. Emergencies get a 24/7 line and same-day response.

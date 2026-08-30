@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout
   title="Tree Service Boise, ID | Certified Arborists | Boise Tree Pros"
-  description="ISA-certified arborists serving Boise, Meridian, Eagle &amp; Nampa. Tree trimming, removal, emergency service &amp; stump grinding. Fully insured. Free estimates — call (509) 351-8404."
+  description="ISA-certified arborists serving Boise, Meridian, Eagle &amp; Nampa. Tree trimming, removal, emergency service &amp; stump grinding. Fully insured. Free estimates — call (866) 228-3559."
   canonical="https://boisetreepro.com/"
   ogTitle="Tree Service Boise, ID | Boise Tree Pros"
   ogDescription="ISA-certified arborists serving Boise &amp; the Treasure Valley. Tree trimming, removal, emergency service &amp; stump grinding. Free estimates."
@@ -179,6 +179,44 @@ import Layout from '../layouts/Layout.astro';
     .btn-cream:hover { background: #fff; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
     .btn-cream:active { transform: translateY(0); }
     .btn-cream:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+
+    /* Primary call-to-action: phone */
+    .btn-call {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #C9761F;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: 0.01em;
+      padding: 16px 32px;
+      border: 2px solid #C9761F;
+      border-radius: 4px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 6px 20px rgba(201,118,31,0.38), 0 1px 3px rgba(0,0,0,0.2);
+    }
+    .btn-call:hover { background: #E08A2C; border-color: #E08A2C; box-shadow: 0 8px 26px rgba(201,118,31,0.5); transform: translateY(-1px); }
+    .btn-call:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(201,118,31,0.3); }
+    .btn-call:focus-visible { outline: 2px solid #87CEEB; outline-offset: 3px; }
+    @media (max-width: 420px) {
+      .btn-call { width: 100%; justify-content: center; font-size: 16px; padding: 15px 20px; }
+    }
+
+    /* Call band */
+    .call-band-num {
+      display: inline-flex; align-items: center; gap: 12px;
+      font-family: 'Zilla Slab', Georgia, serif;
+      font-weight: 700;
+      font-size: clamp(30px, 5.5vw, 46px);
+      line-height: 1.1;
+      color: #FAF0E6;
+      text-decoration: none;
+      transition: color 0.2s, transform 0.15s;
+    }
+    .call-band-num:hover { color: #fff; transform: translateY(-1px); }
+    .call-band-num:focus-visible { outline: 2px solid #87CEEB; outline-offset: 6px; border-radius: 4px; }
 
     /* Service cards */
     .service-card {
@@ -382,7 +420,7 @@ import Layout from '../layouts/Layout.astro';
     "@type": ["TreeService", "LocalBusiness"],
     "name": "Boise Tree Pros",
     "url": "https://boisetreepro.com",
-    "telephone": "(509) 351-8404",
+    "telephone": "(866) 228-3559",
     "description": "Tree trimming, removal, emergency service, and stump grinding in Boise and the Treasure Valley. Boise Tree Pros is a referral service connecting homeowners with independent licensed tree care contractors.",
     "priceRange": "$$",
     "image": "https://boisetreepro.com/images/og-image.png",
@@ -453,10 +491,18 @@ import Layout from '../layouts/Layout.astro';
       <p class="fade-up delay-2" style="font-size:18px;line-height:1.8;color:rgba(250,240,230,0.85);margin-bottom:36px;max-width:480px;">
         Professional tree care for Boise &amp; surrounding areas. From trimming to emergency removal — we keep your trees healthy and your property safe.
       </p>
-      <div class="fade-up delay-3 flex flex-wrap gap-4">
+      <div class="fade-up delay-3 flex flex-wrap gap-4 items-center">
+        <a href="tel:8662283559" class="btn-call" aria-label="Call Boise Tree Pros at 866-228-3559">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span class="btn-call-text">Call (866) 228-3559</span>
+        </a>
         <a href="#contact" class="btn-cream">Get Free Estimate</a>
         <a href="#services" class="btn-outline-white">Our Services</a>
       </div>
+      <p class="fade-up delay-3" style="margin-top:14px;font-size:14px;color:rgba(250,240,230,0.75);display:flex;align-items:center;gap:8px;">
+        <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#7CD97C;box-shadow:0 0 0 3px rgba(124,217,124,0.25);"></span>
+        Answered 24/7 &mdash; storm damage and emergency calls go straight to a crew lead.
+      </p>
 
       <!-- Trust bar -->
       <div class="fade-up delay-3 flex flex-wrap gap-6 mt-14" style="border-top:1px solid rgba(250,240,230,0.15);padding-top:24px;">
@@ -575,11 +621,42 @@ import Layout from '../layouts/Layout.astro';
 
     </div>
 
-    <div class="text-center mt-12">
+    <div class="text-center mt-12 flex flex-wrap justify-center gap-4">
+      <a href="tel:8662283559" class="btn-call" aria-label="Call Boise Tree Pros at 866-228-3559">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call (866) 228-3559
+      </a>
       <a href="#contact" class="btn-primary">Request a Free Quote</a>
     </div>
   </div>
 </section>
+
+<!-- ══════════════════════════════════
+     4b. CALL BAND
+══════════════════════════════════ -->
+<section aria-labelledby="call-band-heading" style="background:#1A531A;padding:52px 24px;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse 70% 120% at 15% 50%, rgba(15,48,16,0.55) 0%, transparent 65%);pointer-events:none;"></div>
+  <div class="max-w-7xl mx-auto relative" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px;">
+    <div style="min-width:280px;">
+      <h2 id="call-band-heading" style="font-family:'Inter',sans-serif;font-size:13px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#87CEEB;margin:0 0 10px;">Talk to an arborist now</h2>
+      <a href="tel:8662283559" class="call-band-num" aria-label="Call Boise Tree Pros at 866-228-3559">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (866) 228-3559
+      </a>
+      <p style="margin:12px 0 0;font-size:15px;line-height:1.6;color:rgba(250,240,230,0.8);max-width:460px;">
+        24/7 for storm damage and hazard trees. Free on-site estimates across Boise, Meridian, Eagle, Nampa, Caldwell and Garden City.
+      </p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;">
+      <a href="tel:8662283559" class="btn-call" aria-label="Call Boise Tree Pros at 866-228-3559">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.5 12 19.79 19.79 0 0 1 1.1 3.18a2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 7.82 7.82l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Now
+      </a>
+      <a href="#contact" class="btn-outline-white">Or Request an Estimate</a>
+    </div>
+  </div>
+</section>
+
 
 <!-- ══════════════════════════════════
      5. PROFESSIONAL ARBORIST ADVICE
@@ -797,7 +874,10 @@ import Layout from '../layouts/Layout.astro';
       <div>
         <h2 style="font-family:'Zilla Slab',Georgia,serif;font-size:clamp(28px,5vw,44px);font-weight:700;color:#fff;line-height:1.1;margin-bottom:16px;letter-spacing:-0.01em;">Does Your Tree Need Help?</h2>
         <p style="font-size:16px;color:rgba(255,255,255,0.85);margin-bottom:32px;line-height:1.7;max-width:440px;">Our certified arborists are ready to assess your trees and provide expert solutions. Get your free estimate today.</p>
-        <a href="#contact" class="btn-cream" style="font-size:15px;padding:16px 40px;">Get a Free Estimate</a>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;">
+          <a href="#contact" class="btn-cream" style="font-size:15px;padding:16px 40px;">Get a Free Estimate</a>
+          <a href="tel:8662283559" class="btn-outline-white" aria-label="Call Boise Tree Pros at 866-228-3559">Call (866) 228-3559</a>
+        </div>
       </div>
       <!-- Right: checklist -->
       <div style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:32px;">

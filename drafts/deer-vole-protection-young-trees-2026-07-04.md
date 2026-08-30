@@ -98,4 +98,4 @@ For partial damage, install a guard immediately to prevent repeat rubbing on the
 
 Deer rub and vole girdling are two of the more preventable ways a young tree dies in the Treasure Valley, and both come down to the same fix: a physical barrier around the trunk installed before the seasonal risk window opens, not after. If you're planting new trees this year, factor guards into the budget from day one. If you're looking at trunk damage right now, an arborist can tell you quickly whether the tree has a real shot at recovery or whether it's time to plan a replacement.
 
-**Call (509) 351-8404** or [request your free consultation online](/#contact).
+**Call (866) 228-3559** or [request your free consultation online](/#contact).

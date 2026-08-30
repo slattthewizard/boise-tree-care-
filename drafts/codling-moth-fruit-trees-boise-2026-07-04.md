@@ -100,4 +100,4 @@ Persistent, severe infestation across multiple seasons despite sanitation and ti
 
 Codling moth is beatable, but it takes the right combination of sanitation, timing, and sometimes physical protection rather than one spray and hoping for the best. If your apple or pear harvest has been disappointing for a few seasons running, we can help you build a plan around your actual trees and this year's actual weather instead of guesswork.
 
-**Call (509) 351-8404** or [request your free consultation online](/#contact).
+**Call (866) 228-3559** or [request your free consultation online](/#contact).

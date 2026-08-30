@@ -19,7 +19,7 @@ faq:
   - question: "Does homeowners insurance cover sidewalk repair from tree roots?"
     answer: "Generally no. Most policies treat gradual root heaving as ordinary wear and maintenance rather than a covered, sudden event, which is different from a tree falling on a structure during a storm. If you're unsure whether your specific situation might qualify as storm-related, it's worth a quick call to your insurer before you assume either outcome."
   - question: "How do I know if root pruning is safe or if I should just remove the tree?"
-    answer: "The size and location of the roots involved is what matters most, not how you feel about the tree. Small roots away from the trunk are usually safe to cut, while large roots close to the trunk or roots on the same side of a tree that's already leaning are a bigger risk. An ISA-certified arborist can look at the specific roots involved and give you a straight answer instead of a guess. Not sure whether your sidewalk situation is a street tree, your own tree, or something in between? Tell us where the panel lifted and we'll help you figure out who to call first, us or the city, before you spend money on the wrong fix. Call (509) 351-8404 or request your free consultation online."
+    answer: "The size and location of the roots involved is what matters most, not how you feel about the tree. Small roots away from the trunk are usually safe to cut, while large roots close to the trunk or roots on the same side of a tree that's already leaning are a bigger risk. An ISA-certified arborist can look at the specific roots involved and give you a straight answer instead of a guess. Not sure whether your sidewalk situation is a street tree, your own tree, or something in between? Tell us where the panel lifted and we'll help you figure out who to call first, us or the city, before you spend money on the wrong fix. Call (866) 228-3559 or request your free consultation online."
 ---
 If tree roots are lifting the sidewalk in front of your Boise home, you're usually the one on the hook for the repair, even when the tree itself technically belongs to the city. The sidewalk slab is treated as your maintenance responsibility as the adjacent property owner. The tree in the parking strip, if that's where it's growing, is a separate question with a separate set of rules.
 
@@ -94,4 +94,4 @@ The size and location of the roots involved is what matters most, not how you fe
 
 Not sure whether your sidewalk situation is a street tree, your own tree, or something in between? Tell us where the panel lifted and we'll help you figure out who to call first, us or the city, before you spend money on the wrong fix.
 
-**Call (509) 351-8404** or [request your free consultation online](/#contact).
+**Call (866) 228-3559** or [request your free consultation online](/#contact).

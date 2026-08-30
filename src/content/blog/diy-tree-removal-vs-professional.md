@@ -248,6 +248,6 @@ But most of the trees that homeowners want removed aren't that simple. They're t
 
 **The smartest move is the simplest one: ask before you cut.** A five-minute phone call can tell you whether you're looking at a safe Saturday project or a job that needs a trained crew with ropes, rigging, and insurance.
 
-**Call Boise Tree Pros at (509) 351-8404.** Tell us what you're dealing with. We'll give you a straight answer and a fair quote. If it's a DIY job, we'll say so. If it's not, we'll explain exactly why, and we'll handle it safely, cleanly, and at a price that makes sense.
+**Call Boise Tree Pros at (866) 228-3559.** Tell us what you're dealing with. We'll give you a straight answer and a fair quote. If it's a DIY job, we'll say so. If it's not, we'll explain exactly why, and we'll handle it safely, cleanly, and at a price that makes sense.
 
-[Request a free estimate](/#contact) or call **(509) 351-8404** today.
+[Request a free estimate](/#contact) or call **(866) 228-3559** today.

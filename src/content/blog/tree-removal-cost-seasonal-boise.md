@@ -19,13 +19,13 @@ faq:
   - question: "When's the best time to book a non-emergency removal for the lower end of the price range?"
     answer: "Late fall through February, before the spring storm-cleanup backlog and summer landscaping rush fill up crew calendars. If the tree is in the public right-of-way, start the permit step early too, since that review takes time on its own."
   - question: "Does an emergency storm removal cost the same no matter the season?"
-    answer: "Yes. Emergency pricing is driven by urgency and access, not the calendar, which is why a tree on a structure runs $1,500 to $4,000 or more whether it happens in January or July. The 24/7 emergency line responds same day either way. Whichever season fits your plans, get your number in writing before you commit to a date. Call (509) 351-8404 or request a free on-site quote."
+    answer: "Yes. Emergency pricing is driven by urgency and access, not the calendar, which is why a tree on a structure runs $1,500 to $4,000 or more whether it happens in January or July. The 24/7 emergency line responds same day either way. Whichever season fits your plans, get your number in writing before you commit to a date. Call (866) 228-3559 or request a free on-site quote."
 ---
 Tree removal cost by season in Boise moves within the same size tiers all year long, not outside them. A medium tree that quotes near the bottom of its $800 to $2,500 range in January often quotes near the top of that same range in June, because crews are booked tighter, not because the job itself gets harder or easier.
 
 That's a different question than what removal costs at all, which we break down size by size in our guide to [arborist and tree removal costs in Boise](/blog/arborist-cost-boise/). This piece is about timing: what actually pushes a quote up or down depending on the month you call, and exactly where that logic stops working the moment a tree turns into an emergency.
 
-**Planning ahead and not in a rush? [Get a written quote now](/#contact)** so you have a real number before you pick a season to book it. Call **(509) 351-8404**.
+**Planning ahead and not in a rush? [Get a written quote now](/#contact)** so you have a real number before you pick a season to book it. Call **(866) 228-3559**.
 
 ## The Quick Answer
 
@@ -98,4 +98,4 @@ Late fall through February, before the spring storm-cleanup backlog and summer l
 
 Yes. Emergency pricing is driven by urgency and access, not the calendar, which is why a tree on a structure runs $1,500 to $4,000 or more whether it happens in January or July. The 24/7 emergency line responds same day either way.
 
-Whichever season fits your plans, get your number in writing before you commit to a date. **Call (509) 351-8404** or [request a free on-site quote](/#contact).
+Whichever season fits your plans, get your number in writing before you commit to a date. **Call (866) 228-3559** or [request a free on-site quote](/#contact).

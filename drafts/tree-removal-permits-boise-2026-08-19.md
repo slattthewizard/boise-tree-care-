@@ -13,7 +13,7 @@ Whether you need a tree removal permit in Boise depends almost entirely on one t
 
 Get that distinction wrong and you can end up cutting down a city tree, which is the version of this that comes with a bill.
 
-**Not sure which side of the line your tree is on? Call (509) 351-8404** or [request a free on-site estimate](/#contact) and we'll help you figure out who has jurisdiction before anything gets cut.
+**Not sure which side of the line your tree is on? Call (866) 228-3559** or [request a free on-site estimate](/#contact) and we'll help you figure out who has jurisdiction before anything gets cut.
 
 ## The Quick Answer
 
@@ -117,4 +117,4 @@ No. Each city in the Treasure Valley runs its own street tree program and code c
 
 Most Boise removals are straightforward. The ones that aren't are almost always about where the tree stands rather than what shape it's in.
 
-**Call (509) 351-8404** or [request your free on-site estimate](/#contact). Our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and we'll tell you what approvals your specific tree needs before we quote the work.
+**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and we'll tell you what approvals your specific tree needs before we quote the work.

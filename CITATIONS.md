@@ -14,7 +14,7 @@ Local file for the operator. Never deployed to the site.
 | Field | Value |
 |---|---|
 | Business name | **Boise Tree Pros** |
-| Phone | **(509) 351-8404** |
+| Phone | **(866) 228-3559** |
 | Website | **https://boisetreepro.com** |
 | Address | None — service-area business (SAB). Never invent one. |
 | Service area | Boise, Meridian, Eagle, Garden City, Nampa, Caldwell, ID (Ada + Canyon County) |
@@ -27,10 +27,10 @@ Local file for the operator. Never deployed to the site.
 > Boise Tree Pros provides tree trimming, tree removal, emergency storm response, stump grinding,
 > and certified arborist assessments across Boise, Meridian, Eagle, Nampa, Caldwell, and Garden
 > City, Idaho. Work is held to ISA and ANSI A300 standards. Free written estimates; 24/7
-> emergency line: (509) 351-8404.
+> emergency line: (866) 228-3559.
 
 **Consistency rules:** always "Boise Tree Pros" (never "Boise Tree Pro" / "boisetreepro"), always
-the (509) number, always https + no www. Mixed NAP data is worse than fewer citations.
+the (866) toll-free number, always https + no www. Mixed NAP data is worse than fewer citations.
 
 ---
 
@@ -98,3 +98,53 @@ not the strategy.
 | Date | Action |
 |---|---|
 | 2026-08-13 | Kit created from GSC audit. Nothing submitted yet — email blocker open. |
+
+---
+
+## Charity donation-for-link — RESEARCHED 2026-08-29, RULED OUT ON COST
+
+Question asked: which nonprofits will link to us from a donor/supporter page in exchange for a
+donation? Every entry verified by opening the supporters page and reading the raw HTML for outbound
+`<a href>` and `rel` attributes — not by reading the rendered page.
+
+**Outcome: cheapest confirmed entry is $500. Channel parked, not pursued.**
+
+### Passed both gates (working donate page + supporters page that actually links out)
+
+| Charity | Supporters page | Price for a LINK | Notes |
+|---|---|---|---|
+| **Trees Idaho** (Boise) | treesidaho.org/membership | **$500** Contributor (org/business); then $1,000 / $1,500 / $5,000+ | Best fit by far. Links verified **dofollow**, but `alt=""` so no anchor text. |
+| **Idaho Conservation League** (Boise) | idahoconservation.org/business-membership | **$500–999** = name on website; **$1,000–4,999** = logo | Only one that promises the listing **in writing**. Links dofollow, business name is the anchor text. |
+| TREE Fund | treefund.org/partners | **$2,500** entry (then $5k/$10k/$25k/$50k) | Arboriculture's own research foundation. Peers are Asplundh, Bartlett, West Coast Arborists. National, not local. |
+| Arbor Day Foundation | arborday.org/corporate-partnerships/partner-list | not published | Hundreds of partners, heavily diluted. Low value. |
+
+### Why Trees Idaho is the one to revisit first
+
+Its 2026 Industry Partners page already links **three direct competitors** — Double J Tree,
+Idaho Tree Preservation, Holy Grove Tree — plus Melad Tree Farm and Jayker. Also listed: Idaho
+Power, Idaho Dept. of Lands, The Nature Conservancy, and the cities of Boise, Nampa and Meridian.
+Competitors are getting a link from the most topically-relevant local nonprofit in the market and
+we are not. Contact: hello@treesidaho.org · 208-918-4163.
+
+### Checked and rejected — do not re-research these
+
+- **Treasure Valley Canopy Network (tvcanopy.net)** — was the obvious second local fit. **Site is
+  dead**: returns "Squarespace — Website Expired" 404 on every URL including the root. The org may
+  still operate, but there is no site to be linked from.
+- **Idaho Botanical Garden** — /sponsorship page exists and sells event sponsorship, but names no
+  sponsors and links none out.
+- **Land Trust of the Treasure Valley** — no supporters page; sponsorship routes to a third-party
+  event platform (afrogs.org).
+
+`greatnonprofits.org` and `charitynavigator.org` both work for US orgs but surfaced **zero Idaho
+tree nonprofits** — only Texas Trees, Trees Atlanta, NJ Tree Foundation, Friends of Trees (Portland).
+Every Boise-local find came from plain-language searches instead.
+
+### Blockers that apply to this channel too
+
+1. **No email address** (see blocker section above). You cannot ask a nonprofit to list you and give
+   them nowhere to reply. MX record on `boisetreepro.com` is the prerequisite.
+2. ~~**(509) is a Washington area code**~~ — RESOLVED 2026-08-30. The site now uses a toll-free
+   **(866) 228-3559** line everywhere, so there is no out-of-state area code to explain. A local
+   208/986 number would still read better next to the City of Boise and Idaho Power on a partners
+   page, but toll-free is no longer a blocker for the listings above.

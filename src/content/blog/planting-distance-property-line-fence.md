@@ -135,4 +135,4 @@ The general mature-size planning approach applies across the Treasure Valley, bu
 
 Planting distance mistakes are expensive precisely because they take years to become obvious. If you're planning a new tree near a property line, or dealing with one that's already grown too close, our ISA-certified arborists can walk the site with you and recommend species and placement that will actually work long-term, not just look fine for the first five years.
 
-**Call (509) 351-8404** or [request your free consultation online](/#contact).
+**Call (866) 228-3559** or [request your free consultation online](/#contact).

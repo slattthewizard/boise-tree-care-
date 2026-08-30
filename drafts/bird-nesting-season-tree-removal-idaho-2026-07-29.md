@@ -13,7 +13,7 @@ Yes, you can still have a tree taken down during nesting season in the Treasure 
 
 That distinction gets lost a lot. Homeowners hear "nesting season" and assume every tree service in Ada and Canyon County goes quiet for six months. Getting it wrong in either direction costs you: a needless delay on a project that could have proceeded, or a federal violation on a tree that should have waited five weeks.
 
-**Not sure if the tree you need removed has an active nest right now?** [Request a pre-removal assessment](/#contact) or call **(509) 351-8404**, and we'll check the canopy before anyone starts a saw.
+**Not sure if the tree you need removed has an active nest right now?** [Request a pre-removal assessment](/#contact) or call **(866) 228-3559**, and we'll check the canopy before anyone starts a saw.
 
 ## The Quick Answer
 
@@ -89,4 +89,4 @@ No. There's no city, state, or county permit tied to bird nesting specifically. 
 ### How do I know if birds nesting in my tree are a protected species?
 Assume any wild native bird you see, songbirds, hawks, owls, herons, is protected unless you can positively identify it as a European starling, house sparrow, or rock pigeon, the three common non-native species excluded from the Act. When in doubt, treat the nest as active and protected until you've confirmed otherwise.
 
-Nesting season is a timing question, not a reason to cancel a tree removal you actually need. **Call (509) 351-8404** or [reach out here](/#contact) and we'll check the canopy, tell you honestly whether a nest is in the way, and either schedule the work now or give you the date it can happen. For more on Idaho's native bird activity and habitat, the [University of Idaho Extension](https://www.uidaho.edu/extension) and the [International Society of Arboriculture](https://www.isa-arbor.com/) both publish homeowner-level resources worth a look.
+Nesting season is a timing question, not a reason to cancel a tree removal you actually need. **Call (866) 228-3559** or [reach out here](/#contact) and we'll check the canopy, tell you honestly whether a nest is in the way, and either schedule the work now or give you the date it can happen. For more on Idaho's native bird activity and habitat, the [University of Idaho Extension](https://www.uidaho.edu/extension) and the [International Society of Arboriculture](https://www.isa-arbor.com/) both publish homeowner-level resources worth a look.
