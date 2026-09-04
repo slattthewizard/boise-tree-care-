@@ -2,52 +2,177 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "www.boisetreepro.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.boisetreepro.com"
+        }
+      ],
       "destination": "https://boisetreepro.com/$1",
       "statusCode": 308
     },
-    { "source": "/sitemap.xml", "destination": "/sitemap-index.xml", "statusCode": 301 },
-    { "source": "/disclosure", "destination": "/terms/", "statusCode": 301 },
-    { "source": "/disclosure/(.*)", "destination": "/terms/", "statusCode": 301 },
-
-    { "source": "/blog/tree-trimming-boise/(.*)", "destination": "/tree-trimming-boise/$1", "statusCode": 301 },
-    { "source": "/blog/tree-trimming-boise", "destination": "/tree-trimming-boise/", "statusCode": 301 },
-    { "source": "/blog/tree-removal-boise/(.*)", "destination": "/tree-removal-boise/$1", "statusCode": 301 },
-    { "source": "/blog/tree-removal-boise", "destination": "/tree-removal-boise/", "statusCode": 301 },
-    { "source": "/blog/emergency-tree-service-boise/(.*)", "destination": "/emergency-tree-service-boise/$1", "statusCode": 301 },
-    { "source": "/blog/emergency-tree-service-boise", "destination": "/emergency-tree-service-boise/", "statusCode": 301 },
-    { "source": "/blog/stump-grinding-boise/(.*)", "destination": "/stump-grinding-boise/$1", "statusCode": 301 },
-    { "source": "/blog/stump-grinding-boise", "destination": "/stump-grinding-boise/", "statusCode": 301 },
-
-    { "source": "/services/tree-trimming-boise/(.*)", "destination": "/tree-trimming-boise/$1", "statusCode": 301 },
-    { "source": "/services/tree-removal-boise/(.*)", "destination": "/tree-removal-boise/$1", "statusCode": 301 },
-    { "source": "/services/emergency-tree-service-boise/(.*)", "destination": "/emergency-tree-service-boise/$1", "statusCode": 301 },
-    { "source": "/services/tree-trimming-boise", "destination": "/tree-trimming-boise/", "statusCode": 301 },
-    { "source": "/services/tree-removal-boise", "destination": "/tree-removal-boise/", "statusCode": 301 },
-    { "source": "/services/emergency-tree-service-boise", "destination": "/emergency-tree-service-boise/", "statusCode": 301 },
-
-    { "source": "/blog/how-often-trim-trees/(.*)", "destination": "/blog/how-often-should-trees-be-trimmed/$1", "statusCode": 301 },
-    { "source": "/blog/how-often-trim-trees", "destination": "/blog/how-often-should-trees-be-trimmed/", "statusCode": 301 },
-    { "source": "/blog/tree-roots-sewer-line-signs-fixes/(.*)", "destination": "/blog/tree-roots-sewer-line/$1", "statusCode": 301 },
-    { "source": "/blog/tree-roots-sewer-line-signs-fixes", "destination": "/blog/tree-roots-sewer-line/", "statusCode": 301 },
-    { "source": "/blog/do-tree-stumps-attract-termites/(.*)", "destination": "/blog/tree-stumps-attract-termites/$1", "statusCode": 301 },
-    { "source": "/blog/do-tree-stumps-attract-termites", "destination": "/blog/tree-stumps-attract-termites/", "statusCode": 301 },
-    { "source": "/blog/tree-too-close-to-house-planting-distances/(.*)", "destination": "/blog/tree-too-close-to-house-boise/$1", "statusCode": 301 },
-    { "source": "/blog/tree-too-close-to-house-planting-distances", "destination": "/blog/tree-too-close-to-house-boise/", "statusCode": 301 },
-    { "source": "/blog/mulching-trees-right-way-volcano-mulching/(.*)", "destination": "/blog/how-to-mulch-around-trees/$1", "statusCode": 301 },
-    { "source": "/blog/mulching-trees-right-way-volcano-mulching", "destination": "/blog/how-to-mulch-around-trees/", "statusCode": 301 }
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/disclosure",
+      "destination": "/terms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/disclosure/(.*)",
+      "destination": "/terms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-trimming-boise/(.*)",
+      "destination": "/tree-trimming-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-trimming-boise",
+      "destination": "/tree-trimming-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-removal-boise/(.*)",
+      "destination": "/tree-removal-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-removal-boise",
+      "destination": "/tree-removal-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/emergency-tree-service-boise/(.*)",
+      "destination": "/emergency-tree-service-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/emergency-tree-service-boise",
+      "destination": "/emergency-tree-service-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/stump-grinding-boise/(.*)",
+      "destination": "/stump-grinding-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/stump-grinding-boise",
+      "destination": "/stump-grinding-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tree-trimming-boise/(.*)",
+      "destination": "/tree-trimming-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tree-removal-boise/(.*)",
+      "destination": "/tree-removal-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/emergency-tree-service-boise/(.*)",
+      "destination": "/emergency-tree-service-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tree-trimming-boise",
+      "destination": "/tree-trimming-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tree-removal-boise",
+      "destination": "/tree-removal-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/emergency-tree-service-boise",
+      "destination": "/emergency-tree-service-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-often-trim-trees/(.*)",
+      "destination": "/blog/how-often-should-trees-be-trimmed/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/how-often-trim-trees",
+      "destination": "/blog/how-often-should-trees-be-trimmed/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-roots-sewer-line-signs-fixes/(.*)",
+      "destination": "/blog/tree-roots-sewer-line/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-roots-sewer-line-signs-fixes",
+      "destination": "/blog/tree-roots-sewer-line/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/do-tree-stumps-attract-termites/(.*)",
+      "destination": "/blog/tree-stumps-attract-termites/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/do-tree-stumps-attract-termites",
+      "destination": "/blog/tree-stumps-attract-termites/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-too-close-to-house-planting-distances/(.*)",
+      "destination": "/blog/tree-too-close-to-house-boise/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/tree-too-close-to-house-planting-distances",
+      "destination": "/blog/tree-too-close-to-house-boise/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/mulching-trees-right-way-volcano-mulching/(.*)",
+      "destination": "/blog/how-to-mulch-around-trees/$1",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/mulching-trees-right-way-volcano-mulching",
+      "destination": "/blog/how-to-mulch-around-trees/",
+      "statusCode": 301
+    }
   ],
   "headers": [
     {
       "source": "/images/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/_astro/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/videos/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
   ]
