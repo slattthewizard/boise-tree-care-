@@ -61,7 +61,7 @@ A storm splits a limb onto a carport at 11pm and the tenant is the one calling. 
 
 If the hazard is tangled in a power line, nobody on a rental property touches it themselves. Idaho Power owns everything touching a distribution line and handles it directly; their downed-line number is (208) 388-2323.
 
-**Limb down or a tree leaning toward your rental in Ada or Canyon County? Call (208) 247-9766, we run 24/7 and can get someone out the same day.**
+**Limb down or a tree leaning toward your rental in Ada or Canyon County? Call [(208) 247-9766](tel:2082479766), we run 24/7 and can get someone out the same day.**
 
 ## When the Tenant Caused the Damage
 
@@ -87,7 +87,7 @@ Most of these disputes never needed to happen. A short lease addendum covering t
 
 If you're not sure which side of this a specific tree falls on, our [cost calculator](/cost-calculator/) gives you a rough number to bring to the conversation before it turns into an argument with a landlord or a tenant.
 
-**Call (208) 247-9766** or [request a free estimate online](/#contact).
+**Call [(208) 247-9766](tel:2082479766)** or [request a free estimate online](/#contact).
 
 ## Frequently Asked Questions
 

@@ -254,7 +254,7 @@ But guidelines only work if you act on them. Most of the emergency calls we resp
 
 If you're reading this and realizing your trees are overdue, you're not alone. That's exactly where most of our clients start. The important thing is to start now, before the next windstorm makes the decision for you.
 
-**Call Boise Tree Pros at (208) 247-9766** or [request your free assessment online](/#contact). We'll walk your property, evaluate every tree, and give you a straightforward plan with honest pricing. No pressure, no upsell, just a clear path to healthier, safer trees.
+**Call Boise Tree Pros at [(208) 247-9766](tel:2082479766)** or [request your free assessment online](/#contact). We'll walk your property, evaluate every tree, and give you a straightforward plan with honest pricing. No pressure, no upsell, just a clear path to healthier, safer trees.
 
 ---
 

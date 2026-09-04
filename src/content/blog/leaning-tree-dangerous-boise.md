@@ -133,7 +133,7 @@ This is the section nobody wants to need. But if you're here, here's what to do 
 
 **Step 5: Contact your insurance company.** Most homeowner policies cover damage from fallen trees, but coverage for preventative removal varies. Some insurers will cover removal if a certified arborist documents that the tree poses imminent risk. Having a professional assessment on file before anything happens strengthens your claim.
 
-**If the tree is actively moving, creaking, or you see fresh soil displacement, treat it as an emergency.** Call (208) 247-9766. We respond to emergency calls across the Treasure Valley 24/7, including nights and weekends.
+**If the tree is actively moving, creaking, or you see fresh soil displacement, treat it as an emergency.** Call [(208) 247-9766](tel:2082479766). We respond to emergency calls across the Treasure Valley 24/7, including nights and weekends.
 
 ## How Boise's Wind Patterns Affect Leaning Trees
 
@@ -192,7 +192,7 @@ If you're staring at a leaning tree and wondering whether it's a real problem, y
 
 **Get clarity from a certified arborist.** Boise Tree Pros offers free, no-pressure estimates. We'll look at your tree, tell you what we see, and give you an honest recommendation -- whether that's "it's fine, keep an eye on it" or "this needs to come down before spring."
 
-**Call (208) 247-9766 or [schedule your free estimate online](/#contact).** We serve Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley.
+**Call [(208) 247-9766](tel:2082479766) or [schedule your free estimate online](/#contact).** We serve Boise, Meridian, Eagle, Nampa, and the greater Treasure Valley.
 
 ## Related Reading
 

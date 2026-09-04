@@ -106,4 +106,4 @@ If drought is the underlying suspect for your pine's decline, our dedicated guid
 
 Telling normal seasonal shedding apart from a genuine bark beetle or drought emergency is exactly the kind of judgment call worth getting a second opinion on, especially since acting fast matters when beetles are actually involved. Our ISA-certified arborists can look at your specific tree and tell you plainly which situation you are in.
 
-**Call (208) 247-9766** or [request your free consultation online](/#contact).
+**Call [(208) 247-9766](tel:2082479766)** or [request your free consultation online](/#contact).

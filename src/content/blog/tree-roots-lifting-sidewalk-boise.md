@@ -94,4 +94,4 @@ The size and location of the roots involved is what matters most, not how you fe
 
 Not sure whether your sidewalk situation is a street tree, your own tree, or something in between? Tell us where the panel lifted and we'll help you figure out who to call first, us or the city, before you spend money on the wrong fix.
 
-**Call (208) 247-9766** or [request your free consultation online](/#contact).
+**Call [(208) 247-9766](tel:2082479766)** or [request your free consultation online](/#contact).

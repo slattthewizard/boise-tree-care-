@@ -193,7 +193,7 @@ That stump has been sitting in your yard long enough. Every year it rots a littl
 
 Stump grinding is a quick, affordable job that eliminates a real pest risk. Most residential stumps take under an hour to grind. Compare that to the cost and stress of dealing with a termite infestation in your home.
 
-**Call Boise Tree Pros at (208) 247-9766 or [schedule your free estimate](/#contact).** We handle [stump grinding](/stump-grinding-boise/), [tree removal](/tree-removal-boise/), and full property assessments across the Treasure Valley.
+**Call Boise Tree Pros at [(208) 247-9766](tel:2082479766) or [schedule your free estimate](/#contact).** We handle [stump grinding](/stump-grinding-boise/), [tree removal](/tree-removal-boise/), and full property assessments across the Treasure Valley.
 
 
 ## Related Reading

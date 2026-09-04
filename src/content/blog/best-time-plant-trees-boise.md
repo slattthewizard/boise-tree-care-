@@ -246,7 +246,7 @@ Fall planting gives your tree the strongest start by allowing root establishment
 
 No matter when you plant, the species selection, hole preparation, mulching, and first-year watering matter just as much as timing. Get those right and your tree will be shading your yard for decades.
 
-**Need help choosing the right tree or planning your planting?** Our ISA-certified arborists know which species thrive in Boise's soil and climate, and we can help you get it in the ground the right way. Call (208) 247-9766 or [get your free estimate](/#contact) today.
+**Need help choosing the right tree or planning your planting?** Our ISA-certified arborists know which species thrive in Boise's soil and climate, and we can help you get it in the ground the right way. Call [(208) 247-9766](tel:2082479766) or [get your free estimate](/#contact) today.
 
 
 ## Related Reading

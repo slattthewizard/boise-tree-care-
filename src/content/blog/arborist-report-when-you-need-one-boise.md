@@ -25,7 +25,7 @@ You need a written arborist report when someone besides you, a city permit revie
 
 A verbal opinion is fine for most everyday decisions, whether to prune, whether to remove, whether to stop worrying about a tree. A written report is a different product entirely: a signed, dated document describing the tree's condition, the specific defects found, and a professional recommendation, built to be read by someone who never stood under the tree with you.
 
-**Not sure whether your situation needs paperwork or just a decision? [Reach out here](/#contact) or call (208) 247-9766 and we'll tell you straight.**
+**Not sure whether your situation needs paperwork or just a decision? [Reach out here](/#contact) or call [(208) 247-9766](tel:2082479766) and we'll tell you straight.**
 
 ## The Quick Answer
 
@@ -96,4 +96,4 @@ That's a genuinely useful outcome, not a wasted cost. A report clearing a tree c
 
 Not sure which of these four situations applies to you? Tell us what's going on, a permit, a claim, a disagreement, or a build near a tree, and we'll tell you honestly whether you need a full written report or just a straightforward site visit. We're licensed and insured, with ISA-certified arborists on staff who write every report themselves.
 
-**Call (208) 247-9766** or [request a consultation online](/#contact).
+**Call [(208) 247-9766](tel:2082479766)** or [request a consultation online](/#contact).

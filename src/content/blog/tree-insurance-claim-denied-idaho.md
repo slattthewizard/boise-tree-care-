@@ -106,4 +106,4 @@ Not always, but it's the strongest piece of evidence for a "pre-existing conditi
 
 A denied claim is often a documentation problem, not a final answer. The right report, timed close to the failure and written by someone qualified to assess it, is frequently the difference between an insurer reversing course and a homeowner paying the full cost alone.
 
-**Call (208) 247-9766** or [request a same-day assessment online](/#contact) before your appeal window closes.
+**Call [(208) 247-9766](tel:2082479766)** or [request a same-day assessment online](/#contact) before your appeal window closes.

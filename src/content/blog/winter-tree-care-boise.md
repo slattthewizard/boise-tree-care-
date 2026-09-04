@@ -225,7 +225,7 @@ Boise winters test every tree on your property. Temperature swings crack bark. W
 
 If you've already got storm damage, or you want to make sure you don't, Boise Tree Pros is here to help. We're ISA-certified, locally owned, and we've been managing Treasure Valley trees through every kind of winter this valley throws at us.
 
-**Call us at (208) 247-9766** or [schedule your free winter assessment online](/#contact). Let's make sure your trees are ready for whatever comes next.
+**Call us at [(208) 247-9766](tel:2082479766)** or [schedule your free winter assessment online](/#contact). Let's make sure your trees are ready for whatever comes next.
 
 ---
 

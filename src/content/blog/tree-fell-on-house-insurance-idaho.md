@@ -29,7 +29,7 @@ It's 2 a.m., something cracks louder than thunder, and now there's a hole in you
 
 If a tree fell on your house here in the Treasure Valley, this guide walks through the insurance side of it in plain language, plus the practical steps we tell every client in this situation, before you call anyone else. We've coordinated with homeowners, insurance adjusters, and roofers on this exact scenario more times than we can count, and there's a pattern to what goes right and what goes wrong.
 
-**If anyone is inside a home with active structural damage, get everyone out first, then call (208) 247-9766 for [emergency tree removal](/emergency-tree-service-boise/) and tarping.** This is not a situation to sit on overnight.
+**If anyone is inside a home with active structural damage, get everyone out first, then call [(208) 247-9766](tel:2082479766) for [emergency tree removal](/emergency-tree-service-boise/) and tarping.** This is not a situation to sit on overnight.
 
 ## Whose Insurance Actually Pays?
 
@@ -142,4 +142,4 @@ Yes. An independent arborist assessment can document root health, decay, or stru
 
 Whether you're mid-emergency or dealing with the aftermath a few days later, having an [ISA-certified arborist's](/about/) assessment on record strengthens your claim and gets your property safe faster. We coordinate directly with adjusters and roofers so you're not the one relaying information between three different companies.
 
-**Call (208) 247-9766** or [request your free consultation online](/#contact).
+**Call [(208) 247-9766](tel:2082479766)** or [request your free consultation online](/#contact).

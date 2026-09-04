@@ -192,7 +192,7 @@ If you've been volcano mulching for years, the damage may already be underway. G
 
 **Don't wait until you see the damage.** Our ISA-certified arborists can assess your trees, correct mulching problems, and set you up with a care plan that actually works for Boise's climate.
 
-Call Boise Tree Pros at **(208) 247-9766** or [reach out online](/#contact) to schedule a free consultation. We'll tell you exactly what your trees need, no sales pitch, just honest advice from people who've been doing this in the Treasure Valley.
+Call Boise Tree Pros at **[(208) 247-9766](tel:2082479766)** or [reach out online](/#contact) to schedule a free consultation. We'll tell you exactly what your trees need, no sales pitch, just honest advice from people who've been doing this in the Treasure Valley.
 
 Your trees are worth getting this right.
 

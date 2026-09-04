@@ -49,7 +49,7 @@ Your right to trim overhanging branches in Idaho comes with several important co
 
 > **Bottom line:** You have the right to trim to the property line. You don't have the right to harm the tree. That distinction matters more than most people realize.
 
-If those overhanging branches are already causing problems, our [professional tree trimming](/tree-trimming-boise/) team can handle the pruning safely and correctly, with proper documentation. **Call (208) 247-9766** for a free assessment.
+If those overhanging branches are already causing problems, our [professional tree trimming](/tree-trimming-boise/) team can handle the pruning safely and correctly, with proper documentation. **Call [(208) 247-9766](tel:2082479766)** for a free assessment.
 
 ## What Happens When Tree Trimming Goes Wrong
 
@@ -203,4 +203,4 @@ Here's your action plan:
 
 At [Boise Tree Pros](/#services), we handle trimming neighbor's trees in Idaho every week across the Treasure Valley. Whether you need a professional pruning job, a tree health assessment, or just honest advice about your specific situation, our [ISA-certified arborists](/#about) are here to help.
 
-**Call (208) 247-9766 or [schedule your free estimate](/#contact) today.**
+**Call [(208) 247-9766](tel:2082479766) or [schedule your free estimate](/#contact) today.**

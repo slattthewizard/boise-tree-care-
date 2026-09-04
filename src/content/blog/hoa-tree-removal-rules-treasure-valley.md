@@ -25,7 +25,7 @@ HOA tree removal rules across the Treasure Valley almost always require your arc
 
 That approval has nothing to do with any city permit. Boise runs its own street-tree permit process for trees in the public right-of-way, which we cover in our guide to [tree removal permits in Boise](/blog/tree-removal-permits-boise/). An HOA's rules sit on top of that and apply to trees the city never touches, including the tree in your own backyard. The rules live in a subdivision's CC&Rs, short for covenants, conditions, and restrictions, a document recorded with the county ([Ada County](https://adacounty.id.gov) or its Canyon County counterpart) when the neighborhood was platted.
 
-**Already have a removal quote and just need help with the HOA paperwork? [Reach out through our contact form](/#contact) or call (208) 247-9766** for a written assessment you can attach to your request.
+**Already have a removal quote and just need help with the HOA paperwork? [Reach out through our contact form](/#contact) or call [(208) 247-9766](tel:2082479766)** for a written assessment you can attach to your request.
 
 ## The Quick Answer
 
@@ -69,7 +69,7 @@ Committees say yes faster to requests that look complete on the first pass. A pa
 
 Our guide on [how to hire a tree service in Boise](/blog/how-to-hire-tree-service-boise/) covers exactly which licensing and insurance credentials to confirm before you sign anything. If the committee's guidelines require a replacement planting, come to the request with a proposed species and size already in mind rather than waiting to be told. Our guide on [planting distance from the property line and fence](/blog/planting-distance-property-line-fence/) is worth a look before you commit to a spot, since a replacement planted too close to a shared fence line can start the same conversation over again in fifteen years.
 
-**Call (208) 247-9766 or [request a free on-site quote](/#contact)** before your committee meeting so you have real numbers, not guesses, in front of them. You can also get a rough cost range ahead of time with our [cost calculator](/cost-calculator/), which helps you gauge whether the job fits your budget before you invest time in the paperwork. Our [tree removal](/tree-removal-boise/) crews document every job with dated photos, which is exactly the kind of record an HOA file wants to see.
+**Call [(208) 247-9766](tel:2082479766) or [request a free on-site quote](/#contact)** before your committee meeting so you have real numbers, not guesses, in front of them. You can also get a rough cost range ahead of time with our [cost calculator](/cost-calculator/), which helps you gauge whether the job fits your budget before you invest time in the paperwork. Our [tree removal](/tree-removal-boise/) crews document every job with dated photos, which is exactly the kind of record an HOA file wants to see.
 
 If the tree in question sits near a shared boundary line rather than squarely on your own lot, read our guide on [neighbor tree trimming rights in Idaho](/blog/neighbor-tree-trimming-rights-idaho/) first. A tree that straddles a property line can involve your neighbor's consent in addition to your HOA's, and sorting that out before you submit a request saves a round of resubmission.
 
@@ -94,4 +94,4 @@ Your HOA's authority typically only reaches trees within its jurisdiction, and a
 
 An HOA hearing goes faster when you show up with real documentation instead of a verbal description of the problem. A licensed and insured crew with an ISA-certified arborist on staff can hand you exactly the kind of quote, photos, and written assessment your committee wants to see.
 
-**Call (208) 247-9766** or [request your free on-site quote](/#contact) before your next architectural committee meeting.
+**Call [(208) 247-9766](tel:2082479766)** or [request your free on-site quote](/#contact) before your next architectural committee meeting.

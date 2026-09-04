@@ -96,4 +96,4 @@ No, nothing does. What it does is remove the fuel that lets embers and ground fi
 ### How often do I need to redo defensible space clearing?
 At least once a year, typically in spring before grass cures and cheatgrass dries out. Trees keep growing and dropping deadwood, so a property that was compliant last summer can drift out of compliance by the next one without a repeat check.
 
-Foothills properties carry a fire risk that valley-floor homes simply don't, and the three zones exist because they work: less continuous fuel means less chance an ember or ground fire ever reaches your walls. **Call (208) 247-9766** or [request a defensible space walk-through](/#contact) and find out exactly where your property stands before the next dry stretch.
+Foothills properties carry a fire risk that valley-floor homes simply don't, and the three zones exist because they work: less continuous fuel means less chance an ember or ground fire ever reaches your walls. **Call [(208) 247-9766](tel:2082479766)** or [request a defensible space walk-through](/#contact) and find out exactly where your property stands before the next dry stretch.

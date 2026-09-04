@@ -25,7 +25,7 @@ A tree health assessment in Boise runs **$75 to $250**, and it exists to answer 
 
 Most people call about a tree only after it looks bad enough to worry them. By then the useful move usually isn't a quote for removal, it's twenty minutes with someone who can read what the tree is actually doing.
 
-**Not sure whether your tree is stressed or finished? Call (208) 247-9766** or [request a free on-site estimate](/#contact) and we'll tell you straight.
+**Not sure whether your tree is stressed or finished? Call [(208) 247-9766](tel:2082479766)** or [request a free on-site estimate](/#contact) and we'll tell you straight.
 
 ## The Quick Answer
 
@@ -138,4 +138,4 @@ If the tree is healthy enough that the answer isn't obvious, yes. A removal in t
 
 Before you budget for a removal, it's worth knowing whether you need one.
 
-**Call (208) 247-9766** or [request your free on-site estimate](/#contact). Our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and our emergency line runs 24/7 with same-day response when a tree becomes urgent.
+**Call [(208) 247-9766](tel:2082479766)** or [request your free on-site estimate](/#contact). Our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and our emergency line runs 24/7 with same-day response when a tree becomes urgent.

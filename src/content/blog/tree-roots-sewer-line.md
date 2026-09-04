@@ -224,7 +224,7 @@ Here's what we recommend: get a camera inspection from a licensed plumber, then 
 
 Either way, you'll have a plan that actually solves the problem, not just a temporary fix that buys you another few months.
 
-**Call Boise Tree Pros at (208) 247-9766** or [reach out online](/#contact) to schedule your assessment. We've been helping Boise homeowners make smart decisions about their trees. Let's figure this out together.
+**Call Boise Tree Pros at [(208) 247-9766](tel:2082479766)** or [reach out online](/#contact) to schedule your assessment. We've been helping Boise homeowners make smart decisions about their trees. Let's figure this out together.
 
 ---
 

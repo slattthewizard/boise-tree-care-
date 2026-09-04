@@ -152,7 +152,7 @@ Here's where cottonwood tree removal gets real. Cottonwoods are among the larges
 
 Every tree is different. These ranges give you a realistic starting point, but the only way to get a real number is an on-site estimate. We look at the tree, the access, the surroundings, and give you a written price before any work starts.
 
-**Get an accurate estimate for your cottonwood.** [Call (208) 247-9766 or request your free estimate online](/#contact). No pressure, no obligation.
+**Get an accurate estimate for your cottonwood.** [Call [(208) 247-9766](tel:2082479766) or request your free estimate online](/#contact). No pressure, no obligation.
 
 ## What to Plant After a Cottonwood Comes Down
 
@@ -205,4 +205,4 @@ If it's cracked, rotting, dropping limbs, damaging your infrastructure, or just 
 
 **Boise Tree Pros has removed hundreds of cottonwoods across the Treasure Valley.** Our ISA-certified arborists will assess your tree honestly, explain your options, and handle the job safely, whether that's [professional pruning](/tree-trimming-boise/) to extend its life or [complete removal](/tree-removal-boise/) to protect your property.
 
-**Call (208) 247-9766 or [get your free estimate](/#contact) today.** No pressure. Just a straight answer from people who know Boise's trees.
+**Call [(208) 247-9766](tel:2082479766) or [get your free estimate](/#contact) today.** No pressure. Just a straight answer from people who know Boise's trees.

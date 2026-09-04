@@ -102,4 +102,4 @@ Most single-tree crane jobs finish in a single day once the crane and crew are o
 
 The only way to know whether your tree needs a crane, and what that actually costs against the rigging alternative, is a look from someone who assesses this kind of job regularly. Our [ISA-certified](https://www.isa-arbor.com) arborists price both approaches before recommending one, and our [tree removal](/tree-removal-boise/) team handles everything from small ornamentals to full crane-tier extractions across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City. Run your tree's rough numbers through our [cost calculator](/cost-calculator/) first if you want a starting estimate, then call to confirm with an on-site look.
 
-**Call (208) 247-9766** or [request your free consultation online](/#contact).
+**Call [(208) 247-9766](tel:2082479766)** or [request your free consultation online](/#contact).
