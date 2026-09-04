@@ -102,4 +102,4 @@ Light thinning of small, easily reached branches with hand pruners is reasonable
 
 The difference between a tree that thrives for another 30 years and one that develops structural problems often comes down to which of these three techniques was used and how carefully it was executed. If you are not sure which one your tree needs, that is exactly the kind of question worth asking before anyone picks up a saw.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

@@ -124,4 +124,4 @@ Yes, each city manages its own right-of-way and forestry program, so the specifi
 
 Figuring out who owns a tree shouldn't require a law degree, and most of the time a quick call to the city plus an honest look from an arborist settles the question fast. If a street tree near your home needs attention, we'll help you understand what's yours to decide and what needs city approval first.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

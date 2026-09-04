@@ -13,7 +13,7 @@ Ask to see proof of insurance you can verify by phone, plus a local business add
 
 Treasure Valley windstorms bring more than downed limbs. They bring pickup trucks with out-of-state plates, cash-only pricing, and crews that vanish before the stump is even ground down. Storm chaser tree scams in Boise follow a predictable pattern, and knowing the pattern is the fastest way to avoid becoming part of it.
 
-**Not sure if the crew at your curb right now is legitimate? Call (866) 228-3559 for a same-day second opinion before you sign anything or hand over cash.**
+**Not sure if the crew at your curb right now is legitimate? Call (208) 247-9766 for a same-day second opinion before you sign anything or hand over cash.**
 
 ## The Quick Answer
 
@@ -61,7 +61,7 @@ A storm dropping a tree on your own to-do list is not the moment to pick up a ch
 
 If a tree did land on your house or another structure, our guide on [insurance coverage after a tree falls on your house in Idaho](/blog/tree-fell-on-house-insurance-idaho/) walks through what a policy typically covers and what it doesn't. Our [emergency tree service](/emergency-tree-service-boise/) line runs 24/7 for exactly this kind of same-day call.
 
-A storm damages trees fast, but a bad contractor can do more lasting damage to your property and your budget than the wind did. Take the ten minutes to verify insurance and a local address before anyone starts cutting. **Call (866) 228-3559** or [request a free on-site estimate](/#contact) from a crew you can verify before you agree to anything.
+A storm damages trees fast, but a bad contractor can do more lasting damage to your property and your budget than the wind did. Take the ten minutes to verify insurance and a local address before anyone starts cutting. **Call (208) 247-9766** or [request a free on-site estimate](/#contact) from a crew you can verify before you agree to anything.
 
 ## Frequently Asked Questions
 

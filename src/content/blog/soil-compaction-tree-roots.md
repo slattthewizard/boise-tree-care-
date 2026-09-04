@@ -134,4 +134,4 @@ Soil compaction is one of the few tree problems that is almost entirely about wh
 
 If you suspect compaction is behind a tree's decline, or you are planning a project that could put equipment or vehicles near a tree's root zone, get an assessment before it becomes a bigger problem.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

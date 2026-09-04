@@ -19,13 +19,13 @@ faq:
   - question: "Can a buyer sue me after closing over a tree I didn't mention?"
     answer: "Yes, if they can show you knew about the hazard and left it off the disclosure statement. These claims can include removal costs, property damage, and legal fees, and they sometimes surface a year or more after closing once the tree finally fails or a new inspection turns up the old defect."
   - question: "Is it better to remove the hazardous tree before listing, or disclose it and let the buyer decide?"
-    answer: "Both work, and the right call usually comes down to cost and timeline. Removing it before listing, typically $300 to $5,000 or more depending on size, means nothing left to disclose and no negotiation later, while disclosing it with a written removal bid attached lets the buyer factor it into their offer without delaying your listing date. If you're getting ready to sell and there's a tree on the lot you've been meaning to deal with, don't leave it for the disclosure form to sort out. Call (866) 228-3559 or request a pre-listing assessment online and get a written answer before a buyer asks the question for you."
+    answer: "Both work, and the right call usually comes down to cost and timeline. Removing it before listing, typically $300 to $5,000 or more depending on size, means nothing left to disclose and no negotiation later, while disclosing it with a written removal bid attached lets the buyer factor it into their offer without delaying your listing date. If you're getting ready to sell and there's a tree on the lot you've been meaning to deal with, don't leave it for the disclosure form to sort out. Call (208) 247-9766 or request a pre-listing assessment online and get a written answer before a buyer asks the question for you."
 ---
 Yes. If you know a tree on your property is dead, storm-damaged, structurally unsound, or otherwise hazardous, Idaho's Property Condition Disclosure Act requires you to put that in writing before a buyer is bound to the purchase. Hoping the home inspector never looks up, or that the buyer never asks, is exactly the shortcut that turns into a legal claim after you've already moved.
 
 Seller disclosure and a hazardous tree is a narrower question than most Boise sellers assume. Idaho's law does not require you to hire an arborist and catalog every tree on the lot before you list. It requires you to report what you actually know, and that gets tested hard once a tree fails and a new owner starts pulling up old texts and photos.
 
-**Not sure whether a tree on your listing counts as hazardous? [Request a pre-listing tree assessment](/#contact) or call (866) 228-3559 before you fill out the disclosure form.**
+**Not sure whether a tree on your listing counts as hazardous? [Request a pre-listing tree assessment](/#contact) or call (208) 247-9766 before you fill out the disclosure form.**
 
 ## The Quick Answer
 
@@ -95,4 +95,4 @@ Yes, if they can show you knew about the hazard and left it off the disclosure s
 ### Is it better to remove the hazardous tree before listing, or disclose it and let the buyer decide?
 Both work, and the right call usually comes down to cost and timeline. Removing it before listing, typically $300 to $5,000 or more depending on size, means nothing left to disclose and no negotiation later, while disclosing it with a written removal bid attached lets the buyer factor it into their offer without delaying your listing date.
 
-If you're getting ready to sell and there's a tree on the lot you've been meaning to deal with, don't leave it for the disclosure form to sort out. **Call (866) 228-3559** or [request a pre-listing assessment online](/#contact) and get a written answer before a buyer asks the question for you.
+If you're getting ready to sell and there's a tree on the lot you've been meaning to deal with, don't leave it for the disclosure form to sort out. **Call (208) 247-9766** or [request a pre-listing assessment online](/#contact) and get a written answer before a buyer asks the question for you.

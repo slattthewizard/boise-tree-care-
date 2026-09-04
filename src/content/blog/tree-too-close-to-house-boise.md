@@ -265,4 +265,4 @@ The best time to deal with a tree that's too close to your home is **before the 
 
 Whether you need a professional assessment of a mature tree crowding your foundation, a strategic pruning plan to manage canopy overgrowth, or a removal that should have happened five years ago, we're here for it.
 
-**Call Boise Tree Pros at (866) 228-3559** or [schedule your free consultation online](/#contact). We'll walk your property, tell you what we see, and give you honest options. No pressure. Just straight answers from certified arborists who know Boise trees inside and out.
+**Call Boise Tree Pros at (208) 247-9766** or [schedule your free consultation online](/#contact). We'll walk your property, tell you what we see, and give you honest options. No pressure. Just straight answers from certified arborists who know Boise trees inside and out.

@@ -73,7 +73,7 @@ Everything above assumes you're planning, not reacting to a branch that's alread
 
 Where the two topics do connect: if an easement tree comes down in a storm and lands on a structure instead of a wire, that's an emergency we do handle, with a same-day response on our 24/7 line. Idaho Power still gets the call first for anything touching their equipment. Once the site is safe, we can assess the rest of the damage.
 
-**A tree in the easement that hasn't failed yet, but you're worried about it?** [Request a free on-site assessment](/#contact) or call (866) 228-3559. We'll tell you plainly whether it's Idaho Power's problem, your problem, or both.
+**A tree in the easement that hasn't failed yet, but you're worried about it?** [Request a free on-site assessment](/#contact) or call (208) 247-9766. We'll tell you plainly whether it's Idaho Power's problem, your problem, or both.
 
 ## When to Call Which Number
 
@@ -105,4 +105,4 @@ Idaho Power's authority in the easement is tied to protecting their equipment, n
 
 Utility easements are one of the few property lines most homeowners never think about until a crew shows up with a bucket truck. Knowing the boundary ahead of time, what's free, what you still pay for, and who to call, turns a confusing morning into a five-minute phone call.
 
-**Questions about a specific tree on your lot? Call (866) 228-3559** or [request a free assessment online](/#contact).
+**Questions about a specific tree on your lot? Call (208) 247-9766** or [request a free assessment online](/#contact).

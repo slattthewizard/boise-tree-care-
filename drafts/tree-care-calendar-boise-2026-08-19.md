@@ -13,7 +13,7 @@ Most tree care in the Treasure Valley is not urgent, which is exactly why it doe
 
 This is the year laid out in order: what to do when, what genuinely has to happen in a specific month, and what you can do any time you get around to it.
 
-**Want a professional set of eyes before the season turns? Call (866) 228-3559** or [request a free on-site estimate](/#contact).
+**Want a professional set of eyes before the season turns? Call (208) 247-9766** or [request a free on-site estimate](/#contact).
 
 ## The Quick Answer
 
@@ -154,4 +154,4 @@ Watering correctly, by a wide margin. Deep, infrequent watering out at the drip 
 
 Dormant pruning slots and fall storm-prep visits both fill up. Getting on the calendar early is how the cheap version of tree care happens.
 
-**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Our ISA-certified arborists serve Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City year-round, with a 24/7 emergency line and same-day response when something can't wait.
+**Call (208) 247-9766** or [request your free on-site estimate](/#contact). Our ISA-certified arborists serve Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City year-round, with a 24/7 emergency line and same-day response when something can't wait.

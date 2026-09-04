@@ -25,7 +25,7 @@ An unpruned fruit tree in the Treasure Valley doesn't stop making fruit. It make
 
 That's the actual argument for annual pruning: not tidiness, but usable fruit you can reach, on a tree that doesn't tear itself apart. Fruit tree pruning in Boise runs **$100 to $400** per tree annually, and on a mature tree it's the difference between a harvest and a mess.
 
-**Have trees that haven't been touched in years? Call (866) 228-3559** or [request a free on-site estimate](/#contact).
+**Have trees that haven't been touched in years? Call (208) 247-9766** or [request a free on-site estimate](/#contact).
 
 ## The Quick Answer
 
@@ -162,4 +162,4 @@ Almost always too much fruit for the tree to size properly, compounded by a dens
 
 Whether it's four backyard trees on an annual schedule or one neglected apple that hasn't been touched since the last owner, the work is the same shape.
 
-**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Our ISA-certified arborists handle fruit tree pruning across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and our [tree trimming](/tree-trimming-boise/) page covers the rest of what we prune.
+**Call (208) 247-9766** or [request your free on-site estimate](/#contact). Our ISA-certified arborists handle fruit tree pruning across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and our [tree trimming](/tree-trimming-boise/) page covers the rest of what we prune.

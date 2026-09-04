@@ -111,4 +111,4 @@ Our article on [tree bark peeling off](/blog/tree-bark-peeling-off/) covers what
 
 Lichen and moss on tree bark are, in nearly every case, a completely normal part of an older or shaded tree's life in the Treasure Valley, not a disease and not a threat. The only time it's worth a second look is when heavy growth shows up alongside real signs of decline elsewhere on the tree, thin canopy, dead branches, peeling bark over dead wood. In that case, the lichen is a bystander, and the actual cause deserves attention. When in doubt, an arborist can tell you which situation you're in in about fifteen minutes on site.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

@@ -25,7 +25,7 @@ Insurers deny most tree damage claims for one of four reasons: the tree was alre
 
 That single document tells you which of the four buckets you're in, and each bucket has a different next step. Homeowners across the Treasure Valley run into this constantly after a windstorm drops a cottonwood or a silver maple that's been leaning for years, and the difference between a reversed denial and a bill you eat yourself usually comes down to documentation.
 
-**Just had a tree come down and need a same-day assessment for your claim file? [Call (866) 228-3559](tel:8662283559) or [request one online](/#contact) before you file the appeal.**
+**Just had a tree come down and need a same-day assessment for your claim file? [Call (208) 247-9766](tel:2082479766) or [request one online](/#contact) before you file the appeal.**
 
 ## The Quick Answer
 
@@ -106,4 +106,4 @@ Not always, but it's the strongest piece of evidence for a "pre-existing conditi
 
 A denied claim is often a documentation problem, not a final answer. The right report, timed close to the failure and written by someone qualified to assess it, is frequently the difference between an insurer reversing course and a homeowner paying the full cost alone.
 
-**Call (866) 228-3559** or [request a same-day assessment online](/#contact) before your appeal window closes.
+**Call (208) 247-9766** or [request a same-day assessment online](/#contact) before your appeal window closes.

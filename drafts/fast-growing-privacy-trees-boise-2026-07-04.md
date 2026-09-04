@@ -115,4 +115,4 @@ Austrian pine is our most common recommendation for wind-exposed sites needing a
 
 The fastest tree isn't always the right tree, especially in a climate that tests wood strength and root systems every spring. If you're planning a privacy planting, our [ISA-certified arborists](/about/) can walk your site, account for your specific wind exposure and soil, and recommend a mix that gives you real coverage without a redo down the line. Not sure yet what a full planting and setup would run for your yard? Our [cost calculator](/cost-calculator/) is a quick way to get a ballpark before you call.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

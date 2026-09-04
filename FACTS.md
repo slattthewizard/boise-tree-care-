@@ -20,7 +20,7 @@ Built 2026-07-28 from a full sweep of `src/`. Local file only — never deployed
 | Fact | Canonical value |
 |---|---|
 | Business name | Boise Tree Pros |
-| Phone | **(866) 228-3559** — `tel:8662283559` |
+| Phone | **(208) 247-9766** — `tel:2082479766` |
 | Email | ⚠️ **UNRESOLVED — see §6.1** |
 | Site | https://boisetreepro.com |
 | Service area | Boise, Meridian, Nampa, Caldwell, Eagle, Garden City (Ada + Canyon County, Idaho) |

@@ -25,7 +25,7 @@ Tree removal in Boise runs **$300 to $5,000+**, which is a range wide enough to 
 
 Nearly every "why was my quote so much higher than my neighbor's" question comes down to one of those factors, and most of them are visible from your own driveway once you know to look.
 
-**Want a real number for your tree? Call (866) 228-3559** or [request a free on-site estimate](/#contact). Our [cost calculator](/cost-calculator/) will get you a ballpark in the meantime.
+**Want a real number for your tree? Call (208) 247-9766** or [request a free on-site estimate](/#contact). Our [cost calculator](/cost-calculator/) will get you a ballpark in the meantime.
 
 ## The Quick Answer
 
@@ -165,4 +165,4 @@ Yes, meaningfully. Mobilization, travel, and setup get shared across the visit, 
 
 Ranges are useful for budgeting. A quote requires someone standing under the tree.
 
-**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Estimates are free, on site, and written, with no obligation. Our ISA-certified arborists serve Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and our 24/7 emergency line gets same-day response when a tree can't wait.
+**Call (208) 247-9766** or [request your free on-site estimate](/#contact). Estimates are free, on site, and written, with no obligation. Our ISA-certified arborists serve Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and our 24/7 emergency line gets same-day response when a tree can't wait.

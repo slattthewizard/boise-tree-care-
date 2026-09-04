@@ -69,7 +69,7 @@ A more useful question than "what's my discount" is "what does batching these to
 
 It is also worth knowing that batching trees into one visit does not change the permit picture. Boise's street-tree permit rules apply per qualifying tree, regardless of how many are scheduled in the same day. If any of the trees sit in the public right-of-way or on a boulevard strip, each one still needs its own application through the city, something our guide on [tree removal permits in Boise](/blog/tree-removal-permits-boise/) walks through in more detail. The [City of Boise](https://www.cityofboise.org) publishes the current permit requirements for street trees if you want to confirm before scheduling.
 
-**Curious what batching would do to your specific quote? [Call (866) 228-3559](tel:8662283559) and describe what's on the property.**
+**Curious what batching would do to your specific quote? [Call (208) 247-9766](tel:2082479766) and describe what's on the property.**
 
 None of this changes the safety math, either. Chainsaw work above shoulder height, anything near a power line, climbing into the canopy, or any tree that could reach a structure on the way down is not a spot to save money by skipping a professional. That work still calls for a licensed, insured, [ISA-certified](https://www.isa-arbor.com) crew no matter how many trees are on the invoice.
 

@@ -106,4 +106,4 @@ If you catch partial girdling early, stopping further damage immediately (mulch 
 
 Mower and trimmer damage is quiet, cumulative, and completely preventable, which makes it one of the more frustrating tree losses to see, because there's no pest to blame and no disease to treat. A simple mulch ring solves the problem permanently for the cost of a bag of wood chips. If you're already seeing bark damage at the base of a tree, the sooner you stop further contact and get eyes on how much of the trunk is affected, the better the tree's odds.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

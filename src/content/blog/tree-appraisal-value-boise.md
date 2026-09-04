@@ -97,4 +97,4 @@ It also helps to write down what you remember about the tree even if you cannot 
 
 Whether you are dealing with an insurance adjuster, a contractor dispute, or just curious what that huge tree in your yard is really worth, a proper appraisal gives you a documented, defensible figure instead of a guess. That distinction matters a great deal once real money is on the table.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

@@ -19,13 +19,13 @@ faq:
   - question: "Can one report cover both a permit application and an insurance claim?"
     answer: "Sometimes, if the report is thorough enough to answer both the city's permit questions and the insurer's damage-cause questions, but it depends on what each one specifically asks for. Tell us upfront if you need a report to serve double duty so nothing gets left out. Ordering one broad report instead of two narrow ones is sometimes the cheaper route, and sometimes it isn't."
   - question: "What if the report finds the tree isn't actually a hazard?"
-    answer: "That's a genuinely useful outcome, not a wasted cost. A report clearing a tree can support a permit denial appeal, back up a decision to keep a tree an HOA wanted gone, or give you peace of mind about a leaning or hollow tree everyone's been worried about. Documentation that says a tree is fine carries just as much weight as documentation that says it isn't. Not sure which of these four situations applies to you? Tell us what's going on, a permit, a claim, a disagreement, or a build near a tree, and we'll tell you honestly whether you need a full written report or just a straightforward site visit. We're licensed and insured, with ISA-certified arborists on staff who write every report themselves. Call (866) 228-3559 or request a consultation online."
+    answer: "That's a genuinely useful outcome, not a wasted cost. A report clearing a tree can support a permit denial appeal, back up a decision to keep a tree an HOA wanted gone, or give you peace of mind about a leaning or hollow tree everyone's been worried about. Documentation that says a tree is fine carries just as much weight as documentation that says it isn't. Not sure which of these four situations applies to you? Tell us what's going on, a permit, a claim, a disagreement, or a build near a tree, and we'll tell you honestly whether you need a full written report or just a straightforward site visit. We're licensed and insured, with ISA-certified arborists on staff who write every report themselves. Call (208) 247-9766 or request a consultation online."
 ---
 You need a written arborist report when someone besides you, a city permit reviewer, an insurance adjuster, an HOA board, or the other side of a dispute, needs documented proof of a tree's condition instead of just your word for it. In Boise, that comes up most in four situations: a street-tree removal permit application, a storm damage insurance claim, a neighbor or HOA disagreement, and a construction project near a tree you're required to protect.
 
 A verbal opinion is fine for most everyday decisions, whether to prune, whether to remove, whether to stop worrying about a tree. A written report is a different product entirely: a signed, dated document describing the tree's condition, the specific defects found, and a professional recommendation, built to be read by someone who never stood under the tree with you.
 
-**Not sure whether your situation needs paperwork or just a decision? [Reach out here](/#contact) or call (866) 228-3559 and we'll tell you straight.**
+**Not sure whether your situation needs paperwork or just a decision? [Reach out here](/#contact) or call (208) 247-9766 and we'll tell you straight.**
 
 ## The Quick Answer
 
@@ -96,4 +96,4 @@ That's a genuinely useful outcome, not a wasted cost. A report clearing a tree c
 
 Not sure which of these four situations applies to you? Tell us what's going on, a permit, a claim, a disagreement, or a build near a tree, and we'll tell you honestly whether you need a full written report or just a straightforward site visit. We're licensed and insured, with ISA-certified arborists on staff who write every report themselves.
 
-**Call (866) 228-3559** or [request a consultation online](/#contact).
+**Call (208) 247-9766** or [request a consultation online](/#contact).

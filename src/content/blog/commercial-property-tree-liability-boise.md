@@ -69,7 +69,7 @@ The inspection itself only protects you if you can prove it happened. Keep a sim
 
 A written arborist report carries more weight than an internal note, since it comes from a credentialed, independent source. If a tree needed corrective pruning or removal, keep the invoice and the completion date alongside the original finding. That pairing, problem identified and problem fixed within a reasonable window, is the strongest evidence an owner can produce.
 
-**Call (866) 228-3559** to schedule a documented tree health assessment across a commercial or multifamily portfolio, or [request a quote online](/#contact) for a single site.
+**Call (208) 247-9766** to schedule a documented tree health assessment across a commercial or multifamily portfolio, or [request a quote online](/#contact) for a single site.
 
 If a hazard tree happens to be a street tree in the public right-of-way fronting a commercial parcel, Boise's [street-tree permit rules](/blog/tree-removal-permits-boise/) still apply before any removal, the same as they would for a homeowner. Do not assume a commercial address changes that process.
 
@@ -107,4 +107,4 @@ The underlying duty-of-care standard is similar, but multifamily properties ofte
 
 Commercial property tree liability in Boise comes down to whether you can show a reasonable person would not have caught the problem before it happened. An annual professional assessment, a post-storm walk-through habit, and a simple paper trail cost far less than a single claim, and they are the difference between an owner who was blindsided and one who did everything a prudent business should.
 
-**Call (866) 228-3559** or [request a commercial property assessment](/#contact) to get an inspection cadence in place before storm season tests it.
+**Call (208) 247-9766** or [request a commercial property assessment](/#contact) to get an inspection cadence in place before storm season tests it.

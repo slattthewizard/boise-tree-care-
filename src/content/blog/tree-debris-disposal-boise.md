@@ -23,7 +23,7 @@ faq:
 ---
 Tree debris disposal in Boise comes down to two real paths: a load hauled to the landfill (Ada County's site north of town, or Canyon County's Pickles Butte for Nampa and Caldwell jobs), or material that stays on your property as chips, mulch, or firewood instead of ever leaving the yard. Which path makes sense, and what it costs, depends on volume, species, and who's doing the hauling.
 
-**Planning a removal and wondering what happens to everything that comes down?** [Ask about your hauling and chip options](/#contact) when you book a free estimate, or call **(866) 228-3559**.
+**Planning a removal and wondering what happens to everything that comes down?** [Ask about your hauling and chip options](/#contact) when you book a free estimate, or call **(208) 247-9766**.
 
 ## The Quick Answer
 
@@ -103,4 +103,4 @@ The destinations don't change, but the volume does. When storm damage hits a lot
 
 Every removal quote should tell you what happens to the debris, not just what happens to the tree. Whether that means a full haul-away, a chip drop, or keeping some of the wood, deciding before the job starts is easier than sorting it out after everything is already cut and stacked.
 
-**Call (866) 228-3559** or [request your free consultation online](/#contact).
+**Call (208) 247-9766** or [request your free consultation online](/#contact).

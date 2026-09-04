@@ -13,7 +13,7 @@ The best trees to plant in Boise are the ones that tolerate alkaline soil, becau
 
 Pick for soil chemistry first, then for water, then for the thing you actually wanted, whether that's shade, screening, or spring flowers. Do it in that order and the tree mostly takes care of itself.
 
-**Planning a replacement after a removal? Call (866) 228-3559** or [request a free on-site estimate](/#contact) and we'll talk through what will actually work in that spot.
+**Planning a replacement after a removal? Call (208) 247-9766** or [request a free on-site estimate](/#contact) and we'll talk through what will actually work in that spot.
 
 ## The Quick Answer
 
@@ -151,4 +151,4 @@ Yes, with care about the old root mass and grinding depth. [What to plant after 
 
 If you're removing a tree, the best time to decide what replaces it is before the stump is ground, because the answer can change where and how deep we grind.
 
-**Call (866) 228-3559** or [request your free on-site estimate](/#contact). Our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and we're happy to talk species and siting as part of the visit.
+**Call (208) 247-9766** or [request your free on-site estimate](/#contact). Our ISA-certified arborists work across Boise, Meridian, Nampa, Caldwell, Eagle, and Garden City, and we're happy to talk species and siting as part of the visit.

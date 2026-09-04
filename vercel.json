@@ -7,6 +7,8 @@
       "statusCode": 308
     },
     { "source": "/sitemap.xml", "destination": "/sitemap-index.xml", "statusCode": 301 },
+    { "source": "/disclosure", "destination": "/terms/", "statusCode": 301 },
+    { "source": "/disclosure/(.*)", "destination": "/terms/", "statusCode": 301 },
 
     { "source": "/blog/tree-trimming-boise/(.*)", "destination": "/tree-trimming-boise/$1", "statusCode": 301 },
     { "source": "/blog/tree-trimming-boise", "destination": "/tree-trimming-boise/", "statusCode": 301 },
