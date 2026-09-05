@@ -3,11 +3,11 @@ import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout
-  title="Tree Service Cost Calculator | Boise Tree Pros"
-  description="Get an instant price estimate for tree trimming, removal, stump grinding, and more in the Boise area. Free, no-obligation quotes available."
+  title="Tree Removal Cost Calculator: Estimate Your Price by Tree Size (2026)"
+  description="Free tree removal cost calculator and estimator. Average cost to cut down a tree runs $300–$800 small, $800–$2,500 medium, $2,500–$5,000+ large. Estimate trimming, stump grinding and emergency work by size."
   canonical="https://boisetreepro.com/cost-calculator/"
-  ogTitle="Tree Service Cost Calculator | Boise Tree Pros"
-  ogDescription="Get an instant price estimate for tree trimming, removal, stump grinding, and more in the Boise area."
+  ogTitle="Tree Removal Cost Calculator: Estimate Your Price by Tree Size (2026)"
+  ogDescription="Free tree removal cost calculator and estimator — get a price range by tree size, count and access difficulty."
 >
 
 <style>
@@ -53,6 +53,80 @@ import Layout from '../../layouts/Layout.astro';
     color: #666;
     margin: 0 0 32px;
   }
+
+  /* Supporting copy below the calculator */
+  .calc-copy {
+    max-width: 1100px;
+    margin: 40px auto 0;
+    background: #fff;
+    border-radius: 12px;
+    border-left: 4px solid #1A531A;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 36px 32px 40px;
+    color: #2b2b2b;
+    line-height: 1.65;
+  }
+  @media (max-width: 600px) {
+    .calc-copy { padding: 24px 18px 28px; }
+  }
+  .calc-copy h2 {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: 1.35rem;
+    color: #1a1a1a;
+    margin: 32px 0 10px;
+    letter-spacing: -0.01em;
+  }
+  .calc-copy h2:first-child { margin-top: 0; }
+  .calc-copy h3 {
+    font-family: 'Zilla Slab', Georgia, serif;
+    font-size: 1.08rem;
+    color: #1a1a1a;
+    margin: 24px 0 8px;
+  }
+  .calc-copy p { margin: 0 0 14px; font-size: 0.95rem; }
+  .calc-copy ul { margin: 0 0 14px; padding-left: 20px; font-size: 0.95rem; }
+  .calc-copy li { margin-bottom: 8px; }
+  .calc-copy-note {
+    font-size: 0.85rem;
+    color: #666;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 14px;
+    margin-top: 24px;
+  }
+  /* Wide tables scroll rather than pushing the page sideways */
+  .calc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 20px;
+    font-size: 0.92rem;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  @media (min-width: 620px) {
+    .calc-table { display: table; white-space: normal; }
+  }
+  .calc-table caption {
+    text-align: left;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #666;
+    padding-bottom: 8px;
+  }
+  .calc-table th,
+  .calc-table td {
+    text-align: left;
+    padding: 9px 14px 9px 0;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .calc-table th {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #1A531A;
+  }
+  .calc-table td:last-child { font-weight: 600; white-space: nowrap; }
 
   /* Section */
   .calc-section { margin-bottom: 28px; }
@@ -333,35 +407,35 @@ import Layout from '../../layouts/Layout.astro';
 
     <!-- Main Calculator -->
     <div class="calc-main">
-      <h1 class="calc-title">Estimate Your Cost</h1>
-      <p class="calc-subtitle">Select your options below for an instant price range.</p>
+      <h1 class="calc-title">Tree Removal Cost Calculator</h1>
+      <p class="calc-subtitle">Select your options below for an instant price range. Covers removal, trimming, stump grinding, emergency work and inspections.</p>
 
       <!-- 1. Service Needed -->
       <div class="calc-section">
         <span class="calc-label" id="label-service">Service Needed</span>
         <div class="toggle-grid-service" role="group" aria-labelledby="label-service">
 
-          <button type="button" class="toggle-btn" data-group="service" data-low="200" data-high="800">
+          <button type="button" class="toggle-btn" data-group="service" data-service="trimming">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M5 12c0-4 3-7 7-7s7 3 7 7"/><path d="M3 17c1-2 3-3 5-2s3 3 4 2 3-2 5-2"/></svg>
             Tree Trimming
           </button>
 
-          <button type="button" class="toggle-btn" data-group="service" data-low="500" data-high="2000">
+          <button type="button" class="toggle-btn" data-group="service" data-service="removal">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
             Tree Removal
           </button>
 
-          <button type="button" class="toggle-btn" data-group="service" data-low="100" data-high="400">
+          <button type="button" class="toggle-btn" data-group="service" data-service="stump">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="18" r="3"/><path d="M12 15V7"/><path d="M8 11l4-4 4 4"/></svg>
             Stump Grinding
           </button>
 
-          <button type="button" class="toggle-btn" data-group="service" data-low="800" data-high="3000">
+          <button type="button" class="toggle-btn" data-group="service" data-service="emergency">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
             Emergency Service
           </button>
 
-          <button type="button" class="toggle-btn" data-group="service" data-low="150" data-high="500">
+          <button type="button" class="toggle-btn" data-group="service" data-service="inspection">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
             Inspection + Report
           </button>
@@ -373,20 +447,20 @@ import Layout from '../../layouts/Layout.astro';
       <div class="calc-section">
         <span class="calc-label" id="label-size">Tree Size</span>
         <div class="toggle-grid-3" role="group" aria-labelledby="label-size">
-          <button type="button" class="toggle-btn" data-group="size" data-mult="1.0">
+          <button type="button" class="toggle-btn" data-group="size" data-size="small">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M7 14c0-2.5 2-5 5-5s5 2.5 5 5"/></svg>
             Small
-            <span class="sub">&lt; 20 ft</span>
+            <span class="sub" id="sub-small">under 30 ft</span>
           </button>
-          <button type="button" class="toggle-btn" data-group="size" data-mult="1.8">
+          <button type="button" class="toggle-btn" data-group="size" data-size="medium">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M5 13c0-3.5 3-7 7-7s7 3.5 7 7"/></svg>
             Medium
-            <span class="sub">20–50 ft</span>
+            <span class="sub" id="sub-medium">30–60 ft</span>
           </button>
-          <button type="button" class="toggle-btn" data-group="size" data-mult="3.2">
+          <button type="button" class="toggle-btn" data-group="size" data-size="large">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M3 12c0-5 4-9 9-9s9 4 9 9"/></svg>
             Large
-            <span class="sub">&gt; 50 ft</span>
+            <span class="sub" id="sub-large">60 ft+</span>
           </button>
         </div>
       </div>
@@ -494,13 +568,129 @@ import Layout from '../../layouts/Layout.astro';
 
     </aside>
   </div>
+
+  <div class="calc-copy">
+    <h2>How much does it cost to remove a tree?</h2>
+    <p>
+      Tree removal is priced by size, not by the hour, because size drives the rigging, the crew
+      and the cleanup. The ranges below are the ones this calculator uses. A straightforward
+      backyard job lands at the low end; anything near a house, a fence or a power line moves
+      toward the top.
+    </p>
+    <table class="calc-table">
+      <caption>Tree removal cost by size</caption>
+      <thead>
+        <tr><th scope="col">Tier</th><th scope="col">Height</th><th scope="col">Typical cost</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Small</td><td>under 30 ft</td><td>$300 – $800</td></tr>
+        <tr><td>Medium</td><td>30 – 60 ft</td><td>$800 – $2,500</td></tr>
+        <tr><td>Large</td><td>60 ft+</td><td>$2,500 – $5,000+</td></tr>
+        <tr><td>Extreme (crane or hazard)</td><td>80 ft+ or complex</td><td>$5,000 – $8,000+</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Average cost to cut down a 30 foot tree</h3>
+    <p>
+      A 30-foot tree sits at the bottom of the medium tier, so expect <strong>$800 – $2,500</strong>.
+      At that height a climber can usually take the tree down in sections without a crane, which is
+      what keeps it below the large-tree bracket.
+    </p>
+
+    <h3>Large tree removal cost</h3>
+    <p>
+      Anything over 60 ft runs <strong>$2,500 – $5,000+</strong>. Past roughly 80 ft, or when the
+      tree is leaning over a structure, the job needs a crane and moves into the
+      <strong>$5,000 – $8,000+</strong> band.
+    </p>
+
+    <h2>Tree trimming cost</h2>
+    <p>
+      Trimming and pruning cost far less than removal because the tree stays standing and there is
+      no stump or haul-away.
+    </p>
+    <table class="calc-table">
+      <caption>Tree trimming and pruning cost by size</caption>
+      <thead>
+        <tr><th scope="col">Tier</th><th scope="col">Height</th><th scope="col">Typical cost</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Small ornamental</td><td>under 25 ft</td><td>$150 – $400</td></tr>
+        <tr><td>Medium</td><td>25 – 50 ft</td><td>$350 – $900</td></tr>
+        <tr><td>Large</td><td>50 ft+</td><td>$800 – $2,000+</td></tr>
+        <tr><td>Specialty (crane, near power lines)</td><td>any</td><td>$1,500+</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Stump grinding cost</h2>
+    <p>
+      Stumps are priced by diameter, not tree height, and run <strong>$75 – $400</strong> per stump
+      for most jobs: $75 – $150 under 12 in, $150 – $300 from 12 – 24 in, and $250 – $600+ above
+      24 in. Multiple stumps ground on one visit are discounted, since the machine is already on site.
+    </p>
+
+    <h2>Emergency and storm work</h2>
+    <p>
+      Emergency pricing follows what the tree hit rather than how tall it was. Getting a limb off a
+      structure runs <strong>$150 – $850</strong>; a whole tree down on a structure runs
+      <strong>$1,500 – $4,000+</strong>. Idaho homeowner policies commonly cover $500 – $1,000 per
+      tree for removal, up to $5,000 per storm event, so check your policy before paying out of pocket.
+    </p>
+
+    <h2>What moves the price</h2>
+    <ul>
+      <li><strong>Access.</strong> An open yard a truck can back into is cheapest. Obstacles, or a tree tight against a house or fence, add cost because the crew has to lower pieces by rope instead of dropping them.</li>
+      <li><strong>Tree count.</strong> Several trees on one visit cost less each than the same trees booked separately.</li>
+      <li><strong>Condition.</strong> Dead, hollow or storm-damaged trees are less predictable to climb and are priced above a healthy tree of the same height.</li>
+      <li><strong>Cleanup.</strong> Leaving the wood on site costs less than chipping and hauling everything away.</li>
+    </ul>
+    <p class="calc-copy-note">
+      Every figure on this page is a typical range, not a quote. Species, lean, decay and site
+      conditions all move the final number, which is why the estimate above is a range rather than
+      a single price.
+    </p>
+  </div>
 </div>
 
 <script>
+  // Canonical ranges. Every figure below comes from FACTS.md and must not be
+  // edited here in isolation — change FACTS.md first, then mirror it.
+  const PRICING = {
+    trimming:   { small: [150, 400],  medium: [350, 900],   large: [800, 2000] },
+    removal:    { small: [300, 800],  medium: [800, 2500],  large: [2500, 5000] },
+    stump:      { small: [75, 150],   medium: [150, 300],   large: [250, 600] },
+    // FACTS defines emergency by what the tree hit, not by height.
+    emergency:  { small: [150, 850],  medium: [800, 2500],  large: [1500, 4000] },
+    // A health assessment is priced per visit, so height does not scale it.
+    inspection: { small: [75, 250],   medium: [75, 250],    large: [75, 250] }
+  };
+
+  // Sub-labels for the shared size control, per service.
+  const SIZE_LABELS = {
+    trimming:   ['under 25 ft', '25–50 ft', '50 ft+'],
+    removal:    ['under 30 ft', '30–60 ft', '60 ft+'],
+    stump:      ['under 12 in', '12–24 in', '24 in+'],
+    emergency:  ['limb / branch', 'whole tree, clear', 'tree on structure'],
+    inspection: ['flat rate', 'flat rate', 'flat rate']
+  };
+
+  // FACTS canonical schema priceRange ceiling.
+  const PRICE_CEILING = 8000;
+
+  function applySizeLabels(service) {
+    const labels = SIZE_LABELS[service];
+    if (!labels) return;
+    ['small', 'medium', 'large'].forEach(function(tier, i) {
+      const el = document.getElementById('sub-' + tier);
+      if (el) el.textContent = labels[i];
+    });
+  }
+
   // Toggle button selection
   document.querySelectorAll('.toggle-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
       const group = btn.dataset.group;
+      if (group === 'service') applySizeLabels(btn.dataset.service);
       document.querySelectorAll('[data-group="' + group + '"]').forEach(function(b) {
         b.classList.remove('selected', 'error-state');
       });
@@ -536,16 +726,19 @@ import Layout from '../../layouts/Layout.astro';
     const count = document.querySelector('[data-group="count"].selected');
     const access = document.querySelector('[data-group="access"].selected');
 
-    const baseLow = parseFloat(service.dataset.low);
-    const baseHigh = parseFloat(service.dataset.high);
-    const sizeMult = parseFloat(size.dataset.mult);
+    const band = PRICING[service.dataset.service][size.dataset.size];
     const countMult = parseFloat(count.dataset.mult);
     const adder = parseFloat(access.dataset.adder);
 
-    const low = Math.round((baseLow * sizeMult * countMult + adder) / 10) * 10;
-    const high = Math.round((baseHigh * sizeMult * countMult + adder) / 10) * 10;
+    // Round to 5, not 10: FACTS uses $75 lows, which /10 rounding would push to $80.
+    const low = Math.round((band[0] * countMult + adder) / 5) * 5;
+    let high = Math.round((band[1] * countMult + adder) / 5) * 5;
+    // Never quote past the canonical ceiling; show it as open-ended instead.
+    const capped = high >= PRICE_CEILING;
+    if (capped) high = PRICE_CEILING;
 
-    document.getElementById('result-range').textContent = '$' + low.toLocaleString() + ' \u2013 $' + high.toLocaleString();
+    document.getElementById('result-range').textContent =
+      '$' + low.toLocaleString() + ' \u2013 $' + high.toLocaleString() + (capped ? '+' : '');
 
     const result = document.getElementById('calc-result');
     result.classList.remove('visible');
