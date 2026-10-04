@@ -541,7 +541,8 @@
   },
   {
     "draft": "drafts/tree-struck-by-lightning-2026-09-27.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-10-04T17:55:21.585053Z"
   },
   {
     "draft": "drafts/how-to-tell-if-tree-is-dead-2026-09-27.md",
