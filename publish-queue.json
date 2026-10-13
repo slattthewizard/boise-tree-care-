@@ -586,7 +586,8 @@
   },
   {
     "draft": "drafts/structural-pruning-young-trees-2026-09-27.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-10-13T19:59:39.101236Z"
   },
   {
     "draft": "drafts/pollarding-trees-2026-09-27.md",
