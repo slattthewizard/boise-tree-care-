@@ -621,7 +621,8 @@
   },
   {
     "draft": "drafts/bark-beetles-boise-2026-09-27.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-10-20T18:12:01.135982Z"
   },
   {
     "draft": "drafts/boxelder-bugs-boise-2026-09-27.md",
