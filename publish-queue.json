@@ -656,7 +656,8 @@
   },
   {
     "draft": "drafts/how-to-prune-peach-tree-2026-09-27.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-10-27T19:07:39.058028Z"
   },
   {
     "draft": "drafts/elm-seed-bugs-boise-2026-09-27.md",
