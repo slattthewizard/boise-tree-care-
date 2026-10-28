@@ -661,7 +661,8 @@
   },
   {
     "draft": "drafts/elm-seed-bugs-boise-2026-09-27.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-10-28T19:11:49.812429Z"
   },
   {
     "draft": "drafts/siberian-elm-boise-2026-09-27.md",
