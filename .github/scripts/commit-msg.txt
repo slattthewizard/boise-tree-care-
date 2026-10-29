@@ -1,1 +1,1 @@
-Publish blog post: elm-seed-bugs-boise
+Publish blog post: siberian-elm-boise
