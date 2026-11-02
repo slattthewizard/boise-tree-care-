@@ -686,7 +686,8 @@
   },
   {
     "draft": "drafts/quaking-aspen-boise-2026-09-27.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-11-02T22:31:30.489682Z"
   },
   {
     "draft": "drafts/pruning-cherry-plum-pear-trees-2026-09-27.md",
