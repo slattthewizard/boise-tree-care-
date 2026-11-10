@@ -726,7 +726,8 @@
   },
   {
     "draft": "drafts/galls-on-trees-2026-09-27.md",
-    "published": false
+    "published": true,
+    "publishedAt": "2026-11-10T20:39:27.040590Z"
   },
   {
     "draft": "drafts/catalpa-tree-2026-09-27.md",
